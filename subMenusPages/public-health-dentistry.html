@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veeyes dental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/subMenupages/public-health-dentistry.css">
+</head>
+<style>
+    .triangle-wrapper {
+        position: relative;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .triangle-img {
+        position: absolute;
+        width: 100%;
+        max-width: 300px;
+        clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        border-radius: 30px;
+        transition: transform 0.3s ease;
+    }
+
+    .triangle-img.front {
+        z-index: 2;
+        transform: translate(0px, 0px);
+    }
+
+    .triangle-img.back {
+        z-index: 1;
+        transform: translate(20px, 20px);
+        filter: brightness(0.6);
+    }
+</style>
+
+<body class="bg-light">
+    <!-- navgation page Starting -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <img src="../images/Veeyes_dental_original_logo.png" class="logo" srcset="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+
+                    <!-- Services Dropdown with Submenus -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button">Services</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">Dental specialty</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">General dentistry</a></li>
+                                    <li><a class="dropdown-item" href="#">Preventive dental health checkup</a></li>
+                                    <li><a class="dropdown-item" href="#">Oral medicine & radiology</a></li>
+                                    <li><a class="dropdown-item" href="#">Conservative dentistry & endodontics</a></li>
+                                    <li><a class="dropdown-item" href="#">Periodontics</a></li>
+                                    <li><a class="dropdown-item" href="#">Oral & maxillofacial surgery</a></li>
+                                    <li><a class="dropdown-item" href="#">Prosthodontics & maxillofacial prosthesis</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Pediatric & preventive dentistry</a></li>
+                                    <li><a class="dropdown-item" href="#">Orthodontics & dentofacial orthopedics</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Public health dentistry</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">Specialized care</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Accidental & emergency care</a></li>
+                                    <li><a class="dropdown-item" href="#">General anesthesia OT</a></li>
+                                    <li><a class="dropdown-item" href="#">Surgical ICU</a></li>
+                                    <li><a class="dropdown-item" href="#">Nitrous oxide sedation</a></li>
+                                    <li><a class="dropdown-item" href="#">IP admission</a></li>
+                                    <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">Super specialty</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Implant dentistry</a></li>
+                                    <li><a class="dropdown-item" href="#">Minimally invasive dentistry</a></li>
+                                    <li><a class="dropdown-item" href="#">Microscopic dentistry</a></li>
+                                    <li><a class="dropdown-item" href="#">Laser assisted surgeries</a></li>
+                                    <li><a class="dropdown-item" href="#">Facial esthetics</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">Radiology</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Oral radiology - 2D & 3D</a></li>
+                                    <li><a class="dropdown-item" href="#">Digital intra oral scan</a></li>
+                                    <li><a class="dropdown-item" href="#">Digital implant planning</a></li>
+                                    <li><a class="dropdown-item" href="#">Aligner planning</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item" href="#">Laboratory</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blood investigation lab</a></li>
+                                    <li><a class="dropdown-item" href="#">CADCAM dental lab (4 & 5 axis)</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#appointment-section"><button class="btn ms-3" id="appointment"
+                                type="button">Appointment</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navgation page Ending-->
+
+    <!-- Icon page Starting -->
+    <div class="fixed-contact-icons">
+        <a href="https://wa.me/1234567890" target="_blank" class="icon-link whatsapp">
+            <i class="fab fa-whatsapp icon-inner"></i>
+            <span class="icon-label">WhatsApp</span>
+        </a>
+        <a href="tel:+1234567890" class="icon-link call">
+            <i class="fas fa-phone icon-inner"></i>
+            <span class="icon-label">Call</span>
+        </a>
+        <a href="mailto:example@example.com" class="icon-link email">
+            <i class="fas fa-envelope icon-inner"></i>
+            <span class="icon-label">Email</span>
+        </a>
+
+        <a href="mailto:example@example.com" class="icon-link email">
+            <i class="fas fa-pen-to-square icon-inner"></i>
+            <span class="icon-label">Email</span>
+        </a>
+    </div>
+    <!-- Icon page Ending -->
+
+    <!-- Home banner Starting -->
+    <div class="container-fluid ps-3 pe-3 bg-light" id="home">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center ps-5 pe-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="m-0">Public Health Dentistry</h1>
+                    <img src="../images/star.png" style="width: 80px;" alt="">
+                </div>
+
+                <ul>
+                    <li>Public Health Dentistry (also known as Community Dentistry) is the branch of dentistry that
+                        focuses on the prevention and control of dental diseases and the promotion of oral health
+                        through organized community-based efforts rather than individual treatment.</li>
+                    <li>It aims to improve the oral health of populations, especially underserved or at-risk groups.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="../images/surgical_triangle_image.png" class="img-fluid"
+                    alt="Surgical dentistry illustration">
+            </div>
+        </div>
+    </div>
+    <!-- Home banner Ending -->
+
+    <div class="container mt-5 mb-5 circle-div">
+        <div class="my-circles">
+            <div class="circle small"></div>
+            <div class="circle medium"></div>
+            <div class="circle large"></div>
+        </div>
+        <div class="row mt-5 pt-5">
+            <div class="col-md-1 d-flex justify-content-center align-items-center"> <img src="../images/star.png" alt=""
+                    style="width: 70px;"></div>
+            <div class="col-md-11 pt-5" style="margin-top:1%;">
+                <div class="content-box d-flex justify-content-center align-items-center">
+
+                    <ul class="content-text mb-0 fs-5 pt-5 pb-5">
+                        <li>Prevent oral diseases at the community level</li>
+                        <li>Promote oral health education and awareness</li>
+                        <li>Conduct epidemiological surveys to assess dental health status</li>
+                        <li>Provide affordable and accessible dental care to the public</li>
+                        <li>Develop and implement oral health policies and programs</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <section>
+            <h3 class="section-title">Role of a Public Health Dentist:</h3>
+            <ul class="mt-3 list-unstyled ps-5" >
+                <!-- List items with colored tooth icons -->
+                <li><i class="fas fa-tooth tooth-icon"></i>Acts as a link between dental science and public service</li>
+                <li><i class="fas fa-tooth tooth-icon"></i>Designs and evaluates oral health promotion programs</li>
+                <li><i class="fas fa-tooth tooth-icon"></i>Conducts research and surveys to influence health policies
+                </li>
+                <li><i class="fas fa-tooth tooth-icon"></i>Promotes equity in dental care access for all populations
+                </li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h4 class="section-title pt-4">Collaboration:</h4>
+            <p class="sub-heading mt-3 ps-3">Works with:</p>
+            <ul class="mt-2 list-unstyled ps-5" >
+                <li><i class="fas fa-tooth tooth-icon"></i>Government health departments</li>
+                <li><i class="fas fa-tooth tooth-icon"></i>NGOs and schools</li>
+                <li><i class="fas fa-tooth tooth-icon"></i>International organizations (like WHO, FDI)</li>
+            </ul>
+        </section>
+    </div>
+
+
+
+    <!-- footer page Starting -->
+    <div class="container-fluid contact-section mt-5 pt-5" id="appointment-section">
+        <div class="row ps-5 pe-5">
+            <div class="col-lg-6 col-md-5 col-sm-12 col-12 contact-info">
+                <h3>Content Info</h3>
+                <p><strong>▶ Bus stop, Sathy Rd, Near Ramakrishna Mill,<br>
+                        Ramakrishnapuram, Ganapathy,<br>
+                        Coimbatore - 641006</strong><br>
+                    Phone: 0422-4380300, 2533333<br>
+                    Email: info@veeyesdental.com
+                </p>
+                <img src="../images/map_image.jpg" class="img-fluid" alt="Coimbatore Location" />
+
+                <p><strong>▶ Avinashi – Tiruppur Rd, Murungapalayam,<br>
+                        Kumar Nagar, Indira Nagar, Near CSI Church,<br>
+                        Tiruppur - 641603</strong><br>
+                    Phone: 0421-4333366<br>
+                    Email: info@veeyesdental.com
+                </p>
+                <img src="../images/map_image.jpg" class="img-fluid" alt="Tiruppur Location" />
+
+                <!-- Social Icons -->
+                <div class="social-icons mt-3 mb-5">
+                    <a href="#" class="me-3 fs-5 icon-link2 "><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="me-3 fs-5 icon-link2 "><i class="fab fa-instagram "></i></a>
+                    <a href="#" class="me-3 fs-5 icon-link2 "><i class="fab fa-youtube "></i></a>
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-6 col-md-7 col-sm-12 col-12 ">
+
+                <h1>Transform Your
+                    Smile!</h1>
+                <h2 class="section-title text-white">Schedule your visit today!</h2>
+                <form>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Name" required />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email" required />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Phone" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Subject" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Date" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Time" />
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="form-check text-white">
+                                <input class="form-check-input" type="checkbox" id="newsCheck"
+                                    style="background-color: transparent;">
+                                <label class="form-check-label" for="newsCheck">
+                                    Sign Me Up for the Best Deals and News!
+                                </label>
+                            </div>
+                            <button type="submit" class="submit-btn mt-3">Submit Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="footer">
+            <span style="color: black;">© 2023 All rights reserved. Veeyes Dental Hospital.</span>
+        </div>
+    </div>
+    <!-- footer page Ending -->
+
+</body>
+
+</html>
