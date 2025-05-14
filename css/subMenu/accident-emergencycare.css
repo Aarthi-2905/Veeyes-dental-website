@@ -1,0 +1,637 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2d3d;
+  /* background-color: #f9f9f9; */
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 5% !important;
+  text-align: center !important;
+}
+
+.subtitle {
+  font-size: 32px !important;
+  font-weight: 600;
+  color: #1c3c4c;
+  margin-top: 4%;
+  /* margin-bottom: 1.5rem; */
+}
+
+
+.custom-list{
+    margin-top: -20%;
+    font-size: 22px;
+}
+.custom-img{
+    margin-top: -24%;
+}
+
+
+/* ____________________________________________highlight section___________________________________________________________ */
+
+
+.vdh-highlight-section {
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    padding: 4rem 1rem;
+   /* Or your actual page background */
+  }
+  
+  /* .vdh-highlight-box {
+    background: white;
+  
+  } */
+  .my-circles {
+    position: relative;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    /* background: #f5f4ed; */
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #00eaff, #003b49);
+  }
+  
+  .small {
+    width: 20px;
+    height: 20px;
+    top: -143px;
+    left: 17%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .medium {
+    width: 30px;
+    height: 30px;
+    top: -119px;
+    left: 19%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 40px;
+    height: 40px;
+    top: -85px;
+    left: 22%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
+  .star-icon{
+    width: 60%;
+    margin-left: -10% !important;
+    margin-top: 80%;
+  
+  }
+  /* ________________________________________________box_________________________________________________________ */
+  
+  #services{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+    max-width: 1400px;
+    background-color: #004a52 !important;
+  }
+  .cont-box{
+    color: #fff;
+    /* padding-right: 90px;
+    padding-left: 40px; */
+    align-items: justify;
+  }
+  .h1-box{
+    color: #fff;
+   font-size: 48px;
+   text-align: center;
+   padding-left: 120px !important;
+   padding-right: 40px !important;
+   margin-bottom: 4%;
+  }
+  .teeth-icon{
+width: 35px;
+height: 35px;
+  }
+
+  header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin-bottom: 15px;
+    font-size: 25px;
+    justify-content: space-between;
+    line-height: 150%;
+}
+
+section ul li strong {
+    color: #f0d1a2;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003c4f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.heading-with-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px; /* More space between text and arrow */
+  margin: 40px 0;
+  flex-wrap: wrap; /* Optional: good for responsiveness */
+}
+
+.heading-with-arrow h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: 'Georgia', serif; /* Replace with your actual site font */
+  color: #003c3c; /* Use color matching your site (adjust if needed) */
+  margin: 0;
+  text-align: center;
+}
+
+.heading-arrow {
+  width: 50px; /* Adjust this based on arrow size */
+  height: auto;
+  transform: rotate(15deg); /* Match the angle from the Figma design */
+}
+
+
+
+/* ______________________________________________long content_________________________________________________________________ */
+
+.emergency-services {
+  font-family: 'Georgia', serif;
+  color: #002e2e;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  /* background-color: #f5f4ed; */
+}
+
+.emergency-services h2 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2rem;
+  position: relative;
+  color: #002e2e;
+}
+.numbers{
+  margin-top: -15% !important;
+}
+.heading{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 2%;
+  color: #002e2e;
+  /* text-align: center; */
+  margin-bottom: 2rem;
+}
+.highlighted{
+  color: #002e2e;
+  font-size: 20px;
+}
+
+.lst-item{
+  font-size: 19px !important;
+}
+
+
+.emergency-services ul {
+  list-style-type: disc;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.emergency-services ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.emergency-services p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.star-icon2{
+  width: 50px;
+  height: 50px;
+  margin-left: 80%;
+}
+.teethlst{
+  width: 15px !important;
+  height: 15px !important;
+}
+/* ____________________________________________media query___________________________________________________________ */
+@media (max-width:1024px) {
+    .custom-list{
+    margin-top: -8%;
+    font-size: 20px;
+}
+  
+.small {
+  width: 20px;
+  height: 20px;
+  top: -133px;
+  left: 17%;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+}
+
+.medium {
+  width: 30px;
+  height: 30px;
+  top: -105px;
+  left: 18%;
+  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.large {
+  width: 40px;
+  height: 40px;
+  top: -69px;
+  left: 19%;
+  box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+.star-icon{
+  width: 60%;
+  margin-left: -10% !important;
+  margin-top: 80%;
+
+}
+}
+
+
+@media (max-width:768px) {
+
+.title {
+  font-size: 53px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 5% !important;
+  text-align: center !important;
+}
+
+.subtitle {
+  font-size: 28px !important;
+  font-weight: 600;
+  color: #1c3c4c;
+  margin-top: 4%;
+  /* margin-bottom: 1.5rem; */
+}
+
+    .custom-list{
+    margin-top: -8%;
+    font-size: 15px;
+}
+header {
+  flex-direction: column;
+  text-align: center;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+section {
+  padding: 30px 10px;
+}
+
+section h1 {
+  font-size: 24px;
+}
+
+section ul li {
+  font-size: 16px;
+}
+
+.small {
+  width: 20px;
+  height: 20px;
+  top: -100px;
+  left: 13%;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+}
+
+.medium {
+  width: 30px;
+  height: 30px;
+  top: -80px;
+  left: 15%;
+  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.large {
+  width: 40px;
+  height: 40px;
+  top: -49px;
+  left: 17%;
+  box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+.star-icon{
+  width: 60%;
+  margin-left: -10% !important;
+  margin-top: 80%;
+
+}
+.h1-box{
+  color: #fff;
+ font-size: 30px;
+ text-align: center;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-bottom: 4%;
+}
+.heading-arrow {
+  width: 50px;
+  height: auto;
+  transform: rotate(15deg);
+  margin-left: 30%;
+  margin-top: -12%;
+}
+
+}
+@media (max-width: 480px) {
+  header .logo img {
+      height: 40px;
+  }
+
+  section h1 {
+      font-size: 20px;
+  }
+
+  section ul li {
+      font-size: 14px;
+  }
+}
+
+
+@media (max-width:425px) {
+
+  .title {
+    font-size: 33px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 8% !important;
+    text-align: center !important;
+  }
+  
+  .subtitle {
+    font-size: 28px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 4%;
+    /* margin-bottom: 1.5rem; */
+  }
+    .custom-list{
+      margin-top: 10%;
+      font-size: 14px;
+  }
+  .custom-img{
+      margin-top: -14%;
+  }
+  .vdh-highlight-box {
+    font-size: 17px !important;
+    width: 300px!important;
+    height: 400px !important;
+  }
+  .small {
+    width: 18px;
+    height: 18px;
+    top: -90px;
+    left: 9%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .medium {
+    width: 25px;
+    height: 25px;
+    top: -57px;
+    left: 12%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 16%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
+  .star-icon{
+    width: 120%;
+    margin-left: -10% !important;
+    margin-top: 480%;
+  }
+  .h1-box{
+    color: #fff;
+   font-size: 20px;
+   text-align: center;
+   padding-left: 10px !important;
+   padding-right: 7px !important;
+   margin-bottom: 4%;
+  }
+
+  #service{
+    max-width: 1000;
+    padding: 1px;
+  }
+  .emergency-services h2 {
+    font-size: 28px;
+
+    }  
+    .heading{
+      font-size: 20px;
+      font-weight: bold;
+      /* margin-top: 2%; */
+      color: #002e2e;
+      /* text-align: center; */
+      /* margin-bottom: 2rem; */
+    }
+    .highlighted{
+      color: #002e2e;
+      font-size: 17px;
+    }
+    .heading-arrow {
+      width: 50px;
+      height: auto;
+      transform: rotate(15deg);
+      margin-left: 80%;
+      margin-top: -32%;
+      margin-bottom: -15%;
+  }
+  
+  }
+  
+
+@media (max-width:375px) {
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 8% !important;
+  text-align: center !important;
+}
+
+.subtitle {
+  font-size: 25px !important;
+  font-weight: 600;
+  color: #1c3c4c;
+  margin-top: 5%;
+  /* margin-bottom: 1.5rem; */
+}
+.vdh-highlight-box {
+  font-size: 12px !important;
+  width: 300px!important;
+  height: 300px !important;
+
+}
+
+}
+@media (max-width:320px) {
+
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 8% !important;
+  text-align: center !important;
+}
+
+.subtitle {
+  font-size: 20px !important;
+  font-weight: 600;
+  color: #1c3c4c;
+  margin-top: 5%;
+  /* margin-bottom: 1.5rem; */
+}
+.vdh-highlight-box {
+  font-size: 11px !important;
+  height: 330px !important;
+}
+.heading-arrow {
+  width: 50px;
+  height: auto;
+  transform: rotate(15deg);
+  margin-left: 88%;
+  margin-top: -22%;
+  margin-bottom: -15%;
+}
+.heading-with-arrow h2 {
+  font-size: 25px;
+  margin-top: -15%;
+  font-weight: 600;
+  font-family: 'Georgia', serif; /* Replace with your actual site font */
+  color: #003c3c; /* Use color matching your site (adjust if needed) */
+  margin: 0;
+  text-align: center;
+}
+}
+
+/* ____________________________________________animation_______________________________________________________________ */
+.vdh-highlight-section {
+  padding: 2rem;
+}
+
+.vdh-highlight-box {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  background-color: white !important; /* INITIAL background is white */
+  color: #000;
+  overflow: hidden;
+  transition: background-color 1.2s ease-out; /* Added transition for background color */
+  color: rgb(3, 3, 3);
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    line-height: 1.6;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 60px !important;
+    border-bottom-right-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+}
+
+/* The animated fill layer */
+.background-fill {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 0%;
+  background-color: #00bcd4;
+  z-index: 0;
+  transition: width 1.2s ease-out;
+  border-radius: 2rem;
+}
+
+/* Text stays on top */
+.vdh-highlight-box p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+/* When in view, animate background fill and change background color */
+.vdh-highlight-box.animate {
+  background-color: #00bcd4; /* **Changed background color to blue when in view** */
+}
+
+.vdh-highlight-box.animate .background-fill {
+  width: 100%;
+}
