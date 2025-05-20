@@ -1,0 +1,423 @@
+/* #home .row {
+    height: 80vh;
+} */
+
+#home h1 {
+    font-size: 78px;
+    font-family: lora;
+    color: #183D4A;
+    font-weight: 600;
+}
+
+#home {
+    line-height: 50px;
+}
+
+#home ul li {
+    color: #183D4A;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+
+.arrow-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.intro-text,
+.intro-subtext {
+    font-size: 28px;
+    color: #183D4A;
+    font-family: lora;
+}
+
+
+.procedure-table-section {
+    margin-top: -50px;
+}
+
+.table-heading {
+    font-size: 42px;
+    font-weight: 100;
+    color: #003341;
+    font-family: lora;
+}
+
+.custom-table {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.custom-table th {
+    background-color: #183D4A;
+    color: white;
+    font-size: 18px;
+    width: 40%;
+    vertical-align: middle;
+    font-family: lora;
+    font-weight: 300;
+}
+
+.custom-table td {
+    background-color: #ECD8B6;
+    font-size: 18px;
+    color: #183D4A;
+    vertical-align: middle;
+    font-family: lora;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+}
+
+
+.download-section {
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
+.download-title {
+    font-size: 32px;
+    font-family: Lora;
+    color: black;
+}
+
+.arrow-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.star {
+    width: 100%;
+}
+
+.curved-arrow {
+    position: absolute;
+    left: -70px;
+    top: -25px;
+    width: 50px;
+}
+
+.download-btn {
+    background-color: #13C2CF;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    font-family: lora;
+    font-weight: 200;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+    background-color: #ECD8B6;
+}
+
+
+@media (max-width:1024px) {
+    #home h1 {
+        font-size: 64px;
+    }
+
+    #home .row {
+        padding-top: 11%;
+    }
+
+    #home ul li {
+        font-size: 24px;
+    }
+
+    #home {
+        line-height: 50px;
+    }
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 26px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 42px;
+    }
+
+    .custom-table td {
+        font-size: 18px;
+    }
+
+    .custom-table th {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 100%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width:996px) {
+    #home h1 {
+        font-size: 56px;
+    }
+
+    #home .row {
+        padding-top: 13%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+    #home {
+        line-height: 39px;
+    }
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 20px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 37px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 18px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 100%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width:746px) {
+    .star {
+        width: 52%;
+    }
+}
+
+
+@media (max-width:600px) {
+    #home h1 {
+        font-size: 56px;
+    }
+
+    #home .row {
+        padding-top: 13%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+    #home {
+        line-height: 39px;
+    }
+
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 28px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 42px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 18px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 80%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:480px) {
+    #home h1 {
+        font-size: 42px;
+    }
+
+    #home .row {
+        padding-top: 22%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+    #home {
+        line-height: 39px;
+    }
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 16px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 20px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 16px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 16px;
+    }
+
+    .star {
+        width: 50%;
+    }
+
+    .download-title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:380px) {
+    #home h1 {
+        font-size: 34px;
+    }
+
+    #home .row {
+        margin-top: 9%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+
+    #home {
+        line-height: 42px;
+    }
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 14px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 20px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 13px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 14px;
+    }
+
+    .star {
+        width: 46%;
+    }
+
+    .download-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:280px) {
+    #home h1 {
+        font-size: 27px;
+    }
+
+    #home .row {
+        margin-top: 20%;
+    }
+
+    #home ul li {
+        font-size: 11px;
+    }
+
+    #home {
+        line-height: 34px;
+    }
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 13px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 19px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 11px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 15px;
+    }
+
+    .star {
+        width: 37%;
+    }
+
+    .download-title {
+        font-size: 17px;
+    }
+
+}
