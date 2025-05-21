@@ -1,0 +1,702 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2d3d;
+    /* background-color: #f9f9f9; */
+  }
+  
+  .title{
+    font-size: 70px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 5% !important;
+    margin-bottom: -2%;
+    text-align: center !important;
+  }
+  
+  .subtitle {
+    font-size: 32px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 4%;
+    /* margin-bottom: 1.5rem; */
+  }
+  
+  
+  .custom-list{
+      margin-top: -20%;
+      font-size: 22px;
+  }
+  .custom-img{
+      /* margin-top: -14%; */
+  }
+  
+  
+  /* ____________________________________________highlight section___________________________________________________________ */
+  
+  
+  .vdh-highlight-section {
+      margin-top: -10%;
+      display: flex;
+      justify-content: center;   /* Center horizontally */
+      align-items: center;       /* Center vertically */
+      padding: 4rem 1rem;
+     /* Or your actual page background */
+    }
+    
+    /* .vdh-highlight-box {
+      background: white;
+    
+    } */
+
+
+    .my-circles {
+      position: relative;
+      /* width: fit-content; */
+      /* height: fit-content; */
+      /* background: #f5f4ed; */
+    }
+    
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background: linear-gradient(to bottom, #00eaff, #003b49);
+    }
+    
+    .small {
+      width: 20px;
+      height: 20px;
+      top: -143px;
+      left: 17%;
+      box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+    }
+    
+    .medium {
+      width: 30px;
+      height: 30px;
+      top: -119px;
+      left: 19%;
+      box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+    }
+    
+    .large {
+      width: 40px;
+      height: 40px;
+      top: -85px;
+      left: 22%;
+      box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+    }
+    .star-icon{
+      width: 60%;
+      margin-left: -10% !important;
+      margin-top: 80%;
+    
+    }
+
+    /* _____________________________________________list section__________________________________________________________ */
+
+    .features-section {
+      padding: 2rem 1rem;
+      max-width: 1150px;
+      margin: 0 auto;
+      background-color: #fefdfb;
+      color: #0d2c2f;
+      margin-top: -11%;
+    }
+    
+    .section-title {
+      font-size: 33px !important;
+      font-weight: bold;
+      color: #1e3a34;
+      font-style: italic !important;
+      font-family: 'Georgia', serif; /* Replace with your actual site font */
+      color: #003c3c;
+      margin-bottom: 1rem;
+      /* text-align: center; */
+    }
+    
+    .features-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .features-list li {
+      font-size: 25px !important;
+      margin: 0.6rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+
+    }
+    
+    .features-list li::before {
+      /* content: '🦷'; */
+      position: absolute;
+      left: 0;
+    }
+    .heading-arrow {
+      width: 50px; /* Adjust this based on arrow size */
+      height: auto;
+      transform: rotate(15deg); /* Match the angle from the Figma design */
+    }
+    .heading-with-arrow {
+      display: flex;
+      /* align-items: center; */
+      /* justify-content: center; */
+      gap: 25px; /* More space between text and arrow */
+      /* margin: 40px 0; */
+      flex-wrap: wrap; /* Optional: good for responsiveness */
+    }
+    .features-list li {
+      font-size: 1rem;
+      margin: 0.6rem 0;
+      display: flex;                  /* NEW: aligns icon + text */
+      align-items: center;           /* NEW: vertical centering */
+    }
+    
+    .features-list i {
+      color: #0bdee6;                 /* NEW: yellow color for icon */
+      margin-right: 0.75rem;         /* NEW: spacing between icon and text */
+      font-size: 35px;             /* Optional: slightly larger icon */
+    }
+
+    .star-icon1 {
+        width: 8%;
+        margin-left: 4% !important;
+        margin-top: 2%;
+    }
+    /* ___________________________________________table _________________________________________________ */
+
+    .table-title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #003341;
+        /* margin-top: 5% !important; */
+        margin-left: 11% !important;
+        margin-bottom: 5%;
+    }
+    .responsive-table-wrapper {
+      overflow-x: auto;
+      margin: 1.5rem 0;
+    }
+    
+    .nabh-benefits-table {
+      width: 80%;
+      border-collapse: collapse;
+      min-width: 100px;
+      margin-left: 10%;
+    }
+    
+    .nabh-benefits-table th,
+    .nabh-benefits-table td {
+      border: 1px solid #ccc;
+      padding: 20px;
+      vertical-align: top;
+      text-align: left;
+    }
+    
+    .nabh-benefits-table th {
+      background-color: #004750;
+      color: #fff;
+      width: 30%;
+      font-weight: 600;
+      font-size: 20px;
+    }
+    
+    .nabh-benefits-table td {
+      background-color: #fde5c5;
+      color: #0d2c2f;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+    
+    @media (max-width: 600px) {
+      .nabh-benefits-table th,
+      .nabh-benefits-table td {
+        padding: 0.75rem;
+        font-size: 0.95rem;
+      }
+    }
+
+    .star-icon2 {
+      width: 8%;
+      margin-left: 80% !important;
+      margin-top: -2%;
+  }
+    
+    /* ______________________________________________content_______________________________________________________ */
+    .nabh-summary {
+      max-width: 1100px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+      font-size: 24px;
+      line-height: 1.8;
+      color: #0d2c2f;
+      text-align: center;
+        margin-top: 5%;
+    }
+    
+/* ___________________________________________________media query___________________________________________________________________ */
+
+@media (max-width:1024px) {
+  .custom-list{
+  margin-top: -8%;
+  font-size: 20px;
+}
+
+.small {
+width: 20px;
+height: 20px;
+top: -133px;
+left: 17%;
+box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+}
+
+.medium {
+width: 30px;
+height: 30px;
+top: -105px;
+left: 18%;
+box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.large {
+width: 40px;
+height: 40px;
+top: -69px;
+left: 19%;
+box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+.star-icon{
+width: 60%;
+margin-left: -10% !important;
+margin-top: 80%;
+
+}
+}
+/* ________________768_____________________ */
+
+@media (max-width:768px) {
+
+  .title {
+    font-size: 53px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 5% !important;
+    margin-bottom: 1%;
+    text-align: center !important;
+  }
+  
+  .subtitle {
+    font-size: 28px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 4%;
+    /* margin-bottom: 1.5rem; */
+  }
+  
+      .custom-list{
+      margin-top: -8%;
+      font-size: 15px;
+  }
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 90%;
+    margin-top: -10%;
+  }
+  .section-title {
+    font-size: 32px !important;
+
+    /* text-align: center; */
+  }
+  .nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 21px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    text-align: center;
+  }
+  
+}  
+
+
+/* ___________________425______________________ */
+
+@media (max-width:425px) {
+  .vdh-highlight-box {
+    font-size: 12px !important;
+    width: 300px!important;
+    height: 230px !important;
+  
+  }
+  .title {
+    font-size: 33px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 10% !important;
+    text-align: center !important;
+    margin-bottom: -5% !important;
+  }
+  
+  .subtitle {
+    font-size: 28px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 4%;
+    /* margin-bottom: 1.5rem; */
+  }
+    .custom-list{
+      margin-top: 10%;
+      font-size: 14px;
+  }
+  .custom-img{
+      margin-top: -14%;
+  }
+
+  .small {
+    width: 18px;
+    height: 18px;
+    top: -90px;
+    left: 9%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .medium {
+    width: 25px;
+    height: 25px;
+    top: -57px;
+    left: 12%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 16%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  .features-list li {
+    font-size: 22px !important;
+    margin: 0.6rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+
+  }
+  
+
+
+  .star-icon{
+    width: 120%;
+    margin-left: -10% !important;
+    margin-top: 480%;
+  }
+  .h1-box{
+    color: #fff;
+   font-size: 20px;
+   text-align: center;
+   padding-left: 10px !important;
+   padding-right: 7px !important;
+   margin-bottom: 4%;
+  }
+
+  .responsive-table-wrapper {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+  
+  .nabh-benefits-table {
+    width: 85%;
+    border-collapse: collapse;
+    min-width: 100px;
+    margin-left: 10%;
+  }
+  
+  .nabh-benefits-table th,
+  .nabh-benefits-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .nabh-benefits-table th {
+    background-color: #004750;
+    color: #fff;
+    width: 30%;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .nabh-benefits-table td {
+    background-color: #fde5c5;
+    color: #0d2c2f;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .table-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #003341;
+    /* margin-top: 5% !important; */
+    /* margin-left: 7% !important; */
+  }
+  .nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 28px !important;
+    margin-top: -18%;
+
+    /* text-align: center; */
+  }
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 90%;
+    margin-top: -20%;
+  }
+}
+
+/* _____________________375_____________________________________ */
+
+@media (max-width:375px) {
+
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 8% !important;
+    text-align: center !important;
+  }
+  
+  .subtitle {
+    font-size: 25px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 5%;
+    /* margin-bottom: 1.5rem; */
+  }
+  .vdh-highlight-box {
+    font-size: 12px !important;
+    width: 300px!important;
+    height: 250px !important;
+  
+  }
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 90%;
+    margin-top: -20%;
+  }
+  .section-title {
+    font-size: 20px !important;
+    /* text-align: center; */
+  }
+
+  .features-list li {
+    font-size: 22px !important;
+    margin: 0.6rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+
+  }
+  
+
+  
+  .responsive-table-wrapper {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+  
+  .nabh-benefits-table {
+    width: 85%;
+    border-collapse: collapse;
+    min-width: 100px;
+    margin-left: 10%;
+  }
+  
+  .nabh-benefits-table th,
+  .nabh-benefits-table td {
+    border: 1px solid #ccc;
+    /* padding: 20px; */
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .nabh-benefits-table th {
+    background-color: #004750;
+    color: #fff;
+    width: 30%;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  
+  .nabh-benefits-table td {
+    background-color: #fde5c5;
+    color: #0d2c2f;
+    font-size: 10px;
+    line-height: 1.6;
+  }
+  
+  .table-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #003341;
+    /* margin-top: 5% !important; */
+    /* margin-left: 7% !important; */
+  }
+  .nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    text-align: center;
+  }
+  }
+
+/* _________________________320______________________________ */
+@media (max-width:320px) {
+
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 8% !important;
+    text-align: center !important;
+  }
+  
+  .subtitle {
+    font-size: 20px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 5%;
+    /* margin-bottom: 1.5rem; */
+  }
+  .vdh-highlight-box {
+    font-size: 11px !important;
+    height: 280px !important;
+  }
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 88%;
+    margin-top: -18%;
+    /* margin-bottom: -5%; */
+  }
+  .heading-with-arrow h2 {
+    font-size: 25px;
+    margin-top: -15%;
+    font-weight: 600;
+    font-family: 'Georgia', serif; /* Replace with your actual site font */
+    color: #003c3c; /* Use color matching your site (adjust if needed) */
+    margin: 0;
+    text-align: center;
+  }
+  .section-title {
+    font-size: 20px !important;
+    margin-top: -19% !important;
+    /* text-align: center; */
+  }
+  .nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 11px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    text-align: center;
+  }
+  .features-list li {
+    font-size: 19px !important;
+    margin: 0.6rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+
+  }
+  
+}
+
+
+
+    /* _____________________________________________animation______________________________________________________________ */
+    .vdh-highlight-section {
+      padding: 2rem;
+    }
+    
+    .vdh-highlight-box {
+      position: relative;
+      padding: 1.5rem;
+      border-radius: 2rem;
+      background-color: white !important; /* INITIAL background is white */
+      color: #000;
+      overflow: hidden;
+      transition: background-color 1.2s ease-out; /* Added transition for background color */
+      color: rgb(3, 3, 3);
+        padding: 2rem;
+        max-width: 800px;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 21px;
+        line-height: 1.6;
+        text-align: left;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      
+    
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 60px !important;
+        border-bottom-right-radius: 60px !important;
+        border-bottom-left-radius: 60px !important;
+    }
+    
+    /* The animated fill layer */
+    .background-fill {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 100%;
+      width: 0%;
+      background-color: #00bcd4;
+      z-index: 0;
+      transition: width 1.2s ease-out;
+      border-radius: 2rem;
+    }
+    
+    /* Text stays on top */
+    .vdh-highlight-box p {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+    }
+    
+    /* When in view, animate background fill and change background color */
+    .vdh-highlight-box.animate {
+      background-color: #00bcd4; /* **Changed background color to blue when in view** */
+    }
+    
+    .vdh-highlight-box.animate .background-fill {
+      width: 100%;
+    }
+    

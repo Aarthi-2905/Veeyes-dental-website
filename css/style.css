@@ -1,0 +1,344 @@
+#home {
+
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    background-image: url('../images/landing_page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 4%;
+}
+
+#home .row {
+    height: 80vh;
+}
+
+#home h1 {
+    font-weight: 600;
+    color: #ECD8B6;
+    font-size: 3.5rem;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+.fixed-contact-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 999;
+}
+
+
+.prov-1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 750;
+    padding-bottom: 10px;
+    color: #183D4A;
+    text-align: center;
+}
+
+.prov-2 {
+    font-family: "Baskerville", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #183D4A;
+    padding-bottom: 10px;
+}
+
+.veeyes-heading {
+    background-image: url('../images/baby_smile.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.veeyes-heading h1 {
+    font-size: 56px;
+    color: white;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+.veeyes-heading h4 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 40px;
+}
+
+.read-more-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0E7580;
+    border: 2px solid #004f89;
+    padding: 12px 30px;
+    text-align: center;
+    opacity: 75%;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.read-more-btn:hover {
+    background-color: #13C2CF;
+    color: white;
+    opacity: 75%;
+}
+
+.veeyes-heading span {
+    background-color: rgb(236, 216, 182);
+    padding: 30px;
+    text-align: center;
+}
+
+.veeyes-heading span h2 {
+    font-family: Libre Baskerville;
+    font-size: 70px;
+    color: #183D4A;
+}
+
+.veeyes-heading span h3 {
+    font-family: lora;
+    font-size: 20px;
+    color: #183D4A;
+}
+
+.experience {
+    margin-left: -20px;
+    margin-bottom: -48px;
+}
+
+
+.dentistry-header {
+    font-size: 64px;
+    font-family: Libre Baskerville, sans-serif;
+    color: #183D4A;
+}
+
+
+.dentistry-text {
+    font-size: 24px;
+    color: #183D4A;
+    line-height: 50px;
+    font-weight: 400;
+}
+
+.dentistry-subHeader {
+    padding-top: 3rem;
+    color: #183D4A;
+    opacity: 75%;
+    font-family: Lora, sans-serif
+}
+
+
+.read-more-btn2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #183D4A;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.read-more-btn2:hover {
+    background-color: #13C2CF;
+    color: white;
+    color: #183D4A;
+}
+
+
+
+
+.read-more-btn3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #183D4A;
+    background-color: #ffffff;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.read-more-btn3:hover {
+    background-color: #13C2CF;
+    color: white;
+    color: #183D4A;
+}
+
+
+.tooth-fairy1 {
+    padding-top: 40px;
+    width: 80px;
+    transform: rotate(-45deg);
+}
+
+.tooth-fairy2 {
+    padding-top: 40px;
+    width: 80px;
+    transform: rotate(45deg);
+}
+
+.kids-cool {
+    background-color: #183D4A;
+}
+
+.kids-cool div {
+    color: white;
+}
+
+.kids-cool h1 {
+    margin: 0;
+    font-size: 48px;
+    font-style: italic;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.kids-cool p {
+    font-weight: 200;
+    font-size: 26px;
+    font-family: 'Lora', sans-serif;
+    margin: 10px 0 0;
+}
+
+
+
+.kids-contant {
+    padding-left: 20px;
+    color: white;
+}
+
+
+.kids-contant h2 {
+    font-family: Libre Baskerville, sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.kids-contant h4 {
+    margin: 0;
+    line-height: 35px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kids-contant ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.kids-contant ul li h4 {
+    line-height: 50px;
+}
+
+
+
+.exceptional h1 {
+    font-size: 64px;
+    text-align: center;
+    font-family: Libre Baskerville, sans-serif;
+    font-style: italic;
+    color: #183D4A;
+}
+
+
+
+
+/* .testimonial-card {
+    background-color: #a0f0f4;
+    padding: 35px;
+    border-radius: 0px 25px 0px 25px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #003b4a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    opacity: 60%;
+} */
+
+
+.quote-icon {
+    background-color: #004a52;
+    color: black;
+    font-size: 28px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.testimonial-card {
+    position: relative;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #13C2CF;
+    margin: auto;
+    border-radius: 0px 25px 0px 25px;
+}
+
+.feedback-dots {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    opacity: 0.6;
+}
+
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 14.5px;
+    line-height: 1.7;
+    margin: 0 0 15px 0;
+    color: black;
+}
+
+
+.testimonial-card2 {
+    background-color: #0E7580;
+    padding: 35px;
+    border-radius: 0px 25px 0px 25px;
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    opacity: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    border: none;
+    border-top: 2px solid black;
+    width: 80%;
+    margin: 0 0 10px 0;
+    font-weight: 900;
+    margin-top: auto;
+}
+
+.author {
+    font-size: 14px;
+    margin: 0;
+}
+
