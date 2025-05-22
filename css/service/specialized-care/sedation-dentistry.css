@@ -1,6 +1,6 @@
-/* #home .row {
-    height: 80vh;
-} */
+#home .row {
+    height: 95vh;
+}
 
 #home h1 {
     font-size: 56px;
@@ -86,10 +86,10 @@
 }
 
 .download-btn {
-    background-color: #13C2CF;
-    color: #fff;
+    background-color: #13C2CF !important;
+    color: #000 !important;
     padding: 0.6rem 1.2rem;
-    font-family: lora;
+    font-family: lora !important;
     font-weight: 200;
     border: none;
     border-radius: 6px;
@@ -98,7 +98,7 @@
 }
 
 .download-btn:hover {
-    background-color: #ECD8B6;
+    background-color: #ECD8B6 !important;
 }
 
 .list-unstyled {
@@ -238,6 +238,7 @@
 
     #home .row {
         padding-top: 6%;
+        height: auto;
     }
 
     #home ul li {
