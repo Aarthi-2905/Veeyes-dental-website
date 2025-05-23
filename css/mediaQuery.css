@@ -1,6 +1,6 @@
 @media (min-width:1440px) {
     .dentistry-text {
-        font-size: 30px !important;
+        font-size: 27px !important;
     }
 
     .read-more-btn3 {
@@ -678,6 +678,10 @@
     }
     .contact-section h2{
         font-size: 15px !important;
+    }
+
+    .ps-5{
+        padding-left: 10px !important;
     }
 }
 

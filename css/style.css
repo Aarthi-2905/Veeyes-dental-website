@@ -31,7 +31,9 @@
     z-index: 999;
 }
 
-
+.pl-5{
+    padding-left: 3rem !important;
+}
 .prov-1 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 750;

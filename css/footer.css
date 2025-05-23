@@ -84,6 +84,13 @@ input {
     border-radius: 50% 50% 50% 50%;
 }
 
+.pl-5 {
+    padding-left: 3rem !important;
+}
+.pr-5 {
+    padding-right: 3rem !important;
+}
+
 
 @media(max-width:1200px) {
 
@@ -204,13 +211,21 @@ input {
     }
 
     .contact-section h1 {
-        font-size: 18px !important;
-        padding-top: 20px;
+        font-size: 22px !important;
+        padding-top: 6px !important;
         margin-bottom: 20px !important;
     }
 
     .contact-section h2 {
         font-size: 15px !important;
+    }
+
+    .pl-5 {
+        padding-left: 1rem !important;
+    }
+
+    .pr-5{
+        padding-right: 0rem !important;
     }
 }
 
