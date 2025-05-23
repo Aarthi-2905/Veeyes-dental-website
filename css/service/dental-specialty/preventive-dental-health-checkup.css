@@ -7,7 +7,8 @@
 
 #home {
     line-height: 50px;
-    margin-top: 4%;
+    margin-top: 1%;
+    height: 53vh !important;
 }
 
 #home ul li {
@@ -88,6 +89,16 @@
     padding-left: 7%;
 }
 
+.ps-5 {
+    padding-left: 3rem !important;
+}
+
+@media (min-width:1200px) {
+    #home {
+        height: 70vh !important;
+    }
+}
+
 @media (max-width:1144px) {
 
     #home h1 {
@@ -99,7 +110,8 @@
 
     #home {
         line-height: 50px;
-        margin-top: 4%;
+        margin-top: 1%;
+        height: 98vh !important;
     }
 
     #home ul li {
@@ -172,6 +184,7 @@
     #home {
         line-height: 50px;
         margin-top: 12%;
+        height: 87vh !important;
     }
 
     #home ul li {
@@ -244,6 +257,7 @@
     #home {
         line-height: 41px;
         margin-top: 15%;
+        height: 72vh !important;
     }
 
     #home ul li {
@@ -253,26 +267,26 @@
     }
 
     .small {
-        width: 20px;
-        height: 20px;
-        top: 9px;
-        left: 10%;
+        width: 15px;
+        height: 15px;
+        top: 32px;
+        left: -2%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     }
 
     .medium {
-        width: 30px;
-        height: 30px;
-        top: 38px;
-        left: 12%;
+        width: 20px;
+        height: 20px;
+        top: 55px;
+        left: 1%;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
     }
 
     .large {
-        width: 40px;
-        height: 40px;
-        top: 78px;
-        left: 15%;
+        width: 32px;
+        height: 32px;
+        top: 82px;
+        left: 5%;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
@@ -306,6 +320,18 @@
 
 }
 
+@media (max-width:746px) {
+    #home{
+        height: auto !important;
+    }
+     #home ul li {
+        color: #183D4A;
+        font-size: 19px;
+        font-weight: 200;
+        line-height: 50px;
+    }
+}
+
 @media (max-width:600px) {
     #home h1 {
         font-size: 41px;
@@ -317,6 +343,7 @@
     #home {
         line-height: 46px;
         margin-top: 17%;
+        height: 150vh !important;
     }
 
     #home ul li {
@@ -328,15 +355,15 @@
     .small {
         width: 10px;
         height: 10px;
-        top: 63px;
-        left: 1%;
+        top: 43px;
+        left: 2%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     }
 
     .medium {
         width: 20px;
         height: 20px;
-        top: 88px;
+        top: 57px;
         left: 4%;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
     }
@@ -344,7 +371,7 @@
     .large {
         width: 30px;
         height: 30px;
-        top: 116px;
+        top: 74px;
         left: 7%;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
@@ -395,6 +422,7 @@
     #home {
         line-height: 43px;
         margin-top: 21%;
+        height: auto !important;
     }
 
     #home ul li {
@@ -406,7 +434,7 @@
     .small {
         width: 11px;
         height: 11px;
-        top: 55px;
+        top: -6px;
         left: -2%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     }
@@ -414,7 +442,7 @@
     .medium {
         width: 19px;
         height: 16px;
-        top: 74px;
+        top: 10px;
         left: 1%;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
     }
@@ -422,7 +450,7 @@
     .large {
         width: 25px;
         height: 27px;
-        top: 97px;
+        top: 32px;
         left: 5%;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
@@ -496,36 +524,29 @@
     }
 
     .small {
-        width: 10px;
-        height: 10px;
-        top: 55px;
-        left: -1%;
+        width: 13px;
+        height: 13px;
+        top: -3px;
+        left: -2%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     }
 
     .medium {
         width: 20px;
         height: 20px;
-        top: 71px;
+        top: 11px;
         left: 3%;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
     }
 
     .large {
-        width: 30px;
-        height: 30px;
-        top: 98px;
-        left: 9%;
+        width: 25px;
+        height: 25px;
+        top: 32px;
+        left: 11%;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .ps-5 {
-        padding-left: 23px !important;
-    }
-
-    .ps-3 {
-        padding-left: 1px !important;
-    }
 
     .list-unstyled {
         line-height: 32px;
@@ -561,6 +582,13 @@
         padding-left: 11%;
     }
 
+    .ps-5 {
+        padding-left: 1px !important;
+    }
+
+    .ps-3 {
+        padding-left: 1px !important;
+    }
 
 }
 
@@ -640,7 +668,5 @@
         line-height: 40px;
         padding-left: 11%;
     }
-
-
 
 }
