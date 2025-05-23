@@ -11,6 +11,7 @@
 
 #home {
     line-height: 50px;
+    height: 95vh;
 }
 
 #home ul li {
@@ -74,28 +75,28 @@
 }
 
 .custom-table th {
-    background-color: #183D4A;
-    color: white;
+    background-color: #183D4A  !important;
+    color: white !important; 
     font-size: 18px;
     width: 40%;
     vertical-align: middle;
-    font-family: lora;
+    font-family: lora !important;
     font-weight: 300;
 }
 
 .custom-table td {
-    background-color: #ECD8B6;
+    background-color: #ECD8B6 !important;
     font-size: 18px;
-    color: #183D4A;
-    vertical-align: middle;
-    font-family: lora;
+    color: #183D4A !important;
+    vertical-align: middle !important;
+    font-family: lora !important;
 }
 
 .custom-table thead tr th {
     font-size: 28px;
     font-weight: 400;
-    color: #000;
-    background-color: #00c8d4;
+    color: #000 !important;
+    background-color: #00c8d4 !important;
 }
 
 .custom-table th,
@@ -106,14 +107,14 @@
 
 
 .download-section {
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
     background-color: #fff;
 }
 
 .download-title {
     font-size: 32px;
     font-family: Lora;
-    color: black;
+    color: black !important;
 }
 
 .arrow-container {
@@ -134,23 +135,29 @@
 }
 
 .download-btn {
-    background-color: #13C2CF;
+    background-color: #13C2CF !important;
     color: #fff;
     padding: 0.6rem 1.2rem;
-    font-family: lora;
+    font-family: lora !important;
     font-weight: 200;
     border: none;
     border-radius: 6px;
     text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
 }
 
 .download-btn:hover {
-    background-color: #ECD8B6;
+    background-color: #ECD8B6 !important;
 }
 
 .list-unstyled{
     line-height: 40px;
+}
+
+@media (min-width:1400px) {
+    #home{
+        height:85vh;
+    }
 }
 
 @media (max-width:1024px) {
