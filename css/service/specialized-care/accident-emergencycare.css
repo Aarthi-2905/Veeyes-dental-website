@@ -55,24 +55,24 @@
   .small {
     width: 20px;
     height: 20px;
-    top: -143px;
-    left: 17%;
+    top: -179px;
+    left: 20%;
     box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
   }
   
   .medium {
     width: 30px;
     height: 30px;
-    top: -119px;
-    left: 19%;
+    top: -149px;
+    left: 22%;
     box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
   }
   
   .large {
     width: 40px;
     height: 40px;
-    top: -85px;
-    left: 22%;
+    top: -110px;
+    left: 24%;
     box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
   }
   .star-icon{
@@ -99,7 +99,7 @@
   }
   .h1-box{
     color: #fff;
-   font-size: 48px;
+   font-size: 44px;
    text-align: center;
    padding-left: 120px !important;
    padding-right: 40px !important;
@@ -140,9 +140,11 @@ section ul {
 
 section ul li {
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 20px;
     justify-content: space-between;
-    line-height: 150%;
+    line-height: 180%;
+ /* text-align: justify; */
+ padding-right: 5%;
 }
 
 section ul li strong {
@@ -198,7 +200,7 @@ footer {
   font-weight: bold;
   text-align: center;
   font-style: italic;
-  margin-bottom: 2rem;
+
   position: relative;
   color: #002e2e;
 }
@@ -237,7 +239,7 @@ footer {
 
 .emergency-services p {
   margin: 0.5rem 0;
-  font-size: 0.95rem;
+  font-size: 18px;
 }
 
 .star-icon2{
@@ -246,8 +248,9 @@ footer {
   margin-left: 80%;
 }
 .teethlst{
-  width: 15px !important;
-  height: 15px !important;
+  width: 28px !important;
+  height: 28px !important;
+  margin-right: 1%;
 }
 /* ____________________________________________media query___________________________________________________________ */
 @media (max-width:1024px) {
@@ -275,7 +278,7 @@ footer {
 .large {
   width: 40px;
   height: 40px;
-  top: -69px;
+  top: -79px;
   left: 19%;
   box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
 }
@@ -329,28 +332,28 @@ section ul li {
 }
 
 .small {
-  width: 20px;
-  height: 20px;
-  top: -100px;
-  left: 13%;
+  width: 10px;
+  height: 10px;
+  top: -92px;
+  left: 16%;
   box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
 }
+.medium
+ {
+        width: 20px;
+        height: 20px;
+        top: -80px;
+        left: 18%;
+        box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+    }
 
-.medium {
-  width: 30px;
-  height: 30px;
-  top: -80px;
-  left: 15%;
-  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
-}
-
-.large {
-  width: 40px;
-  height: 40px;
-  top: -49px;
-  left: 17%;
-  box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
-}
+    .large {
+      width: 30px;
+      height: 30px;
+      top: -59px;
+      left: 21%;
+      box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
 .star-icon{
   width: 60%;
   margin-left: -10% !important;
@@ -417,12 +420,13 @@ section ul li {
     font-size: 17px !important;
     width: 300px!important;
     height: 400px !important;
+  
   }
   .small {
     width: 18px;
     height: 18px;
-    top: -90px;
-    left: 9%;
+    top: -80px;
+    left: 7%;
     box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
   }
   
@@ -430,15 +434,15 @@ section ul li {
     width: 25px;
     height: 25px;
     top: -57px;
-    left: 12%;
+    left: 13%;
     box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
   }
   
   .large {
     width: 30px;
     height: 30px;
-    top: -20px;
-    left: 16%;
+    top: -30px;
+    left: 19%;
     box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
   }
   .star-icon{
@@ -558,6 +562,8 @@ section ul li {
   padding: 2rem;
 }
 
+
+
 .vdh-highlight-box {
   position: relative;
   padding: 1.5rem;
@@ -575,12 +581,12 @@ section ul li {
     line-height: 1.6;
     text-align: left;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  
-
     border-top-left-radius: 0px !important;
     border-top-right-radius: 60px !important;
     border-bottom-right-radius: 60px !important;
     border-bottom-left-radius: 60px !important;
+
+
 }
 
 /* The animated fill layer */
@@ -594,7 +600,8 @@ section ul li {
   background-color: #00bcd4;
   z-index: 0;
   transition: width 1.2s ease-out;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
+  
 }
 
 /* Text stays on top */

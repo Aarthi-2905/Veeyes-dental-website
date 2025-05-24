@@ -8,8 +8,8 @@ body {
     font-size: 70px;
     font-weight: 700;
     color: #003341;
-    margin-top: 5% !important;
-    margin-bottom: -2%;
+    /* margin-top: 5% !important; */
+    margin-bottom: 30%;
     text-align: center !important;
   }
   
@@ -110,7 +110,8 @@ body {
       font-style: italic !important;
       font-family: 'Georgia', serif; /* Replace with your actual site font */
       color: #003c3c;
-      margin-bottom: 1rem;
+      /* margin-bottom: 1rem; */
+      margin-top: 5%;
       /* text-align: center; */
     }
     
@@ -137,6 +138,7 @@ body {
       width: 50px; /* Adjust this based on arrow size */
       height: auto;
       transform: rotate(15deg); /* Match the angle from the Figma design */
+      margin-top: 5%;
     }
     .heading-with-arrow {
       display: flex;
@@ -272,17 +274,25 @@ margin-left: -10% !important;
 margin-top: 80%;
 
 }
+.title {
+  font-size: 53px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 5% !important;
+  margin-bottom: 13%;
+  text-align: center !important;
+}
 }
 /* ________________768_____________________ */
 
 @media (max-width:768px) {
 
   .title {
-    font-size: 53px;
+    font-size: 43px;
     font-weight: 700;
     color: #003341;
-    margin-top: 5% !important;
-    margin-bottom: 1%;
+    margin-top: 13% !important;
+    margin-bottom: 15%;
     text-align: center !important;
   }
   
