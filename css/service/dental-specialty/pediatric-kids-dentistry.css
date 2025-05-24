@@ -1,5 +1,5 @@
 #home h1 {
-    font-size: 72px;
+    font-size: 62px;
     font-family: lora;
     color: #183D4A;
     font-weight: 600;
@@ -26,7 +26,7 @@
 .intro-subtext {
     font-size: 36px;
     font-weight: bold;
-    color: #183D4A;
+    color: #183D4A !important;
     font-family: lora;
 }
 
@@ -48,19 +48,19 @@
 }
 
 .custom-table th {
-    background-color: #13C2CF;
+    background-color: #13C2CF !important;
     color: white;
     font-size: 22px;
     vertical-align: middle;
     font-family: lora;
     font-weight: bold;
-    color: #183D4A;
+    color: #183D4A !important;
 }
 
 .custom-table td {
-    background-color: #ECD8B6;
+    background-color: #ECD8B6 !important;
     font-size: 18px;
-    color: #183D4A;
+    color: #183D4A !important;
     vertical-align: middle;
     font-family: lora;
 }
@@ -96,9 +96,8 @@
 
 .pediatric-section {
     background-color: #F9F7F2;
-    padding: 60px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #1f4e53;
+    /* padding: 60px 20px; */
+    color: #1f4e53 !important;
 }
 
 .pediatric-section h2 {
@@ -152,11 +151,10 @@
 }
 
 .download-btn {
-    background-color: #13C2CF;
-    color: #fff;
-    padding: 0.6rem 1.2rem;
-    font-family: lora;
-    font-weight: 200;
+    background-color: #13C2CF !important;
+    padding: 0.6rem 1.2rem !important;
+    font-family: lora !important;
+    font-weight: 200 !important;
     border: none;
     border-radius: 6px;
     text-decoration: none;
@@ -164,7 +162,7 @@
 }
 
 .download-btn:hover {
-    background-color: #ECD8B6;
+    background-color: #ECD8B6 !important;
 }
 
 #icon {
@@ -216,7 +214,7 @@
 
 .tips-section ol li {
     margin-bottom: 1rem;
-    font-size: 20px;
+    font-size: 26px;
     color: #2A646E;
     line-height: 1.6;
     font-weight: 300;
@@ -230,6 +228,52 @@
     float: right;
 }
 
+.pl-5 {
+    padding-left: 3rem 48px !important;
+}
+
+.pr-3 {
+    padding-right: 1rem !important;
+}
+
+
+.info-section {
+    padding: 50px 20px;
+}
+
+.info-title {
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 26px;
+    font-family: lora;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.info-list {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 25px;
+    font-family: Montserrat;
+}
+
+.info-list li {
+    margin-bottom: 12px;
+    line-height: 1.8;
+    position: relative;
+    padding-left: 25px;
+}
+
+.info-list li::before {
+    content: "\f5c9";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #00bcd4;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
 @media (max-width: 768px) {
     .rounded-image {
         display: block;
@@ -241,7 +285,7 @@
 
 @media (max-width:1024px) {
     #home h1 {
-        font-size: 50px;
+        font-size: 41px;
     }
 
     #home .row {
@@ -287,8 +331,7 @@
 
     .pediatric-section {
         background-color: #F9F7F2;
-        padding: 20px 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* padding: 20px 20px; */
         color: #1f4e53;
     }
 
@@ -305,7 +348,7 @@
         margin-bottom: 30px;
         text-align: center;
         text-decoration: underline;
-        font-size: 30px;
+        font-size: 23px;
         font-family: lora;
     }
 
@@ -331,7 +374,7 @@
     }
 
     .pediatric-section strong {
-        font-size: 28px;
+        font-size: 24px;
         font-family: Montserrat;
     }
 
@@ -342,7 +385,6 @@
         fill: #00c2cb;
         flex-shrink: 0;
         align-self: flex-start;
-        /* Align icon with the top of the text */
     }
 
     #ul {
@@ -363,7 +405,6 @@
         font-size: 24px;
         line-height: 20px;
     }
-
 
     .tips-section {
         padding: 0px 20px;
@@ -389,6 +430,44 @@
         color: #2A646E;
         line-height: 1.6;
         font-weight: 300;
+    }
+
+    .info-section {
+        padding: 0px 20px;
+    }
+
+    .info-title {
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 26px;
+        font-family: lora;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        font-size: 20px;
+        padding-left: 25px;
+        font-family: Montserrat;
+    }
+
+    .info-list li {
+        margin-bottom: 12px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .info-list li::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #00bcd4;
+        position: absolute;
+        left: 0;
+        top: 2px;
     }
 }
 
@@ -422,7 +501,7 @@
 
     .custom-table td {
         background-color: #ECD8B6;
-        font-size: 18px;
+        font-size: 14px;
         color: #183D4A;
         vertical-align: middle;
         font-family: lora;
@@ -443,15 +522,14 @@
 
     .pediatric-section {
         background-color: #F9F7F2;
-        padding: 60px 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* padding: 60px 20px; */
         color: #1f4e53;
     }
 
     .pediatric-section h2 {
         color: #183D4A;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 25px;
         font-family: lora;
     }
 
@@ -461,7 +539,7 @@
         margin-bottom: 30px;
         text-align: center;
         text-decoration: underline;
-        font-size: 23px;
+        font-size: 18px;
         font-family: lora;
     }
 
@@ -478,7 +556,7 @@
 
     .pediatric-section li span {
         font-family: lora;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.6;
     }
 
@@ -487,7 +565,7 @@
     }
 
     .pediatric-section strong {
-        font-size: 22px;
+        font-size: 18px;
         font-family: Montserrat;
     }
 
@@ -546,12 +624,49 @@
         line-height: 1.6;
         font-weight: 300;
     }
+
+    .info-section {
+        padding: 22px 20px;
+    }
+
+    .info-title {
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 26px;
+        font-family: lora;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        font-size: 17px;
+        padding-left: 25px;
+        font-family: Montserrat;
+    }
+
+    .info-list li {
+        margin-bottom: 12px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .info-list li::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #00bcd4;
+        position: absolute;
+        left: 0;
+        top: 2px;
+    }
 }
 
 @media (max-width:768px) {
 
     #home h1 {
-        font-size: 37px;
+        font-size: 31px;
     }
 
     #home .row {
@@ -595,7 +710,7 @@
         color: #183D4A;
         font-family: lora;
         font-weight: 300;
-        font-size: 22px;
+        font-size: 17px;
         line-height: normal;
     }
 
@@ -607,7 +722,7 @@
         font-weight: 700;
         color: #183D4A;
         margin-bottom: 30px;
-        font-size: 42px;
+        font-size: 30px;
         font-family: lora;
         text-align: center;
     }
@@ -619,10 +734,47 @@
 
     .tips-section ol li {
         margin-bottom: 1rem;
-        font-size: 20px;
+        font-size: 15px;
         color: #2A646E;
         line-height: 1.6;
         font-weight: 300;
+    }
+
+    .info-section {
+        padding: 20px 20px;
+    }
+
+    .info-title {
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 26px;
+        font-family: lora;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        font-size: 14px;
+        padding-left: 18px;
+        font-family: Montserrat;
+    }
+
+    .info-list li {
+        margin-bottom: 12px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .info-list li::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #00bcd4;
+        position: absolute;
+        left: 0;
+        top: 2px;
     }
 }
 
@@ -673,7 +825,7 @@
     }
 
     .download-title {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .pediatric-section {
@@ -685,7 +837,7 @@
     .pediatric-section h2 {
         color: #183D4A;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 26px;
         font-family: lora;
     }
 
@@ -695,7 +847,7 @@
         margin-bottom: 30px;
         text-align: center;
         text-decoration: underline;
-        font-size: 19px;
+        font-size: 17px;
         font-family: lora;
     }
 
@@ -712,7 +864,7 @@
 
     .pediatric-section li span {
         font-family: lora;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 1.6;
     }
 
@@ -721,7 +873,7 @@
     }
 
     .pediatric-section strong {
-        font-size: 20px;
+        font-size: 18px;
         font-family: Montserrat;
     }
 
@@ -761,7 +913,7 @@
         font-weight: 700;
         color: #183D4A;
         margin-bottom: 30px;
-        font-size: 42px;
+        font-size: 27px;
         font-family: lora;
         text-align: center;
     }
@@ -773,10 +925,47 @@
 
     .tips-section ol li {
         margin-bottom: 1rem;
-        font-size: 20px;
+        font-size: 14px;
         color: #2A646E;
         line-height: 1.6;
         font-weight: 300;
+    }
+
+    .info-section {
+        padding: 50px 20px;
+    }
+
+    .info-title {
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 21px;
+        font-family: lora;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        font-size: 14px;
+        padding-left: 25px;
+        font-family: Montserrat;
+    }
+
+    .info-list li {
+        margin-bottom: 12px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .info-list li::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #00bcd4;
+        position: absolute;
+        left: 0;
+        top: 2px;
     }
 }
 
@@ -831,14 +1020,14 @@
     .pediatric-section {
         background-color: #F9F7F2;
         padding: 0px 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
         color: #1f4e53;
     }
 
     .pediatric-section h2 {
         color: #183D4A;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 20px;
         font-family: lora;
     }
 
@@ -848,7 +1037,7 @@
         margin-bottom: 30px;
         text-align: center;
         text-decoration: underline;
-        font-size: 19px;
+        font-size: 14px;
         font-family: lora;
     }
 
@@ -865,7 +1054,7 @@
 
     .pediatric-section li span {
         font-family: lora;
-        font-size: 15px;
+        font-size: 13px;
         line-height: 1.6;
     }
 
@@ -874,7 +1063,7 @@
     }
 
     .pediatric-section strong {
-        font-size: 20px;
+        font-size: 17px;
         font-family: Montserrat;
     }
 
@@ -885,7 +1074,6 @@
         fill: #00c2cb;
         flex-shrink: 0;
         align-self: flex-start;
-        /* Align icon with the top of the text */
     }
 
     #ul {
@@ -903,7 +1091,7 @@
         color: #183D4A;
         font-family: lora;
         font-weight: 300;
-        font-size: 24px;
+        font-size: 16px;
         line-height: 20px;
     }
 
@@ -938,8 +1126,45 @@
         padding-left: 0 !important;
     }
 
-    .ps-5 {
-        padding-left: 30px !important;
+    .pl-5 {
+        padding-left: 0px !important;
+    }
+
+    .info-section {
+        padding: 50px 20px;
+    }
+
+    .info-title {
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 16px;
+        font-family: lora;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        font-size: 14px !important;
+        padding-left: 25px;
+        font-family: Montserrat;
+    }
+
+    .info-list li {
+        margin-bottom: 12px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .info-list li::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #00bcd4;
+        position: absolute;
+        left: 0;
+        top: 2px;
     }
 }
 
@@ -974,14 +1199,14 @@
 
     .custom-table td {
         background-color: #ECD8B6;
-        font-size: 11px;
+        font-size: 9px;
         color: #183D4A;
         vertical-align: middle;
         font-family: lora;
     }
 
     .custom-table th {
-        font-size: 11px;
+        font-size: 9px;
     }
 
     .star {
@@ -989,13 +1214,13 @@
     }
 
     .download-title {
-        font-size: 25px;
+        font-size: 13px;
     }
 
     .pediatric-section {
         background-color: #F9F7F2;
         padding: 0px 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
         color: #1f4e53;
     }
 
@@ -1068,12 +1293,12 @@
         color: #183D4A;
         font-family: lora;
         font-weight: 300;
-        font-size: 19px;
+        font-size: 15px;
         line-height: 25px;
     }
 
     .tips-section {
-        padding: 18px 20px;
+        padding: 0px 20px;
     }
 
     .tips-section h3 {
@@ -1082,7 +1307,7 @@
         margin-bottom: 30px;
         font-size: 18px;
         font-family: lora;
-        text-align: center;
+        text-align: left;
     }
 
     .tips-section ol {
@@ -1100,6 +1325,43 @@
 
     .ps-3 {
         padding-left: 0 !important;
+    }
+
+    .info-section {
+        padding: 10px 0px;
+    }
+
+    .info-title {
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 18px;
+        font-family: lora;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .info-list {
+        list-style: none;
+        font-size: 12px;
+        padding-left: 25px;
+        font-family: Montserrat;
+    }
+
+    .info-list li {
+        margin-bottom: 12px;
+        line-height: 1.8;
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .info-list li::before {
+        content: "\f5c9";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #00bcd4;
+        position: absolute;
+        left: 0;
+        top: 2px;
     }
 }
 
@@ -1158,7 +1420,7 @@
     .pediatric-section {
         background-color: #F9F7F2;
         padding: 60px 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
         color: #1f4e53;
     }
 

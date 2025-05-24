@@ -8,7 +8,7 @@
 #home {
     line-height: 50px;
     margin-top: 1%;
-    height: 53vh !important;
+    height: 80vh ;
 }
 
 #home ul li {
@@ -89,13 +89,19 @@
     padding-left: 7%;
 }
 
-.ps-5 {
+.pl-5 {
     padding-left: 3rem !important;
+}
+
+@media (min-width:1400px) {
+    #home {
+        height: 77vh !important;
+    }
 }
 
 @media (min-width:1200px) {
     #home {
-        height: 70vh !important;
+        height: 100vh;
     }
 }
 
@@ -111,7 +117,7 @@
     #home {
         line-height: 50px;
         margin-top: 1%;
-        height: 98vh !important;
+        height: 98vh ;
     }
 
     #home ul li {
@@ -248,15 +254,15 @@
 
 @media (max-width:992px) {
     #home h1 {
-        font-size: 35px;
+        font-size: 33px;
         font-family: lora;
         color: #183D4A;
         font-weight: 600;
     }
 
     #home {
-        line-height: 41px;
-        margin-top: 15%;
+        line-height: 39px;
+        margin-top: 9%;
         height: 72vh !important;
     }
 
@@ -270,7 +276,7 @@
         width: 15px;
         height: 15px;
         top: 32px;
-        left: -2%;
+        left: 8%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
     }
 
@@ -278,7 +284,7 @@
         width: 20px;
         height: 20px;
         top: 55px;
-        left: 1%;
+        left: 11%;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
     }
 
@@ -286,7 +292,7 @@
         width: 32px;
         height: 32px;
         top: 82px;
-        left: 5%;
+        left: 14%;
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
@@ -320,15 +326,20 @@
 
 }
 
-@media (max-width:746px) {
+@media (max-width:768px) {
     #home{
+        padding-top: 5%;
         height: auto !important;
     }
      #home ul li {
         color: #183D4A;
-        font-size: 19px;
+        font-size: 17px;
         font-weight: 200;
-        line-height: 50px;
+        line-height: 42px;
+    }
+
+        .fs-5 li {
+        font-size: 15px;
     }
 }
 
@@ -455,7 +466,7 @@
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .ps-5 {
+    .pl-5 {
         padding-left: 1px !important;
     }
 
@@ -582,7 +593,7 @@
         padding-left: 11%;
     }
 
-    .ps-5 {
+    .pl-5 {
         padding-left: 1px !important;
     }
 
@@ -635,7 +646,7 @@
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .ps-5 {
+    .pl-5 {
         padding-left: 1px !important;
     }
 

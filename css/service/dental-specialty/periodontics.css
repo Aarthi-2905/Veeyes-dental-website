@@ -7,7 +7,7 @@
 
 #home {
     line-height: 50px;
-    height: 95vh;
+    /* height: 95vh; */
 }
 
 .pl-5 {
@@ -23,6 +23,7 @@
     font-size: 18px;
     list-style: none;
     font-weight: 100;
+    list-style: disc !important;
 }
 
 
@@ -40,7 +41,7 @@
     width: 20px;
     height: 20px;
     top: 9px;
-    left: 10%;
+    left: 1%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
 }
 
@@ -48,15 +49,15 @@
     width: 30px;
     height: 30px;
     top: 38px;
-    left: 12%;
+    left: 3%;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 .large {
     width: 40px;
     height: 40px;
-    top: 78px;
-    left: 15%;
+    top: 76px;
+    left: 5%;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -74,96 +75,21 @@
     font-size: 22px;
 }
 
-.tooth-icon {
-    color: #00eaff;
-    margin-right: 10px;
+.download-section {
+    padding: 3rem 1rem;
+    background-color: #fff;
 }
 
-.section-title {
-    font-weight: bold;
-    font-family: lora;
-}
-
-
-.sub-heading {
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: large;
-    font-family: lora;
-
-}
-
-.list-unstyled {
-    line-height: 40px;
-}
-
-.content-box {
-    padding: 20px;
-    padding-left: 11%;
-}
-
-.checkup-list {
-    font-size: 22px;
-    line-height: 50px;
-    font-family: lora;
-    padding-left: 3rem;
-}
-
-.header {
+.download-title {
     font-size: 32px;
-    font-family: lora;
+    font-family: Lora;
+    font-weight: bold;
+    color: black;
     font-style: italic;
 }
 
-.icon-line {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 0.3rem;
-    margin-left: 1.5rem;
-}
-
-.tooth-icon {
-    font-size: 1.2rem;
-    margin-right: 0.5rem;
-}
-
-/* Star image styling */
-.star-image {
-    position: absolute;
-    right: 10%;
-    top: 35px;
-    width: 80px;
-    height: auto;
-}
 
 
-.call-banner-wrapper {
-    width: fit-content;
-    padding: 9px 20px;
-    position: relative;
-    z-index: 2;
-    box-shadow: 13px -5px 0px rgb(236, 216, 182);
-}
-
-.call-banner-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #003f4f;
-    z-index: 1;
-    border-radius: 4px;
-}
-
-.call-banner-content {
-    position: relative;
-    z-index: 2;
-    color: rgb(236, 216, 182);
-    font-size: 36px;
-    font-style: italic;
-    font-family: 'lora', serif;
-}
 
 @media (max-width:1144px) {
 
@@ -209,13 +135,7 @@
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .list-unstyled {
-        line-height: 40px;
-    }
 
-    .list-unstyled li {
-        font-size: 12px;
-    }
 
     .content-box {
         padding: 20px;
@@ -235,9 +155,6 @@
         padding-left: 11%;
     }
 
-    .quote-text {
-        font-size: 42px;
-    }
 
     .content-text p {
         font-family: Montserrat;
@@ -245,41 +162,14 @@
     }
 
 
-
-    .checkup-list {
-        font-size: 22px;
-        line-height: 50px;
-        font-family: lora;
-        padding-left: 3rem;
-    }
-
-    .header {
+    .download-title {
         font-size: 32px;
-        font-family: lora;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
         font-style: italic;
     }
 
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: 1.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-    .call-banner-content {
-
-        font-size: 27px;
-
-        font-style: italic;
-
-        font-family: 'lora', serif;
-
-    }
 
 }
 
@@ -335,18 +225,11 @@
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .list-unstyled {
-        line-height: 40px;
-    }
-
     .content-box {
         padding: 20px;
         padding-left: 11%;
     }
 
-    .list-unstyled li {
-        font-size: 18px;
-    }
 
     .section-title {
         font-size: 24px;
@@ -361,47 +244,20 @@
         padding-left: 5%;
     }
 
-    .quote-text {
-        font-size: 30px;
-    }
-
     .content-text p {
         font-family: Montserrat;
         font-size: 20px;
     }
 
 
-    .checkup-list {
-        font-size: 22px;
-        line-height: 50px;
-        font-family: lora;
-        padding-left: 3rem;
-    }
-
-    .header {
+    .download-title {
         font-size: 32px;
-        font-family: lora;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
         font-style: italic;
     }
 
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: 1.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-    .call-banner-content {
-
-        font-size: 26px;
-        font-style: italic;
-        font-family: 'lora', serif;
-    }
 
 }
 
@@ -411,7 +267,7 @@
         font-family: lora;
         color: #183D4A;
         font-weight: 600;
-        padding-top: 13%;
+        /* padding-top: 13%; */
     }
 
     #home {
@@ -450,18 +306,12 @@
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .list-unstyled {
-        line-height: 40px;
-    }
 
     .content-box {
         padding: 20px;
         padding-left: 11%;
     }
 
-    .list-unstyled li {
-        font-size: 17px;
-    }
 
     .section-title {
         font-size: 24px;
@@ -476,64 +326,42 @@
         padding-left: 7%;
     }
 
-    .quote-text {
-        font-size: 21px;
-    }
-
     .content-text p {
         font-family: Montserrat;
         font-size: 12px;
     }
 
 
-    .checkup-list {
-        font-size: 18px;
-        line-height: 50px;
-        font-family: lora;
-        padding-left: 3rem;
-    }
-
-    .header {
-        font-size: 28px;
-        font-family: lora;
+    .download-title {
+        font-size: 32px;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
         font-style: italic;
     }
-
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: 0.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-
-
-
-    .call-banner-content {
-
-        font-size: 19px;
-        font-style: italic;
-        font-family: 'lora', serif;
-    }
-
 }
 
 
 @media (max-width:768px) {
-  
+
     #home h1 {
         padding-top: 5px;
+        font-size: 36px;
     }
 
     #home {
         line-height: 41px;
-        margin-top: 7%;
+        margin-top: 10%;
         height: auto;
+    }
+
+
+    .download-title {
+        font-size: 21px;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
+        font-style: italic;
     }
 }
 
@@ -580,18 +408,14 @@
         box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
     }
 
-    .list-unstyled {
-        line-height: 40px;
-    }
+
 
     .content-box {
         padding: 0px;
         padding-left: 9%;
     }
 
-    .list-unstyled li {
-        font-size: 14px;
-    }
+
 
     .section-title {
         font-size: 12px;
@@ -614,53 +438,26 @@
         font-size: 15px;
     }
 
-    .quote-text {
-        font-size: 42px;
-    }
 
     .content-text p {
         font-family: Montserrat;
         font-size: 22px;
     }
 
-
-    .checkup-list {
-        font-size: 22px;
-        line-height: 50px;
-        font-family: lora;
-        padding-left: 3rem;
-    }
-
-    .header {
-        font-size: 32px;
-        font-family: lora;
+    .download-title {
+        font-size: 16px;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
         font-style: italic;
     }
 
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: 1.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-    .call-banner-content {
-
-        font-size: 36px;
-        font-style: italic;
-        font-family: 'lora', serif;
-    }
 
 }
 
 @media (max-width:480px) {
     #home h1 {
-        font-size: 31px;
+        font-size: 37px;
         font-family: lora;
         color: #183D4A;
         font-weight: 600;
@@ -711,18 +508,12 @@
         padding-left: 24px !important;
     }
 
-    .list-unstyled {
-        line-height: 34px;
-    }
 
     .content-box {
         padding: 0px;
         padding-left: 7%;
     }
 
-    .list-unstyled li {
-        font-size: 13px;
-    }
 
     .section-title {
         font-size: 12px;
@@ -751,10 +542,6 @@
         font-size: 11px;
     }
 
-    .quote-text {
-        font-size: 42px;
-    }
-
     .content-text p {
         font-family: Montserrat;
         font-size: 17px;
@@ -762,44 +549,19 @@
 
 
 
-    .checkup-list {
-        font-size: 16px;
-        line-height: 40px;
-        font-family: lora;
-        padding-left: 3rem;
-        padding-top: 18px;
-    }
-
-    .header {
-        font-size: 25px;
-        font-family: lora;
+    .download-title {
+        font-size: 18px;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
         font-style: italic;
-    }
-
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: 0.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-    .call-banner-content {
-
-        font-size: 13px;
-        font-style: italic;
-        font-family: 'lora', serif;
     }
 
 }
 
 @media (max-width:380px) {
     #home h1 {
-        font-size: 25px;
+        font-size: 32px;
         font-family: lora;
         color: #183D4A;
         font-weight: 600;
@@ -842,16 +604,14 @@
     }
 
     .pl-5 {
-        padding-left: 23px !important;
+        padding-left: 14px !important;
     }
 
     .pl-3 {
         padding-left: 1px !important;
     }
 
-    .list-unstyled {
-        line-height: 32px;
-    }
+
 
     .content-box {
         padding: 0px;
@@ -859,9 +619,6 @@
         /* margin-left: 0px; */
     }
 
-    .list-unstyled li {
-        font-size: 12px;
-    }
 
     .section-title {
         font-size: 12px;
@@ -884,59 +641,18 @@
         padding-left: 11%;
     }
 
-    .quote-text {
-        font-size: 14px;
-    }
-
     .content-text p {
         font-family: Montserrat;
         font-size: 13px;
     }
 
-    .checkup-list {
-        padding-top: 25px;
-        font-size: 18px;
-        line-height: 45px;
-        font-family: lora;
-        padding-left: 3rem;
-    }
 
-    .header {
-        font-size: 21px;
-        font-family: lora;
+    .download-title {
+        font-size: 17px;
+        font-family: Lora;
+        font-weight: 600;
+        color: black;
         font-style: italic;
-    }
-
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: -0.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-    .call-banner-bg {
-
-        left: 13px;
-
-        width: 95%;
-
-    }
-
-    .call-banner-content {
-
-        font-size: 12px;
-
-        font-style: italic;
-
-        font-family: 'lora', serif;
-
-        text-align: center;
-
     }
 
 }
@@ -992,18 +708,12 @@
         padding-left: 1px !important;
     }
 
-    .list-unstyled {
-        line-height: 40px;
-    }
-
     .content-box {
         padding: 20px;
         padding-left: 7%;
     }
 
-    .list-unstyled li {
-        font-size: 12px;
-    }
+
 
     .section-title {
         font-size: 12px;
@@ -1023,43 +733,13 @@
         font-size: 22px;
     }
 
-    .quote-text {
-        font-size: 42px;
-    }
 
-    .checkup-list {
-        font-size: 22px;
-        line-height: 50px;
-        font-family: lora;
-        padding-left: 3rem;
-    }
-
-    .header {
+    .download-title {
         font-size: 32px;
-        font-family: lora;
+        font-family: Lora;
+        font-weight: bold;
+        color: black;
         font-style: italic;
     }
-
-    .icon-line {
-        display: flex;
-        align-items: flex-start;
-        margin-top: 0.3rem;
-        margin-left: 1.5rem;
-    }
-
-    .tooth-icon {
-        font-size: 1.2rem;
-        margin-right: 0.5rem;
-    }
-
-
-
-    .call-banner-content {
-
-        font-size: 36px;
-        font-style: italic;
-        font-family: 'lora', serif;
-    }
-
 
 }

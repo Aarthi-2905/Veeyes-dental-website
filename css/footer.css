@@ -2,7 +2,8 @@
     background-color: #003b4a;
     color: white;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -342,6 +343,14 @@ input {
         padding: 5px;
         font-size: 13px;
         font-weight: 400;
+    }
+
+    .pl-5 {
+        padding-left: 0rem !important;
+    }
+
+    .pr-5 {
+        padding-right: 0rem !important;
     }
 }
 
