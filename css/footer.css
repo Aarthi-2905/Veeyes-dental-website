@@ -1,9 +1,9 @@
 .contact-section {
-    background-image: url("../images/footer_page.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #003b4a;
     color: white;
+}
+body{
+    overflow-x: hidden;
 }
 
 .contact-info p {
@@ -87,10 +87,52 @@ input {
 .pl-5 {
     padding-left: 3rem !important;
 }
+
 .pr-5 {
     padding-right: 3rem !important;
 }
 
+
+/* Curved logo at the bottom-right */
+.logo-corner {
+    position: relative;
+    bottom: -48px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-corner img {
+    max-width: 200px;
+    position: relative;
+    left: 78%;
+    object-fit: contain;
+}
+
+.footer span {
+    /* padding: 0px 9px 7px 9px; */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (min-width:1480px) {
+    .logo-corner {
+        position: relative;
+        bottom: -48px;
+        left: 3.6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        max-width: 200px;
+        position: relative;
+        left: 77%;
+        object-fit: contain;
+    }
+}
 
 @media(max-width:1200px) {
 
@@ -109,6 +151,22 @@ input {
 
     .contact-section h2 {
         font-size: 26px !important;
+    }
+
+    .logo-corner {
+        position: absolute;
+        bottom: -42px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        /* right: 1%; */
+        object-fit: contain;
     }
 }
 
@@ -130,6 +188,28 @@ input {
 
     .contact-section h2 {
         font-size: 25px !important;
+    }
+
+    .logo-corner {
+        position: relative;
+        bottom: -48px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        left: 68%;
+        object-fit: contain;
+    }
+
+    .footer span {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
     }
 }
 
@@ -153,6 +233,28 @@ input {
     .contact-section h2 {
         font-size: 20px !important;
     }
+
+    .logo-corner {
+        position: relative;
+        bottom: -49px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        left: 62%;
+        object-fit: contain;
+    }
+
+    .footer span {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
+    }
 }
 
 @media (max-width:600px) {
@@ -173,6 +275,28 @@ input {
 
     .contact-section h2 {
         font-size: 22px !important;
+    }
+
+    .logo-corner {
+        position: relative;
+        bottom: -48px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        right: -70.5%;
+        object-fit: contain;
+    }
+
+    .footer span {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
     }
 }
 
@@ -197,10 +321,32 @@ input {
     .contact-section h2 {
         font-size: 19px !important;
     }
+
+    .logo-corner {
+        position: relative;
+        bottom: -48px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        object-fit: contain;
+        left: 53%;
+    }
+
+    .footer span {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
+    }
 }
 
 
-@media (max-width:380px) {
+@media (max-width: 380px) {
     .form-control {
         margin: 0pc 2px 2px 2px !important;
     }
@@ -224,13 +370,35 @@ input {
         padding-left: 1rem !important;
     }
 
-    .pr-5{
+    .pr-5 {
         padding-right: 0rem !important;
+    }
+
+    .logo-corner {
+        position: relative;
+        bottom: -48px;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        left: 44%;
+        object-fit: contain;
+    }
+
+    .footer span {
+        padding: 5px;
+        font-size: 13px;
+        font-weight: 400;
     }
 }
 
 
-@media (max-width:280px) {
+@media (max-width:320px) {
     .form-control {
         margin: 0px 2px 32px 2px !important;
     }
@@ -241,6 +409,22 @@ input {
 
     .contact-section h2 {
         font-size: 12px !important;
+    }
+
+    .logo-corner {
+        position: relative;
+        bottom: -49px;
+        left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-corner img {
+        position: relative;
+        max-width: 200px;
+        object-fit: contain;
+        left: 31%;
     }
 
 }
