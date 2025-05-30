@@ -1,0 +1,920 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2d3d;
+    /* background-color: #f9f9f9; */
+  }
+  
+  .title {
+    font-size: 70px;
+    font-weight: 700;
+    color: #003341;
+<<<<<<< HEAD:css/service/super-specialty/implant-dentistry.css
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+    text-align: left !important;
+    /* margin-bottom: -4% !important; */
+=======
+    margin-top: 2% !important;
+    margin-left: 2% !important;
+    text-align: left ;
+    margin-bottom: -4% !important;
+  
+>>>>>>> c1ae0de329ad8e88989942a694389f70d1c605df:css/service/facial-esthetics.css
+  }
+  
+  .subtitle {
+    font-size: 32px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 4%;
+    /* margin-bottom: 1.5rem; */
+  }
+  
+  
+  .custom-list{
+      margin-top: -10%;
+      font-size: 22px;
+  }
+
+  
+  
+  /* ____________________________________________highlight section___________________________________________________________ */
+  
+  
+  .vdh-highlight-section {
+      margin-top: -5%;
+      display: flex;
+      justify-content: center;   /* Center horizontally */
+      align-items: center;       /* Center vertically */
+      padding: 4rem 1rem;
+     /* Or your actual page background */
+    }
+    
+    /* .vdh-highlight-box {
+      background: white;
+    
+    } */
+    .my-circles {
+      position: relative;
+      /* width: fit-content; */
+      /* height: fit-content; */
+      /* background: #f5f4ed; */
+    }
+    
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background: linear-gradient(to bottom, #00eaff, #003b49);
+    }
+    
+    .small {
+      width: 20px;
+      height: 20px;
+      top: -143px;
+      left: 17%;
+      box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+    }
+    
+    .medium {
+      width: 30px;
+      height: 30px;
+      top: -119px;
+      left: 19%;
+      box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+    }
+    
+    .large {
+      width: 40px;
+      height: 40px;
+      top: -85px;
+      left: 22%;
+      box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+    }
+    .star-icon{
+      width: 100%;
+      /* margin-left: -10% !important; */
+      margin-top: 80%;
+    
+    }
+    .star-icon2{
+        width: 60%;
+        /* margin-left: -10% !important; */
+        margin-top: 30% !important;
+      
+      }
+    .bigcont{
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+
+     /* _____________________________________________list section__________________________________________________________ */
+
+     .features-section {
+        padding: 2rem 1rem;
+        max-width: 1150px;
+        margin: 0 auto;
+        background-color: #fefdfb;
+        color: #0d2c2f;
+        margin-top: -11% !important;
+      }
+      
+      .section-title {
+        font-size: 33px !important;
+        font-weight: bold;
+        color: #1e3a34;
+        font-style: italic !important;
+        font-family: 'Georgia', serif; /* Replace with your actual site font */
+        color: #003c3c;
+        margin-bottom: 3%;
+        /* text-align: center; */
+        margin-top: 18%;
+      }
+      
+      .features-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    .dot{
+        margin-left: 5%;
+        margin-right: 1%;
+    }
+    .sub-list li{
+        font-size: 15px !important;
+      
+    }
+      
+      .features-list li {
+        font-size: 25px !important;
+        margin: 0.6rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+  
+      }
+      
+      .features-list li::before {
+        /* content: '🦷'; */
+        position: absolute;
+        left: 0;
+      }
+      .heading-arrow {
+        width: 50px; /* Adjust this based on arrow size */
+        height: auto;
+        transform: rotate(15deg); /* Match the angle from the Figma design */
+        margin-top: 10%;
+      }
+      .heading-with-arrow {
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        gap: 25px; /* More space between text and arrow */
+        /* margin: 40px 0; */
+        flex-wrap: wrap; /* Optional: good for responsiveness */
+      }
+      .features-list li {
+        font-size: 1rem;
+        margin: 0.6rem 0;
+        display: flex;                  /* NEW: aligns icon + text */
+        align-items: center;           /* NEW: vertical centering */
+      }
+      
+      .features-list i {
+        color: #0bdee6;                 /* NEW: yellow color for icon */
+        margin-right: 0.75rem;         /* NEW: spacing between icon and text */
+        font-size: 35px;             /* Optional: slightly larger icon */
+      }
+  
+      .star-icon1 {
+          width: 8%;
+          margin-left: 74% !important;
+          margin-top: -40%;
+      }
+      .smile{
+        font-family: 'Georgia', serif;
+        font-style: italic;
+        font-weight: 480;
+        margin-bottom: 2%;
+        margin-top: 2%;
+      }
+
+          /* ______________________________________________content_______________________________________________________ */
+    .nabh-summary {
+        max-width: 1000px;
+        margin: 1.5rem auto;
+        font-family: 'Georgia', serif;
+   font-style: italic;
+        padding: 0 1rem;
+        font-size: 24px;
+        line-height: 1.8;
+        color: #0d2c2f;
+        text-align: center;
+          margin-top: 1%;
+      }
+
+     .em-cont{
+ text-align: center;
+ font-size: 45px;
+ margin-bottom: -2%;
+ font-family: 'Georgia', serif; 
+ font-weight: 600;
+      }
+
+      .section-title2
+       {
+          font-size: 33px !important;
+          font-weight: bold;
+          color: #1e3a34;
+          font-style: italic !important;
+          font-family: 'Georgia', serif;
+          color: #003c3c;
+          margin-bottom: 1rem;
+          /* text-align: center; */
+          margin-top: 15%;
+      }
+      .heading-arrow2 {
+        width: 50px;
+        height: auto;
+        transform: rotate(15deg);
+        margin-top: 15%;
+    }
+
+
+/* ___________________________________ */
+    
+@media (max-width:1115px) and (min-width:991px){
+  .title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 5% !important;
+    margin-bottom: 1%;
+    /* text-align: center !important; */
+  }
+  .small {
+    width: 20px;
+    height: 20px;
+    top: -133px;
+    left: 16%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .medium {
+    width: 30px;
+    height: 30px;
+    top: -109px;
+    left: 18%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 40px;
+    height: 40px;
+    top: -79px;
+    left: 20%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+.custom-list{
+  margin-top: -8%;
+  font-size: 18px !important;
+}
+.vdh-highlight-section {
+  margin-top: -5%;
+  display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  padding: 4rem 1rem;
+ /* Or your actual page background */
+}
+
+}
+
+@media (max-width:991px)and (min-width:768px){
+  .custom-list{
+  margin-top: -8%;
+  font-size: 16px !important;
+}
+.title{
+font-size: 40px;
+font-weight: 700;
+color: #003341;
+margin-top: 10% !important;
+/* margin-bottom: 4%; */
+/* text-align: center !important; */
+}
+.img-fluid {
+max-width: 140% !important;
+/* margin-right: 15%; */
+height: auto;
+/* margin-top: 35%; */
+}
+}
+
+@media (max-width:991px) and (min-width:768px) {
+  .small {
+    width: 20px;
+    height: 20px;
+    top: -100px;
+    left: 20%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .medium {
+    width: 30px;
+    height: 30px;
+    top: -69px;
+    left: 22%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 40px;
+    height: 40px;
+    top: -30px;
+    left: 24%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+}
+    
+       /* ____________________________________________media query___________________________________________________________ */
+@media (max-width:1024px) {
+    .custom-list{
+    margin-top: -8%;
+    font-size: 20px;
+}
+  
+
+<<<<<<< HEAD:css/service/super-specialty/implant-dentistry.css
+.medium {
+  width: 30px;
+  height: 30px;
+  top: -105px;
+  left: 18%;
+  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.large {
+  width: 40px;
+  height: 40px;
+  top: -79px;
+  left: 19%;
+  box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+=======
+>>>>>>> c1ae0de329ad8e88989942a694389f70d1c605df:css/service/facial-esthetics.css
+.star-icon{
+  width: 60%;
+  margin-left: -10% !important;
+  margin-top: 80%;
+
+}
+}
+
+
+@media (max-width:768px) {
+
+.title {
+  font-size: 47px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 10% !important;
+  margin-bottom: 15% !important;
+  text-align: left !important;
+}
+
+.subtitle {
+  font-size: 28px !important;
+  font-weight: 600;
+  color: #1c3c4c;
+  margin-top: 4%;
+  /* margin-bottom: 1.5rem; */
+}
+
+    .custom-list{
+    margin-top: -8%;
+    font-size: 15px;
+}
+header {
+  flex-direction: column;
+  text-align: center;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+section {
+  padding: 30px 10px;
+}
+
+section h1 {
+  font-size: 24px;
+}
+
+section ul li {
+  font-size: 16px;
+}
+
+.small {
+  width: 10px;
+  height: 10px;
+  top: -92px;
+  left: 16%;
+  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+}
+.medium
+ {
+        width: 20px;
+        height: 20px;
+        top: -80px;
+        left: 18%;
+        box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+      width: 30px;
+      height: 30px;
+      top: -59px;
+      left: 21%;
+      box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
+.star-icon{
+  width: 60%;
+  margin-left: -10% !important;
+  margin-top: 80%;
+
+}
+.h1-box{
+  color: #fff;
+ font-size: 30px;
+ text-align: center;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-bottom: 4%;
+}
+.heading-arrow {
+  width: 50px;
+  height: auto;
+  transform: rotate(15deg);
+  margin-left: 30%;
+  margin-top: -12%;
+}
+.underline-cont {
+    font-size: 35px !important;
+    margin-left: 7%;
+    text-decoration: underline;
+}
+.trauma-column li {
+  margin-bottom: 12px;
+  font-size: 25px;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+
+}
+.nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 21px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    text-align: center;
+    margin-top: -2%;
+  }
+   
+  .section-title {
+    font-size: 29px !important;
+    font-weight: bold;
+    color: #1e3a34;
+    font-style: italic !important;
+    font-family: 'Georgia', serif; /* Replace with your actual site font */
+    color: #003c3c;
+    margin-bottom: 5%;
+    /* text-align: center; */
+    margin-top: 18%;
+  }
+
+  .vdh-highlight-box p {
+    font-size: 15px !important;
+}
+}
+@media (max-width: 480px) {
+  header .logo img {
+      height: 40px;
+  }
+
+  section h1 {
+      font-size: 20px;
+  }
+
+  section ul li {
+      font-size: 14px;
+  }
+}
+
+
+@media (max-width:425px) {
+
+  .title {
+    font-size: 33px;
+    font-weight: 700;
+    color: #003341;
+    margin-top: 8% !important;
+    margin-bottom: -5% !important;
+    text-align: center !important;
+  }
+  
+  .subtitle {
+    font-size: 28px !important;
+    font-weight: 600;
+    color: #1c3c4c;
+    margin-top: 4%;
+    /* margin-bottom: 1.5rem; */
+  }
+    .custom-list{
+      margin-top: 10%;
+      font-size: 14px;
+  }
+  .custom-img{
+      margin-top: -14%;
+  }
+  .vdh-highlight-box {
+    font-size: 17px !important;
+    width: 300px!important;
+    height: 300px !important;
+  }
+  .vdh-highlight-box p {
+    font-size: 12px !important;
+  }
+
+  .small {
+    width: 18px;
+    height: 18px;
+    top: -80px;
+    left: 7%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
+  
+  .medium {
+    width: 25px;
+    height: 25px;
+    top: -57px;
+    left: 13%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 30px;
+    height: 30px;
+    top: -30px;
+    left: 19%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
+  .star-icon{
+    width: 120%;
+    margin-left: -10% !important;
+    margin-top: 480%;
+  }
+  .h1-box{
+    color: #fff;
+   font-size: 20px;
+   text-align: center;
+   padding-left: 10px !important;
+   padding-right: 7px !important;
+   margin-bottom: 4%;
+  }
+
+  #service{
+    max-width: 1000;
+    padding: 1px;
+  }
+  .emergency-services h2 {
+    font-size: 28px;
+
+    }  
+    .heading{
+      font-size: 20px;
+      font-weight: bold;
+      /* margin-top: 2%; */
+      color: #002e2e;
+      /* text-align: center; */
+      /* margin-bottom: 2rem; */
+    }
+    .highlighted{
+      color: #002e2e;
+      font-size: 17px;
+    }
+    .heading-arrow {
+        width: 50px;
+        height: auto;
+        transform: rotate(15deg);
+        margin-left: 90%;
+        margin-top: -16%;
+        margin-bottom: -1%;
+    }   
+  .trauma-column li {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: flex-start;
+ 
+  }
+  .underline-cont {
+    font-size: 27px !important;
+    margin-left: 7%;
+    text-decoration: underline;
+}
+.trauma-column h4
+ {
+    font-weight: 700;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+.nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    margin-top: -2%;
+    text-align: center;
+  }
+  .star-icon2 {
+    width: 100%;
+    /* margin-left: -10% !important; */
+    margin-top: 500%;
+}
+.section-title {
+    font-size: 25px !important;
+    font-weight: bold;
+    color: #1e3a34;
+    font-style: italic !important;
+    font-family: 'Georgia', serif;
+    color: #003c3c;
+    margin-bottom: 8%;
+    /* text-align: center; */
+    margin-top: 10%;
+}
+.features-list li
+ {
+    font-size: 20px !important;
+    margin: 0.6rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+.em-cont
+ {
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: -2%;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+}
+.section-title2
+ {
+    font-size: 26px !important;
+    font-weight: bold;
+    color: #1e3a34;
+    font-style: italic !important;
+    font-family: 'Georgia', serif;
+    color: #003c3c;
+    margin-bottom: 1rem;
+    /* text-align: center; */
+    margin-top: 15%;
+}
+
+.heading-arrow2 {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-top: -15%;
+    margin-left: 90%;
+}
+  }
+  
+
+@media (max-width:375px) {
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 8% !important;
+  margin-bottom: -5% !important;
+  text-align: center !important;
+
+}
+
+.subtitle {
+  font-size: 25px !important;
+  font-weight: 600;
+  color: #1c3c4c;
+  margin-top: 5%;
+  /* margin-bottom: 1.5rem; */
+}
+.vdh-highlight-box {
+  font-size: 12px !important;
+  width: 300px!important;
+  height: 260px !important;
+
+}
+.vdh-highlight-box p {
+    font-size: 9px !important;
+}
+.section-title {
+    font-size: 23px !important;
+    font-weight: bold;
+    color: #1e3a34;
+    font-style: italic !important;
+    font-family: 'Georgia', serif;
+    color: #003c3c;
+    margin-bottom: 1rem;
+    /* text-align: center; */
+    margin-top: 10%;
+}
+.section-title2 {
+    font-size: 23px !important;
+    font-weight: bold;
+    color: #1e3a34;
+    font-style: italic !important;
+    font-family: 'Georgia', serif;
+    color: #003c3c;
+    margin-bottom: 1rem;
+    /* text-align: center; */
+    margin-top: 15%;
+}
+
+  .trauma-column li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex
+;
+    align-items: flex-start;
+}
+.nabh-summary {
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #0d2c2f;
+    margin-top: -4%;
+    text-align: center;
+  }
+
+}
+@media (max-width:320px) {
+
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 8% !important;
+  text-align: center !important;
+}
+
+.subtitle {
+  font-size: 20px !important;
+  font-weight: 600;
+  color: #003341;
+  margin-top: 5%;
+  /* margin-bottom: 1.5rem; */
+}
+.vdh-highlight-box {
+  font-size: 11px !important;
+  height: 230px !important;
+}
+.heading-arrow
+ {
+        width: 50px;
+        height: auto;
+        transform: rotate(15deg);
+        margin-left: 88%;
+        margin-top: -24%;
+        margin-bottom: -1%;
+    }
+    .features-list li {
+        font-size: 16px !important;
+        margin: 0.6rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+    }
+    .heading-arrow2 {
+        width: 50px;
+        height: auto;
+        transform: rotate(15deg);
+        margin-top: -25%;
+        margin-left: 80%;
+    }
+.heading-with-arrow h2 {
+  font-size: 25px;
+  margin-top: -15%;
+  font-weight: 600;
+  font-family: 'Georgia', serif; /* Replace with your actual site font */
+  color: #003341; /* Use color matching your site (adjust if needed) */
+  margin: 0;
+  text-align: center;
+}
+.vdh-highlight-box p {
+    font-size: 8px !important;
+  }
+  .trauma-column li {
+    margin-bottom: 12px;
+    font-size: 11px;
+    line-height: 1.5;
+    display: flex
+}
+.trauma-column h4 {
+  font-weight: 700;
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+ 
+.section-title {
+  font-size: 20px !important;
+  font-weight: bold;
+  color: #003341;
+  font-style: italic !important;
+  font-family: 'Georgia', serif; /* Replace with your actual site font */
+ 
+  margin-bottom: 10% !important;
+  text-align: left;
+  margin-top: 18%;
+}
+}
+
+/* ____________________________________________animation_______________________________________________________________ */
+.vdh-highlight-section {
+    padding: 2rem;
+  }
+  
+  .vdh-highlight-box {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-color: white !important; /* INITIAL background is white */
+    color: #003341;
+    overflow: hidden;
+    transition: background-color 1.2s ease-out; /* Added transition for background color */
+
+      padding: 2rem;
+      max-width: 800px;
+      width: 80%;
+      margin-right: 25%;
+      margin-top: 2%;
+      font-family: Arial, sans-serif;
+      font-size: 21px;
+      line-height: 1.6;
+      text-align: left;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+  
+      border-top-left-radius: 0px !important;
+      border-top-right-radius: 60px !important;
+      border-bottom-right-radius: 60px !important;
+      border-bottom-left-radius: 60px !important;
+  }
+  
+  /* The animated fill layer */
+  .background-fill {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 0%;
+    background-color: #00bcd4;
+    z-index: 0;
+    transition: width 1.2s ease-out;
+    /* border-radius: 2rem; */
+  }
+  
+  /* Text stays on top */
+  .vdh-highlight-box p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: 19px;
+  }
+  
+  /* When in view, animate background fill and change background color */
+  .vdh-highlight-box.animate {
+    background-color: #00bcd4; /* **Changed background color to blue when in view** */
+  }
+  
+  .vdh-highlight-box.animate .background-fill {
+    width: 100%;
+  }
+  
