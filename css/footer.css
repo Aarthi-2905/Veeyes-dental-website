@@ -7,10 +7,17 @@ body {
     overflow-x: hidden;
 }
 
+.section-title {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #F0EFE7;
+}
+
 .contact-info p {
     font-size: 17px;
     line-height: 1.8;
     font-family: 'Montserrat';
+    font-weight: normal !important;
 }
 
 .contact-info img {
@@ -33,20 +40,29 @@ body {
     margin-bottom: 40px;
 }
 
+.form-style {
+    position: relative;
+    top: 70px;
+}
 
 .form-label {
     font-weight: 500;
 }
 
 input {
-    height: 50px;
+    height: 60px;
 }
 
 .form-control {
+    font-family: "Montserrat", sans-serif;
     border-radius: 8px;
     margin: 0px 2px 28px 2px;
 }
 
+.form-check-label{
+    font-family: 'Lora',serif;
+    font-style: italic;
+}
 .submit-btn {
     background-color: #00cfe8;
     color: #003b4a;
@@ -107,6 +123,7 @@ input {
 .logo-corner img {
     max-width: 200px;
     position: relative;
+    /* float: right !important; */
     left: 78%;
     object-fit: contain;
 }

@@ -1,5 +1,4 @@
 #home {
-
     color: white;
     font-family: 'Libre Baskerville', serif;
     background-image: url('../images/landing_page.png');
@@ -9,8 +8,22 @@
     margin-top: 4%;
 }
 
+body{
+    overflow-x: hidden !important;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+
 #home .row {
-    height: 80vh;
+    height: 95vh;
 }
 
 #home h1 {
@@ -20,6 +33,9 @@
     font-family: "Libre Baskerville", sans-serif;
 }
 
+.sparkle-section{
+    font-family: "Libre Baskerville", sans-serif;
+}
 .fixed-contact-icons {
     position: fixed;
     top: 50%;
@@ -43,11 +59,14 @@
 }
 
 .prov-2 {
-    font-family: "Baskerville", sans-serif;
+    margin-bottom: 30px;
+    font-family: 'Libre Baskerville', serif;
     font-style: italic;
-    font-weight: 300;
     color: #183D4A;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    font-size: 20px;
+    /* font-weight: normal; */
+    /* letter-spacing: 1.2px; */
 }
 
 .veeyes-heading {
@@ -63,17 +82,17 @@
     font-family: "Libre Baskerville", sans-serif;
 }
 
-.veeyes-heading h4 {
+.veeyes-heading p {
     font-family: "Montserrat", sans-serif;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .read-more-btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #0E7580;
+    color: #183D4A;
+    background-color: #F0EFE7;
     border: 2px solid #004f89;
     padding: 12px 30px;
     text-align: center;
@@ -84,7 +103,7 @@
 
 .read-more-btn:hover {
     background-color: #13C2CF;
-    color: white;
+    /* color: white; */
     opacity: 75%;
 }
 
@@ -111,26 +130,37 @@
     margin-bottom: -48px;
 }
 
+.kids-head{
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+}
 
+.kids-text {
+     font-size: 25px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    margin: 10px 0 0;
+}
 .dentistry-header {
     font-size: 64px;
-    font-family: Libre Baskerville, sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
     color: #183D4A;
 }
 
-
 .dentistry-text {
-    font-size: 24px;
+    font-size: 20px;
     color: #183D4A;
     line-height: 50px;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-family: 'Montserrat', serif;
 }
 
 .dentistry-subHeader {
     padding-top: 3rem;
     color: #183D4A;
-    opacity: 75%;
-    font-family: Lora, sans-serif
+    /* opacity: 75%; */
+    font-family: 'Lora', sans-serif;
+    font-weight: medium;
 }
 
 
@@ -155,8 +185,6 @@
     color: white;
     color: #183D4A;
 }
-
-
 
 
 .read-more-btn3 {
@@ -209,12 +237,6 @@
     font-family: 'Libre Baskerville', sans-serif;
 }
 
-.kids-cool p {
-    font-weight: 200;
-    font-size: 26px;
-    font-family: 'Lora', sans-serif;
-    margin: 10px 0 0;
-}
 
 
 
@@ -237,6 +259,7 @@
     font-size: 24px;
     font-weight: 400;
     font-style: italic;
+    font-family: "Montserrat", sans-serif;
 }
 
 .kids-contant ul {
@@ -254,7 +277,7 @@
 .exceptional h1 {
     font-size: 64px;
     text-align: center;
-    font-family: Libre Baskerville, sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
     font-style: italic;
     color: #183D4A;
 }
@@ -291,7 +314,7 @@
 
 .testimonial-card {
     position: relative;
-    padding: 35px;
+    padding: 70px;
     border: 1px solid #ccc;
     border-radius: 12px;
     background-color: #13C2CF;
@@ -319,7 +342,7 @@
 
 .testimonial-card2 {
     background-color: #0E7580;
-    padding: 35px;
+    padding: 70px;
     border-radius: 0px 25px 0px 25px;
     font-family: 'Segoe UI', sans-serif;
     color: black;
@@ -342,5 +365,7 @@
 .author {
     font-size: 14px;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
 }
 
