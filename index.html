@@ -22,14 +22,17 @@
 
     <!-- Bootstrap JS Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Font style   -->
-      <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lora:ital@1&display=swap"
+        rel="stylesheet">
 
+    <!-- nav icon js  -->
+    <script defer src="Js/nav.js"></script>
 
 </head>
 
@@ -58,7 +61,7 @@
                 <h1 class="prov-1">Your Smile, Our Proficiency</h1>
             </div>
             <p class="prov-2">Offering high class dental care services <br>
-            We work to keep your smile bright and elegant</p>
+                We work to keep your smile bright and elegant</p>
         </div>
     </div>
 
@@ -125,7 +128,8 @@
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center" data-aos="slide-left">
+            <div class="col-md-6 col-sm-12 col-12 d-flex align-items-center justify-content-center"
+                data-aos="slide-left">
                 <img src="images/Kids_and_family.png" class="img-fluid" width="100%" height="80.5%" alt="" srcset="">
             </div>
         </div>
@@ -176,8 +180,7 @@
                     </li>
                 </ul>
 
-                <h2>Parents to do
-                    before child dental visit</h2>
+                <h2>5 Tips for Your Child’s Healthy Teeth</h2>
                 <ul>
                     <li>
                         <h4>
@@ -217,7 +220,7 @@
     <div class="container-fluid exceptional mt-5">
         <div class="row">
             <div data-aos="fade-down">
-            <h1>A Legacy of Exceptional Care</h1>
+                <h1>A Legacy of Exceptional Care</h1>
             </div>
         </div>
         <div class="container mt-5">
@@ -236,11 +239,9 @@
                             <img src="images/feedback_dots.png" style="width: 100%;" alt="Feedback dots">
                         </div>
                     </div>
-
-
                 </div>
                 <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-2">
-                    <div class="testimonial-card2"  data-aos="slide-up">
+                    <div class="testimonial-card2" data-aos="slide-up">
                         <div class="quote-icon">“</div>
                         <p class="testimonial-text">
                             The staff here is so kind and caring. They went above and beyond to make sure I felt
@@ -269,8 +270,6 @@
                             <img src="images/feedback_dots.png" style="width: 100%;" alt="Feedback dots">
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -283,8 +282,11 @@
     </div>
 
     <!-- footer page Ending -->
-    <!-- Animation  -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- nav icon work link  -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         fetch('header.html')
             .then(response => response.text())
@@ -298,7 +300,9 @@
                 document.getElementById('footer').innerHTML = data;
             });
         // Animation 
-        AOS.init();
+        AOS.init({
+            once: true   // ✅ this makes animation happen only once
+        });
     </script>
 
 </body>

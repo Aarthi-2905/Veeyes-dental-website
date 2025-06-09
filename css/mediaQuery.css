@@ -95,9 +95,9 @@
 
 @media (max-width:332px) and (min-width:299px){
      .logo-corner img{
-        left: 35%!important;
+        max-width: 150px !important;
+        left: 55%!important;
     }
-
 }
 
 @media (max-width:299px) {
@@ -128,8 +128,18 @@
 
 @media (max-width:999px) {
      .testimonial-card{
-        
+        height: 100%;
+        padding: 20px !important;
     }
+
+    .testimonial-card2{
+        height: 100%;
+        padding: 20px !important;
+    }
+}
+/* End Legacy of Exceptional.. section  */
+
+@media (max-width:1027px) {
 }
 @media (min-width:1440px) {
     .dentistry-text {

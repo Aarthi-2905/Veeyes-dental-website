@@ -1,5 +1,6 @@
 /* Prevent unwanted horizontal scroll */
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -18,6 +19,7 @@ html, body {
 .animate-up {
   transform: translateY(100px);
 }
+
 .animate-up.visible {
   transform: translateY(0);
 }
@@ -26,6 +28,7 @@ html, body {
 .image-animate {
   transform: translateX(-120px);
 }
+
 .image-animate.visible {
   transform: translateX(0);
 }
@@ -34,6 +37,7 @@ html, body {
 .content-animate {
   transform: translateX(120px);
 }
+
 .content-animate.visible {
   transform: translateX(0);
 }
@@ -65,6 +69,7 @@ html, body {
   display: block;
   text-align: center;
 }
+
 
 @media (max-width: 600px) {
   .banner_overlay {
@@ -101,6 +106,7 @@ html, body {
     text-align: center;
   }
 }
+
 @media (max-width: 495px) {
   .banner_text {
     color: #f5deb3;
@@ -348,7 +354,7 @@ html, body {
   box-shadow: #e4c28c;
   height: 80px;
   background-color: #003a45;
- 
+
   border-radius: 4px;
   z-index: 1;
 }
@@ -440,6 +446,7 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box {
     max-width: 700px;
 
@@ -453,11 +460,13 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box {
     max-width: 600px;
 
   }
 }
+
 @media (max-width: 656px) {
   .accreditation_tag {
     position: absolute;
@@ -465,11 +474,13 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box {
     max-width: 500px;
 
   }
 }
+
 @media (max-width: 558px) {
   .accreditation_tag {
     position: absolute;
@@ -477,6 +488,7 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box {
     max-width: 400px;
 
@@ -491,14 +503,16 @@ html, body {
     width: 60px;
     height: 60px;
   }
+
   .accreditation_box {
     max-width: 300px;
 
   }
+
   .accreditation_content p {
     margin: 0 0 1.2rem 0;
     font-size: 17px;
-  
+
   }
 
   .rotated-text {
@@ -506,13 +520,13 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-310deg);
-  
+
     color: #f0dfc6;
     font-size: 19px;
     font-weight: 600;
     white-space: nowrap;
   }
-  
+
 }
 
 
@@ -525,12 +539,14 @@ html, body {
     width: 60px;
     height: 60px;
   }
+
   .accreditation_box {
     max-width: 300px;
     margin-top: 2%;
 
   }
 }
+
 @media (max-width: 377px) {
   .accreditation_tag {
     position: absolute;
@@ -539,13 +555,15 @@ html, body {
     width: 50px;
     height: 50px;
   }
+
   .accreditation_box {
     max-width: 280px;
     margin-top: 2%;
 
   }
+
   .rotated-text {
- 
+
     font-size: 15px !important;
   }
 
@@ -560,11 +578,13 @@ html, body {
     width: 50px;
     height: 50px;
   }
+
   .accreditation_box {
     max-width: 250px;
     margin-top: 2%;
 
   }
+
   .rotated-text {
     font-size: 15px !important;
   }
@@ -613,7 +633,7 @@ html, body {
   box-shadow: #e4c28c;
   height: 80px;
   background-color: #003a45;
- 
+
   border-radius: 4px;
   z-index: 1;
 }
@@ -704,6 +724,7 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box3 {
     max-width: 700px;
 
@@ -717,11 +738,13 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box3 {
     max-width: 600px;
 
   }
 }
+
 @media (max-width: 656px) {
   .accreditation_tag3 {
     position: absolute;
@@ -729,11 +752,13 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box3 {
     max-width: 500px;
 
   }
 }
+
 @media (max-width: 558px) {
   .accreditation_tag3 {
     position: absolute;
@@ -741,6 +766,7 @@ html, body {
     right: -25px;
     width: 70px;
   }
+
   .accreditation_box3 {
     max-width: 400px;
 
@@ -755,14 +781,16 @@ html, body {
     width: 60px;
     height: 60px;
   }
+
   .accreditation_box3 {
     max-width: 300px;
 
   }
+
   .accreditation_content3 p {
     margin: 0 0 1.2rem 0;
     font-size: 17px;
-  
+
   }
 
   .rotated-text {
@@ -770,13 +798,13 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-310deg);
-  
+
     color: #f0dfc6;
     font-size: 19px;
     font-weight: 600;
     white-space: nowrap;
   }
-  
+
 }
 
 
@@ -789,27 +817,31 @@ html, body {
     width: 60px;
     height: 60px;
   }
+
   .accreditation_box3 {
     max-width: 300px;
     margin-top: 2%;
 
   }
 }
+
 @media (max-width: 377px) {
-  .accreditation_tag3{
+  .accreditation_tag3 {
     position: absolute;
     top: -27px;
     right: -30px;
     width: 50px;
     height: 50px;
   }
+
   .accreditation_box3 {
     max-width: 280px;
     margin-top: 2%;
 
   }
+
   .rotated-text {
- 
+
     font-size: 15px !important;
   }
 
@@ -824,18 +856,21 @@ html, body {
     width: 50px;
     height: 50px;
   }
+
   .accreditation_box3 {
     max-width: 250px;
     margin-top: 2%;
 
   }
+
   .rotated-text {
     font-size: 15px !important;
   }
+
   .accreditation_content3 p {
     margin: 0 0 1.2rem 0;
     font-size: 16px;
-  
+
   }
 }
 
@@ -847,6 +882,7 @@ html, body {
   padding: 2rem 1rem;
   background-color: #f3f2ea;
 }
+
 .our-journey {
   font-family: 'Lora', serif;
   font-style: italic;
@@ -865,7 +901,7 @@ html, body {
   padding: 15px 20px 30px;
   border-left: 8px solid #e4c28c;
   border-right: 8px solid #e4c28c;
- 
+
   max-width: 1000px;
   width: 100%;
   box-shadow: 6px 6px 0 #e4c28c;
@@ -959,7 +995,7 @@ html, body {
     border-right: 2px solid #e4c28c;
     box-shadow: 6px 6px 0 #e4c28c;
     background-color: #003a45;
-  
+
     border-radius: 4px;
     z-index: 1;
   }
@@ -984,6 +1020,7 @@ html, body {
     max-width: 700px;
 
   }
+
   .accreditation_tag2 {
     position: absolute;
     top: -16%;
@@ -994,20 +1031,22 @@ html, body {
     border-right: 2px solid #e4c28c;
     box-shadow: 6px 6px 0 #e4c28c;
     background-color: #003a45;
-  
+
     border-radius: 4px;
     z-index: 1;
   }
 }
+
 @media (max-width: 754px) {
   .accreditation_box2 {
     max-width: 600px;
 
   }
 
-  
+
 
 }
+
 @media (max-width: 656px) {
   .accreditation_box2 {
     max-width: 500px;
@@ -1015,6 +1054,7 @@ html, body {
   }
 
 }
+
 @media (max-width: 558px) {
 
   .accreditation_box2 {
@@ -1022,30 +1062,32 @@ html, body {
 
   }
 }
+
 @media (max-width: 462px) {
 
   .accreditation_box2 {
     max-width: 300px;
 
   }
+
   .rotated-text2 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-50deg);
-  
+
     color: #f0dfc6;
     font-size: 19px;
     font-weight: 600;
     white-space: nowrap;
   }
-  
+
   .accreditation_content2 p {
     margin: 0 0 1.2rem 0;
     font-size: 18px;
     padding-left: 2%;
     font-style: italic;
-  
+
   }
 }
 
@@ -1066,6 +1108,7 @@ html, body {
     margin-bottom: 5%;
     color: rgb(24, 61, 74);
   }
+
   .accreditation_tag2 {
     position: absolute;
     top: -16%;
@@ -1076,7 +1119,7 @@ html, body {
     border-right: 2px solid #e4c28c;
     box-shadow: 6px 6px 0 #e4c28c;
     background-color: #003a45;
-  
+
     border-radius: 4px;
     z-index: 1;
   }
@@ -1087,9 +1130,11 @@ html, body {
     max-width: 280px;
     margin-top: 2%;
   }
+
   .rotated-text {
     font-size: 15px !important;
   }
+
   .accreditation_tag2 {
     position: absolute;
     top: -16%;
@@ -1105,6 +1150,7 @@ html, body {
     margin-top: 2%;
 
   }
+
   .rotated-text {
     font-size: 15px !important;
   }
@@ -1116,8 +1162,9 @@ html, body {
     height: 60px;
   }
 }
+
 .accreditation_tag2 {
-top: -11%;
+  top: -11%;
 }
 
 .box-3 {
@@ -1151,6 +1198,7 @@ top: -11%;
   padding: 2rem 1rem;
   background-color: #f3f2ea;
 }
+
 .accreditation_box4 {
   position: relative;
   background-color: #003a45;
@@ -1253,7 +1301,7 @@ top: -11%;
     border-right: 2px solid #e4c28c;
     box-shadow: 6px 6px 0 #e4c28c;
     background-color: #003a45;
-  
+
     border-radius: 4px;
     z-index: 1;
   }
@@ -1278,6 +1326,7 @@ top: -11%;
     max-width: 700px;
 
   }
+
   .accreditation_tag4 {
     position: absolute;
     top: -6% !important;
@@ -1288,11 +1337,12 @@ top: -11%;
     border-right: 2px solid #e4c28c;
     box-shadow: 6px 6px 0 #e4c28c;
     background-color: #003a45;
-  
+
     border-radius: 4px;
     z-index: 1;
   }
 }
+
 @media (max-width: 754px) {
   .accreditation_box4 {
     max-width: 600px;
@@ -1305,6 +1355,7 @@ top: -11%;
   }
 
 }
+
 @media (max-width: 656px) {
   .accreditation_box4 {
     max-width: 500px;
@@ -1312,6 +1363,7 @@ top: -11%;
   }
 
 }
+
 @media (max-width: 558px) {
 
   .accreditation_box4 {
@@ -1319,30 +1371,32 @@ top: -11%;
 
   }
 }
+
 @media (max-width: 462px) {
 
   .accreditation_box4 {
     max-width: 300px;
 
   }
+
   .rotated-text4 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-50deg);
-  
+
     color: #f0dfc6;
     font-size: 19px;
     font-weight: 600;
     white-space: nowrap;
   }
-  
+
   .accreditation_content4 p {
     margin: 0 0 1.2rem 0;
     font-size: 17px;
     padding-left: 2%;
     font-style: italic;
-  
+
   }
 
 }
@@ -1364,6 +1418,7 @@ top: -11%;
     margin-bottom: 5%;
     color: rgb(24, 61, 74);
   }
+
   .accreditation_tag4 {
     position: absolute;
     top: -16%;
@@ -1374,10 +1429,11 @@ top: -11%;
     border-right: 2px solid #e4c28c;
     box-shadow: 6px 6px 0 #e4c28c;
     background-color: #003a45;
-  
+
     border-radius: 4px;
     z-index: 1;
   }
+
   .highlighted_text p {
     font-size: 19px !important;
 
@@ -1389,9 +1445,11 @@ top: -11%;
     max-width: 280px;
     margin-top: 2%;
   }
+
   .rotated-text {
     font-size: 15px !important;
   }
+
   .accreditation_tag4 {
     position: absolute;
     top: -16%;
@@ -1399,13 +1457,14 @@ top: -11%;
     width: 50px;
     height: 50px;
   }
+
   .list-disc {
     font-size: 16px !important;
     font-style: italic;
     margin-left: 3%;
     margin-bottom: 1%;
     margin-top: -2%;
-}
+  }
 }
 
 @media (max-width: 344px) {
@@ -1414,10 +1473,11 @@ top: -11%;
     margin-top: 2%;
 
   }
+
   .rotated-text {
     font-size: 15px !important;
   }
-  
+
 }
 
 @media (max-width: 320px) {
@@ -1426,7 +1486,7 @@ top: -11%;
     height: 60px;
     margin-top: 11%;
   }
-  
+
 }
 
 
@@ -1547,6 +1607,7 @@ top: -11%;
   .care-content h2 {
     font-size: 1.5rem;
   }
+
   .care-image img {
     width: 100%;
     height: auto !important;
@@ -1668,9 +1729,10 @@ top: -11%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   }
 
- 
+
 
 }
+
 @media (max-width: 768px) {
   #vmq-card3 {
     margin-top: 10% !important;
@@ -1699,11 +1761,12 @@ top: -11%;
   }
 
 }
+
 @media (max-width: 375px) {
   .vmq-card {
-  margin-top:20%;
+    margin-top: 20%;
   }
- 
+
 }
 
 
@@ -1743,7 +1806,7 @@ top: -11%;
 }
 
 /* __________________________________________md____________________________________________________________ */
-.founders{
+.founders {
   font-size: 60px;
   text-align: center;
   margin-top: 4%;
@@ -1800,6 +1863,7 @@ top: -11%;
   color: #333;
   margin-bottom: 1rem;
 }
+
 .text-section2 {
   flex: 1 1 400px;
   max-width: 600px;
@@ -1856,6 +1920,7 @@ top: -11%;
   }
 
 }
+
 @media (max-width: 988px) {
   .text-section {
     flex: 1 1 400px;
@@ -1864,6 +1929,7 @@ top: -11%;
     margin-left: 5%;
 
   }
+
   .text-section2 p {
     font-size: 16px;
     line-height: 1.6;
@@ -1871,17 +1937,18 @@ top: -11%;
     margin-bottom: 1rem;
   }
 }
+
 @media (min-width: 768px) and (max-width: 810px) {
   .profile-container {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
 }
 
 
 @media (max-width: 768px) {
-  .founders{
+  .founders {
     font-size: 40px;
     text-align: center;
     margin-top: 4%;
@@ -1889,6 +1956,7 @@ top: -11%;
     font-weight: 600;
     font-family: "Georgia", serif;
   }
+
   .profile-container {
     flex-direction: column;
     text-align: center;
@@ -1902,6 +1970,7 @@ top: -11%;
   .text-section p {
     font-size: 0.95rem;
   }
+
   .text-section2 h2 {
     font-size: 1.5rem;
     text-align: center;
@@ -1927,6 +1996,7 @@ top: -11%;
     color: #333;
     margin-bottom: 1rem;
   }
+
   .text-section2 h2 {
     margin-top: 10%;
     font-size: 30px;
@@ -1940,12 +2010,13 @@ top: -11%;
     color: #333;
     margin-bottom: 1rem;
   }
+
   .image-section img {
     max-width: 90%;
     height: 500px;
     border-radius: 8px;
     margin-top: 12%;
-}
+  }
 }
 
 @media (max-width: 320px) {
@@ -1962,6 +2033,7 @@ top: -11%;
     color: #333;
     margin-bottom: 1rem;
   }
+
   .text-section2 h2 {
     margin-top: 10%;
     font-size: 28px;
@@ -1993,8 +2065,151 @@ top: -11%;
     flex-direction: column-reverse;
   }
 }
+
 @media (max-width: 810px) {
   .profile-container2 {
     flex-direction: column-reverse;
   }
+}
+
+/* NITHYA RESPONSIVE CODE  */
+/* Home section responsive  */
+
+@media (max-width:380px) {
+  .banner_text {
+    text-align: center;
+  }
+}
+
+/* 20 years of trust.. section  */
+
+@media (max-width:3000px) and (min-width:1470px) {
+  .about-container {
+    margin-top: 20px;
+  }
+
+  .founder-second-content {
+    max-width: 100%;
+  }
+
+  .founder-second-image {
+    position: relative;
+    left: 10% !important;
+  }
+
+  .founder-first-image {
+    position: relative;
+    right: 10% !important;
+  }
+
+  .founder-first-content {
+    max-width: 100%;
+  }
+
+  .care-content {
+    margin-top: 100px;
+  }
+
+  .vmq-card {
+    max-width: 500px !important;
+  }
+
+  .vmq-icon img {
+    left: 40%;
+  }
+}
+
+/* Founder section  */
+@media (max-width:1470px) and (min-width:1027px) {
+  .founder-first-image {
+    position: relative;
+    left: 1%;
+  }
+
+  .text-section p {
+    max-width: 300% !important;
+  }
+
+  .founder-first-content {
+    max-width: 100%;
+  }
+
+  .founder-second-content {
+    max-width: 100%;
+  }
+
+  .vmq-card {
+    max-width: 500px !important;
+    margin-top: 100px;
+  }
+
+  .vmq-icon img {
+    left: 38%;
+  }
+}
+
+@media (max-width:1027px) and (min-width:769px) {
+  .vmq-card {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .care-content {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:769px) and (min-width:450px) {
+  .vmq-icon img {
+    left: 35% !important;
+  }
+
+  .vmq-card {
+    width: 100% !important;
+    height: 90%;
+  }
+
+  .vmq-section {
+    flex-wrap: wrap;
+  }
+
+  .cards-row {
+    margin-top: 100px !important;
+  }
+
+  .card-cont {
+    font-size: 13px !important;
+  }
+
+}
+
+@media (max-width:450px) {
+  .vmq-card {
+    margin: auto !important;
+    margin-top: 100px !important;
+  }
+
+  /* .image-section img {
+    width: 90%;
+  } */
+
+  
+
+  .profile-section {
+    padding: 0px !important;
+  }
+
+  .accreditation-text p{
+    font-size: 15px !important;
+  }
+
+  .image-section {
+    margin-left: 20px;
+    margin-right: 60px;
+  }
+
+  .founder-second-content {
+    margin-right: 30px;
+  }
+
 }

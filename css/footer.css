@@ -470,9 +470,9 @@ input {
 
     .logo-corner img {
         position: relative;
-        max-width: 200px;
+        max-width: 150px;
         object-fit: contain;
-        left: 31%;
+        left: 50%;
     }
 
     .submit-btn {
@@ -480,4 +480,27 @@ input {
         font-size: 14px;
     }
 
+}
+
+/* NITHYA MEDIA QUERY CODE  */
+
+@media (max-width:769px) {
+    .footer-form-container{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+@media (max-width:450px) {
+    .contact-info {
+    text-align: center !important;
+  }
+
+  .contact-form-container h1 {
+    text-align: center;
+  }
+
+  .contact-form-container h2 {
+    text-align: center;
+  }
 }

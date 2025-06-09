@@ -90,6 +90,10 @@
     border-radius: 5px;
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+  min-width: 200px; /* or any width you want */
+}
+
 
 .fixed-contact-icons {
     position: fixed;
