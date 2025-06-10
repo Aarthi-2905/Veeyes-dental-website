@@ -453,4 +453,11 @@
   /* _________________________ */
  
   
-  
+/* NITHYA MEDIA QUERY CODE  */
+
+@media (max-width:3000px) and (min-width:1470px){
+  .learn-btn{
+    width: 100px;
+    height: 30px;
+  }
+}

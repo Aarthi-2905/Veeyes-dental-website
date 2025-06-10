@@ -8,13 +8,6 @@
     margin-top: 4%;
 }
 
-body{
-    overflow-x: hidden !important;
-}
-
-html, body {
-  overflow-x: hidden;
-}
 
 * {
   box-sizing: border-box;
@@ -284,7 +277,6 @@ html, body {
 
 
 
-
 /* .testimonial-card {
     background-color: #a0f0f4;
     padding: 35px;
@@ -368,4 +360,3 @@ html, body {
     font-family: "Montserrat", sans-serif;
     font-style: italic;
 }
-

@@ -1,0 +1,98 @@
+:root {
+  --logo-gray: #183D4A; /* RGB(24, 61, 74) */
+}
+
+/* body{
+  background-color:#F0EFE7 !important;
+} */
+.hero-section {
+  position: relative;
+  background: url('../../images/appointment_page.png') center/cover no-repeat;
+  height: 80vh;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  z-index: 10;
+}
+
+.hero-section .overlay {
+  background-color: rgba(0, 36, 43, 0.6); /* dark overlay */
+  width: 100%;
+  height: 100%;
+}
+
+.home-section-head {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  z-index: 20;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  font-size: 80px;
+  color: var(--logo-gray);
+}
+
+.quote-section {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  color: #183D4A;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 40%;
+}
+
+
+/* body of the contents */
+.offers-list {
+  font-family: 'Lora', serif;
+  color: #00242B;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.offers-list h2 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 34px;
+  color: var(--logo-gray);
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  }
+
+
+.offers-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.offers-list li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--logo-gray);
+  margin-bottom: 0.8rem;
+  line-height: 2.1;
+  letter-spacing: 1.8;
+}
+
+.teeth-icon{
+    color: lightskyblue !important;
+}
+
+
+/* media query  */
+
+/* At veeyas.. section  */
+
+@media (max-width:769px) {
+  .quote-section{
+    margin-left: 0px !important;
+  }
+  .home-section-head{
+    font-size: 35px;
+  }
+  .hero-section {
+    height: 65vh;
+  }
+}

@@ -220,3 +220,11 @@
         margin-left: 0 !important;
     }
 }
+
+body{
+    overflow-x: hidden !important;
+}
+
+html, body {
+  overflow-x: hidden;
+}
