@@ -1,10 +1,12 @@
 .contact-section {
     background-color: #003b4a;
     color: white;
+    margin-bottom: 0px !important;
 }
 
 body {
     overflow-x: hidden;
+    background-color: #F0EFE7  !important;
 }
 
 .section-title {
@@ -50,13 +52,14 @@ body {
 }
 
 input {
-    height: 60px;
+    height: 50px;
 }
 
 .form-control {
     font-family: "Montserrat", sans-serif;
     border-radius: 8px;
     margin: 0px 2px 28px 2px;
+    z-index: 2;
 }
 
 .form-check-label{
@@ -110,23 +113,21 @@ input {
 }
 
 
-/* Curved logo at the bottom-right */
 .logo-corner {
-    position: relative;
-    bottom: -48px;
+    position: absolute;
+    bottom: 0;
     right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* overflow: hidden; */
+    z-index: 10;
 }
 
-.logo-corner img {
-    max-width: 200px;
-    position: relative;
-    /* float: right !important; */
-    left: 78%;
-    object-fit: contain;
+.logo-corner-img {
+    max-width: 210px;
+    height: auto;
+    display: block;
+    margin-left: 30%;
 }
+
 
 .footer span {
     /* padding: 0px 9px 7px 9px; */

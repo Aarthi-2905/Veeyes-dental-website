@@ -1,0 +1,994 @@
+#home .row {
+    height: 95vh;
+}
+
+#home h1 {
+    font-size: 56px;
+    font-family: lora;
+    color: #183D4A;
+    font-weight: 600;
+}
+
+#home {
+    line-height: 50px;
+}
+
+#home ul li {
+    color: #183D4A;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.highlight {
+    font-weight: 600;
+    color: #0c3b49;
+}
+
+.radiology-support {
+    background-color: #00c8d4;
+    color: #000;
+    padding: 2rem 1rem;
+}
+
+.radiology-support h5 {
+    font-weight: bold;
+    font-family: lora;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.list-icon {
+    color: #f9a825;
+    margin-right: 0.5rem;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 0.25rem 0;
+    font-family: Montserrat;
+}
+
+.arrow-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+
+.download-section {
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
+.download-title {
+    font-size: 32px;
+    font-family: Lora;
+    color: black;
+}
+
+.arrow-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+
+
+.curved-arrow {
+    position: absolute;
+    left: -70px;
+    top: -25px;
+    width: 50px;
+}
+
+.download-btn {
+    background-color: #13C2CF !important;
+    color: #000 !important;
+    padding: 0.6rem 1.2rem;
+    font-family: lora !important;
+    font-weight: 200;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+    background-color: #ECD8B6 !important;
+}
+
+.list-unstyled {
+    line-height: 40px;
+}
+
+
+.section-heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    font-family: Libre Baskerville;
+}
+
+.benefit-item {
+    font-family: Montserrat;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 50px;
+}
+
+.benefit-icon {
+    color: #00bcd4;
+    margin-right: 10px;
+}
+
+.star1 {
+    position: absolute;
+    right: 10%;
+    font-size: 1.8rem;
+    color: #003b3f;
+}
+
+
+.my-circles {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #00eaff, #003b49);
+}
+
+.small {
+    width: 20px;
+    height: 20px;
+    top: 7px;
+    left: 6%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.medium {
+    width: 30px;
+    height: 30px;
+    top: 34px;
+    left: 8%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.large {
+    width: 40px;
+    height: 40px;
+    top: 65px;
+    left: 10%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.content-text {
+    background-color: #00eaff;
+    border-radius: 0px 70px 70px 70px;
+    font-family: lora;
+    width: 90%;
+    line-height: 40px;
+    
+}
+
+@media (max-width:1144px) {
+    .small {
+        width: 20px;
+        height: 20px;
+        top: 9px;
+        left: 10%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .medium {
+        width: 30px;
+        height: 30px;
+        top: 38px;
+        left: 12%;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+        width: 40px;
+        height: 40px;
+        top: 78px;
+        left: 15%;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .content-text {
+        background-color: #00eaff;
+        border-radius: 0px 70px 70px 70px;
+        font-family: lora;
+        width: 90%;
+        line-height: 40px;
+    }
+
+    .list-unstyled {
+        line-height: 40px;
+    }
+
+    .list-unstyled li {
+        font-size: 12px;
+    }
+
+    .content-box {
+        padding: 20px;
+        padding-left: 7%;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+}
+
+@media (max-width:1024px) {
+    #home h1 {
+        font-size: 40px;
+    }
+
+    #home .row {
+        padding-top: 6%;
+        height: auto;
+    }
+
+    #home ul li {
+        font-size: 18px;
+    }
+
+    #home {
+        line-height: 50px;
+    }
+
+
+
+    .star {
+        width: 100%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+    .small {
+        width: 20px;
+        height: 20px;
+        top: 9px;
+        left: 10%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .medium {
+        width: 30px;
+        height: 30px;
+        top: 38px;
+        left: 12%;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+        width: 40px;
+        height: 40px;
+        top: 78px;
+        left: 15%;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .list-unstyled {
+        line-height: 40px;
+    }
+
+    .content-box {
+        padding: 20px;
+        padding-left: 7%;
+    }
+
+    .list-unstyled li {
+        font-size: 18px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .content-text {
+        background-color: #00eaff;
+        border-radius: 0px 70px 70px 70px;
+        font-family: lora;
+        width: 90%;
+        line-height: 40px;
+        
+    }
+
+    .section-heading {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+}
+
+@media (max-width:996px) {
+    #home h1 {
+        font-size: 44px;
+    }
+
+    #home .row {
+        padding-top: 13%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+    #home {
+        line-height: 39px;
+    }
+
+
+
+
+    .star {
+        width: 100%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+    .small {
+        width: 20px;
+        height: 20px;
+        top: 9px;
+        left: 10%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .medium {
+        width: 30px;
+        height: 30px;
+        top: 38px;
+        left: 12%;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+        width: 40px;
+        height: 40px;
+        top: 78px;
+        left: 15%;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .list-unstyled {
+        line-height: 40px;
+    }
+
+    .content-box {
+        padding: 20px;
+        padding-left: 7%;
+    }
+
+    .list-unstyled li {
+        font-size: 17px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .content-text {
+        background-color: #00eaff;
+        border-radius: 0px 60px 60px 60px;
+        font-family: lora;
+        width: 90%;
+        line-height: 40px;
+        
+    }
+
+    .section-heading {
+        font-size: 24px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+
+}
+
+@media (max-width:746px) {
+    .star {
+        width: 52%;
+    }
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 28px;
+        margin-bottom: 1rem;
+    }
+
+    .list-unstyled {
+        line-height: 40px;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+}
+
+
+@media (max-width:600px) {
+    #home h1 {
+        font-size: 56px;
+    }
+
+    #home .row {
+        padding-top: 13%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+    #home {
+        line-height: 39px;
+    }
+
+
+
+
+    .star {
+        width: 80%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 28px;
+        margin-bottom: 1rem;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: 63px;
+        left: 1%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: 88px;
+        left: 4%;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+        width: 30px;
+        height: 30px;
+        top: 116px;
+        left: 7%;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .list-unstyled {
+        line-height: 40px;
+    }
+
+    .content-box {
+        padding: 0px;
+        padding-left: 9%;
+    }
+
+    .list-unstyled li {
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .content-text {
+        background-color: #00eaff;
+        border-radius: 0px 54px 54px 54px;
+        font-family: lora;
+        width: 90%;
+        line-height: 40px;
+        
+    }
+
+    .fs-5 li {
+        font-size: 15px;
+    }
+
+    .section-heading {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+}
+
+@media (max-width:480px) {
+    #home h1 {
+        font-size: 42px;
+    }
+
+    #home .row {
+        padding-top: 22%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+    #home {
+        line-height: 39px;
+    }
+
+
+
+
+
+    .star {
+        width: 50%;
+    }
+
+    .download-title {
+        font-size: 27px;
+    }
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 28px;
+        margin-bottom: 1rem;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+    .small {
+        width: 11px;
+        height: 11px;
+        top: 6px;
+        left: 1%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .medium {
+        width: 19px;
+        height: 16px;
+        top: 21px;
+        left: 4%;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+        width: 25px;
+        height: 27px;
+        top: 44px;
+        left: 9%;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .ps-5 {
+        padding-left: 1px !important;
+    }
+
+    .ps-3 {
+        padding-left: 24px !important;
+    }
+
+    .list-unstyled {
+        line-height: 34px;
+    }
+
+    .content-box {
+        padding: 0px;
+        padding-left: 7%;
+    }
+
+    .list-unstyled li {
+        line-height: 30px;
+        font-size: 13px;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 17px;
+    }
+
+    .circle-div .pt-5 {
+
+        padding-top: 27px !important;
+
+    }
+
+    .content-text {
+        background-color: #00eaff;
+        border-radius: 0px 45px 45px 45px;
+        font-family: lora;
+        width: 90%;
+        line-height: 40px;
+        
+    }
+
+    .fs-5 li {
+        font-size: 11px;
+    }
+
+    .section-heading {
+        font-size: 22px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+
+    .star1 {
+        position: relative;
+        right: 10%;
+        font-size: 1.8rem;
+        color: #003b3f;
+    }
+}
+
+
+
+@media (max-width:380px) {
+    #home h1 {
+        font-size: 37px;
+    }
+
+    #home .row {
+        margin-top: 9%;
+    }
+
+    #home ul li {
+        font-size: 16px;
+    }
+
+
+    #home {
+        line-height: 42px;
+    }
+
+    .table-heading {
+        font-size: 20px;
+    }
+
+
+
+    .star {
+        width: 46%;
+    }
+
+    .download-title {
+        font-size: 25px;
+    }
+
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 21px;
+        margin-bottom: 1rem;
+    }
+
+    .list-unstyled {
+        text-align: justify;
+        line-height: 28px;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 12px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+    .section-heading {
+        font-size: 12px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+
+
+    .star1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .ps-5{
+        padding-left: 10px !important;
+    }
+}
+
+
+@media (max-width:280px) {
+    #home h1 {
+        font-size: 18px;
+    }
+
+    #home .row {
+        margin-top: 15%;
+    }
+
+    #home ul li {
+        font-size: 11px;
+    }
+
+    #home {
+        line-height: 34px;
+    }
+
+    .table-heading {
+        font-size: 19px;
+    }
+
+
+
+    .star {
+        width: 37%;
+    }
+
+    .download-title {
+        font-size: 17px;
+    }
+
+    .ps-5 {
+        padding-left: 10px !important;
+    }
+
+    .radiology-support {
+        background-color: #00c8d4;
+        color: #000;
+        padding: 2rem 1rem;
+    }
+
+    .radiology-support h2 {
+        font-weight: bold;
+        font-family: lora;
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+
+    .list-unstyled {
+        text-align: justify;
+        line-height: 30px;
+    }
+
+    .list-icon {
+        color: #f9a825;
+        margin-right: 0.5rem;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        font-size: 12px;
+        padding: 0.25rem 0;
+        font-family: Montserrat;
+    }
+
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: 55px;
+        left: -1%;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: 71px;
+        left: 3%;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .large {
+        width: 30px;
+        height: 30px;
+        top: 98px;
+        left: 9%;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .ps-5 {
+        padding-left: 23px !important;
+    }
+
+    .ps-3 {
+        padding-left: 1px !important;
+    }
+
+
+    .content-box {
+        padding: 0px;
+        padding-left: 7%;
+    }
+
+    .list-unstyled li {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 12px;
+    }
+
+    .circle-div .pt-5 {
+
+        padding-top: 30px !important;
+
+        padding-left: 20px;
+
+    }
+
+    .content-text {
+        background-color: #00eaff;
+        border-radius: 0px 30px 30px 30px;
+        font-family: lora;
+        width: 90%;
+        line-height: 40px;
+        
+    }
+
+    .section-heading {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+        font-family: Libre Baskerville;
+    }
+
+    .star1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+}

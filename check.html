@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Traffic by Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f5f5f5;
+    }
+
+    .traffic-by-website {
+      width: 480px;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .traffic-title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+      font-size: 18px;
+    }
+
+    .traffic-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .label {
+      width: 100px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .progress-container {
+      flex: 1;
+      margin: 0 10px;
+      position: relative;
+    }
+
+    .progress-bar {
+      display: flex;
+      height: 6px;
+      width: 100%;
+      border-radius: 4px;
+      overflow: hidden;
+      background: #e0e0e0;
+    }
+
+    .segment {
+      height: 100%;
+    }
+
+    .seg-1 { background-color: #4CAF50; }  /* Green */
+    .seg-2 { background-color: #2196F3; }  /* Blue */
+    .seg-3 { background-color: #f44336; }  /* Red */
+
+    .percent {
+      width: 40px;
+      font-size: 13px;
+      text-align: right;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="traffic-by-website">
+    <div class="traffic-title">Traffic by Website</div>
+
+    <!-- GOOGLE Example -->
+    <div class="traffic-row">
+      <span class="label">Google</span>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <!-- Assume 30 + 30 + 40 = 100 structure -->
+          <div class="segment seg-1" style="width: 30%;"></div>
+          <div class="segment seg-2" style="width: 30%;"></div>
+          <div class="segment seg-3" style="width: 20%;"></div> <!-- Only 80% reached -->
+        </div>
+      </div>
+      <div class="percent">80%</div>
+    </div>
+
+    <!-- YouTube -->
+    <div class="traffic-row">
+      <span class="label">YouTube</span>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="segment seg-1" style="width: 25%;"></div>
+          <div class="segment seg-2" style="width: 25%;"></div>
+          <div class="segment seg-3" style="width: 10%;"></div> <!-- Total 60% -->
+        </div>
+      </div>
+      <div class="percent">60%</div>
+    </div>
+
+    <!-- Instagram -->
+    <div class="traffic-row">
+      <span class="label">Instagram</span>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="segment seg-1" style="width: 20%;"></div>
+          <div class="segment seg-2" style="width: 20%;"></div>
+          <!-- Last 40% missed: not shown -->
+        </div>
+      </div>
+      <div class="percent">40%</div>
+    </div>
+
+    <!-- Facebook -->
+    <div class="traffic-row">
+      <span class="label">Facebook</span>
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="segment seg-1" style="width: 33%;"></div>
+          <div class="segment seg-2" style="width: 33%;"></div>
+          <div class="segment seg-3" style="width: 34%;"></div>
+        </div>
+      </div>
+      <div class="percent">100%</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

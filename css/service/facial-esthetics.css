@@ -5,12 +5,12 @@ body {
 }
 
 .title {
-  font-size: 70px;
-  font-weight: 700;
-  color: #003341;
-  margin-top: 5% !important;
-  margin-left: 5% !important;
-  text-align: left !important;
+  font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #183D4A ;
+    margin-top: 10%;
+    text-align: left;
   /* margin-bottom: -4% !important; */
 }
 

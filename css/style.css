@@ -14,7 +14,9 @@
   max-width: 100%;
 }
 
-
+.logo-corner img{
+    margin-left: 40% !important;
+}
 #home .row {
     height: 95vh;
 }

@@ -4,14 +4,13 @@ body {
     /* background-color: #f9f9f9; */
   }
   
-  .title
-   {
-      font-size: 60px;
-      font-weight: 700;
-      color: #003341;
-      margin-top: 5% !important;
-      margin-bottom: 7%;
-      text-align: left !important;
+  .title{
+    font-size: 70px;
+    font-weight: 700;
+    color: #003341;
+    /* margin-top: 5% !important; */
+    margin-bottom: 30%;
+    text-align: center !important;
   }
   
   .subtitle {
@@ -27,12 +26,16 @@ body {
       margin-top: -20%;
       font-size: 22px;
   }
-
+  .custom-img{
+      /* margin-top: -14%; */
+  }
+  
+  
   /* ____________________________________________highlight section___________________________________________________________ */
   
   
   .vdh-highlight-section {
-      margin-top: -5%;
+      margin-top: -10%;
       display: flex;
       justify-content: center;   /* Center horizontally */
       align-items: center;       /* Center vertically */
@@ -97,17 +100,18 @@ body {
       margin: 0 auto;
       background-color: #fefdfb;
       color: #0d2c2f;
-      /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+      margin-top: -11%;
     }
     
     .section-title {
-      font-size: 40px !important;
+      font-size: 33px !important;
       font-weight: bold;
       color: #1e3a34;
       font-style: italic !important;
       font-family: 'Georgia', serif; /* Replace with your actual site font */
-      color: #003c3c; 
-      margin-bottom: 1rem;
+      color: #003c3c;
+      /* margin-bottom: 1rem; */
+      margin-top: 5%;
       /* text-align: center; */
     }
     
@@ -134,6 +138,7 @@ body {
       width: 50px; /* Adjust this based on arrow size */
       height: auto;
       transform: rotate(15deg); /* Match the angle from the Figma design */
+      margin-top: 5%;
     }
     .heading-with-arrow {
       display: flex;
@@ -156,14 +161,20 @@ body {
       font-size: 35px;             /* Optional: slightly larger icon */
     }
 
+    .star-icon1 {
+        width: 8%;
+        margin-left: 4% !important;
+        margin-top: 2%;
+    }
     /* ___________________________________________table _________________________________________________ */
 
-    .table-title{
-      font-size: 36px;
-      font-weight: 700;
-      color: #003341;
-      /* margin-top: 5% !important; */
-      margin-left: 9% !important;
+    .table-title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #003341;
+        /* margin-top: 5% !important; */
+        margin-left: 11% !important;
+        margin-bottom: 5%;
     }
     .responsive-table-wrapper {
       overflow-x: auto;
@@ -223,130 +234,7 @@ body {
       line-height: 1.8;
       color: #0d2c2f;
       text-align: center;
-    }
-
-
-
-    @media (max-width:1115px) {
-      .title {
-        font-size: 60px;
-        font-weight: 700;
-        color: rgb(0, 51, 65);
-        margin-bottom: 7%;
-        margin-top: 22% !important;
-        text-align: left !important;
-    }
-    .small {
-      width: 20px;
-      height: 20px;
-      top: -73px;
-      left: 16%;
-      box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
-    }
-    
-    .medium {
-      width: 30px;
-      height: 30px;
-      top: -49px;
-      left: 18%;
-      box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
-    }
-    
-    .large {
-      width: 40px;
-      height: 40px;
-      top: -19px;
-      left: 20%;
-      box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
-  }
-  .vdh-highlight-section {
-    margin-top: 0% !important;
-    display: flex;
-    justify-content: center;   /* Center horizontally */
-    align-items: center;       /* Center vertically */
-    padding: 4rem 1rem;
-   /* Or your actual page background */
-  }
-    }
-
-    @media (min-width:768px) and (max-width:991px) {
-      .title {
-        font-size: 40px;
-        font-weight: 700;
-        color: rgb(0, 51, 65);
-        margin-bottom: 7%;
-        margin-top: 14% !important;
-        text-align: left !important;
-    }
-    .img-fluid
- {
-    max-width: 120% !important;
-    /* height: 140%; */
-    margin-top: 50%;
-}
-    }
-    
-    @media (max-width:972px) {
-      .heading-arrow {
-        width: 50px;
-        height: auto;
-        transform: rotate(15deg);
-        margin-left: 95%;
-        margin-top: -10%;
-    }
-    }
-
-
-    @media (max-width:791px) {
-      .heading-arrow {
-        width: 50px;
-        height: auto;
-        transform: rotate(15deg);
-        margin-left: 25%;
-        margin-top: -10%;
-    }
-    }
-
-
-    @media (max-width:617px) {
-      .heading-arrow {
-        width: 50px;
-        height: auto;
-        transform: rotate(15deg);
-        margin-left: 75%;
-        margin-top: -10%;
-    }
-    }
-    @media (max-width:518px) {
-      .heading-arrow {
-        width: 50px;
-        height: auto;
-        transform: rotate(15deg);
-        margin-left: 85%;
-        margin-top: -18%;
-    }
-    }
-
-    @media (max-width:897px) {
-      .section-title {
-        font-size: 37px !important;
-    
-        /* text-align: center; */
-      }
-    }
-    @media (max-width:816px) {
-      .section-title {
-        font-size: 35px !important;
-    
-        /* text-align: center; */
-      }
-    }
-    @media (max-width:425px) {
-      .section-title {
-        font-size: 27px !important;
-    
-        /* text-align: center; */
-      }
+        margin-top: 5%;
     }
     
 /* ___________________________________________________media query___________________________________________________________________ */
@@ -358,33 +246,41 @@ body {
 }
 
 .small {
-  width: 20px;
-  height: 20px;
-  top: -133px;
-  left: 17%;
-  box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+width: 20px;
+height: 20px;
+top: -133px;
+left: 17%;
+box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
 }
 
 .medium {
-  width: 30px;
-  height: 30px;
-  top: -105px;
-  left: 18%;
-  box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+width: 30px;
+height: 30px;
+top: -105px;
+left: 18%;
+box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
 }
 
 .large {
-  width: 40px;
-  height: 40px;
-  top: -79px;
-  left: 19%;
-  box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+width: 40px;
+height: 40px;
+top: -69px;
+left: 19%;
+box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
 }
-
 .star-icon{
 width: 60%;
 margin-left: -10% !important;
 margin-top: 80%;
+
+}
+.title {
+  font-size: 53px;
+  font-weight: 700;
+  color: #003341;
+  margin-top: 5% !important;
+  margin-bottom: 13%;
+  text-align: center !important;
 }
 }
 /* ________________768_____________________ */
@@ -395,10 +291,10 @@ margin-top: 80%;
     font-size: 43px;
     font-weight: 700;
     color: #003341;
-    margin-top: 10% !important;
-    margin-bottom: 5%;
-    text-align: left !important;
-}
+    margin-top: 13% !important;
+    margin-bottom: 15%;
+    text-align: center !important;
+  }
   
   .subtitle {
     font-size: 28px !important;
@@ -417,9 +313,15 @@ margin-top: 80%;
     text-align: center;
   }
   
-
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 90%;
+    margin-top: -10%;
+  }
   .section-title {
-    font-size: 32px;
+    font-size: 32px !important;
 
     /* text-align: center; */
   }
@@ -432,35 +334,6 @@ margin-top: 80%;
     color: #0d2c2f;
     text-align: center;
   }
-  .vdh-highlight-box {
-margin-top: -14% !important;
-/* margin-left: 4%; */
-  
-  }
-
-  .small {
-    width: 10px;
-    height: 10px;
-    top: -92px;
-    left: 16%;
-    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
-  }
-  .medium
-   {
-          width: 20px;
-          height: 20px;
-          top: -80px;
-          left: 18%;
-          box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
-      }
-  
-      .large {
-        width: 30px;
-        height: 30px;
-        top: -59px;
-        left: 21%;
-        box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
-    }
   
 }  
 
@@ -469,41 +342,18 @@ margin-top: -14% !important;
 
 @media (max-width:425px) {
   .vdh-highlight-box {
-    font-size: 15px !important;
+    font-size: 12px !important;
     width: 300px!important;
-    height: 400px !important;
+    height: 230px !important;
   
-  }
-  .small {
-    width: 18px;
-    height: 18px;
-    top: -80px;
-    left: 7%;
-    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
-  }
-  
-  .medium {
-    width: 25px;
-    height: 25px;
-    top: -57px;
-    left: 13%;
-    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
-  }
-  
-  .large {
-    width: 30px;
-    height: 30px;
-    top: -30px;
-    left: 19%;
-    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
   }
   .title {
     font-size: 33px;
     font-weight: 700;
     color: #003341;
-
+    margin-top: 10% !important;
     text-align: center !important;
- 
+    margin-bottom: -5% !important;
   }
   
   .subtitle {
@@ -521,7 +371,30 @@ margin-top: -14% !important;
       margin-top: -14%;
   }
 
+  .small {
+    width: 18px;
+    height: 18px;
+    top: -90px;
+    left: 9%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+  }
   
+  .medium {
+    width: 25px;
+    height: 25px;
+    top: -57px;
+    left: 12%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .large {
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    left: 16%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+  }
+
   .features-list li {
     font-size: 22px !important;
     margin: 0.6rem 0;
@@ -561,7 +434,7 @@ margin-top: -14% !important;
   .nabh-benefits-table th,
   .nabh-benefits-table td {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 10px;
     vertical-align: top;
     text-align: left;
   }
@@ -597,6 +470,19 @@ margin-top: -14% !important;
     color: #0d2c2f;
     text-align: center;
   }
+  .section-title {
+    font-size: 28px !important;
+    margin-top: -18%;
+
+    /* text-align: center; */
+  }
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 90%;
+    margin-top: -20%;
+  }
 }
 
 /* _____________________375_____________________________________ */
@@ -619,7 +505,7 @@ margin-top: -14% !important;
     /* margin-bottom: 1.5rem; */
   }
   .vdh-highlight-box {
-    font-size: 11px !important;
+    font-size: 12px !important;
     width: 300px!important;
     height: 250px !important;
   
@@ -632,8 +518,7 @@ margin-top: -14% !important;
     margin-top: -20%;
   }
   .section-title {
-    font-size: 30px !important;
-
+    font-size: 20px !important;
     /* text-align: center; */
   }
 
@@ -720,7 +605,7 @@ margin-top: -14% !important;
   }
   .vdh-highlight-box {
     font-size: 11px !important;
-    height: 330px !important;
+    height: 280px !important;
   }
   .heading-arrow {
     width: 50px;
@@ -740,8 +625,8 @@ margin-top: -14% !important;
     text-align: center;
   }
   .section-title {
-    font-size: 25px !important;
-
+    font-size: 20px !important;
+    margin-top: -19% !important;
     /* text-align: center; */
   }
   .nabh-summary {
@@ -787,13 +672,14 @@ margin-top: -14% !important;
         line-height: 1.6;
         text-align: left;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      
+    
         border-top-left-radius: 0px !important;
         border-top-right-radius: 60px !important;
         border-bottom-right-radius: 60px !important;
         border-bottom-left-radius: 60px !important;
-    
-    
     }
+    
     /* The animated fill layer */
     .background-fill {
       position: absolute;
@@ -805,7 +691,7 @@ margin-top: -14% !important;
       background-color: #00bcd4;
       z-index: 0;
       transition: width 1.2s ease-out;
-      /* border-radius: 2rem; */
+      border-radius: 2rem;
     }
     
     /* Text stays on top */

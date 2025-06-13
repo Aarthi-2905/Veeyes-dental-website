@@ -1,0 +1,41 @@
+.section-heading {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0d3b4e;
+    margin-bottom: 1rem;
+}
+
+.tooth-list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.tooth-list li {
+    margin-bottom: 0.8rem;
+}
+
+.first-list{
+    margin-left: 100px;
+}
+
+.second-list{
+margin-left: 30px;
+}
+.teeth-icon-style{
+    color: #00bcd4;
+}
+.list-style ul li {
+    margin-top: 30px;
+      font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2.3;
+    color: #183D4A;
+}
+
+.star-icon-style{
+    width: 100px;
+}

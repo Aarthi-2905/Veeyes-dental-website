@@ -57,7 +57,7 @@ body {
     overflow: hidden;
     max-width: 800px;
     width: 100%;
-    font-size: 21px;
+    font-size: 10px;
     line-height: 1.6;
     text-align: left;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -84,7 +84,7 @@ body {
     position: relative;
     z-index: 1;
     margin: 0;
-    font-size: 19px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     line-height: 2.3;
     /* font-weight: normal; */
@@ -96,10 +96,14 @@ body {
 }
 
 .gentral-text {
-    font-size: 20px;
+    font-family: 'Lora', serif;
+font-style: italic;
+    font-weight: 400;
+font-size: 18px; /* Adjust as needed */
     line-height: 50px;
     text-align: center;
     margin: 2rem 0;
+    letter-spacing: 0.8px;
 }
 
 .my-circles {
@@ -150,17 +154,21 @@ body {
 
 .star-icon2 {
     width: 80px;
-    margin-top: 150%;
+    margin-top: 160%;
+    margin-left: 40%;
     /* margin-left: 100%; */
 }
 
 .second-star-icon {
+    position: relative;
     width: 80px;
     margin-left: 80%;
+    top: -50px;
     display: block;
 }
 
 .box-style {
+    
     font-size: 30px;
     text-align: left !important;
     padding-left: 2rem;
