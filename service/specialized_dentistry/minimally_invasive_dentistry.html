@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>minimally invasive dentistry</title>
+    <title>Minimally Invasive Dentistry</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
@@ -15,105 +15,288 @@
 
     <!-- Bootstrap JS Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="../../css/nav.css">
+    <!-- Font style link  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400&display=swap"
+        rel="stylesheet">
+    <!-- Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Optional: Animate.css (not required for AOS zoom-in) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/minimally_invasive_dentistry.css">
+    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
+    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
 </head>
+<style>
+    .table-title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #003341;
+        /* margin-top: 5% !important; */
+        margin-left: 7% !important;
+    }
+
+    .responsive-table-wrapper {
+        overflow-x: auto;
+        margin: 1.5rem 0;
+    }
+
+    .nabh-benefits-table {
+        width: 80%;
+        border-collapse: collapse;
+        min-width: 100px;
+        margin-left: 10%;
+    }
+
+    .nabh-benefits-table th,
+    .nabh-benefits-table td {
+        border: 1px solid #ccc;
+        padding: 20px;
+        vertical-align: top;
+        text-align: left;
+    }
+
+    .nabh-benefits-table th {
+        background-color: #004750;
+        color: #fff;
+        width: 30%;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .nabh-benefits-table td {
+        background-color: #fde5c5;
+        color: #0d2c2f;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+
+        .nabh-benefits-table th,
+        .nabh-benefits-table td {
+            padding: 0.75rem;
+            font-size: 0.95rem;
+        }
+    }
+
+    .star-icon2 {
+        width: 8%;
+        margin-left: 80% !important;
+        margin-top: -2%;
+    }
+
+    .soft-tissue {
+        margin-left: 8%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .soft-tissue2 {
+        margin-left: 8%;
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+    /* _____________________________________________list section__________________________________________________________ */
+
+   .features-section {
+      padding: 2rem 1rem;
+      max-width: 1150px;
+      margin: 0 auto;
+      /* background-color: #fefdfb; */
+      color: #0d2c2f;
+      margin-top: -2% !important;
+    }
+    
+    .section-title {
+      font-size: 33px !important;
+      font-weight: bold;
+      color: #1e3a34;
+      font-style: italic !important;
+      font-family: 'Georgia', serif; /* Replace with your actual site font */
+      color: #003c3c;
+      margin-bottom: 1rem;
+      /* text-align: center; */
+      margin-top: 10%;
+    }
+    
+    .features-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .features-list li {
+      font-size: 25px !important;
+      margin: 0.6rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+
+    }
+    
+    .features-list li::before {
+      /* content: '🦷'; */
+      position: absolute;
+      left: 0;
+    }
+    .heading-arrow {
+      width: 50px; /* Adjust this based on arrow size */
+      height: auto;
+      transform: rotate(15deg); /* Match the angle from the Figma design */
+      margin-top: 10%;
+    }
+    .heading-with-arrow {
+      display: flex;
+      /* align-items: center; */
+      /* justify-content: center; */
+      /* gap: 2px; */
+      /* margin: 40px 0; */
+      flex-wrap: wrap;
+      margin-top: -6%;
+  }
+    .features-list li {
+      font-size: 1rem;
+      margin: 0.6rem 0;
+      display: flex;                  /* NEW: aligns icon + text */
+      align-items: center;           /* NEW: vertical centering */
+    }
+    
+    .features-list i {
+      color: #0bdee6;                 /* NEW: yellow color for icon */
+      margin-right: 0.75rem;         /* NEW: spacing between icon and text */
+      font-size: 35px;             /* Optional: slightly larger icon */
+    }
+
+    .star-icon1 {
+        width: 8%;
+        margin-left: 74% !important;
+        margin-top: -40%;
+    }
+
+
+        /* ______________________________________________content_______________________________________________________ */
+  .nabh-summary {
+      max-width: 1100px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+      font-size: 24px;
+      line-height: 1.8;
+      color: #0d2c2f;
+      text-align: center;
+        margin-top: -1%;
+    }
+
+   .em-cont{
+text-align: center;
+font-size: 45px;
+margin-bottom: -2%;
+font-family: 'Georgia', serif; 
+font-weight: 600;
+    }
+
+    .section-title2
+     {
+        font-size: 33px !important;
+        font-weight: bold;
+        color: #1e3a34;
+        font-style: italic !important;
+        font-family: 'Georgia', serif;
+        color: #003c3c;
+        margin-bottom: 1rem;
+        /* text-align: center; */
+        margin-top: 15%;
+    }
+    .heading-arrow2 {
+      width: 50px;
+      height: auto;
+      transform: rotate(15deg);
+      margin-top: 15%;
+  }
+
+
+
+</style>
 
 <body>
     <!-- navgation page Starting -->
-     <!-- navgation page Starting -->
-     <div id="header">
- 
-     </div>
+    <div id="header">
+
+    </div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
-
-    <!-- Icon page Starting -->
-    <!-- <div class="fixed-contact-icons">
-        <a href="https://wa.me/1234567890" target="_blank" class="icon-link whatsapp">
-            <i class="fab fa-whatsapp icon-inner"></i>
-            <span class="icon-label">WhatsApp</span>
-        </a>
-        <a href="tel:+1234567890" class="icon-link call">
-            <i class="fas fa-phone icon-inner"></i>
-            <span class="icon-label">Call</span>
-        </a>
-        <a href="mailto:example@example.com" class="icon-link email">
-            <i class="fas fa-envelope icon-inner"></i>
-            <span class="icon-label">Email</span>
-        </a>
-
-        <a href="mailto:example@example.com" class="icon-link email">
-            <i class="fas fa-pen-to-square icon-inner"></i>
-            <span class="icon-label">Email</span>
-        </a>
-    </div> -->
-    <!-- Icon page Ending -->
 
 
     <div class="container py-5">
-        <div class="row align-items-center">
-            <div class="col-12">
-                <h1 class="title">Minimally Invasive Dentistry</h1>
-            </div>
-        </div>
-
         <div class="row">
-            <div class="col-md-6 d-flex flex-column justify-content-center ">
-                <ul class="custom-list">
-                    <li>
-                        The goal of Conservative Dentistry is to <strong>preserve as much natural tooth structure as possible,</strong>
-                        promoting long-term oral health with less pain, reduced treatment costs, and improved
-                        aesthetics.
-                    </li>
-                    <li>
-                       <strong> At Veeyes Dental we use Minimally Invasive Dentistry (MID)</strong>, modern dental approach that
-                        emphasizes the <strong>early detection, prevention, and minimal intervention</strong> in managing dental
-                        diseases, particularly dental caries.
+            <div class="col-md-6">
+                <div class="align-items-center">
+                    <h1 class="title">Minimally Invasive Dentistry</h1>
+                </div>
+                <div class="list-style">
+                    <ul>
+                        <li>
+                            The goal of Conservative Dentistry is to <strong>preserve as much natural tooth structure as
+                                possible,</strong>
+                            promoting long-term oral health with less pain, reduced treatment costs, and improved
+                            aesthetics.
+                        </li>
+                        <li>
+                            <strong> At Veeyes Dental we use Minimally Invasive Dentistry (MID)</strong>, modern dental
+                            approach that
+                            emphasizes the <strong>early detection, prevention, and minimal intervention</strong> in
+                            managing dental
+                            diseases, particularly dental caries.
 
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="col-1">
-                <img src="../../images/star.png " class="star-icon" alt="Star Icon">
+                <img src="../../images/star.png" class="star-icon" alt="Star Icon">
             </div>
+
             <div class="col-md-5">
-                <img src="../../images/surgical_triangle_image.png" class="img-fluid custom-img"
+                <img src="../../images/surgical_triangle_image.png" class="custom-img"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
     </div>
 
-
-    <div class="my-circles">
-        <div class="circle small"></div>
-        <div class="circle medium"></div>
-        <div class="circle large"></div>
-    </div>
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-2">
                 <img src="../../images/star.png" class="star-icon2" alt="Star Icon">
             </div>
             <div class="col-10">
+                <div class="my-circles">
+                    <div class="circle small"></div>
+                    <div class="circle medium"></div>
+                    <div class="circle large"></div>
+                </div>
                 <section class="vdh-highlight-section">
                     <div class="vdh-highlight-box">
                         <div class="background-fill"></div>
-                        <!-- <p class="bigcont">IP Admission in NABH Dental Hospital For:</p> -->
-                        <p><strong>At Veeyes we specialize in Laser-Assisted Surgeries in Dentistry</strong> to perform <strong>precise and
-                            minimally invasive soft tissue and hard tissue procedures</strong>. Lasers in dentistry enhance
-                            accuracy, reduce bleeding, minimize pain, and often lead to <strong>faster healing and improved
-                                patient comfort.</strong></p>
+                        <p>
+                            <strong>At Veeyes we specialize in Laser-Assisted Surgeries in Dentistry</strong> to perform
+                            <strong>precise and
+                                minimally invasive soft tissue and hard tissue procedures</strong>. Lasers in dentistry
+                            enhance
+                            accuracy, reduce bleeding, minimize pain, and often lead to <strong>faster healing and
+                                improved
+                                patient comfort.</strong>
+                        </p>
                     </div>
-                </section>
 
+                </section>
             </div>
         </div>
     </div>
-    <!-- ____________________________________________table_________________________________________________________________ -->
 
-    <h2 class="table-title">
+       <!-- ____________________________________________table_________________________________________________________________ -->
+
+    <h2 class="table-title mt-5">
         Common Laser-Assisted Procedures in Dentistry
     </h2>
     <h3 class="soft-tissue">1. Soft Tissue Surgeries</h3>
@@ -239,14 +422,13 @@
     </p>
 
 
-
-    <!-- ___________________________________footer page Starting ________________________________________________________________________-->
-
-   
     <div id="footer">
 
     </div>
+    <!-- footer page Ending -->
 
+    <!-- animation AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const observer = new IntersectionObserver(entries => {
@@ -262,20 +444,22 @@
             const box = document.querySelector(".vdh-highlight-box");
             if (box) observer.observe(box);
         });
-    </script>
 
-    <script>
         fetch('../../header.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('header').innerHTML = data;
-          });
-      
-          fetch('../../footer.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('footer').innerHTML = data;
-          });
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('../../footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+        // Animation 
+        AOS.init({
+            once: true   // ✅ this makes animation happen only once
+        });
     </script>
 </body>
 

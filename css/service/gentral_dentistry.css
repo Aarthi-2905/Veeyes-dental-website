@@ -13,7 +13,7 @@ body {
 .title {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 60px;
     color: #183D4A ;
     margin-top: 10%;
     text-align: left;
@@ -52,7 +52,7 @@ body {
     right: 140px;
     padding: 2rem;
     border-radius: 2rem;
-    background-color: white;
+    /* background-color: white; */
     color: #003341;
     overflow: hidden;
     max-width: 800px;
@@ -60,7 +60,7 @@ body {
     font-size: 10px;
     line-height: 1.6;
     text-align: left;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
     border-top-left-radius: 0;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
