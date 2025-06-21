@@ -4,59 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>surgical</title>
+    <title>Microsopic</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap JS Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font style link  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@400&display=swap"
+        rel="stylesheet">
+    <!-- Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Optional: Animate.css (not required for AOS zoom-in) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="../css/facilities/surgical.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
+    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <link rel="stylesheet" href="/css/facilities/surgical.css">
 </head>
+<style>
+    .sicu-container {
+        font-family: 'Montserrat', sans-serif;
+        color: #103144;
+        padding: 2rem;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .sicu-heading {
+        font-family: 'Lora', sans-serif;
+        font-size: 1.9rem;
+        font-style: italic;
+        margin-bottom: 1.5rem;
+    }
+
+    .sicu-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sicu-list-item {
+        /* display: flex;
+        align-items: flex-start; */
+        font-size: 1.05rem;
+        line-height: 1.6;
+        margin-bottom: 1.2rem;
+    }
+
+    .sicu-list span {
+        font-size: 18px !important;
+        /* margin: 0.6rem 0; */
+        position: relative;
+        font-family: 'montserrat', sans-serif;
+        color: #183D4A;
+        line-height: 45px;
+    }
+
+    .sicu-icon::before {
+        content: "🦷";
+        color: #00bcd4;
+        margin-right: 0.6rem;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+
+    .sicu-bold {
+        color: #103144;
+        font-weight: bold;
+        margin-right: 0.3rem;
+    }
+
+    .sicu-bottom-note {
+        font-style: italic;
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        color: #103144;
+    }
+</style>
 
 <body>
     <!-- navgation page Starting -->
     <div id="header">
- 
+
     </div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
 
-
     <div class="container py-5">
-      
-
         <div class="row">
-            <div class="col-md-6 d-flex flex-column justify-content-center ">
-                <h1 class="title">Surgical ICU</h1>
-                <ul class="custom-list">
-                    <li>
-                        <strong>Surgical Intensive Care Unit (SICU)</strong> in a dental hospital is a specialized unit
-                        designed to
-                        provide advanced, around-the-clock care for patients who have undergone major surgical
-                        procedures, particularly those that may require close monitoring, intensive therapy, and
-                        immediate medical intervention post-surgery.
-                    </li>
-                    <li>
-                        In a dental hospital, this unit is often used for patients who have undergone complex oral or
-                        maxillofacial surgeries, which can sometimes involve significant risk or require intensive care
-                        in the recovery phase.
-                    </li>
-                </ul>
-            </div>
             <div class="col-md-6">
-                <img src="../../images/surgical_triangle_image.png" class="img-fluid custom-img"
+                <div class="align-items-center">
+                    <h1 class="title">Surgical ICU</h1>
+                </div>
+                <div class="list-style">
+                    <ul>
+                        <li>Surgical Intensive Care Unit (SICU)  in a dental hospital is a specialized
+                            unit
+                            designed to
+                            provide advanced, around-the-clock care for patients who have undergone major surgical
+                            procedures, particularly those that may require close monitoring, intensive therapy, and
+                            immediate medical intervention post-surgery.</li>
+                        <li>In a dental hospital, this unit is often used for patients who have undergone complex oral
+                            or
+                            maxillofacial surgeries, which can sometimes involve significant risk or require intensive
+                            care
+                            in the recovery phase.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-1">
+                <img src="../../images/star.png" class="star-icon" alt="Star Icon">
+            </div>
+
+            <div class="col-md-5">
+                <img src="../../images/surgical_triangle_image.png" class="custom-img"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -64,20 +136,19 @@
 
     <!-- ________________________________________list section_______________________________________________________________ -->
 
-
-    <section class="features-section">
+    <section class="features-section mt-2">
         <div class="heading-with-arrow">
             <h2 class="section-title"><em>Key Features of a Surgical ICU in a Dental Hospital:</em></h2>
             <img src="../../images/table_arrow.png" alt="Arrow" class="heading-arrow">
         </div>
-        <ul class="features-list">
-            <li><i class="fas fa-tooth"></i> Post-Surgery Monitoring</li>
-            <li><i class="fas fa-tooth"></i>Advanced Equipment and Technology</li>
-            <li><i class="fas fa-tooth"></i> Pain Management</li>
-            <li><i class="fas fa-tooth"></i> Patient Stabilization</li>
-            <li><i class="fas fa-tooth"></i> Multidisciplinary Team Approach</li>
-            <li><i class="fas fa-tooth"></i> Infection Control</li>
-            <li><i class="fas fa-tooth"></i> Recovery and Transition to General Wards</li>
+        <ul class="features-list mt-4">
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Post-Surgery Monitoring</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Advanced Equipment and Technology</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Pain Management</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Patient Stabilization</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Multidisciplinary Team Approach</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Infection Control</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Recovery and Transition to General Wards</li>
         </ul>
         <div>
             <img src="../../images/star.png" class="star-icon1" alt="Star Icon">
@@ -127,45 +198,32 @@
     </div>
 
     <!-- _______________________________________table two_________________________________________________________________ -->
-    <h2 class="table-title">
-        Benefits of SICU in a Dental Hospital:
-    </h2>
-
-    <div class="responsive-table-wrapper">
-        <table class="nabh-benefits-table">
-            <tbody>
-                <tr>
-                    <th>Higher Level of Care</th>
-                    <td>Patients undergoing major dental surgery are provided with specialized, round-the-clock
-                        monitoring to ensure optimal recovery.</td>
-                </tr>
-                <tr>
-                    <th>Early Detection of Complications</th>
-                    <td>Continuous monitoring and immediate response help detect complications such as bleeding or
-                        infection early, reducing the risk of severe outcomes.</td>
-                </tr>
-                <tr>
-                    <th>Comprehensive Recovery</th>
-                    <td>The post-operative care in the SICU ensures that the patient’s recovery is closely managed,
-                        which is critical for procedures that affect the facial structure, mouth, or jaw.</td>
-                </tr>
-
-            </tbody>
-        </table>
+    <div class="sicu-container">
+        <div class="sicu-heading">Benefits of SICU in a Dental Hospital:</div>
+        <ul class="sicu-list">
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+                <span class="sicu-bold">Higher Level of Care:</span>
+                <span>Patients undergoing major dental surgery are provided with specialized, round-the-clock monitoring
+                    to ensure optimal recovery.</span>
+            </li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+                <span class="sicu-bold">Early Detection of Complications:</span>
+                <span>Continuous monitoring and immediate response help detect complications such as bleeding or
+                    infection early, reducing the risk of severe outcomes.</span>
+            </li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+                <span class="sicu-bold">Comprehensive Recovery:</span>
+                <span>The post-operative care in the SICU ensures that the patient’s recovery is closely managed, which
+                    is critical for procedures that affect the facial structure, mouth, or jaw.</span>
+            </li>
+        </ul>
+        <p class="nabh-summary">
+            SICU in a dental hospital plays an essential role in managing the critical care needs of patients following
+            major dental surgeries. The unit provides a controlled environment where intensive care, specialized
+            monitoring,
+            and immediate response to complications are available to ensure a safe and successful recovery.
+        </p>
     </div>
-
-    <!-- ________________________________________________content__________________________________________________________ -->
-    <p class="nabh-summary">
-        SICU in a dental hospital plays an essential role in managing the critical care needs of patients following
-        major dental surgeries. The unit provides a controlled environment where intensive care, specialized monitoring,
-        and immediate response to complications are available to ensure a safe and successful recovery.
-    </p>
-
-
-
-
-
-
 
 
 
@@ -173,7 +231,7 @@
     <div id="footer">
 
     </div>
-    
+
     <!-- footer page Ending -->
 
     <script>
@@ -193,17 +251,17 @@
         });
 
         fetch('../../header.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('header').innerHTML = data;
-          });
-      
-          fetch('../../footer.html')
-          .then(response => response.text())
-          .then(data => {
-            document.getElementById('footer').innerHTML = data;
-          });
-      </script>
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('../../footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
 
 
 

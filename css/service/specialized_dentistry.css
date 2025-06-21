@@ -160,102 +160,128 @@
 
 
 
-  /* ______________________ */
-  .specialty-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
-  
-  .specialty-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
-  }
-  
-  
-  .specialty-card:hover img {
-    transform: scale(1.05);
-  }
+/* ______________________ */
+.specialty-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  gap: 20px;
+  margin-bottom: 40px;
+}
 
-  .specialty-card img {
-    width: 85%;
-    height: 90%;
-    margin-left: 7%;
-    margin-right: 5%;
-    display: block;
-    transition: transform 0.3s ease;
-  }
-  
-  
-  .specialty-overlay {
-    position: absolute;
-    top: 0;
-    left: 5%; /* Same as image's margin-left */
-    width: 89%;
-    height: 92%;
-    background: linear-gradient(to top, rgba(2, 41, 51, 0.9), rgba(0, 51, 64, 0) 50%);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 1rem;
-    opacity: 0;
-    visibility: hidden;
-   
-    transition: opacity 0.3s ease;
-    /* pointer-events: none;  */
-  }
-  .specialty-card:hover .specialty-overlay {
-    opacity: 1;
-    visibility: visible;
-  }
-  .specialty-card:hover .specialty-label {
+.specialty-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); */
+}
+
+.specialty-card img {
+  width: 85%;
+  height: 90%;
+  margin-left: 7%;
+  margin-right: 5%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.specialty-card:hover img {
+  transform: scale(1.05);
+}
+
+.specialty-label {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #f5d7ae;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  z-index: 1;
+}
+
+.specialty-card:hover .specialty-label {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease;
 }
 
-  
-  .specialty-overlay h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .specialty-overlay p {
-    font-size: 0.9rem;
-    line-height: 1.4;
-    margin-bottom: 1rem;
-  }
-  
-  .learn-btn {
-    width: 35%;
-    height: 7%;
-    background: #fff;
-    color: #003340;
-    text-decoration: none;
-    text-align: center;
-    padding-top:1%;
-    font-weight: bold;
-    /* margin-top: 5%; */
-    font-size: 0.85rem;
-    border-radius: 4px;
-    transition: background 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .learn-btn:hover {
-    background: #f5d7ae;
-    color: #000;
-  }
-  .specialty-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
-    gap: 20px;
-    margin-bottom: 40px;
-  }
+/* Light blue gradient background on hover */
+.specialty-overlay {
+  position: absolute;
+  top: 0;
+  left: 5%; /* Same as image's margin-left */
+  width: 89%;
+  height: 92%;
+  background: linear-gradient(to top, rgba(0, 153, 204, 0.8), rgba(0, 153, 204, 0.2));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.specialty-card:hover .specialty-overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.specialty-overlay h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.specialty-overlay p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+/* Base Button (before hover on the button) */
+.learn-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #003340;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  transition: background 0.3s ease, color 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  border: none;
+}
+
+/* Arrow only appears on button hover */
+.learn-btn::after {
+  content: '›';
+  font-size: 1.2rem;
+  vertical-align: middle;
+  color: transparent;
+  transition: color 0.3s ease;
+}
+
+/* Learn More button hover effect ONLY when the button is hovered */
+.learn-btn:hover {
+  background-color: #d8b887; /* gold */
+  color: #000;
+  margin-left: 1rem;
+}
+
+.learn-btn:hover::after {
+  color: #000;
+}
+
+
   @media(max-width: 597px) and (min-width: 400px) {
     .specialty-card img {
       width: 65%;
