@@ -1,5 +1,5 @@
 body {
-    background-color: #F0EFE7  !important;
+    background-color: #F0EFE7 !important;
     margin: 0;
     padding: 0;
 }
@@ -14,14 +14,14 @@ body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 60px;
-    color: #183D4A ;
+    color: #183D4A;
     margin-top: 10%;
     text-align: left;
 }
 
 .custom-list p {
     margin-top: 30px;
-      font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 18px;
     line-height: 2.3;
@@ -30,11 +30,11 @@ body {
 
 .custom-img {
     /* max-width: 100%; */
-    max-width: 550px;
+    max-width: 470px;
     height: auto;
     position: relative;
     top: 0px;
-    right: 100px;
+    right: 83px;
 }
 
 .vdh-highlight-section {
@@ -97,9 +97,10 @@ body {
 
 .gentral-text {
     font-family: 'Lora', serif;
-font-style: italic;
+    font-style: italic;
     font-weight: 400;
-font-size: 18px; /* Adjust as needed */
+    font-size: 18px;
+    /* Adjust as needed */
     line-height: 50px;
     text-align: center;
     margin: 2rem 0;
@@ -168,7 +169,7 @@ font-size: 18px; /* Adjust as needed */
 }
 
 .box-style {
-    
+
     font-size: 30px;
     text-align: left !important;
     padding-left: 2rem;
@@ -188,120 +189,157 @@ font-size: 18px; /* Adjust as needed */
 /* MEDIA QUERY  */
 
 @media (max-width:3000px) and (min-width:1400px) {
-    .vdh-highlight-box{
+    .vdh-highlight-box {
         right: 25%;
     }
 }
 
 @media (max-width:1027px) and (min-width:770px) {
-     .vdh-highlight-box{
+    .vdh-highlight-box {
         right: 7%;
+    }
+
+    .star-icon2 {
+        margin-left: 0px;
     }
 }
 
 @media (max-width:770px) and (min-width:499px) {
-    .title{
+    .title {
         font-size: 30px;
     }
-    .custom-img{
+
+    .custom-img {
         width: 420px;
     }
-    .custom-list p{
+
+    .star-icon2 {
+        margin-left: 0px;
+    }
+
+    .custom-list p {
         font-size: 15px;
     }
-    .vdh-highlight-box p{
+
+    .vdh-highlight-box p {
         font-size: 13px;
     }
-    .vdh-highlight-box{
+
+    .vdh-highlight-box {
         right: 20px !important;
         top: -25% !important;
     }
-    .my-circles{
+
+    .my-circles {
         top: 0px !important;
         right: 200px;
     }
-    .gentral-text{
+
+    .gentral-text {
         font-size: 15px;
     }
-    .gentral-text-br{
+
+    .gentral-text-br {
         display: none;
     }
-    .box-style{
+
+    .box-style {
         font-size: 15px;
     }
 }
 
 @media (max-width:499px) and (min-width:399px) {
-    .title{
+    .title {
         font-size: 20px;
     }
-    .star-icon{
+
+    .star-icon {
         max-width: 70px !important;
     }
-    .custom-img{
+
+    .custom-img {
         width: 300px;
         top: -100px !important;
         left: 100px !important;
     }
-    .custom-list p{
+
+    .custom-list p {
         font-size: 13px;
     }
-    .vdh-highlight-box p{
+
+    .vdh-highlight-box p {
         font-size: 10px;
     }
-    .vdh-highlight-box{
+
+    .vdh-highlight-box {
         top: -200px !important;
         right: 30px !important;
     }
-    .star-icon2{
+
+    .star-icon2 {
         max-width: 200px;
+        margin-left: 0px;
     }
-    .gentral-text-br{
+
+    .gentral-text-br {
         display: none;
     }
-    .gentral-text{
+
+    .gentral-text {
         font-size: 14px;
         line-height: 3;
     }
-    .box-style{
+
+    .box-style {
         font-size: 15px;
     }
 }
 
 @media (max-width:399px) {
-    .title{
+    .title {
         font-size: 20px;
         text-align: center;
     }
-    .star-icon{
+
+    .star-icon {
         max-width: 70px !important;
     }
-    .custom-img{
-        width: 300px;
-        top: -140px !important;
-        left: 50px !important;
+
+    .custom-img {
+        width: 273px;
+        top: -116px !important;
+        left: 13px !important;
     }
-    .custom-list p{
+
+    .custom-list p {
         font-size: 13px;
     }
-    .vdh-highlight-box p{
+
+    .vdh-highlight-box p {
         font-size: 10px;
     }
-    .vdh-highlight-box{
+
+    .vdh-highlight-box {
         top: -200px !important;
         right: 30px !important;
     }
-    .star-icon2{
+
+    .star-icon2 {
         max-width: 200px;
+        margin-left: 0px;
+        margin-top: 76px;
     }
-    .gentral-text-br{
+
+    .gentral-text-br {
         display: none;
     }
-    .gentral-text{
+
+    .gentral-text {
         font-size: 14px;
         line-height: 3;
     }
-    .box-style{
+
+    .box-style {
         font-size: 15px;
     }
 }

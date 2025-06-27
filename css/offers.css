@@ -1,5 +1,6 @@
 :root {
-  --logo-gray: #183D4A; /* RGB(24, 61, 74) */
+  --logo-gray: #183D4A;
+  /* RGB(24, 61, 74) */
 }
 
 /* body{
@@ -15,7 +16,8 @@
 }
 
 .hero-section .overlay {
-  background-color: rgba(0, 36, 43, 0.6); /* dark overlay */
+  background-color: rgba(0, 36, 43, 0.6);
+  /* dark overlay */
   width: 100%;
   height: 100%;
 }
@@ -27,8 +29,8 @@
   z-index: 20;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
-  font-size: 80px;
-  color: var(--logo-gray);
+  color: white !important;
+  font-size: 60px;
 }
 
 .quote-section {
@@ -58,7 +60,7 @@
   color: var(--logo-gray);
   margin-bottom: 2rem;
   letter-spacing: 2px;
-  }
+}
 
 
 .offers-list ul {
@@ -73,11 +75,11 @@
   color: var(--logo-gray);
   margin-bottom: 0.8rem;
   line-height: 2.1;
-  letter-spacing: 1.8;
+  letter-spacing: 1.8px;
 }
 
-.teeth-icon{
-    color: lightskyblue !important;
+.teeth-icon {
+  color: lightskyblue !important;
 }
 
 
@@ -86,13 +88,53 @@
 /* At veeyas.. section  */
 
 @media (max-width:769px) {
-  .quote-section{
+  .quote-section {
     margin-left: 0px !important;
   }
-  .home-section-head{
+
+  .home-section-head {
     font-size: 35px;
+  }
+
+  .hero-section {
+    height: 46vh;
+  }
+}
+
+@media (max-width:440px) {
+  .quote-section p {
+    font-size: 20px;
+  }
+
+  .offers-list h2 {
+    font-size: 26px;
+    margin-bottom: 14px;
+  }
+
+  .offers-list li {
+    font-size: 18px;
+    letter-spacing: 0.8px;
   }
   .hero-section {
     height: 65vh;
   }
 }
+
+@media (max-width:380px) {
+  .quote-section p {
+    font-size: 18px;
+  }
+
+  .offers-list h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .offers-list li {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+  }
+
+  
+}
+

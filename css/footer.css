@@ -1,25 +1,17 @@
 .contact-section {
     background-color: #003b4a;
     color: white;
-    margin-bottom: 0px !important;
 }
 
 body {
     overflow-x: hidden;
-    background-color: #F0EFE7  !important;
-}
-
-.section-title {
-    font-family: 'Lora', serif;
-    font-style: italic;
-    color: #F0EFE7;
+    background-color: #F0EFE7 !important;
 }
 
 .contact-info p {
     font-size: 17px;
     line-height: 1.8;
     font-family: 'Montserrat';
-    font-weight: normal !important;
 }
 
 .contact-info img {
@@ -42,10 +34,6 @@ body {
     margin-bottom: 40px;
 }
 
-.form-style {
-    position: relative;
-    top: 70px;
-}
 
 .form-label {
     font-weight: 500;
@@ -56,16 +44,10 @@ input {
 }
 
 .form-control {
-    font-family: "Montserrat", sans-serif;
     border-radius: 8px;
     margin: 0px 2px 28px 2px;
-    z-index: 2;
 }
 
-.form-check-label{
-    font-family: 'Lora',serif;
-    font-style: italic;
-}
 .submit-btn {
     background-color: #00cfe8;
     color: #003b4a;
@@ -113,21 +95,22 @@ input {
 }
 
 
+/* Curved logo at the bottom-right */
 .logo-corner {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: -48px;
     right: 0;
-    /* overflow: hidden; */
-    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-corner-img {
-    max-width: 210px;
-    height: auto;
-    display: block;
-    margin-left: 30%;
+.logo-corner img {
+    max-width: 200px;
+    position: relative;
+    left: 78%;
+    object-fit: contain;
 }
-
 
 .footer span {
     /* padding: 0px 9px 7px 9px; */
@@ -362,9 +345,9 @@ input {
 
     .logo-corner img {
         position: relative;
-        max-width: 200px;
+        max-width: 156px;
         object-fit: contain;
-        left: 53%;
+        left: 65%;
     }
 
     .footer span {
@@ -471,9 +454,9 @@ input {
 
     .logo-corner img {
         position: relative;
-        max-width: 150px;
+        max-width: 133px;
         object-fit: contain;
-        left: 50%;
+        left: 55%;
     }
 
     .submit-btn {
@@ -482,27 +465,3 @@ input {
     }
 
 }
-
-/* NITHYA MEDIA QUERY CODE  */
-
-@media (max-width:769px) {
-    .footer-form-container{
-        padding-left: 5px !important;
-        padding-right: 5px !important;
-    }
-}
-
-@media (max-width:450px) {
-    .contact-info {
-    text-align: center !important;
-  }
-
-  .contact-form-container h1 {
-    text-align: center;
-  }
-
-  .contact-form-container h2 {
-    text-align: center;
-  }
-}
-
