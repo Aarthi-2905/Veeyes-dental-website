@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Veeyes Dental Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .offcanvas .nav-link {
+            color: #000;
+            font-size: 18px;
+        }
+
+        .offcanvas .nav-link:hover:focus {
+            color: #0d6efd;
+        }
+
+        .offcanvas{
+            width: 80% !important;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        .offcanvas.show:not(.hiding) {
+            width: 100%;
+            text-align: right;
+        }
+
+        .collapse .nav-link {
+            text-align: left;
+        }     
+        .service-dropdown{
+            color: red !important;
+           transform:  translate3d(-85px, 0px, 0px) !important
+        }
+
+        .offcanvas-body{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
+        <div class="container-fluid">
+            <img src="../../images/Veeyes_dental_original_logo.png" alt="Logo" class="logo" />
+
+            <!-- Toggle button for offcanvas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Desktop navbar -->
+            <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../aboutus.html">About us</a></li>
+                    <li class="nav-item dropside">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/service/gentral_dentistry.html">General dentistry</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/service/preventive_dentistry.html">Preventive
+                                    dentistry</a></li>
+                            <li><a class="dropdown-item" href="/service/pediatric-kids-dentistry.html">Pediatric
+                                    dentistry</a></li>
+                            <li><a class="dropdown-item" href="/service/public_health_dentistry.html">Public health
+                                    dentistry</a></li>
+                            <li><a class="dropdown-item" href="/service/facial-esthetics.html">Esthetic dentistry</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/service/gum_care_treatment.html">Gum care &
+                                    Treatment</a></li>
+                            <li><a class="dropdown-item" href="/service/accident_emergency.html">Accidental &
+                                    emergency</a></li>
+                            <li><a class="dropdown-item" href="/service/specialized_dentistry.html">Specialized
+                                    dentistry</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">Facilities</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/facilities/surgical-icu.html">Surgical ICU</a></li>
+                            <li><a class="dropdown-item" href="/facilities/general-anesthesia-ot.html">General
+                                    anesthesia OT</a></li>
+                            <li><a class="dropdown-item" href="/facilities/radiology.html">Radiology</a></li>
+                            <li><a class="dropdown-item" href="/facilities/labrotary.html">Laboratory</a></li>
+                            <li><a class="dropdown-item" href="/facilities/ip-admission.html">IP admission</a></li>
+                            <li><a class="dropdown-item" href="/facilities/patientcare.html">Patient care</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">For Treatment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../offers.html">Offers</a></li>
+                    <li class="nav-item">
+                        <a href="#appointment-section">
+                            <button class="btn btn-primary ms-3" id="appointment" type="button">Appointment</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Offcanvas for mobile -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end  pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../aboutus.html">About us</a>
+                </li>
+
+                <!-- Services dropstart -->
+                <li class="nav-item dropdown dropstart">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu service-dropdown" index="-10px">
+                        <li><a class="dropdown-item" href="#">General Dentistry</a></li>
+                        <li><a class="dropdown-item" href="#">Preventive Dentistry</a></li>
+                        <li><a class="dropdown-item" href="#">Pediatric Dentistry</a></li>
+                        <li><a class="dropdown-item" href="#">Public Health Dentistry</a></li>
+                        <li><a class="dropdown-item" href="#">Esthetic Dentistry</a></li>
+                        <li><a class="dropdown-item" href="#">Gum Care & Treatment</a></li>
+                        <li><a class="dropdown-item" href="#">Accident & Emergency</a></li>
+                        <li><a class="dropdown-item" href="#">Specialized Dentistry</a></li>
+                    </ul>
+                </li>
+
+                <!-- Facilities dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Facilities
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="/facilities/surgical-icu.html">Surgical ICU</a></li>
+                        <li><a class="dropdown-item" href="/facilities/general-anesthesia-ot.html">General anesthesia
+                                OT</a></li>
+                        <li><a class="dropdown-item" href="/facilities/radiology.html">Radiology</a></li>
+                        <li><a class="dropdown-item" href="/facilities/labrotary.html">Laboratory</a></li>
+                        <li><a class="dropdown-item" href="/facilities/ip-admission.html">IP admission</a></li>
+                        <li><a class="dropdown-item" href="/facilities/patientcare.html">Patient care</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">For Treatment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../offers.html">Offers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#appointment-section">
+                        <button class="btn btn-primary mt-2" id="appointment" type="button">Appointment</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

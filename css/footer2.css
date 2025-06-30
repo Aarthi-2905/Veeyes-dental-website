@@ -106,7 +106,7 @@ input {
 }
 
 .logo-corner img {
-    max-width: 200px !important;
+    max-width: 200px;
     position: relative;
     left: 78%;
     object-fit: contain;
@@ -131,7 +131,7 @@ input {
     .logo-corner img {
         max-width: 200px;
         position: relative;
-        left: 77%;
+        left: 77% !important;
         object-fit: contain;
     }
 }
@@ -165,9 +165,11 @@ input {
     }
 
     .logo-corner img {
-        position: relative;
+        position: absolute;
         max-width: 200px;
-        /* right: 1%; */
+        /* right: -63%; */
+        bottom: -7px;
+        left: 77% !important;
         object-fit: contain;
     }
 }
@@ -204,7 +206,7 @@ input {
     .logo-corner img {
         position: relative;
         max-width: 200px;
-        left: 68% ;
+        left: 73% !important;
         object-fit: contain;
     }
 
@@ -248,7 +250,8 @@ input {
     .logo-corner img {
         position: relative;
         max-width: 200px;
-        left: 62%;
+        left: 68% !important;
+        bottom: 0px;
         object-fit: contain;
     }
 
@@ -345,7 +348,7 @@ input {
 
     .logo-corner img {
         position: relative;
-        max-width: 156px !important;
+        max-width: 156px;
         object-fit: contain;
         left: 65%;
     }
@@ -411,8 +414,8 @@ input {
 
     .logo-corner img {
         position: relative;
-        max-width: 200px;
-        left: 44%;
+        max-width: 97px;
+        left: 81% !important;
         object-fit: contain;
     }
 
@@ -454,9 +457,9 @@ input {
 
     .logo-corner img {
         position: relative;
-        max-width: 133px;
+        max-width: 125px;
         object-fit: contain;
-        left: 55%;
+        left: 64% !important;
     }
 
     .submit-btn {
