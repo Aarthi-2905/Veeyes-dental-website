@@ -166,7 +166,7 @@
 .nabh-title {
   font-family: Italic or normal weight, serif;
   margin-top: 5%;
-  margin-left: 3%;
+  margin-left: 5%;
   text-decoration: underline;
   font-weight: 600;
   font-style: italic;
@@ -219,6 +219,13 @@
   font-family: lora;
 }
 
+.tooth-list {
+  /* font-size: 14px; */
+  /* margin-left: 5%; */
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
 
 
 /* ______________________ */
@@ -367,6 +374,15 @@
   }
   .cont {
     line-height: 45px;
+  }
+}
+
+
+@media (min-width: 904px) {
+
+  .left-inner{
+    /* margin-left: 60%; */
+    left: 180px;
   }
 }
 

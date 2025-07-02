@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
+    <!-- <link rel="stylesheet" href="/css/service/gentral_dentistry.css"> -->
     <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
     <link rel="stylesheet" href="/css/facilities/surgical.css">
 </head>
@@ -40,10 +40,13 @@
     }
 
     .sicu-heading {
-        font-family: 'Lora', sans-serif;
-        font-size: 1.9rem;
+        font-family: 'Georgia', serif;
         font-style: italic;
+        
+        font-size: 1.9rem;
         margin-bottom: 1.5rem;
+        font-weight: bold;
+        margin-left: -5%;
     }
 
     .sicu-list {
@@ -91,6 +94,8 @@
         line-height: 1.7;
         color: #103144;
     }
+
+
 </style>
 
 <body>
@@ -99,44 +104,50 @@
 
     </div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
-
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
-                <div class="align-items-center">
-                    <h1 class="title">Surgical ICU</h1>
-                </div>
-                <div class="list-style">
-                    <ul>
-                        <li>Surgical Intensive Care Unit (SICU)  in a dental hospital is a specialized
-                            unit
-                            designed to
-                            provide advanced, around-the-clock care for patients who have undergone major surgical
-                            procedures, particularly those that may require close monitoring, intensive therapy, and
-                            immediate medical intervention post-surgery.</li>
-                        <li>In a dental hospital, this unit is often used for patients who have undergone complex oral
-                            or
-                            maxillofacial surgeries, which can sometimes involve significant risk or require intensive
-                            care
-                            in the recovery phase.</li>
-                    </ul>
-                </div>
+          <!-- Title: Always first -->
+          <div class="col-md-6 order-1 order-md-1">
+            <div class="align-items-center">
+              <h1 class="title">Surgical ICU</h1>
             </div>
-
-            <div class="col-1">
-                <img src="../../images/star.png" class="star-icon" alt="Star Icon">
+          </div>
+      
+          <!-- Star icon: Show only on md and up -->
+          <div class="col-1 d-none d-md-block order-md-2">
+            <img src="../../images/star.png" class="star-icon" alt="Star Icon">
+          </div>
+      
+          <!-- Image: Second on small, third on md+ -->
+          <div class="col-md-5 order-2 order-md-3">
+            <img src="../../images/surgical_triangle_image.png" class="custom-img"
+              alt="Surgical dentistry illustration">
+          </div>
+      
+          <!-- Content: Third on small, second on md+ -->
+          <div class="col-md-6 order-3 order-md-2">
+            <div class="list-style">
+              <ul>
+                <li>
+                  Surgical Intensive Care Unit (SICU) in a dental hospital is a specialized unit
+                  designed to provide advanced, around-the-clock care for patients who have undergone major surgical
+                  procedures, particularly those that may require close monitoring, intensive therapy, and immediate medical intervention post-surgery.
+                </li>
+                <li>
+                  In a dental hospital, this unit is often used for patients who have undergone complex oral
+                  or maxillofacial surgeries, which can sometimes involve significant risk or require intensive care
+                  in the recovery phase.
+                </li>
+              </ul>
             </div>
-
-            <div class="col-md-5">
-                <img src="../../images/surgical_triangle_image.png" class="custom-img"
-                    alt="Surgical dentistry illustration">
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      
 
     <!-- ________________________________________list section_______________________________________________________________ -->
 
-    <section class="features-section mt-2">
+    <section class="features-section ">
         <div class="heading-with-arrow">
             <h2 class="section-title"><em>Key Features of a Surgical ICU in a Dental Hospital:</em></h2>
             <img src="../../images/table_arrow.png" alt="Arrow" class="heading-arrow">

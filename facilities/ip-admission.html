@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../../css/header.css">
     <link rel="stylesheet" href="../../css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <link rel="stylesheet" href="/css/facilities/ip-admission.css">
+    <!-- <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css"> -->
     <!-- <link rel="stylesheet" href="../css/facilities/ip-admission.css"> -->
 </head>
 <style>
@@ -152,31 +152,43 @@
 
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
-                <div class="align-items-center">
-                    <h1 class="title">IP Admission</h1>
-                </div>
-                <div class="list-style">
-                    <ul>
-                        <li> IP (in-patient) admission usually involves admitting a patient for an extended stay to
-                            receive dental treatment and care within the hospital's dental department. Unlike outpatient
-                            care where patients visit for routine procedures and leave the same day.</li>
-                        <li>IP admission is typically required for more complex dental surgeries, treatments, or cases
-                            where ongoing monitoring and recovery in a hospital setting are necessary.</li>
-                    </ul>
-                </div>
+          <!-- Title: Always first -->
+          <div class="col-md-6 order-1 order-md-1">
+            <div class="align-items-center">
+              <h1 class="title">IP Admission</h1>
             </div>
-
-            <div class="col-1">
-                <img src="../../images/star.png" class="star-icon" alt="Star Icon">
+          </div>
+      
+          <!-- Star icon: Only visible on md+ screens -->
+          <div class="col-1 d-none d-md-block order-md-2">
+            <img src="../../images/star.png" class="star-icon" alt="Star Icon">
+          </div>
+      
+          <!-- Image: Second on small screens, third on md+ -->
+          <div class="col-md-5 order-2 order-md-3">
+            <img src="../../images/surgical_triangle_image.png" class="custom-img"
+              alt="Surgical dentistry illustration">
+          </div>
+      
+          <!-- Content: Third on small screens, second on md+ -->
+          <div class="col-md-6 order-3 order-md-2">
+            <div class="list-style">
+              <ul>
+                <li>
+                  IP (in-patient) admission usually involves admitting a patient for an extended stay to receive dental
+                  treatment and care within the hospital's dental department. Unlike outpatient care where patients visit
+                  for routine procedures and leave the same day.
+                </li>
+                <li>
+                  IP admission is typically required for more complex dental surgeries, treatments, or cases where ongoing
+                  monitoring and recovery in a hospital setting are necessary.
+                </li>
+              </ul>
             </div>
-
-            <div class="col-md-5">
-                <img src="../../images/surgical_triangle_image.png" class="custom-img"
-                    alt="Surgical dentistry illustration">
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      
 
     <div class="container">
         <div class="row">

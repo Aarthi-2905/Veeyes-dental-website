@@ -2,6 +2,7 @@
 html,
 body {
   overflow-x: hidden;
+  
 }
 
 /* General animation styles */
@@ -322,7 +323,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  background-color: #f3f2ea;
+  background-color:white !important;
 }
 
 .accreditation_box {
@@ -409,7 +410,7 @@ body {
 
 .highlighted_text {
   margin-top: 1% !important;
-  background-color: #f3f2ea;
+  background-color: white !important;
   padding: 2rem 1rem;
   text-align: center;
   color: rgb(24, 61, 74);
@@ -601,7 +602,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  background-color: #f3f2ea;
+  background-color: white !important;
 }
 
 .accreditation_box3 {
@@ -687,7 +688,7 @@ body {
 
 .highlighted_text {
   margin-top: 1% !important;
-  background-color: #f3f2ea;
+  background-color: white !important;
   padding: 2rem 1rem;
   text-align: center;
   color: rgb(24, 61, 74);
@@ -880,7 +881,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  background-color: #f3f2ea;
+  background-color: white !important;
 }
 
 .our-journey {
@@ -889,6 +890,7 @@ body {
   text-align: center;
   font-size: 50px;
   margin-bottom: 5%;
+  background-color: white !important;
   color: rgb(24, 61, 74);
 }
 
@@ -966,7 +968,7 @@ body {
 
 .highlighted_text {
   margin-top: -3%;
-  background-color: #f3f2ea;
+  background-color:white !important;
 
   padding: 2rem 1rem;
   text-align: center;
@@ -1196,7 +1198,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
-  background-color: #f3f2ea;
+  background-color: white !important;
 }
 
 .accreditation_box4 {
@@ -1273,7 +1275,7 @@ body {
 
 .highlighted_text {
   margin-top: -3%;
-  background-color: #f3f2ea;
+  background-color: white !important;
 
   padding: 2rem 1rem;
   text-align: center;
@@ -1416,6 +1418,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin-bottom: 5%;
+    /* background-color: white !important; */
     color: rgb(24, 61, 74);
   }
 
@@ -1553,6 +1556,7 @@ body {
 .care-section {
   margin-top: 60px;
   padding: 0 24px;
+  background-color: white !important;
 }
 
 .care-grid {
@@ -1560,10 +1564,12 @@ body {
   flex-wrap: wrap;
   gap: 40px;
   align-items: flex-start;
+  
 }
 
 .care-image {
   flex: 1 1 300px;
+  background-color: white !important;
 }
 
 .care-image img {
@@ -1641,7 +1647,7 @@ body {
 }
 
 .vmq-card {
-  background-color: #bac3e0;
+  background-color: white;
   border-radius: 1rem;
   /* padding: 2.5rem 1.5rem 2rem; */
   text-align: left;
@@ -1806,23 +1812,30 @@ body {
 }
 
 /* __________________________________________md____________________________________________________________ */
+.founders-section{
+  background-color: white;
+
+}
+
 .founders {
   font-size: 60px;
   text-align: center;
   margin-top: 4%;
   margin-bottom: -1%;
   font-weight: 600;
+  background-color: white !important;
   font-family: "Georgia", serif;
 }
 
 .profile-section {
-  background-color: #f9f9f6;
+  background-color: white !important;
   padding: 2rem;
   box-sizing: border-box;
 }
 
 .profile-container {
   display: flex;
+  background-color: white;
   flex-direction: row;
   gap: 2rem;
   align-items: center;
