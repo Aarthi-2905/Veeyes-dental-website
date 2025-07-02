@@ -24,8 +24,8 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="../../css/header.css">
-    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
     <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
     <style>
@@ -255,12 +255,12 @@ font-style: italic;
       
           <!-- Image -->
           <div class="col-12 col-md-5 d-flex justify-content-center align-items-center order-2 order-md-3">
-            <img src="../../images/surgical_triangle_image.png" class="custom-img" alt="Surgical dentistry illustration">
+            <img src="/images/surgical_triangle_image.png" class="custom-img" alt="Surgical dentistry illustration">
           </div>
       
           <!-- Star icon (only on medium and up) -->
           <div class="col-1 d-none d-md-block order-md-2">
-            <img src="../../images/star.png" class="star-icon" alt="Star Icon">
+            <img src="/images/star.png" class="star-icon" alt="Star Icon">
           </div>
       
           <!-- Content -->
@@ -370,13 +370,13 @@ font-style: italic;
             if (box) observer.observe(box);
         });
 
-        fetch('../../header.html')
+        fetch('/header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('../../footer.html')
+        fetch('/footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
