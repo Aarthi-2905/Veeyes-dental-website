@@ -61,12 +61,10 @@
                 </div>
             </div>
 
-            <div class="col-1">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
-            </div>
 
-            <div class="col-md-5">
-                <img src="/images/surgical_triangle_image.png" class="custom-img"
+
+            <div class="col-md-5 order-md-2 order-1">
+                <img src="../../images/surgical_triangle_image.png" class="custom-img w-100"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -74,8 +72,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-2">
-                <img src="/images/star.png" class="star-icon2" alt="Star Icon">
+            <div class="col-md-2 col-12 d-none d-md-block order-md-1 order-2 position-relative">
+                <img src="../../images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
+                    style="bottom: 0; left: 0;">
             </div>
 
             <div class="col-md-10 col-12 order-md-1 order-1">
@@ -224,13 +223,13 @@
             if (box) observer.observe(box);
         });
 
-        fetch('/header.html')
+        fetch('../../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('/footer.html')
+        fetch('../../footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
