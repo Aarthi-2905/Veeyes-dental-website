@@ -74,7 +74,6 @@
 .vdh-highlight-box {
     position: relative;
     border-radius: 2rem;
-    /* background-color: white !important; */
     /* INITIAL background is white */
     color: #000;
     overflow: hidden;
@@ -176,6 +175,24 @@
     box-shadow: -5px -5px 0 #E8D8B7;
 }
 
+.bg-fill-text {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.3;
+}
+
+
+.download-title {
+    font-size: 32px;
+    font-family: Lora;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+
 
 @media (max-width: 996px) {
     .title {
@@ -241,6 +258,10 @@
         text-align: center;
         padding: 18px 18px 18px 18px;
     }
+
+    .download-title{
+    font-size: 24px;
+}
 }
 
 @media (max-width:768px) {
@@ -312,6 +333,10 @@
         text-align: center !important;
         padding: 15px 15px 15px 15px;
     }
+
+    .download-title{
+    font-size: 18px;
+}
 }
 
 @media (max-width:650px) {
@@ -337,6 +362,7 @@
         padding: 10px 10px 10px 10px;
         text-align: center;
     }
+
 }
 
 
@@ -414,6 +440,9 @@
         padding: 10px 10px 10px 10px;
         text-align: center !important;
     }
+    .download-title{
+    font-size: 16px;
+}
 }
 
 
@@ -479,6 +508,9 @@
         line-height: 2.3;
     }
 
+    .download-title{
+    font-size: 16px;
+}
 }
 
 
@@ -548,4 +580,8 @@
         width: 80%;
         padding: 10px 10px 10px 10px;
     }
+
+    .download-title{
+    font-size: 15px;
+}
 }

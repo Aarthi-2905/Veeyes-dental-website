@@ -208,6 +208,7 @@
   /* NEW: aligns icon + text */
   align-items: center;
   /* NEW: vertical centering */
+  font-size: 20px;
 }
 
 .features-list i {
@@ -235,10 +236,9 @@
 
 /* ______________________________________________content_______________________________________________________ */
 .nabh-summary {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 1.5rem auto;
-  font-family: 'Montserrat', serif;
-  font-style: italic;
+  font-family: 'lora', serif;
   padding: 0 1rem;
   font-size: 24px;
   line-height: 1.8;
@@ -292,6 +292,8 @@
   .nabh-summary{
     
 font-size: 20px;
+    
+width: 700px;
   }
 }
 
@@ -446,6 +448,7 @@ font-size: 20px;
 
   .scope h3 {
     padding-top: 12px;
+    font-size: 24px;
   }
 
   .scope h5 {
@@ -470,7 +473,7 @@ font-size: 20px;
 
   .scope li {
     margin-bottom: 10px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 2;
   }
 
@@ -487,6 +490,7 @@ font-size: 20px;
 
   .nabh-summary {
     font-size: 15px;
+    width: 600px;
   }
 }
 

@@ -76,7 +76,6 @@
 .vdh-highlight-box {
   position: relative;
   border-radius: 2rem;
-  background-color: white !important;
   /* INITIAL background is white */
   color: #000;
   overflow: hidden;
