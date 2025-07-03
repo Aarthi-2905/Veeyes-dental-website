@@ -30,27 +30,29 @@
 </head>
 
 <body>
-    <!-- navgation page Starting -->
-    <div id="header">
 
-    </div>
+    <div id="header"></div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
-
 
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
+            <h1 class="title d-md-none d-block">General Dentistry</h1>
+            <div class="col-md-6 order-md-1 order-2">
                 <div class="align-items-center">
-                    <h1 class="title">General Dentistry</h1>
+                    <h1 class="title d-md-block d-none">General Dentistry</h1>
                 </div>
-                <div class="custom-list" data-aos="slide-right">
-                    <p>
-                        General Dentistry plays a foundational and integrative role. While the hospital may house
-                        various dental
-                        specialists (like orthodontists, periodontists, oral surgeons, etc.), general dentists are often
-                        the first
-                        point of contact for patients and serve as coordinators of overall oral care.
-                    </p>
+                <div class="list-style">
+                    <ul style="list-style: none;">
+                        <li>
+                            General Dentistry plays a foundational and integrative role. While the hospital may house
+                            various dental
+                            specialists (like orthodontists, periodontists, oral surgeons, etc.), general dentists are
+                            often
+                            the first
+                            point of contact for patients and serve as coordinators of overall oral care.
+                        </li>
+
+                    </ul>
                 </div>
             </div>
 
@@ -65,12 +67,13 @@
         </div>
     </div>
 
+
     <div class="container">
         <div class="row">
             <div class="col-2">
                 <img src="/images/star.png" class="star-icon2" alt="Star Icon">
             </div>
-            <div class="col-10">
+            <div class="col-md-10 col-12">
                 <div class="my-circles">
                     <div class="circle small"></div>
                     <div class="circle medium"></div>
@@ -89,7 +92,6 @@
                             teeth.
                         </p>
                     </div>
-
                 </section>
             </div>
         </div>
@@ -114,12 +116,38 @@
         <p class="box-style">Call today @--(0422-438300) to get your initial assessment.</p>
     </div>
 
+    <div class="container general">
+        <div class="row">
+            <p class="gentral-text" data-aos="fade-in">
+                General Dentist work closely with specialists in multidisciplinary cases such as full-mouth
+                rehabilitation
+                or cancer treatment.
+                They use oral tests, x-rays, and other means to evaluate and diagnose your oral
+                problem before
+                prescribing
+                treatment or
+                referring to a specialist.
+                <b>In short, general dentistry serves as the backbone of a dental specialty hospital, ensuring patients
+                    receive timely,
+                    effective, and well-coordinated care.</b>
+            </p>
+            <div class="row">
+
+                <img src="../../images/star.png" class="second-star-icon" alt="Star Icon">
+            </div>
+        </div>
+    </div>
+
+    <p class="box-style">Call today @--(0422-438300) to get your initial assessment.</p>
+
+
+
+
+
     <div id="footer">
 
     </div>
-    <!-- footer page Ending -->
 
-    <!-- animation AOS JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -152,7 +180,25 @@
         AOS.init({
             once: true   // ✅ this makes animation happen only once
         });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("animate");
+                    }
+                });
+            }, {
+                threshold: 0.3 // adjust as needed
+            });
+
+            const box = document.querySelector(".vdh-highlight-box");
+            if (box) observer.observe(box);
+        });
     </script>
+
 </body>
+
+
 
 </html>

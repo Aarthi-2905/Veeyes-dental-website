@@ -1,9 +1,8 @@
 .title {
-  font-family: lora;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #003b49;
-  padding-top: 8%;
+  padding-top: 4%;
 }
 
 .star-icon {
@@ -22,6 +21,9 @@
   color: #183D4A;
 }
 
+.star-icon-style {
+  width: 100px;
+}
 
 .star-icon2 {
   width: 70px;
@@ -70,10 +72,10 @@
 }
 
 
+
 .vdh-highlight-box {
   position: relative;
   border-radius: 2rem;
-  background-color: white !important;
   /* INITIAL background is white */
   color: #000;
   overflow: hidden;
@@ -129,158 +131,84 @@
   width: 100%;
 }
 
-
-.features-section {
-  padding: 0rem 1rem;
-  /* max-width: 1150px; */
-  margin: 0 auto;
-  /* background-color: #fefdfb; */
-  color: #0d2c2f;
-  /* margin-top: -11% !important; */
+.feature {
+  background-color: #183D4A;
 }
 
-.section-title {
-  font-size: 33px;
+.feature .header {
+  padding: 0px 100px 0px 100px;
+}
+
+.feature .header h1 {
+  padding: 20px 50px 20px 50px;
+  font-size: 48px;
+  color: #ECD8B6;
+  line-height: 2;
+  font-family: lora;
+}
+
+.content ul li span {
+  line-height: 2.5;
+  font-family: Montserrat;
+  font-size: 24px;
+  color: #ECD8B6;
+}
+
+.content ul li {
+  line-height: 2.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.scope h3 {
+  padding-top: 30px;
+  font-family: Lora, serif;
   font-weight: bold;
-  color: #1e3a34;
-  font-style: italic !important;
-  font-family: 'Montserrat', serif;
-  /* Replace with your actual site font */
-  color: #003c3c;
-  /* margin-bottom: 3%; */
-  /* text-align: center; */
-  /* margin-top: 18%; */
+  color: #003b49;
 }
 
-.features-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dot {
-  margin-left: 5%;
-  margin-right: 1%;
-}
-
-.sub-list li {
-  font-size: 15px;
-}
-
-.features-list li {
-  font-size: 25px;
-  margin: 0.6rem 0;
-  padding-left: 1.5rem;
+.scope h5 {
   position: relative;
-
+  padding-left: 30px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #004b63;
+  font-family: lora;
+  font-weight: bold;
 }
 
-.features-list li::before {
-  /* content: '🦷'; */
+.scope h5::before {
+  content: "🦷";
   position: absolute;
   left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #00acc1;
 }
 
-.heading-arrow {
-  width: 50px;
-  /* Adjust this based on arrow size */
-  height: auto;
-  transform: rotate(15deg);
-  /* Match the angle from the Figma design */
-  margin-top: 10%;
+.scope ul {
+  list-style-type: disc;
+  padding-left: 50px;
+  margin-top: 5px;
 }
 
-.heading-with-arrow {
-  display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  gap: 25px;
-  /* More space between text and arrow */
-  /* margin: 40px 0; */
-  flex-wrap: wrap;
-  /* Optional: good for responsiveness */
+.scope li {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  line-height: 2;
+  font-family: Montserrat;
 }
 
-.features-list li {
-  font-size: 1rem;
-  margin: 0.6rem 0;
-  display: flex;
-  /* NEW: aligns icon + text */
-  align-items: center;
-  /* NEW: vertical centering */
-  font-size: 20px;
+.scope p {
+  padding-left: 30px;
+  margin-top: 5px;
+  font-size: 1.4rem;
 }
 
-.features-list i {
-  color: #0bdee6;
-  /* NEW: yellow color for icon */
-  margin-right: 0.75rem;
-  /* NEW: spacing between icon and text */
-  font-size: 35px;
-  /* Optional: slightly larger icon */
+.scope strong {
+  color: #004b63;
 }
-
-.star-icon1 {
-  width: 8%;
-  margin-left: 74% !important;
-  margin-top: -40%;
-}
-
-.smile {
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-weight: 480;
-  margin-bottom: 2%;
-  /* margin-top: 2%; */
-}
-
-/* ______________________________________________content_______________________________________________________ */
-.nabh-summary {
-  max-width: 900px;
-  margin: 1.5rem auto;
-  font-family: 'lora', serif;
-  padding: 0 1rem;
-  font-size: 24px;
-  line-height: 1.8;
-  color: #0d2c2f;
-  text-align: center;
-  margin-top: 1%;
-}
-
-.scope{
-  margin-top: 2%;
-  padding: 50px;
-}
-
-.em-cont {
-  text-align: center;
-  font-size: 45px;
-  margin-bottom: -2%;
-  font-family: 'Montserrat', serif;
-  font-weight: 600;
-}
-
-.section-title2 {
-  font-size: 33px;
-  font-weight: bold;
-  color: #1e3a34;
-  font-style: italic !important;
-  font-family: 'Montserrat', serif;
-  color: #003c3c;
-  margin-bottom: 1rem;
-  /* text-align: center; */
-  margin-top: 15%;
-}
-
-.heading-arrow2 {
-  width: 50px;
-  height: auto;
-  transform: rotate(15deg);
-  margin-top: 15%;
-}
-
-
-
 
 @media (max-width:1200px) {
   .feature .header h1 {
@@ -288,16 +216,70 @@
     font-size: 30px;
     line-height: 2;
   }
+}
 
-  .nabh-summary{
-    
-font-size: 20px;
-    
-width: 700px;
+@media (max-width:996px) {
+  .title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+  }
+
+  .star-icon {
+    width: 14%;
+    margin-left: 0% !important;
+    margin-top: -24%;
+  }
+
+  .list-style ul li {
+    /* line-height: 3; */
+    margin-top: 0px;
+    font-size: 13px;
+  }
+
+  .vdh-highlight-section {
+    padding: 2.5rem;
+  }
+
+  .vdh-highlight-box p {
+    line-height: 2;
+    padding: 4px;
+    font-size: 13px;
+  }
+
+  .vdh-highlight-box {
+    padding: 1.2rem;
+    font-size: 14px;
+  }
+
+
+  .small {
+    width: 10px;
+    height: 10px;
+    top: -31px;
+    left: -3.5%;
+  }
+
+
+  .medium {
+    width: 20px;
+    height: 20px;
+    top: -17px;
+    left: -1%;
+  }
+
+  .large {
+    width: 30px;
+    height: 30px;
+    top: 4px;
+    left: 3%;
   }
 }
 
-@media (max-width: 996px) {
+
+@media (max-width:768px) {
   .title {
     text-align: center;
     font-size: 28px;
@@ -356,75 +338,6 @@ width: 700px;
     left: 3%;
   }
 
-  .section-title {
-    font-size: 18px;
-  }
-
-  .nabh-summary {
-    font-size: 16px;
-  }
-}
-
-
-@media (max-width:768px) {
-  .title {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 0%;
-    padding-top: 11%;
-    padding-bottom: 3%;
-  }
-
-  .star-icon {
-    width: 14%;
-    margin-left: 0% !important;
-    margin-top: -24%;
-  }
-
-  .list-style ul li {
-    /* line-height: 3; */
-    margin-top: 0px;
-    font-size: 13px;
-  }
-
-  .vdh-highlight-section {
-    padding: 2.5rem;
-  }
-
-  .vdh-highlight-box p {
-    line-height: 2;
-    padding: 4px;
-    font-size: 13px;
-  }
-
-  .vdh-highlight-box {
-    padding: 1.2rem;
-    font-size: 14px;
-  }
-
-
-  .small {
-    width: 10px;
-    height: 10px;
-    top: -31px;
-    left: -3.5%;
-  }
-
-
-  .medium {
-    width: 20px;
-    height: 20px;
-    top: -17px;
-    left: -1%;
-  }
-
-  .large {
-    width: 30px;
-    height: 30px;
-    top: 4px;
-    left: 3%;
-  }
-
 
   .feature .header {
     padding: 0px 0px 0px 0px;
@@ -447,8 +360,7 @@ width: 700px;
   }
 
   .scope h3 {
-    padding-top: 12px;
-    font-size: 24px;
+    padding-top: 30px;
   }
 
   .scope h5 {
@@ -467,7 +379,7 @@ width: 700px;
 
   .scope ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-left: 50px;
     margin-top: 5px;
   }
 
@@ -482,15 +394,6 @@ width: 700px;
     margin-top: 5px;
     font-size: 1.2rem;
     line-height: 2;
-  }
-
-  .section-title {
-    font-size: 26px;
-  }
-
-  .nabh-summary {
-    font-size: 15px;
-    width: 600px;
   }
 }
 
@@ -527,7 +430,7 @@ width: 700px;
   }
 
   .scope h3 {
-    padding-top: 9px;
+    padding-top: 30px;
   }
 
   .scope h5 {
@@ -546,7 +449,7 @@ width: 700px;
 
   .scope ul {
     list-style-type: disc;
-    padding-left: 0px;
+    padding-left: 50px;
     margin-top: 5px;
   }
 
@@ -560,14 +463,6 @@ width: 700px;
     padding-left: 30px;
     margin-top: 5px;
     font-size: 1rem;
-  }
-
-  .section-title {
-    font-size: 18px;
-  }
-
-  .nabh-summary {
-    font-size: 16px;
   }
 }
 
@@ -654,7 +549,7 @@ width: 700px;
   }
 
   .scope h3 {
-    padding-top: 16px;
+    padding-top: 30px;
   }
 
   .scope h5 {
@@ -673,7 +568,7 @@ width: 700px;
 
   .scope ul {
     list-style-type: disc;
-    padding-left: 0px;
+    padding-left: 50px;
     margin-top: 5px;
   }
 
@@ -687,14 +582,6 @@ width: 700px;
     padding-left: 30px;
     margin-top: 5px;
     font-size: 1rem;
-  }
-
-  .section-title {
-    font-size: 18px;
-  }
-
-  .nabh-summary {
-    font-size: 14px;
   }
 }
 
@@ -791,12 +678,12 @@ width: 700px;
     position: absolute;
     left: 0;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .scope ul {
     list-style-type: disc;
-    padding-left: 0px;
+    padding-left: 50px;
     margin-top: 5px;
   }
 
@@ -812,14 +699,6 @@ width: 700px;
     font-size: 1rem;
   }
 
-
-  .section-title {
-    font-size: 18px;
-  }
-
-  .nabh-summary {
-    font-size: 14px;
-  }
 }
 
 
@@ -901,7 +780,7 @@ width: 700px;
   }
 
   .scope h3 {
-    padding-top: 10px;
+    padding-top: 30px;
   }
 
   .scope h5 {
@@ -920,7 +799,7 @@ width: 700px;
 
   .scope ul {
     list-style-type: disc;
-    padding-left: 0px;
+    padding-left: 50px;
     margin-top: 5px;
   }
 
@@ -936,20 +815,4 @@ width: 700px;
     font-size: 1rem;
   }
 
-  .features-list i {
-    color: #0bdee6;
-    /* NEW: yellow color for icon */
-    margin-right: 0.75rem;
-    /* NEW: spacing between icon and text */
-    font-size: 14px;
-    /* Optional: slightly larger icon */
-  }
-
-  .section-title {
-    font-size: 18px;
-  }
-
-  .nabh-summary {
-    font-size: 11px;
-  }
 }

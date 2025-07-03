@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <div class="container-fluid contact-section mt-3 pt-5" id="appointment-section">
-        <div class="row pl-5 pr-5">
-            <div class="col-lg-6 col-md-5 col-sm-12 col-12 contact-info">
+    <div class="container-fluid contact-section  pt-5" id="appointment-section">
+        <div class="row ">
+            <div class="col-lg-6 col-md-5 col-sm-12 col-12 contact-info order-2 order-md-1">
                 <h3>Content Info</h3>
-                <p><strong>▶ Bus stop, Sathy Rd, Near Ramakrishna Mill,<br>
+                <p><strong><span style="color: #13C2CF ;">▶</span> Bus stop, Sathy Rd, Near Ramakrishna Mill,<br>
                         Ramakrishnapuram, Ganapathy,<br>
                         Coimbatore - 641006</strong><br>
                     Phone: 0422-4380300, 2533333<br>
@@ -25,7 +25,7 @@
                 </p>
                 <img src="/images/map_image.jpg" class="img-fluid" alt="Coimbatore Location" />
 
-                <p><strong>▶ Avinashi – Tiruppur Rd, Murungapalayam,<br>
+                <p><strong><span style="color: #13C2CF ;">▶</span> Avinashi – Tiruppur Rd, Murungapalayam,<br>
                         Kumar Nagar, Indira Nagar, Near CSI Church,<br>
                         Tiruppur - 641603</strong><br>
                     Phone: 0421-4333366<br>
@@ -43,9 +43,12 @@
             </div>
 
             <!-- Contact Form -->
-            <div class="col-lg-6 col-md-7 col-sm-12 pb-5 contact-form-container">
-                <h1>Transform Your Smile!</h1>
-                <h2 class="section-title text-white">Schedule your visit today!</h2>
+            <div class="col-lg-6 col-md-7 col-sm-12 pb-5 contact-form-container order-1 order-md-2">
+                <h1 class="d-none d-md-block">Transform Your Smile!</h1>
+                <h1 class="d-block d-md-none text-center">Have a question?</h1>
+                <h2 class="section-title text-white d-none d-md-block">Schedule your visit today!</h2>
+                <h2 class="section-title text-white d-block d-md-none text-center">We are just a message away!</h2>
+
                 <form>
                     <div class="row g-4">
                         <div class="col-md-6">
@@ -69,18 +72,29 @@
                         <div class="col-12">
                             <textarea class="form-control" rows="6" placeholder="Message"></textarea>
                         </div>
-                        <div class="col-md-6 col-12">
-                            <div class="form-check text-white">
-                                <input class="form-check-input" type="checkbox" id="newsCheck"
-                                    style="background-color: transparent;">
-                                <label class="form-check-label" for="newsCheck">
-                                    Sign Me Up for the Best Deals and News!
-                                </label>
-                            </div>
-                            <button type="submit" class="submit-btn mt-3">Submit Message</button>
+                        <div class="col-md-6 col-12 d-block d-md-none">
+                            <button type="submit" class="submit-btn">Submit Message</button>
                         </div>
                     </div>
                 </form>
+                <div class="row">
+                    <div class="col-md-6 col-12 d-none d-md-block">
+                        <div class="form-check text-white">
+                            <input class="form-check-input" type="checkbox" id="newsCheck"
+                                style="background-color: transparent;">
+                            <label class="form-check-label" for="newsCheck">
+                                Sign Me Up for the Best Deals and News!
+                            </label>
+                        </div>
+                        <button type="submit" class="submit-btn mt-3">Submit Message</button>
+                    </div>
+                    <div class="col-md-6 text-end" style="padding: 0;margin: 0;">
+                        <div class="logo-corner d-md-block d-none">
+                            <img src="../../images/footer_logo_labtopScreen.png" alt="Veeyes Dental Logo" />
+                        </div>
+
+                    </div>
+                </div>
 
                 <!-- Curved logo corner -->
                 <div class="logo-corner d-md-block d-none">
@@ -91,6 +105,9 @@
                     <img src="/images/footer_logo_labtopScreen.png" alt="Veeyes Dental Logo" />
                 </div>
             </div>
+        </div>
+        <div class="logo-corner d-md-none d-block text-end" style="padding: 0;margin: 0;">
+            <img src="../../images/footer_logo_labtopScreen.png" alt="Veeyes Dental Logo" />
         </div>
 
 
