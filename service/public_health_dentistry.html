@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <link rel="stylesheet" href="/css/service/public_health_dentistry.css">
+    <!-- <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css"> -->
 </head>
 <style>
     .bg-fill-ul {
@@ -50,31 +50,42 @@
 
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
-                <div class="align-items-center">
-                    <h1 class="title">Public Health Dentistry</h1>
-                </div>
-                <div class="list-style">
-                    <ul>
-                        <li>Public Health Dentistry (also known as Community Dentistry) is the branch of dentistry that
-                            focuses on the prevention and control of dental diseases and the promotion of oral health
-                            through organized community-based efforts rather than individual treatment.</li>
-                        <li>It aims to improve the oral health of populations, especially underserved or at-risk groups.
-                        </li>
-                    </ul>
-                </div>
+          <!-- Title: Always first -->
+          <div class="col-md-6 order-1 order-md-1">
+            <div class="align-items-center">
+              <h1 class="title">Public Health Dentistry</h1>
             </div>
-
-            <div class="col-1">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+          </div>
+      
+          <!-- Star icon: only show on md+ -->
+          <div class="col-1 d-none d-md-block order-md-2">
+            <img src="/images/star.png" class="star-icon" alt="Star Icon">
+          </div>
+      
+          <!-- Image: second on small, third on md+ -->
+          <div class="col-md-5 order-2 order-md-3">
+            <img src="/images/surgical_triangle_image.png" class="custom-img"
+              alt="Surgical dentistry illustration">
+          </div>
+      
+          <!-- Content: third on small, second on md+ -->
+          <div class="col-md-6 order-3 order-md-2">
+            <div class="list-style">
+              <ul>
+                <li>
+                  Public Health Dentistry (also known as Community Dentistry) is the branch of dentistry that
+                  focuses on the prevention and control of dental diseases and the promotion of oral health
+                  through organized community-based efforts rather than individual treatment.
+                </li>
+                <li>
+                  It aims to improve the oral health of populations, especially underserved or at-risk groups.
+                </li>
+              </ul>
             </div>
-
-            <div class="col-md-5">
-                <img src="/images/surgical_triangle_image.png" class="custom-img"
-                    alt="Surgical dentistry illustration">
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      
 
     <div class="container">
         <div class="row">
