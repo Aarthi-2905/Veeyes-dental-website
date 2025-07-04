@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gentral Dentistry</title>
+    <title>Public Health Dentistry</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 
@@ -24,75 +24,54 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/public_health_dentistry.css">
-    <!-- <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css"> -->
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/service/ex.css">
 </head>
-<style>
-    .bg-fill-ul {
-        position: relative;
-        z-index: 1;
-        margin: 0;
-        font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
-        line-height: 2.3;
-    }
-</style>
 
 <body>
-    <!-- navgation page Starting -->
-    <div id="header">
 
-    </div>
+    <div id="header"></div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
-
 
     <div class="container py-5">
         <div class="row">
-          <!-- Title: Always first -->
-          <div class="col-md-6 order-1 order-md-1">
-            <div class="align-items-center">
-              <h1 class="title">Public Health Dentistry</h1>
+            <h1 class="title d-md-none d-block">Public Health Dentistry</h1>
+            <div class="col-md-6 order-md-1 order-2">
+                <div class="align-items-center">
+                    <h1 class="title d-md-block d-none">Public Health Dentistry</h1>
+                </div>
+                <div class="list-style">
+                    <ul>
+                        <li>Public Health Dentistry (also known as Community Dentistry) is the branch of dentistry that
+                            focuses on the prevention and control of dental diseases and the promotion of oral health
+                            through organized community-based efforts rather than individual treatment.</li>
+                        <li>It aims to improve the oral health of populations, especially underserved or at-risk groups.
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-      
-          <!-- Star icon: only show on md+ -->
-          <div class="col-1 d-none d-md-block order-md-2">
-            <img src="/images/star.png" class="star-icon" alt="Star Icon">
-          </div>
-      
-          <!-- Image: second on small, third on md+ -->
-          <div class="col-md-5 order-2 order-md-3">
-            <img src="/images/surgical_triangle_image.png" class="custom-img"
-              alt="Surgical dentistry illustration">
-          </div>
-      
-          <!-- Content: third on small, second on md+ -->
-          <div class="col-md-6 order-3 order-md-2">
-            <div class="list-style">
-              <ul>
-                <li>
-                  Public Health Dentistry (also known as Community Dentistry) is the branch of dentistry that
-                  focuses on the prevention and control of dental diseases and the promotion of oral health
-                  through organized community-based efforts rather than individual treatment.
-                </li>
-                <li>
-                  It aims to improve the oral health of populations, especially underserved or at-risk groups.
-                </li>
-              </ul>
+
+            <div class="col-1 order-md-2 d-md-block d-none">
+                <img src="../images/star.png" class="star-icon" alt="Star Icon">
             </div>
-          </div>
+
+            <div class="col-md-5 order-md-3 order-1">
+                <img src="../images/surgical_triangle_image.png" class="custom-img w-100"
+                    alt="Surgical dentistry illustration">
+            </div>
         </div>
-      </div>
-      
+    </div>
+
 
     <div class="container">
         <div class="row">
-            <div class="col-2">
-                <img src="/images/star.png" class="star-icon2" alt="Star Icon">
+            <div class="col-md-2 col-12 d-none d-md-block position-relative">
+                <img src="../../images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
+                    style="bottom: 0; left: 0;">
             </div>
-            <div class="col-10">
+            <div class="col-md-10 col-12">
                 <div class="my-circles">
                     <div class="circle small"></div>
                     <div class="circle medium"></div>
@@ -101,49 +80,76 @@
                 <section class="vdh-highlight-section">
                     <div class="vdh-highlight-box">
                         <div class="background-fill"></div>
-                        <p>
-                        <ul class="bg-fill-ul">
-                            <li>Prevent oral diseases at the community level</li>
-                            <li>Promote oral health education and awareness</li>
-                            <li>Conduct epidemiological surveys to assess dental health status</li>
-                            <li>Provide affordable and accessible dental care to the public</li>
-                            <li>Develop and implement oral health policies and programs</li>
-                        </ul>
-                        </p>
+                        
+                        <p>• Prevent oral diseases at the community level.</p>
+                        <p>• Promote oral health education and awareness.</p>
+                        <p>• Conduct epidemiological surveys to assess dental health status</p>
+                        <p>• Provide affordable and accessible dental care to the public.</p>
+                        <p>• Develop and implement oral health policies and programs</p>
                     </div>
-
                 </section>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <h2 class="section-heading mt-5">Benefits of <em>Microscopic Dentistry</em>:</h2>
-        <ul class="tooth-list second-list" data-aos="slide-up">
+
+    <section class="container features-section scope">
+        <div class="heading-with-arrow">
+            <h2 class="section-title">Benefits of <em>Microscopic Dentistry</em>:</h2>
+        </div>
+
+        <ul class="features-list tooth-list second-list" style="list-style: none;" data-aos="slide-up">
             <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Acts as a link between dental science and public service</li>
             <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Designs and evaluates oral health promotion programs</li>
             <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Conducts research and surveys to influence health policies</li>
             <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Promotes equity in dental care access for all populations</li>
         </ul>
 
+    </section>
 
-         <h2 class="section-heading mt-5">Collaboration:</h2>
-         <p class="sub-heading mt-3 ps-3">Works with:</p>
-        <ul class="tooth-list second-list" data-aos="slide-up">
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Government health departments</li>
+     <section class="container features-section scope">
+        <div class="heading-with-arrow">
+            <h2 class="section-title">Collaboration:</h2>
+            <h2 class="section-title2">Works with:</h2>
+        </div>
+
+        <ul class="features-list tooth-list second-list" style="list-style: none;" data-aos="slide-up">
+              <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Government health departments</li>
             <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>NGOs and schools</li>
             <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>International organizations (like WHO, FDI)</li>
         </ul>
-    </div>
+
+    </section>
+
+
+    <p class="box-style mt-4">Call today @--(0422-438300) to get your initial assessment.</p>
+
+
+
+
 
     <div id="footer">
 
     </div>
-    <!-- footer page Ending -->
 
-    <!-- animation AOS JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
+        fetch('../../header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('../../footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+        // Animation 
+        AOS.init({
+            once: true   // ✅ this makes animation happen only once
+        });
+
         document.addEventListener("DOMContentLoaded", function () {
             const observer = new IntersectionObserver(entries => {
                 entries.forEach(entry => {
@@ -158,23 +164,10 @@
             const box = document.querySelector(".vdh-highlight-box");
             if (box) observer.observe(box);
         });
-
-        fetch('/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header').innerHTML = data;
-            });
-
-        fetch('/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer').innerHTML = data;
-            });
-        // Animation 
-        AOS.init({
-            once: true   // ✅ this makes animation happen only once
-        });
     </script>
+
 </body>
+
+
 
 </html>

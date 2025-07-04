@@ -18,11 +18,11 @@
         rel="stylesheet">
     <!-- Bootstrap JS Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <!-- <link rel="stylesheet" href="../css/service/facial-esthetics.css"> -->
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../css/service/facial-esthetics.css">
 </head>
 
 <body>
@@ -56,12 +56,12 @@
                 </div>
             </div>
 
-            <div class="col-1">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+            <div class="col-1 order-md-2 d-md-block d-none">
+                <img src="../../images/star.png" class="star-icon" alt="Star Icon">
             </div>
 
-            <div class="col-md-5">
-                <img src="/images/surgical_triangle_image.png" class="custom-img"
+            <div class="col-md-5 order-md-3 order-1">
+                <img src="../../images/surgical_triangle_image.png" class="custom-img w-100"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -69,8 +69,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-2">
-                <img src="/images/star.png" class="star-icon2" alt="Star Icon">
+            <div class="col-md-2 col-12 d-none d-md-block position-relative">
+                <img src="../../images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
+                    style="bottom: 0; left: 0;">
             </div>
             <div class="col-md-10 col-12">
                 <div class="my-circles">
@@ -98,7 +99,6 @@
     <section class="container features-section scope">
         <div class="heading-with-arrow">
             <h2 class="section-title"><em>Benefits of Dental Implants:</em></h2>
-            <!-- <img src="/images/table_arrow.png" alt="Arrow" class="heading-arrow"> -->
         </div>
 
 
@@ -138,32 +138,12 @@
 
     <!-- ___________________________________content_________________________________________________ -->
 
-            <section class="features-section">
-                <div class="heading-with-arrow">
-                    <h2 class="section-title2"><em>Benefits of Dental Implants:</em></h2>
-                    <!-- <img src="/images/table_arrow.png" alt="Arrow" class="heading-arrow2"> -->
-                </div>
-                <ul class="features-list">
-                    <li><i class="fas fa-tooth"></i> Natural look and feel</li>
-                    <li><i class="fas fa-tooth"></i>Preserves jawbone and facial structure</li>
-                    <li><i class="fas fa-tooth"></i> Improves chewing efficiency and speech</li>
-                    <li><i class="fas fa-tooth"></i> Long-lasting (often 10–20+ years with proper care)</li>
-                    <li><i class="fas fa-tooth"></i> No impact on neighboring teeth (unlike traditional bridges)</li>
-
-                </ul>
-                <div>
-                    <img src="/images/star.png" class="star-icon1" alt="Star Icon">
-                </div>
-            </section>
-
-            <!-- ___________________________________content_________________________________________________ -->
-
-            <p class="nabh-summary">
-                Facial esthetics in dentistry is about more than just teeth—
-                it's about creating a harmonious balance between oral structures and facial features.
-                By combining advanced dental procedures with facial rejuvenation techniques,
-                dentists can offer comprehensive smile makeovers and enhance overall facial appearance.
-            </p>
+    <p class="nabh-summary mt-3" data-aos="slide-up">
+        Facial esthetics in dentistry is about more than just teeth—
+        it's about creating a harmonious balance between oral structures and facial features.
+        By combining advanced dental procedures with facial rejuvenation techniques,
+        dentists can offer comprehensive smile makeovers and enhance overall facial appearance.
+    </p>
 
 
 
@@ -187,20 +167,26 @@
                 threshold: 0.3 // adjust as needed
             });
 
-                fetch('/header.html')
-                    .then(response => response.text())
-                    .then(data => {
-                        document.getElementById('header').innerHTML = data;
-                    });
+            const box = document.querySelector(".vdh-highlight-box");
+            if (box) observer.observe(box);
+        });
 
-                fetch('/footer.html')
-                    .then(response => response.text())
-                    .then(data => {
-                        document.getElementById('footer').innerHTML = data;
-                    });
-                }
-            );
-            </script>
+        fetch('../../header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+
+        fetch('../../footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+        // Animation 
+        AOS.init({
+            once: true   // ✅ this makes animation happen only once
+        });
+    </script>
 
 </body>
 
