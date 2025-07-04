@@ -2,6 +2,7 @@
   font-size: 40px;
   font-weight: 700;
   color: #003b49;
+  font-family: lora;
   padding-top: 4%;
 }
 
@@ -177,7 +178,10 @@
   font-family: lora;
   font-weight: bold;
 }
-
+.scope i{
+  font-size: 23px;
+}
+/* 
 .scope h5::before {
   content: "🦷";
   position: absolute;
@@ -185,11 +189,11 @@
   top: 0;
   font-size: 1.5rem;
   color: #00acc1;
-}
+} */
 
 .scope ul {
   list-style-type: disc;
-  padding-left: 50px;
+  padding-left: 100px;
   margin-top: 5px;
 }
 
@@ -201,9 +205,9 @@
 }
 
 .scope p {
-  padding-left: 30px;
+  padding-left: 80px;
   margin-top: 5px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .scope strong {
@@ -370,7 +374,7 @@
   }
 
   .scope h5::before {
-    content: "🦷";
+    /* content: "🦷"; */
     position: absolute;
     left: 0;
     top: 0;
@@ -440,7 +444,7 @@
   }
 
   .scope h5::before {
-    content: "🦷";
+        /* content: "🦷"; */
     position: absolute;
     left: 0;
     top: 0;
@@ -559,7 +563,7 @@
   }
 
   .scope h5::before {
-    content: "🦷";
+        /* content: "🦷"; */
     position: absolute;
     left: 0;
     top: 0;
@@ -674,7 +678,7 @@
   }
 
   .scope h5::before {
-    content: "🦷";
+        /* content: "🦷"; */
     position: absolute;
     left: 0;
     top: 0;
@@ -790,7 +794,7 @@
   }
 
   .scope h5::before {
-    content: "🦷";
+        /* content: "🦷"; */
     position: absolute;
     left: 0;
     top: 0;

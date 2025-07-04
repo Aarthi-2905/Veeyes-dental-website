@@ -24,9 +24,10 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
+
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/service/gentral_dentistry.css">
 </head>
 
 <body>
@@ -56,12 +57,12 @@
                 </div>
             </div>
 
-            <div class="col-1">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+            <div class="col-1 order-md-2 d-md-block d-none">
+                <img src="../../images/star.png" class="star-icon" alt="Star Icon">
             </div>
 
-            <div class="col-md-5">
-                <img src="/images/surgical_triangle_image.png" class="custom-img"
+            <div class="col-md-5 order-md-3 order-1">
+                <img src="../../images/surgical_triangle_image.png" class="custom-img w-100"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -70,8 +71,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-2">
-                <img src="/images/star.png" class="star-icon2" alt="Star Icon">
+            <div class="col-md-2 col-12 d-none d-md-block position-relative">
+                <img src="../../images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
+                    style="bottom: 0; left: 0;">
             </div>
             <div class="col-md-10 col-12">
                 <div class="my-circles">
@@ -95,25 +97,6 @@
                 </section>
             </div>
         </div>
-
-        <p class="gentral-text" data-aos="fade-in">
-            General Dentist work closely with specialists in multidisciplinary cases such as full-mouth <br
-                class="gentral-text-br">
-            rehabilitation
-            or cancer treatment.
-            They use oral tests, x-rays, and other means to evaluate <br class="gentral-text-br"> and diagnose your oral
-            problem before
-            prescribing
-            treatment or
-            referring to a specialist. <br>
-            <b>In short, general dentistry serves as the backbone of a dental specialty hospital, <br
-                    class="gentral-text-br"> ensuring patients
-                receive timely,
-                effective, and well-coordinated care.</b>
-        </p>
-
-        <img src="/images/star.png" class="second-star-icon" alt="Star Icon">
-        <p class="box-style">Call today @--(0422-438300) to get your initial assessment.</p>
     </div>
 
     <div class="container general">
@@ -150,28 +133,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add("animate");
-                    }
-                });
-            }, {
-                threshold: 0.3 // adjust as needed
-            });
-
-            const box = document.querySelector(".vdh-highlight-box");
-            if (box) observer.observe(box);
-        });
-
-        fetch('/header.html')
+        fetch('../../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('/footer.html')
+        fetch('../../footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
