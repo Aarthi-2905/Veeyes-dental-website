@@ -184,6 +184,7 @@
   font-family: 'Georgia', serif;
   font-style: italic;
   letter-spacing: 1px;
+  margin-bottom: 5% !important;
   
   /* small tweak: use serif fallback instead of sans-serif for Lora */
 }
@@ -482,16 +483,16 @@ body {
     line-height: 45px;
   }
 }
-@media (max-width: 399px) {
+/* @media (max-width: 399px) {
   .custom-img {
-    /* max-width: 100%; */
+  
     max-width: 500px;
     height: auto;
     position: relative;
     top: 1px !important;
     margin-right: 70px;
   }
-}
+} */
 @media (max-width: 916px) {
   .custom-img {
     /* max-width: 100%; */
@@ -531,16 +532,16 @@ body {
     line-height: 45px;
   }
 }
-@media (max-width: 399px) {
+/* @media (max-width: 399px) {
   .custom-img {
-    /* max-width: 100%; */
+  
     max-width: 500px;
     height: auto;
     position: relative;
     top: 1px !important;
     margin-right: 70px;
   }
-}
+} */
 
 @media (max-width: 600px) {
 
@@ -579,6 +580,22 @@ body {
     transform: rotate(15deg);
     margin-left: 75%;
     margin-top: -10%;
+  }
+}
+
+@media (max-width:768px) and (min-width:767px) {
+  .heading-arrow {
+    width: 50px;
+    height: auto;
+    transform: rotate(15deg);
+    margin-left: 23%;
+    margin-top: -10%;
+  }
+  .star-icon2 {
+    width: 80px;
+    margin-top: 44% !important;
+    /* margin-left: 40%; */
+    /* margin-left: 100%; */
   }
 }
 
@@ -701,7 +718,7 @@ body {
     font-size: 36px !important;
     font-weight: 700;
     color: #003341;
-    margin-top: 15% !important;
+    margin-top: 10% !important;
     margin-bottom: 5%;
     text-align: left !important;
   }
@@ -740,6 +757,7 @@ body {
     line-height: 1.8;
     color: #0d2c2f;
     text-align: center;
+
   }
   /* .small {
     width: 10px;
@@ -1328,11 +1346,12 @@ body {
       max-width: 70px !important;
   }
 
-  .custom-img {
-      width: 273px;
-      top: -116px !important;
-      left: 13px !important;
-  }
+
+    .custom-img {
+        width: 273px !important;
+        top: -9px !important;
+        left: -15px !important;
+    }
 
   .custom-list p {
       font-size: 13px;
@@ -1399,8 +1418,8 @@ body {
 }
 .custom-img {
   width: 480px;
-  top: -40px !important;
-  left: -30px !important;
+  top: -40px ;
+  left: -30px;
 }
 }
 
