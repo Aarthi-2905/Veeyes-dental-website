@@ -1,4 +1,34 @@
 /* _____________________________________________list section__________________________________________________________ */
+.teeth-icon-style {
+  font-size: 30px;
+  color: #00bfff;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  top: 9px; /* 👈 this nudges the icon slightly downward */
+}
+.teeth-icon-style2 {
+  font-size: 30px;
+  color: #00bfff;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  top: 5px;
+ 
+}
+
+.sicu-icon-text {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.sicu-text-block {
+  max-width: 100%;
+}
+
+
+
 .list-section {
   margin-left: 50px;
 }
@@ -22,6 +52,18 @@
   line-height: 45px;
 }
 
+@media(max-width: 475px) {
+  .sicu-list span {
+    font-size: 18px !important;
+    /* margin: 0.6rem 0; */
+    position: relative;
+    font-family: 'montserrat', sans-serif;
+    color: #183D4A;
+    line-height: 35px;
+
+  }
+}
+
 .features-section {
   padding: 2rem 1rem;
   max-width: 1150px;
@@ -31,16 +73,14 @@
 }
 
 .section-title {
-  font-size: 30px !important;
-  font-weight: bold;
+  font-size: 31px !important;
+  /* font-weight: bold; */
   color: #1e3a34;
   font-family: 'Georgia', serif;
   font-style: italic;
-  
-  /* Replace with your actual site font */
   color: #003c3c;
   margin-left: -2% !important;
-  /* text-align: center; */
+
 }
 
 .features-list {
@@ -67,6 +107,7 @@
   width: 50px;
   /* Adjust this based on arrow size */
   height: auto;
+  margin-top: 1%;
   transform: rotate(15deg);
   /* Match the angle from the Figma design */
 }
@@ -119,10 +160,9 @@
 
 .table-title {
   font-size: 31px;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-family: 'Georgia', serif;
   font-style: italic;
-  
   color: #003341;
   /* margin-top: 5% !important; */
   margin-left: 9% !important;
@@ -181,7 +221,7 @@
   line-height: 1.8;
   color: #183D4A;
   text-align: center;
-  font-family: 'Georgia', serif;
+  font-family: 'l ora', serif;
   font-style: italic;
   letter-spacing: 1px;
   margin-bottom: 5% !important;
@@ -217,7 +257,7 @@ body {
 .title {
   font-family: 'Libre Baskerville', serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 67px;
   color: #183D4A;
   margin-top: 5% ;
   text-align: left;
@@ -427,6 +467,7 @@ body {
 .teeth-icon-style {
   color: #00bcd4;
   font-size: 25px;
+
 }
 
 .list-style ul li {
@@ -475,7 +516,7 @@ body {
     margin-right: 0px !important;
   }
   .sicu-list span {
-    font-size: 16px !important;
+    font-size: 14px !important;
     /* margin: 0.6rem 0; */
     position: relative;
     font-family: 'montserrat', sans-serif;
@@ -584,13 +625,14 @@ body {
 }
 
 @media (max-width:768px) and (min-width:767px) {
-  .heading-arrow {
-    width: 50px;
-    height: auto;
-    transform: rotate(15deg);
-    margin-left: 23%;
-    margin-top: -10%;
-  }
+  .heading-arrow
+   {
+          width: 50px;
+          height: auto;
+          transform: rotate(15deg);
+          margin-left: 96%;
+          margin-top: -9%;
+      }
   .star-icon2 {
     width: 80px;
     margin-top: 44% !important;
@@ -646,9 +688,18 @@ body {
     width: 50px;
     height: auto;
     transform: rotate(15deg);
-    margin-left: 65%;
+    margin-left: 26%;
     margin-top: -16%;
-  }
+}
+
+.teeth-icon-style2 {
+  font-size: 22px;
+  color: #00bfff;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  top: 5px;
+}
 }
 
 @media (max-width:441px) {
@@ -715,7 +766,7 @@ body {
 @media (max-width:768px) {
 
   .title {
-    font-size: 36px !important;
+    font-size: 42px;
     font-weight: 700;
     color: #003341;
     margin-top: 10% !important;
@@ -804,7 +855,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 18px !important;
-  line-height: 1.7;
+  line-height: 2.3;
   color: #183D4A;
 }
 
@@ -907,6 +958,22 @@ body {
     left: 16%;
     box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
   } */
+
+
+  .teeth-icon-style {
+    color: #00bcd4;
+    font-size: 20px;
+    margin-left: -12%;
+    
+  }
+  .list-style ul li {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 2.3;
+    color: #183D4A;
+}
 
   .title {
     font-size: 33px;
@@ -1014,6 +1081,15 @@ body {
     color: #0d2c2f;
     text-align: center;
   }
+  .sicu-list span
+ {
+        font-size: 16px !important;
+        /* margin: 0.6rem 0; */
+        position: relative;
+        font-family: 'montserrat', sans-serif;
+        color: #183D4A;
+        line-height: 33px;
+    }
 }
 
 /* _____________________375_____________________________________ */
@@ -1024,7 +1100,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: #003341;
-    margin-top: 8% !important;
+    margin-top: 15% !important;
     text-align: center !important;
   }
 
@@ -1131,6 +1207,15 @@ body {
 /* _________________________320______________________________ */
 @media (max-width:320px) {
 
+
+  .teeth-icon-style2
+ {
+    font-size: 20px;
+    color: #00bfff;
+    margin-right: 10px;
+    flex-shrink: 0;
+    position: relative;
+}
   .title {
     font-size: 26px;
     font-weight: 700;
@@ -1418,7 +1503,7 @@ body {
 }
 .custom-img {
   width: 480px;
-  top: -40px ;
+  top: -40px;
   left: -30px;
 }
 }
@@ -1708,5 +1793,11 @@ body {
       }
 }
 
+@media(max-width:375px){
+  .first-list {
+    margin-left: 0px !important;
+}
+}
 
-/* ______________Fuck */
+
+
