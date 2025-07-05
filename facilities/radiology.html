@@ -26,32 +26,94 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <!-- <link rel="stylesheet" href="/css/service/gentral_dentistry.css"> -->
+    <link rel="stylesheet" href="/css/facilities/radiology.css">
     <style>
-        .title{
+        .teeth-icon-style {
+            font-size: 30px;
+            color: #00bfff;
+            margin-right: 10px;
+            flex-shrink: 0;
+            position: relative;
+            top: -3px;
+            /* 👈 this nudges the icon slightly downward */
+        }
+
+        .teeth-icon-style2 {
+            font-size: 27px;
+            color: #00bfff;
+            margin-right: 10px;
+            flex-shrink: 0;
+            position: relative;
+            top: 5px;
+
+        }
+
+    @media(max-width:425px)
+    {
+        .teeth-icon-style2 {
+            font-size: 20px;
+            color: #00bfff;
+            margin-right: 10px;
+            flex-shrink: 0;
+            position: relative;
+            top: 7px;
+            margin-left: -13%;
+        }
+
+        .footer-note {
+            font-style: italic;
+            padding-left: 15%;
+            padding-right: 20%;
+            margin-bottom: -6px;
+            margin-top: 2rem;
+            font-size: 26px;
+            font-family: 'Georgia', serif;
+            line-height: 35px !important;
+        }
+    }
+
+
+        .sicu-icon-text {
+            display: flex;
+            align-items: flex-start;
+
+        }
+
+        .sicu-text-block {
+            max-width: 100%;
+        }
+
+
+        .sub-h2 {
+            color: #003b49;
+            font-size: 39px;
+            font-family: lora;
+            font-weight: 600;
+            margin-bottom: 3%;
+            padding-left: 5%;
+        }
+
+        .title {
             margin-top: 5%;
         }
 
         @media (max-width: 768px) {
-        .title{
-            margin-top: 9%;
+            .title {
+                margin-top: 9%;
+            }
         }
-    }
 
 
-    @media (max-width: 375px) {
-        .title{
-            margin-top: 15%;
+        @media (max-width: 768px) {
+            .sub-h2 {
+                font-size: 36px;
+                margin-top: 5%;
+                margin-bottom: 3%;
+                padding-left: 5%;
+            }
         }
-    }
 
-        .sub-h2{
-     font-size: 39px;
-     margin-top: 2%;
-     margin-bottom: 3%;
-     padding-left: 5%;
-        }
 
         @media (max-width: 500px) {
             .sub-h2 {
@@ -60,28 +122,32 @@
                 margin-bottom: 3%;
                 padding-left: 5%;
             }
+
             .section li {
                 font-size: 15px !important;
 
             }
+
             p {
-          font-size: 16px !important;
+                font-size: 16px !important;
             }
+
             .list-style ul li {
                 font-size: 10px !important;
-              
+
             }
+
             .footer-note {
                 font-size: 17px !important;
-             
-            }    
+
+            }
 
         }
 
 
-    .oral-section{
-        margin-top: -8% !important;
-    }
+        .oral-section {
+            margin-top: -8% !important;
+        }
 
         p {
             /* font-size: 1.1rem;
@@ -117,6 +183,7 @@
             font-size: 18px;
             line-height: 2.3;
             color: #183D4A;
+            margin-bottom: 1%;
         }
 
         .tooth-icon::before {
@@ -126,111 +193,141 @@
         }
 
         .italic-heading {
- padding-left: 5%;
-        font-family: 'Georgia', serif;
-font-style: italic;
-            font-weight: bold;
+            padding-left: 5%;
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            font-weight: 550;
             font-size: 29px;
             margin-top: 1.5rem;
             margin-bottom: 1rem;
+            color: #003b49;
         }
 
         .footer-note {
             font-style: italic;
-      padding-left: 15%;
-      padding-right: 20%;
-            font-weight: 600;
+            padding-left: 15%;
+            padding-right: 20%;
+          margin-bottom: -6px;
             margin-top: 2rem;
-            font-size: 22px;
-           
+            font-size: 26px;
             font-family: 'Georgia', serif;
-         
+            line-height: 58px;
+     
+
         }
 
+        @media(max-width:530px){
+            .section ul {
+                list-style: none;
+                padding: 0;
+                padding-left: 2%;
+                padding-right: 5%;
+            }
+        }
+
+    
 
 
 
 
         .custom-img {
             /* max-width: 100%; */
-            max-width: 470px;
+            max-width: 500px;
             height: auto;
             position: relative;
-            top: 2px !important;
+            top: -35px !important;
             right: 83px;
-          }
-          @media (max-width: 916px) {
+        }
+
+        @media (max-width: 916px) {
             .custom-img {
-              /* max-width: 100%; */
-              max-width: 470px;
-              height: auto;
-              position: relative;
-              top: 10px !important;
-              right: 40px;
-             
+                /* max-width: 100%; */
+                max-width: 470px;
+                height: auto;
+                position: relative;
+                top: 10px !important;
+                right: 40px;
+
             }
-            .list-style ul li
-           {
-              margin-top: 30px;
-              font-family: 'Montserrat', sans-serif;
-              font-weight: normal;
-              font-size: 184x !important;
-              line-height: 1.7;
-              color: #183D4A;
-          }
-          }
-          @media (max-width: 768px) {
-            .custom-img {
-              /* max-width: 100%; */
-              max-width: 500px;
-              height: auto;
-              position: relative;
-              top: 1px !important;
-              margin-right: 30px;
-              margin-bottom: -60px;
-            }
+
             .list-style ul li {
-              margin-top: 20px;
-              font-family: 'Montserrat', sans-serif;
-              font-weight: normal;
-              font-size: 18px !important;
-              line-height: 1.7;
-              color: #183D4A;
-          }
-          .footer-note {
-            font-size: 19px !important;
-         
-        }    
-          
-          }
-          @media (max-width: 499px) {
-            .custom-img {
-              /* max-width: 100%; */
-              max-width: 500px;
-              height: auto;
-              position: relative;
-              top: 1px !important;
-              margin-right: 240px;
+                margin-top: 30px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                font-size: 184x !important;
+                line-height: 1.7;
+                color: #183D4A;
             }
+        }
+
+        @media (max-width: 768px) {
+            .custom-img {
+                /* max-width: 100%; */
+                max-width: 500px;
+                height: auto;
+                position: relative;
+               
+                margin-right: 30px;
+                margin-bottom: -60px;
+            }
+
+            .list-style ul li {
+                margin-top: 20px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                font-size: 17px !important;
+                line-height: 2.0;
+                color: #183D4A;
+            }
+
+            .footer-note {
+                font-size: 19px !important;
+
+            }
+
+        }
+
+        @media (max-width: 499px) {
+            .custom-img {
+                /* max-width: 100%; */
+                max-width: 450px;
+                height: auto;
+                position: relative;
+                top: 1px !important;
+
+            }
+
             .sicu-list span {
-              font-size: 16px !important;
-              /* margin: 0.6rem 0; */
-              position: relative;
-              font-family: 'montserrat', sans-serif;
-              color: #183D4A;
-              line-height: 45px;
+                font-size: 16px !important;
+                /* margin: 0.6rem 0; */
+                position: relative;
+                font-family: 'montserrat', sans-serif;
+                color: #183D4A;
+                line-height: 45px;
             }
-          }
-          @media (max-width: 399px) {
+        }
+
+        @media (max-width: 399px) {
             .custom-img {
-              /* max-width: 100%; */
-              max-width: 500px;
-              height: auto;
-              position: relative;
-              top: 1px !important;
-              margin-right: 70px;
+                /* max-width: 100%; */
+                max-width: 400px;
+                height: auto;
+                position: relative;
+                top: 1px !important;
+                margin-right: -8px;
             }
-          }
+            .italic-heading
+ {
+    padding-left: 5%;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #003b49;
+}
+        }
     </style>
 </head>
 
@@ -246,104 +343,180 @@ font-style: italic;
 
     <div class="container py-5">
         <div class="row">
-          <!-- Title -->
-          <div class="col-12 order-1">
-            <div class="align-items-center text-center text-md-start">
-              <h1 class="title">Radiology</h1>
+            <!-- Title -->
+            <div class="col-12 order-1">
+                <div class="align-items-center text-center text-md-start">
+                    <h1 class="title">Radiology</h1>
+                </div>
             </div>
-          </div>
-      
-          <!-- Image -->
-          <div class="col-12 col-md-5 d-flex justify-content-center align-items-center order-2 order-md-3">
-            <img src="/images/surgical_triangle_image.png" class="custom-img" alt="Surgical dentistry illustration">
-          </div>
-      
-          <!-- Star icon (only on medium and up) -->
-          <div class="col-1 d-none d-md-block order-md-2">
-            <img src="/images/star.png" class="star-icon" alt="Star Icon">
-          </div>
-      
-          <!-- Content -->
-          <div class="col-12 col-md-6 order-3 order-md-1">
-            <div class="list-style">
-              <ul>
-                <li>In Veeyes Radiology Department plays a critical role in delivering high-quality dental care by providing precise imaging solutions to support accurate diagnosis and treatment planning.</li>
-                <li>Equipped with the latest digital radiography and 3D imaging technology, we ensure minimal radiation exposure and maximum diagnostic value for every patient.</li>
-              </ul>
+
+            <!-- Image -->
+            <div class="col-12 col-md-5 d-flex justify-content-center align-items-center order-2 order-md-3">
+                <img src="/images/surgical_triangle_image.png" class="custom-img" alt="Surgical dentistry illustration">
             </div>
-          </div>
-        </div>
-      </div>
-      
 
-        <div class="section oral-section">
-            <h2 class="sub-h2">Oral Medicine & Radiology</h2>
-            <p>
-                Oral Medicine and Radiology is a specialized branch of dentistry that focuses on the diagnosis
-                and non-surgical management of and the interpretation of imaging of mouth, jaws, face, and neck.
-                It plays a critical role in identifying complex oral conditions and guiding treatment planning,
-                often in collaboration with other specialties.
-            </p>
-            <ul>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2" style="line-height: 50px;"></i>
-                    Oral medicine deals with diagnosis and management of mucosal lesions, chronic orofacial pain,
-                    salivary gland disorders, precancerous and cancerous lesions of the mouth, and medically
-                    compromised patients in the dental setting.
-                </li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2" style="line-height: 50px;"></i>
-                    Oral radiology uses dental and craniofacial imaging to detect pathologies such as cysts,
-                    tumors and support treatment planning for implants, surgeries, orthodontics, and endodontics
-                </li>
-            </ul>
-            <p class="footer-note text-center">
-                We at Veeyes Dental use advanced digital processes to enhance the quality of treatment
-                with precision and better outcomes.
-            </p>
-        </div>
+            <!-- Star icon (only on medium and up) -->
+            <div class="col-1 d-none d-md-block order-md-2">
+                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+            </div>
 
-        <div class="section">
-            <h2 class="sub-h2">Digital Intra Oral Scan</h2>
-            <p>
-                A digital intraoral scan is a modern dental imaging technique that captures detailed
-                3D images of a patient's teeth and gums using a handheld device called an intraoral scanner.
-                It replaces traditional dental impressions (which use messy materials like alginate or silicone)
-                with a quicker, cleaner, and more comfortable process.
-            </p>
-            <div class="italic-heading">Key Features:</div>
-            <ul style="margin-left: 50px;">
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Non-invasive: No physical impression trays
-                    required.</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>High accuracy: Produces highly detailed 3D
-                    models.</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Fast turnaround: Digital files can be sent
-                    instantly to dental labs.</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Patient comfort: No gagging or discomfort
-                    from impression materials.</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Used for: Crowns, bridges, aligners (like
-                    Invisalign), implants, and diagnostic
-                    purposes.</li>
-            </ul>
+            <!-- Content -->
+            <div class="col-12 col-md-6 order-3 order-md-1">
+                <div class="list-style">
+                    <ul>
+                        <li>In Veeyes Radiology Department plays a critical role in delivering high-quality dental care
+                            by providing precise imaging solutions to support accurate diagnosis and treatment planning.
+                        </li>
+                        <li>Equipped with the latest digital radiography and 3D imaging technology, we ensure minimal
+                            radiation exposure and maximum diagnostic value for every patient.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="section">
-            <h2 class="sub-h2">Aligner Planning</h2>
-            <p>
-                Aligner planning is the digital process of designing and sequencing clear aligners
-                (like Invisalign or ClearCorrect) to gradually move teeth into desired positions.
-                It's a key part of clear aligner therapy, combining 3D scanning, orthodontic
-                diagnostics, and CAD software to create a custom treatment plan.
-            </p>
-            <div class="italic-heading">Benefits of Digital Aligner Planning:</div>
-            <ul style="margin-left: 50px;">
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Highly customized treatments</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Predictable outcomes</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Fewer in-office visits</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Clear visualization for patients and
-                    clinicians</li>
-                <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Fast turnaround from scan to treatment start
-                </li>
-            </ul>
+
+    <div class="section oral-section">
+        <h2 class="sub-h2">Oral Medicine & Radiology</h2>
+        <p>
+            Oral Medicine and Radiology is a specialized branch of dentistry that focuses on the diagnosis
+            and non-surgical management of and the interpretation of imaging of mouth, jaws, face, and neck.
+            It plays a critical role in identifying complex oral conditions and guiding treatment planning,
+            often in collaboration with other specialties.
+        </p>
+        <ul>
+            <li>
+                <div class="sicu-icon-text">
+                    <i class="fa-solid fa-tooth teeth-icon-style me-2" style="line-height: 50px;"></i>
+                    <div class="sicu-text-block">
+                        Oral medicine deals with diagnosis and management of mucosal lesions, chronic orofacial pain,
+                        salivary gland disorders, precancerous and cancerous lesions of the mouth, and medically
+                        compromised patients in the dental setting.
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="sicu-icon-text">
+                    <i class="fa-solid fa-tooth teeth-icon-style me-2" style="line-height: 50px;"></i>
+                    <div class="sicu-text-block">
+                        Oral radiology uses dental and craniofacial imaging to detect pathologies such as cysts,
+                        tumors and support treatment planning for implants, surgeries, orthodontics, and endodontics
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <p class="footer-note text-center">
+            We at Veeyes Dental use advanced digital processes to enhance the quality of treatment
+            with precision and better outcomes.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 class="sub-h2">Digital Intra Oral Scan</h2>
+        <p>
+            A digital intraoral scan is a modern dental imaging technique that captures detailed
+            3D images of a patient's teeth and gums using a handheld device called an intraoral scanner.
+            It replaces traditional dental impressions (which use messy materials like alginate or silicone)
+            with a quicker, cleaner, and more comfortable process.
+        </p>
+        <div class="italic-heading">Key Features:</div>
+        <ul style="margin-left: 50px;">
+            <li>
+                <div class="sicu-icon-text">
+                    <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                    <div class="sicu-text-block">
+                    Non-invasive: No physical impression trays
+                    required.
+                    </div>
+                    </div>
+            </li>
+            <li>
+                 <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">
+                High accuracy: Produces highly detailed 3D
+                models.
+                </div>
+                </div>
+            </li>
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">
+                Fast turnaround: Digital files can be sent
+                instantly to dental labs.</div></div></li>
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">
+                Patient comfort: No gagging or discomfort
+                from impression materials.</div></div></li>
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">
+                Used for: Crowns, bridges, aligners (like
+                Invisalign), implants, and diagnostic
+                purposes.</div></div></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 class="sub-h2">Aligner Planning</h2>
+        <p>
+            Aligner planning is the digital process of designing and sequencing clear aligners
+            (like Invisalign or ClearCorrect) to gradually move teeth into desired positions.
+            It's a key part of clear aligner therapy, combining 3D scanning, orthodontic
+            diagnostics, and CAD software to create a custom treatment plan.
+        </p>
+        <div class="italic-heading">Benefits of Digital Aligner Planning:</div>
+        <ul style="margin-left: 50px;">
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> 
+                <div class="sicu-text-block">Highly customized treatments
+            </div>
         </div>
+            </li>
+
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">Predictable outcomes
+            </div>
+            </div>
+            </li>
+
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>  
+                <div class="sicu-text-block">Fewer in-office visits
+            </div>
+            </div>
+            </li>
+
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">
+                Clear visualization for patients and
+                clinicians
+            </div>
+            </div>
+            </li>
+
+
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>
+                <div class="sicu-text-block">Fast turnaround from scan to treatment start
+            </div>
+            </div>
+
+            </li>
+        </ul>
+    </div>
     </div>
 
 

@@ -1587,6 +1587,7 @@ body {
   /* font-family: 'Poppins', sans-serif; */
   font-size: 45px;
   margin-bottom: 12px;
+  font-family: 'Lora', serif;
   font-style: italic;
   color: rgb(24, 61, 74);
 }
@@ -1678,7 +1679,8 @@ body {
 
 
 .vmq-card h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
+  font-style: italic;
   font-size: 1.75rem;
   margin-bottom: 14%;
   color: #003f4f;

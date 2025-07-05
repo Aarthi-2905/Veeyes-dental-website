@@ -37,10 +37,12 @@
     }
 
     .modal-bg-style .submit-btn {
-      background-color: #1c414a;
-      color: #fff;
+      background-color: #00eaff;
+      color: #030000;
       border: none;
+      align-items: start;
       padding: 10px 25px;
+      margin-top: -2% !important;
       border-radius: 5px;
     }
 
@@ -50,6 +52,7 @@
       overflow: hidden;
       max-width: 900px;
       width: 100%;
+      
     }
 
     .enquiry-left {
@@ -107,6 +110,23 @@
       color: #00bcd4;
     }
 
+    @media (max-width: 600px) {
+    .modal-content {
+      border-radius: 15px;
+      overflow: hidden;
+      max-width: 900px;
+      width: 70% !important;
+      max-height: 800px;
+      height: 700px !important;
+      margin-left: 20%;
+    }
+    .triangle-container {
+      display: flex;
+      align-items: center;
+      margin-left: -16% !important;
+      margin-top: -5% !important;
+  }
+  }
 
 
     @media (max-width: 768px) {
@@ -118,11 +138,32 @@
         min-height: 200px;
       }
     }
+    @media (max-width: 991px) {
+      .contact-box-text {
+        background-color: #e6e6e6;
+        padding: 10px 10px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px !important;
+        color: #333;
+        min-width: 260px;
+    }
+
+    }
+
+    @media (max-width: 768px) {
+      .triangle-container {
+        display: flex;
+        align-items: center;
+        margin-left: 19% ;
+      }
+    }
 
 
     .triangle-container {
       display: flex;
       align-items: center;
+      margin-left: -18%;
     }
 
     .triangle-icon {
@@ -137,14 +178,15 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-top: 2%;
     }
 
     .triangle-icon i {
       position: absolute;
-      left: -25px;
+      left: -32px;
       top: 50%;
       transform: translateY(-50%);
-      color: #fff;
+      color: #050000;
       font-size: 16px;
     }
 
@@ -156,6 +198,11 @@
       font-size: 14px;
       color: #333;
       min-width: 260px;
+    }
+    .style-font{
+      font-family: 'georgia', serif;
+      font-style: italic;
+      font-size: 25px;
     }
 
   </style>
@@ -244,25 +291,25 @@
           <!-- Left: Form -->
           <div class="col-md-6">
             <h2 class="text-center">Have a question?</h2>
-            <p class="text-center style-font">We are just a message away!</p>
+            <p class="text-center style-font mt-4">We are just a message away!</p>
             <form>
               <div class="row g-3">
-                <div class="col-6">
+                <div class="col-6 mt-5">
                   <input type="text" class="form-control" placeholder="Name" />
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-5">
                   <input type="email" class="form-control" placeholder="Email" />
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-0">
                   <input type="text" class="form-control" placeholder="Phone" />
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-0">
                   <input type="text" class="form-control" placeholder="Subject" />
                 </div>
-                <div class="col-12">
-                  <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                <div class="col-12 mt-0">
+                  <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                 </div>
-                <div class="col-12 text-center">
+                <div class="col-12 ">
                   <button type="submit" class="submit-btn mt-3">Submit Message</button>
                 </div>
               </div>

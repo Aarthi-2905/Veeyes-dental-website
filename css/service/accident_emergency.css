@@ -1,9 +1,9 @@
 .title {
-  font-family: lora;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #003b49;
-  padding-top: 8%;
+  font-family: lora;
+  padding-top: 4%;
 }
 
 .star-icon {
@@ -22,7 +22,9 @@
   color: #183D4A;
 }
 
-
+.star-icon-style {
+  width: 100px;
+}
 
 .star-icon2 {
   width: 70px;
@@ -71,10 +73,10 @@
 }
 
 
+
 .vdh-highlight-box {
   position: relative;
   border-radius: 2rem;
-  background-color: white !important;
   /* INITIAL background is white */
   color: #000;
   overflow: hidden;
@@ -120,114 +122,112 @@
   line-height: 2.3;
 }
 
-
+/* When in view, animate background fill and change background color */
+.vdh-highlight-box.animate {
+  background-color: #00bcd4;
+  /* **Changed background color to blue when in view** */
+}
 
 .vdh-highlight-box.animate .background-fill {
   width: 100%;
 }
 
-.general {
-  display: flex;
-  justify-content: center;
+.feature {
+  background-color: #183D4A;
 }
 
-.general .gentral-text {
-  font-family: 'Lora', serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 18px;
-  max-width: 950px;
-  /* Adjust as needed */
-  line-height: 50px;
-  text-align: center;
-  margin: 2rem 0;
-  letter-spacing: 0.8px;
+.feature .header {
+  padding: 0px 100px 0px 100px;
 }
 
-.star-icon,
-.star-icon2,
-.second-star-icon {
-  max-width: 100%;
-}
-
-.second-star-icon {
-  position: relative;
-  width: 80px !important;
-  margin-left: 80%;
-  top: -50px;
-  display: block;
-}
-
-.box-style {
+.feature .header h1 {
+  padding: 20px 50px 20px 50px;
+  font-size: 48px;
+  color: #ECD8B6;
+  line-height: 2;
   font-family: lora;
-  font-size: 30px;
-  text-align: left;
-  padding-left: 2rem;
-  padding-right: 5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  /* margin-top: 1rem; */
-  background-color: #003341;
-  color: #E8D8B7;
-  border-radius: 2px;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: -5px -5px 0 #E8D8B7;
 }
 
-.features-list {
-  padding-top: 20px;
+.content ul li span {
+  line-height: 2.5;
+  font-family: Montserrat;
+  font-size: 24px;
+  color: #ECD8B6;
 }
 
-.features-list h3 {
+.content ul li {
+  line-height: 2.5;
   font-family: 'Montserrat', sans-serif;
-  line-height: 40px;
-  font-size: 23px;
-  margin: 0.6rem 0;
-  padding-left: 2.5rem;
+  font-size: 24px;
+  color: white;
+}
+
+.scope h3 {
+  padding-top: 30px;
+  font-family: Lora, serif;
+  font-weight: bold;
+  color: #003b49;
+}
+
+.scope h5 {
   position: relative;
-  color: #183D4A;
+  padding-left: 30px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #004b63;
+  font-family: lora;
+  font-weight: bold;
 }
-
-.features-list li {
-
-  font-family: 'Montserrat', sans-serif;
-  color: #183D4A;
-  font-size: 20px;
+.scope i{
+  font-size: 23px;
 }
-
-.scope i {
-  color: #0bdee6;
-  font-size: 30px;
-}
-
-.features-list h3::before {
-  /* content: '🦷'; */
+/* 
+.scope h5::before {
+  content: "🦷";
   position: absolute;
   left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #00acc1;
+} */
+
+.scope ul {
+  list-style-type: disc;
+  padding-left: 100px;
+  margin-top: 5px;
 }
 
-.features-list ul {
-  padding-left: 110px;
+.scope li {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  line-height: 2;
+  font-family: Montserrat;
 }
 
-.section-title {
-  font-size: 33px;
-  font-weight: bold;
-  font-style: italic !important;
-  font-family: 'Montserrat', serif;
-  /* Replace with your actual site font */
-  color: #003b49;
-  padding-top: 30px;
+.scope p {
+  padding-left: 80px;
+  margin-top: 5px;
+  font-size: 1.3rem;
 }
 
-@media (max-width: 996px) {
+.scope strong {
+  color: #004b63;
+}
+
+@media (max-width:1200px) {
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+    line-height: 2;
+  }
+}
+
+@media (max-width:996px) {
   .title {
     text-align: center;
     font-size: 28px;
     margin-bottom: 0%;
-    padding-top: 13%;
+    padding-top: 7%;
     padding-bottom: 3%;
   }
 
@@ -280,44 +280,15 @@
     top: 4px;
     left: 3%;
   }
-
-  .box-style {
-    font-size: 16px;
-    text-align: center;
-    padding: 18px 18px 18px 18px;
-  }
-
-  .features-list {
-    padding: 0;
-  }
-
-  .section-title {
-    font-size: 24px;
-  }
-
-  .features-list li {
-    font-size: 18px;
-  }
-
-  .features-list ul {
-    padding-left: 100px;
-  }
-
-  .features-list h3 {
-    line-height: 2.3;
-    font-size: 21px;
-  }
-  .scope i {
-    font-size: 35px;
-  }
 }
+
 
 @media (max-width:768px) {
   .title {
     text-align: center;
     font-size: 28px;
     margin-bottom: 0%;
-    padding-top: 11%;
+    padding-top: 7%;
     padding-bottom: 3%;
   }
 
@@ -371,34 +342,62 @@
     left: 3%;
   }
 
-  .general .gentral-text {
-    line-height: 2.3;
-    font-size: 15px;
+
+  .feature .header {
+    padding: 0px 0px 0px 0px;
   }
 
-  .box-style {
-    font-size: 15px;
-    text-align: center !important;
-    padding: 15px 15px 15px 15px;
-  }
-
-
-  .section-title {
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
     font-size: 26px;
+    line-height: 2;
   }
 
-  .features-list li {
-    font-size: 15px;
+  .content ul li span {
+    line-height: 2.5;
+    font-size: 18px;
   }
 
-
-
-  .features-list h3 {
-    font-size: 17px;
-    padding-left: 3px;
+  .content ul li {
+    line-height: 2.5;
+    font-size: 16px;
   }
-  .scope i {
-    font-size: 28px;
+
+  .scope h3 {
+    padding-top: 30px;
+  }
+
+  .scope h5 {
+    padding-left: 30px;
+    margin-top: 24px;
+    font-size: 1.3rem;
+  }
+
+  .scope h5::before {
+    /* content: "🦷"; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+  }
+
+  .scope ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    margin-top: 5px;
+  }
+
+  .scope li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .scope p {
+    padding-left: 30px;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 2;
   }
 }
 
@@ -414,47 +413,62 @@
     line-height: 3;
   }
 
-  .general .gentral-text {
-    font-size: 14px;
-    line-height: 2.2;
+  .feature .header {
+    padding: 0px 0px 0px 0px;
   }
 
-  .box-style {
-    font-size: 15px;
-    width: 80%;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+    line-height: 2;
   }
 
-  .features-list {
-    padding: 0;
+  .content ul li span {
+    line-height: 2.5;
+    font-size: 16px;
   }
 
-  .features-list li {
-    font-size: 17px;
-    line-height: 2.3;
+  .content ul li {
+    line-height: 2.5;
+    font-size: 13px;
   }
 
-
-
-  .features-list h3 {
-    padding-left: 20px;
-    font-size: 19px;
+  .scope h3 {
+    padding-top: 30px;
   }
 
-  .section-title {
-    font-size: 24px;
+  .scope h5 {
+    padding-left: 30px;
+    margin-top: 24px;
+    font-size: 1rem;
   }
 
-  .features-list ul {
-    padding-left: 80px;
+  .scope h5::before {
+        /* content: "🦷"; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
   }
-  .scope i {
-    font-size: 26px;
+
+  .scope ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    margin-top: 5px;
+  }
+
+  .scope li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .scope p {
+    padding-left: 30px;
+    margin-top: 5px;
+    font-size: 1rem;
   }
 }
-
-
 
 @media (max-width:430px) {
   .title {
@@ -518,47 +532,65 @@
     padding: 2.5rem 0rem 1.5rem 2.5rem;
   }
 
-  .general .gentral-text {
-    font-size: 14px;
-    line-height: 2.2;
+  .feature .header {
+    padding: 0px 0px 0px 0px;
   }
 
-  .box-style {
-    font-size: 14px;
-    width: 80%;
-    padding: 10px 10px 10px 10px;
-    text-align: center !important;
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+    line-height: 2;
   }
 
-  .features-list {
-    padding: 0;
+  .content ul li span {
+    line-height: 2.5;
+    font-size: 16px;
   }
 
-  .section-title {
-    font-size: 20px;
+  .content ul li {
+    line-height: 2.5;
+    font-size: 13px;
   }
 
-  .features-list li {
-    font-size: 14px;
-    line-height: 2.2;
+  .scope h3 {
+    padding-top: 30px;
   }
 
-  .features-list ul {
-    padding-left: 60px;
+  .scope h5 {
+    padding-left: 30px;
+    margin-top: 24px;
+    font-size: 1rem;
   }
 
-  .features-list h3 {
-    padding-left: 20px;
-    font-size: 17px;
+  .scope h5::before {
+        /* content: "🦷"; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
   }
-  .scope i {
-    font-size: 21px;
+
+  .scope ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    margin-top: 5px;
+  }
+
+  .scope li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .scope p {
+    padding-left: 30px;
+    margin-top: 5px;
+    font-size: 1rem;
   }
 }
 
 
-
-@media (max-width: 380px) {
+@media (max-width:380px) {
   .title {
     text-align: center;
     font-size: 21px;
@@ -614,38 +646,65 @@
     left: 3%;
   }
 
-  .general .gentral-text {
+
+  .feature .header {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .content ul li span {
+    line-height: 2.5;
+    font-size: 16px;
+  }
+
+  .content ul li {
+    line-height: 2.5;
     font-size: 13px;
-    line-height: 2.3;
   }
 
-  .section-title {
-    font-size: 17px;
+  .scope h3 {
+    padding-top: 30px;
   }
 
-  .features-list {
-    padding: 0;
+  .scope h5 {
+    padding-left: 30px;
+    margin-top: 24px;
+    font-size: 1rem;
   }
 
-  .features-list li {
-    font-size: 15px;
-    line-height: 2.3;
+  .scope h5::before {
+        /* content: "🦷"; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
   }
 
-  .features-list ul {
+  .scope ul {
+    list-style-type: disc;
     padding-left: 50px;
+    margin-top: 5px;
   }
 
-
-  .features-list h3 {
-    padding-left: 10px;
-    font-size: 18px;
+  .scope li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 2;
   }
 
-  .scope i {
-    font-size: 21px;
+  .scope p {
+    padding-left: 30px;
+    margin-top: 5px;
+    font-size: 1rem;
   }
+
 }
+
 
 
 @media (max-width:320px) {
@@ -703,43 +762,61 @@
     padding: 1.5rem 0rem 1.5rem 2.5rem;
   }
 
-  .general .gentral-text {
-    font-size: 11px;
-    line-height: 2.3;
+
+  .feature .header {
+    padding: 0px 0px 0px 0px;
   }
 
-  .box-style {
-    font-size: 10px;
-    text-align: center !important;
-    width: 80%;
-    padding: 10px 10px 10px 10px;
-  }
-
-  .section-title {
-    font-size: 14px;
-  }
-
-  .features-list {
-    padding: 0;
-  }
-
-  .features-list li {
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
     font-size: 16px;
-    line-height: 2.3;
+    line-height: 2;
   }
 
-  .features-list ul {
+  .content ul li span {
+    line-height: 2.5;
+    font-size: 16px;
+  }
+
+  .content ul li {
+    line-height: 2.5;
     font-size: 13px;
+  }
+
+  .scope h3 {
+    padding-top: 30px;
+  }
+
+  .scope h5 {
+    padding-left: 30px;
+    margin-top: 24px;
+    font-size: 1rem;
+  }
+
+  .scope h5::before {
+        /* content: "🦷"; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5rem;
+  }
+
+  .scope ul {
+    list-style-type: disc;
     padding-left: 50px;
+    margin-top: 5px;
   }
 
-  .features-list h3 {
-    font-size: 16px;
-    padding-left: 10px;
-    line-height: 30px;
+  .scope li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 2;
   }
 
-  .scope i {
-    font-size: 20px;
+  .scope p {
+    padding-left: 30px;
+    margin-top: 5px;
+    font-size: 1rem;
   }
+
 }

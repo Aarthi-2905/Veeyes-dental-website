@@ -6,6 +6,34 @@
 /* body{
   background-color:#F0EFE7 !important;
 } */
+
+
+.teeth-icon {
+  font-size: 25px !important;
+  color: #00bfff;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  top:4px !important; 
+}
+
+
+.sicu-icon-text {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.sicu-text-block {
+  max-width: 100%;
+}
+
+@media (max-width: 320px) {
+  .home-section-head {
+      font-size: 28px !important;
+  }
+}
+
 .hero-section {
   position: relative;
   background: url('/images/appointment_page.png') center/cover no-repeat;
@@ -24,8 +52,8 @@
 
 .home-section-head {
   position: relative;
-  top: 100px;
-  left: 50px;
+  top: 160px;
+  left: 30px;
   z-index: 20;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
@@ -34,20 +62,21 @@
 }
 
 .quote-section {
-  font-family: 'Lora', serif;
+  font-family: Italic or normal weight, serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
   color: #183D4A;
   text-align: center;
   padding: 2rem;
   margin-left: 40%;
+  margin-top: -6%;
 }
 
 
 /* body of the contents */
 .offers-list {
-  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
   color: #00242B;
   font-size: 1rem;
   padding-left: 1rem;
@@ -75,7 +104,7 @@
   color: var(--logo-gray);
   margin-bottom: 0.8rem;
   line-height: 2.1;
-  letter-spacing: 1.8px;
+  /* letter-spacing: 1.4px; */
 }
 
 .teeth-icon {
@@ -84,27 +113,106 @@
 
 
 /* media query  */
+@media (max-width:1115px) {
+.quote-section {
+  font-family: Italic or normal weight, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 19px;
+  color: #183D4A;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 40%;
+  margin-top: -7%;
+}
+}
 
-/* At veeyas.. section  */
+@media (max-width:768px) {
+  .quote-section {
+    /* margin-left: 90px !important; */
+    text-align: center;
+    font-size: 17px;
+    margin-top: -9%;
+
+  }
+}
+@media (max-width:696px) {
+  .quote-section {
+    /* margin-left: 90px !important; */
+    text-align: center;
+    font-size: 15px;
+    margin-top: -9%;
+
+  }
+}
+
+@media (max-width:590px) {
+  .quote-section {
+    /* margin-left: 90px !important; */
+    text-align: center;
+    font-size: 13px;
+    margin-top: -11%;
+
+  }
+}
+
+@media (max-width:466px) {
+  .quote-section {
+    /* margin-left: 90px !important; */
+    text-align: center;
+    font-size: 12px;
+    margin-top: -14%;
+
+  }
+}
+
+
+@media (max-width:425px) {
+  .quote-section {
+    margin-left: 90px !important;
+    text-align: center;
+    font-size: 14px !important;
+    margin-top: -15%;
+
+  }
+  .teeth-icon {
+    font-size: 20px !important;
+    color: #00bfff;
+    margin-right: 10px;
+    flex-shrink: 0;
+    position: relative;
+    top:9px !important; 
+  }
+  
+  
+}
+
+@media (max-width:375px) {
+  .quote-section {
+    margin-left: 90px !important;
+    text-align: center;
+    font-size: 12px !important;
+    margin-top: -15%;
+
+  }
+}
+
 
 @media (max-width:769px) {
-  .quote-section {
-    margin-left: 0px !important;
-  }
 
   .home-section-head {
     font-size: 35px;
   }
 
   .hero-section {
-    height: 46vh;
+    height: 76vh;
   }
 }
 
 @media (max-width:440px) {
-  .quote-section p {
+  /* .quote-section p {
     font-size: 20px;
-  }
+  } */
 
   .offers-list h2 {
     font-size: 26px;
@@ -121,12 +229,12 @@
 }
 
 @media (max-width:380px) {
-  .quote-section p {
+  /* .quote-section p {
     font-size: 18px;
-  }
+  } */
 
   .offers-list h2 {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 14px;
   }
 
