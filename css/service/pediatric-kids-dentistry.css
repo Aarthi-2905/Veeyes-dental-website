@@ -87,7 +87,7 @@
 
 .download-section {
     padding: 3rem 1rem;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .download-title {
@@ -109,7 +109,7 @@
 
 
 .pediatric-section {
-    background-color: #F9F7F2;
+    /* background-color: #F9F7F2; */
     /* padding: 60px 20px; */
     color: #1f4e53 !important;
 }
