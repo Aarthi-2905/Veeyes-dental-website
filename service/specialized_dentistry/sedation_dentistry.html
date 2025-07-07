@@ -24,10 +24,10 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="css/service/specialized_dentistry/microscopic.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
+    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
 </head>
 <style>
     .section-heading {
@@ -132,11 +132,11 @@
             </div>
 
             <div class="col-1">
-                <img src="images/star.png" class="star-icon" alt="Star Icon">
+                <img src="/images/star.png" class="star-icon" alt="Star Icon">
             </div>
 
             <div class="col-md-5">
-                <img src="images/surgical_triangle_image.png" class="custom-img"
+                <img src="/images/surgical_triangle_image.png" class="custom-img"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -145,7 +145,7 @@
     <div class="container">
         <div class="row">
             <div class="col-2">
-                <img src="images/star.png" class="star-icon2" alt="Star Icon">
+                <img src="/images/star.png" class="star-icon2" alt="Star Icon">
             </div>
             <div class="col-10">
                 <div class="my-circles">
@@ -169,7 +169,7 @@
     </div>
 
     <div class="container position-relative pt-5">
-        <div class="star1"><img src="images/star.png" width="100px" alt="" srcset=""></div>
+        <div class="star1"><img src="/images/star.png" width="100px" alt="" srcset=""></div>
 
         <h2 class="section-heading mb-4">Who can benefit from <strong>Sedation Dentistry?</strong></h2>
 
@@ -191,7 +191,7 @@
     <section class="download-section text-center">
         <p class="download-title"><em><u>"10 things to do before your dental surgery"</u></em></p>
         <div class="arrow-container">
-            <img src="images/download_arrow.png" class="curved-arrow" alt="Curved Arrow">
+            <img src="/images/download_arrow.png" class="curved-arrow" alt="Curved Arrow">
             <a href="10-things-before-dental-surgery.pdf" class="btn download-btn" download>Download</a>
         </div>
     </section>
@@ -219,13 +219,13 @@
             if (box) observer.observe(box);
         });
 
-        fetch('header.html')
+        fetch('/header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('footer.html')
+        fetch('/footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
