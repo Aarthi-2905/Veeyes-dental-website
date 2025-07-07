@@ -18,9 +18,9 @@
 
     <!-- Bootstrap JS Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/service/specialized_dentistry.css">
 </head>
 
 <body class="bg-light">
@@ -47,76 +47,76 @@
     <section class="specialty-grid">
         <!-- Card 1 -->
         <div class="specialty-card">
-            <img src="/images/specialized_dentistry/sedation dentistry.png" alt="Sedation Dentistry">
+            <img src="images/specialized_dentistry/sedation dentistry.png" alt="Sedation Dentistry">
             <div class="specialty-label">Sedation Dentistry</div>
             
             <div class="specialty-overlay">
                 <h3>Sedation Dentistry</h3>
                 <p>Sedation in dentistry is a valuable technique that helps patients manage anxiety and discomfort
                     during dental procedures.</p>
-                <a href="/service/specialized_dentistry/sedation_dentistry.html" class="learn-btn">LEARN MORE</a>
+                <a href="service/specialized_dentistry/sedation_dentistry.html" class="learn-btn">LEARN MORE</a>
             </div>
         </div>
 
         <!-- Card 2 -->
         <div class="specialty-card">
-            <img src="/images/specialized_dentistry/implant dentistry.png" alt="Implant Dentistry">
+            <img src="images/specialized_dentistry/implant dentistry.png" alt="Implant Dentistry">
             <div class="specialty-label">Implant Dentistry</div>
             <div class="specialty-overlay">
                 <h3>Implant Dentistry</h3>
                 <p>Dental implants have revolutionized the field of dentistry by offering a durabe ,natural looking
                     solution for replacing missing teeth</p>
-                <a href="/service/specialized_dentistry/implant_dentistry.html" class="learn-btn">LEARN MORE</a>
+                <a href="service/specialized_dentistry/implant_dentistry.html" class="learn-btn">LEARN MORE</a>
             </div>
         </div>
 
         <!-- Card 3 -->
         <div class="specialty-card">
-            <img src="/images/specialized_dentistry/minimally invasive dentistry.png"
+            <img src="images/specialized_dentistry/minimally invasive dentistry.png"
                 alt="Minimally Invasive Dentistry">
             <div class="specialty-label">Minimally Invasive Dentistry</div>
             <div class="specialty-overlay">
                 <h3>Minimally Invasive Dentistry</h3>
                 <p>Minimally invasive dentistry emphasizes preserving healthy tooth structure by using advanced techniques 
                     and technologies for early detection and conservative treatment. </p>
-                <a href="/service/specialized_dentistry/minimally_Invasive_dentistry.html" class="learn-btn">LEARN MORE</a>
+                <a href="service/specialized_dentistry/minimally_Invasive_dentistry.html" class="learn-btn">LEARN MORE</a>
             </div>
         </div>
 
         <!-- Card 4 -->
         <div class="specialty-card">
-            <img src="/images/specialized_dentistry/microscopic dentistry.png" alt="Microscopic Dentistry">
+            <img src="images/specialized_dentistry/microscopic dentistry.png" alt="Microscopic Dentistry">
             <div class="specialty-label">Microscopic Dentistry</div>
             <div class="specialty-overlay">
                 <h3>Microscopic Dentistry</h3>
                 <p>Microscopic dentistry involves using high-magnification microscopes to 
                     perform precise and minimally invasive dental procedures.
                     </p>
-                <a href="/service/specialized_dentistry/microscopic.html" class="learn-btn">LEARN MORE</a>
+                <a href="service/specialized_dentistry/microscopic.html" class="learn-btn">LEARN MORE</a>
             </div>
         </div>
 
         <!-- Card 5 -->
         <div class="specialty-card">
-            <img src="/images/specialized_dentistry/surgical dentistry.png" alt="Surgical Dentistry">
+            <img src="images/specialized_dentistry/surgical dentistry.png" alt="Surgical Dentistry">
             <div class="specialty-label">Surgical Dentistry</div>
             <div class="specialty-overlay">
                 <h3>Surgical Dentistry</h3>
                 <p>Common dental procedure that encompasses a variety of treatments designed to address 
                     issues within the mouth and surrounding structure. </p>
-                <a href="/service/specialized_dentistry/surgical_dntistry.html" class="learn-btn">LEARN MORE</a>
+                <a href="service/specialized_dentistry/surgical_dntistry.html" class="learn-btn">LEARN MORE</a>
             </div>
         </div>
 
         <!-- Card 6 -->
         <div class="specialty-card">
-            <img src="/images/specialized_dentistry/endodontic dentistry.png" alt="Endodontic Dentistry">
+            <img src="images/specialized_dentistry/endodontic dentistry.png" alt="Endodontic Dentistry">
             <div class="specialty-label">Endodontic Dentistry</div>
             <div class="specialty-overlay">
                 <h3>Endodontic Dentistry</h3>
                 <p>Endodontic dentistry focuses on diagnosing and treating diseases of the dental
                     pulp and root canals to preserve natural teeth .</p>
-                <a href="/service/specialized_dentistry/endodonatics.html" class="learn-btn">LEARN MORE</a>
+                <a href="service/specialized_dentistry/endodonatics.html" class="learn-btn">LEARN MORE</a>
             </div>
         </div>
     </section>
@@ -133,7 +133,7 @@
 
         <div class="nabh-content">
             <button class="nabh-btn">OPEN</button>
-            <img src="/images/specialized_dentistry/NABH LOGO.png" alt="NABH Logo" class="nabh-logo">
+            <img src="images/specialized_dentistry/NABH LOGO.png" alt="NABH Logo" class="nabh-logo">
             <button class="nabh-btn">OPEN</button>
         </div>
     </section>
@@ -147,13 +147,13 @@
     <!-- footer page Ending -->
 
     <script>
-        fetch('/header.html')
+        fetch('header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('/footer.html')
+        fetch('footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
