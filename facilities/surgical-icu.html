@@ -31,6 +31,34 @@
     <link rel="stylesheet" href="/css/facilities/surgical.css">
 </head>
 <style>
+    .teeth-icon-style {
+        font-size: 30px;
+        color: #00bfff;
+        margin-right: 10px;
+        flex-shrink: 0;
+        position: relative;
+        top: 5px; /* 👈 this nudges the icon slightly downward */
+      }
+      .teeth-icon-style2 {
+        font-size: 30px;
+        color: #00bfff;
+        margin-right: 10px;
+        flex-shrink: 0;
+        position: relative;
+       
+      }
+  
+      
+    .sicu-icon-text {
+        display: flex;
+        align-items: flex-start;
+        
+      }
+      
+      .sicu-text-block {
+        max-width: 100%;
+      }
+      
     .sicu-container {
         font-family: 'Montserrat', sans-serif;
         color: #103144;
@@ -45,9 +73,10 @@
         
         font-size: 1.9rem;
         margin-bottom: 1.5rem;
-        font-weight: bold;
-        margin-left: -5%;
+      
+        margin-left: -7%;
     }
+
 
     .sicu-list {
         list-style: none;
@@ -69,8 +98,20 @@
         position: relative;
         font-family: 'montserrat', sans-serif;
         color: #183D4A;
-        line-height: 45px;
+        line-height: 44px;
     }
+
+
+    @media (max-width: 475px) {
+    .sicu-list span {
+        font-size: 18px !important;
+        /* margin: 0.6rem 0; */
+        position: relative;
+        font-family: 'montserrat', sans-serif;
+        color: #183D4A;
+        line-height: 34px;
+    }
+}
 
     .sicu-icon::before {
         content: "🦷";
@@ -78,6 +119,7 @@
         margin-right: 0.6rem;
         font-size: 1.2rem;
         flex-shrink: 0;
+       
     }
 
     .sicu-bold {
@@ -153,13 +195,13 @@
             <img src="/images/table_arrow.png" alt="Arrow" class="heading-arrow">
         </div>
         <ul class="features-list mt-4">
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Post-Surgery Monitoring</li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>Advanced Equipment and Technology</li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Pain Management</li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Patient Stabilization</li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Multidisciplinary Team Approach</li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Infection Control</li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i> Recovery and Transition to General Wards</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Post-Surgery Monitoring</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i>Advanced Equipment and Technology</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Pain Management</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Patient Stabilization</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Multidisciplinary Team Approach</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Infection Control</li>
+            <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Recovery and Transition to General Wards</li>
         </ul>
         <div>
             <img src="/images/star.png" class="star-icon1" alt="Star Icon">
@@ -212,21 +254,38 @@
     <div class="sicu-container">
         <div class="sicu-heading">Benefits of SICU in a Dental Hospital:</div>
         <ul class="sicu-list">
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
-                <span class="sicu-bold">Higher Level of Care:</span>
-                <span>Patients undergoing major dental surgery are provided with specialized, round-the-clock monitoring
-                    to ensure optimal recovery.</span>
-            </li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+            <li>
+                <div class="sicu-icon-text">
+                  <i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+                  <div class="sicu-text-block">
+                    <span class="sicu-bold">Higher Level of Care:</span>
+                    <span> Patients undergoing major dental surgery are provided with specialized, round-the-clock monitoring to ensure optimal recovery.</span>
+                  </div>
+                </div>
+              </li>
+              
+              
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+                <div class="sicu-text-block">
                 <span class="sicu-bold">Early Detection of Complications:</span>
                 <span>Continuous monitoring and immediate response help detect complications such as bleeding or
                     infection early, reducing the risk of severe outcomes.</span>
+                    </div>
+                    </div>
             </li>
-            <li><i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+            <li>
+                <div class="sicu-icon-text">
+                <i class="fa-solid fa-tooth teeth-icon-style me-2"></i>
+                <div class="sicu-text-block">
                 <span class="sicu-bold">Comprehensive Recovery:</span>
                 <span>The post-operative care in the SICU ensures that the patient’s recovery is closely managed, which
                     is critical for procedures that affect the facial structure, mouth, or jaw.</span>
+                    </div>
+                    </div>
             </li>
+            
         </ul>
         <p class="nabh-summary">
             SICU in a dental hospital plays an essential role in managing the critical care needs of patients following

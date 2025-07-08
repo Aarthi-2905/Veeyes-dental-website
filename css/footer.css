@@ -2,6 +2,11 @@
     background-color: #003b4a;
     color: white;
 }
+.section-title2{
+    font-family: 'Lora',serif;
+    font-style: italic;
+    font-size: 32px;
+}
 
 body {
     overflow-x: hidden !important;
