@@ -4,6 +4,7 @@
   font-weight: 700;
   color: #003b49;
   padding-top: 8%;
+margin-left: 2%;
 }
 
 
@@ -310,7 +311,7 @@
 }
 
 .features-list ul {
-  padding-left: 110px;
+  padding-left: 98px;
 }
 
 .section-title {
@@ -337,7 +338,7 @@
   .vdh-highlight-box p {
     line-height: 2;
     padding: 4px;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .vdh-highlight-box {
@@ -392,7 +393,7 @@
 
   .features-list h3 {
     line-height: 2.3;
-    font-size: 21px;
+    font-size: 18px;
   }
   .scope i {
     font-size: 35px;
@@ -704,7 +705,7 @@
 
   .features-list h3 {
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .scope i {

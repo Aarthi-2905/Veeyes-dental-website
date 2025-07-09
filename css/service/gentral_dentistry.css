@@ -25,6 +25,7 @@
         /* line-height: 3; */
         margin-top: 0px;
         font-size: 16px;
+        line-height: 2.0 !important;
     }
 }
 
@@ -34,7 +35,7 @@
         width: 148%;
         max-width: 1000px;
         margin-top: 41%;
-        margin-left: -30%;
+        margin-left: -52%;
     }
     .title {
         font-family: 'Libre Baskerville', serif;
@@ -51,6 +52,7 @@
         max-width: 1000px;
         margin-top: -8%;
         margin-left: 1%;
+        margin-bottom: 5%;
     }
     .title {
         text-align: center;
@@ -99,6 +101,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 2.3;
+    margin-left: -22px;
     color: #183D4A;
 }
 
@@ -124,7 +127,7 @@
 .small {
     width: 20px;
     height: 20px;
-    top: -59px;
+    top: -68px;
     left: -3.5%;
     box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
 }
@@ -133,7 +136,7 @@
 .medium {
     width: 30px;
     height: 30px;
-    top: -39px;
+    top: -45px;
     left: -2%;
     box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
 }
@@ -141,7 +144,7 @@
 .large {
     width: 40px;
     height: 40px;
-    top: -10px;
+    top: -15px;
     left: 0%;
     box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
 }
@@ -219,11 +222,31 @@
     font-weight: 400;
     font-size: 18px;
     max-width: 950px;
+    
     /* Adjust as needed */
     line-height: 50px;
     text-align: center;
     margin: 2rem 0;
+    margin-left: 5%;
     letter-spacing: 0.8px;
+}
+
+.general .gentral-text2 {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 950px;
+    margin-left: 5% !important;
+    /* Adjust as needed */
+    line-height: 50px;
+    /* margin-top: -15%; */
+    text-align: center;
+    margin: 2rem 0;
+    letter-spacing: 0.8px;
+}
+.number{
+    font-family: Lora;
 }
 
 .star-icon,
@@ -234,14 +257,15 @@
 
 .second-star-icon {
     position: relative;
-    width: 80px !important;
-    margin-left: 80%;
-    top: -50px;
+    width: 76px !important;
+    margin-left: 93%;
+    top: -71px;
     display: block;
 }
 
 .box-style {
-    font-family: lora;
+    font-family: 'Georgia', serif;
+    font-style: italic;
     font-size: 30px;
     text-align: left;
     padding-left: 2rem;
@@ -258,7 +282,23 @@
     box-shadow: -5px -5px 0 #E8D8B7;
     margin-bottom: 6%;
 }
+@media (max-width: 527px) {
+    .box-style {
+        font-size: 13px !important;
+        width: 80%;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+}
 
+@media (max-width: 460px) {
+    .box-style {
+        font-size: 12px !important;
+        width: 80%;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+}
 
 @media (max-width: 996px) {
   
@@ -313,6 +353,7 @@
         font-size: 16px;
         text-align: center;
         padding: 18px 18px 18px 18px;
+        margin-top: -5%;
     }
 }
 
@@ -347,33 +388,41 @@
         width: 10px;
         height: 10px;
         top: -31px;
-        left: -3.5%;
+        left: -2%;
     }
 
 
     .medium {
         width: 20px;
         height: 20px;
-        top: -17px;
+        top: -19px;
         left: -1%;
     }
 
     .large {
         width: 30px;
         height: 30px;
-        top: 4px;
-        left: 3%;
+        top: 3px;
+        left: 2%;
     }
 
     .general .gentral-text {
         line-height: 2.3;
         font-size: 15px;
+        margin-left: 0%;
+    }
+
+    .general .gentral-text2 {
+        line-height: 2.3;
+        font-size: 15px;
+        margin-left: 0% !important;
     }
 
     .box-style {
         font-size: 15px;
         text-align: center !important;
         padding: 15px 15px 15px 15px;
+        margin-top: -9%;
     }
 }
 
@@ -392,6 +441,12 @@
     .general .gentral-text {
         font-size: 14px;
         line-height: 2.2;
+        margin-left: 0% !important;
+    }
+    .general .gentral-text2 {
+        font-size: 14px;
+        line-height: 2.2;
+        margin-left: 0% !important;
     }
 
     .box-style {
@@ -444,15 +499,15 @@
     .medium {
         width: 20px;
         height: 20px;
-        top: -17px;
-        left: -1%;
+        top: -18px;
+        left: 0%;
     }
 
-    .large {
-        width: 30px;
-        height: 30px;
-        top: 4px;
-        left: 3%;
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -1.5%;
     }
 
     .vdh-highlight-section {
@@ -462,16 +517,38 @@
     .general .gentral-text {
         font-size: 14px;
         line-height: 2.2;
+        margin-left: 0%;
+    }
+    .general .gentral-text2 {
+        font-size: 14px;
+        line-height: 2.2;
+        margin-left: 0%;
     }
 
     .box-style {
-        font-size: 14px;
+        font-size: 11px !important;
         width: 80%;
         padding: 10px 10px 10px 10px;
         text-align: center !important;
     }
 }
-
+@media (max-width: 393px) {
+    .box-style {
+        font-size: 9px !important;
+        width: 80%;
+        padding: 10px 10px 10px 10px;
+        text-align: center !important;
+        margin-top: -15%;
+    }
+}
+@media (max-width: 327px) {
+    .box-style {
+        font-size: 8px !important;
+        width: 80%;
+        padding: 10px 10px 10px 10px;
+        text-align: center !important;
+    }
+}
 
 
 @media (max-width:380px) {
@@ -506,33 +583,37 @@
         padding: 1.2rem;
         font-size: 14px;
     }
-
-
     .small {
         width: 10px;
         height: 10px;
-        top: -31px;
-        left: -3.5%;
+        top: -38px;
+        left: -1.5%;
     }
 
 
     .medium {
-        width: 20px;
-        height: 20px;
-        top: -17px;
-        left: -1%;
+        width: 17px;
+        height: 17px;
+        top: -23px;
+        left: 1%;
     }
 
     .large {
-        width: 30px;
-        height: 30px;
-        top: 4px;
-        left: 3%;
+        width: 23px;
+        height: 23px;
+        top: -2px;
+        left: 5%;
     }
 
     .general .gentral-text {
         font-size: 13px;
         line-height: 2.3;
+        margin-left: 0%;
+    }
+    .general .gentral-text2 {
+        font-size: 13px;
+        line-height: 2.3;
+        margin-left: 0%;
     }
 
 }
@@ -596,7 +677,14 @@
     .general .gentral-text {
         font-size: 11px;
         line-height: 2.3;
+        margin-left: 0%;
     }
+    .general .gentral-text2 {
+        font-size: 11px;
+        line-height: 2.3;
+        margin-left: 0%;
+    }
+
 
     .box-style {
         font-size: 10px;
