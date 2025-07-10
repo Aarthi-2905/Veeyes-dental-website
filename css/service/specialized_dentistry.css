@@ -60,12 +60,11 @@
 
   @media(max-width: 758px) {
     .quote-section {
-    
       text-align: center;
       padding: 2rem;
       font-style: italic;
       color: #00242B;
-      font-size: 30px;
+      font-size: 26px;
       margin-top: -10%;
       /* text-align: center; */
       margin-left: 40%;
@@ -76,18 +75,17 @@
 
   @media(max-width: 550px) {
     .quote-section {
-    
       text-align: center;
       padding: 2rem;
       font-style: italic;
       color: #00242B;
-      font-size: 25px;
+      font-size: 22px;
       margin-top: -10%;
       /* text-align: center; */
-      margin-left: 30%;
+      margin-left: 13%
+;
       font-family: Italic or normal weight, serif;
-     
-    }
+  }
     .hero-section h1 {
       font-size: 50px;
       max-width: 100px;
@@ -99,18 +97,17 @@
   }
   @media(max-width: 375px) {
     .quote-section {
-    
       text-align: center;
       padding: 2rem;
       font-style: italic;
       color: #00242B;
       font-size: 20px;
-      margin-top: -10%;
+      margin-top: -11%;
       /* text-align: center; */
-      margin-left: 30%;
+      margin-left: 3%
+;
       font-family: Italic or normal weight, serif;
-     
-    }
+  }
     .hero-section h1 {
       font-size: 30px;
       max-width: 100px;
@@ -203,17 +200,25 @@
   z-index: 1;
 }
 
+
+
+
+/* ______________________________________________________________________ */
 .specialty-card:hover .specialty-label {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease; 
 }
 
-/* Light blue gradient background on hover */
+/* 🟩 Ensures overlay stays inside the card */
+.specialty-card {
+  position: relative;          /* 🔥 Needed for absolute positioning inside */
+  overflow: hidden;            /* 🔥 Prevent gradient from overflowing */
+}
 .specialty-overlay {
   position: absolute;
   top: 0;
-  left: 5%; /* Same as image's margin-left */
+  left: 5%; 
   width: 89%;
   height: 92%;
   background: linear-gradient(to top, rgba(0, 153, 204, 0.8), rgba(0, 153, 204, 0.2));
@@ -226,12 +231,30 @@
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease;
+  z-index: 1; 
 }
+.specialty-overlay::before {
+  content: "";                              /* 🔥 required for pseudo-element */
+  position: absolute;
+  bottom: 0;                                /* 🔥 start from bottom */
+  left: 0;
+  width: 100%;
+  height: 0%;                               /* 🔥 starts hidden */
+  background: linear-gradient(to top, rgba(196, 231, 243, 0.8),rgba(0, 3, 3, 0.2)); /* 🔥 direction */
+  z-index: -1;                              /* 🔥 behind text */
+  transition: height 0.3s ease;              /* 🔥 slow upward animation */
+}
+.specialty-card:hover .specialty-overlay::before {
+  height: 100%;                             /* 🔥 expand gradient fully upward */
+}
+
 
 .specialty-card:hover .specialty-overlay {
   opacity: 1;
   visibility: visible;
 }
+
+/* ___________________________________ */
 
 .specialty-overlay h3 {
   margin: 0 0 0.5rem;
@@ -323,7 +346,7 @@
 
   /* _____________________certicate________________________ */
   .nabh-section {
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     background-color: #fdfbf8;
     text-align: center;
   }
@@ -352,9 +375,9 @@
   }
   
   .nabh-logo {
-    width: 80px;
-    height: 80px;
-  }
+    width: 118px;
+    height: 118px;
+}
   
   .nabh-btn {
     background-color: #00d4f7;
@@ -375,7 +398,7 @@
   /* Responsive scaling for smaller screens */
   @media (max-width: 768px) {
     .nabh-title {
-      font-size: 13px; /* Scales with screen size */
+      font-size: 15px; /* Scales with screen size */
       text-decoration: underline;
       font-weight: 600;
       color: #002b36;
@@ -400,6 +423,13 @@
       cursor: pointer;
       transition: background 0.3s;
     }
+    .nabh-section {
+      /* padding: 40px 20px; */
+      background-color: #fdfbf8;
+      text-align: center;
+      margin-top: -14%;
+      margin-bottom: 8%;
+  }
   }
 
 

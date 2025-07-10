@@ -1,11 +1,343 @@
 .title {
-  font-size: 40px;
-  font-weight: 700;
-  color: #003b49;
-  font-family: lora;
-  padding-top: 4%;
+  font-family: 'Libre Baskerville', serif;
+font-size: 65px;
+font-weight: 700;
+color: #003b49;
+padding-top: 6%;
+margin-left: 2%;
+}
+.martop{
+  margin-top: 6%;
 }
 
+@media (max-width: 600px) {
+.martop{
+  margin-top: 11%;
+}
+
+}
+
+.custom-img {
+width: 531px;
+margin-top: -25%;
+margin-left: -34%;
+margin-bottom: -20%;
+}
+
+@media(max-width:996px) and (min-width:767px){
+/* .custom-img{
+    width: 100% ;
+
+    margin-top: 25%;
+    margin-left: -19%;
+} */
+
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 45px !important;
+    margin-bottom: 2%;
+    font-weight: 700;
+    color: #003b49;
+    padding-top: 10%;
+}
+.list-style ul li {
+    /* line-height: 3; */
+    margin-top: 0px;
+    font-size: 16px;
+}
+.sub-txt {
+  font-size: 30px !important;
+  margin-left: 2%;
+  color: #003b49;
+  margin-bottom: 3%;
+}
+.custom-img {
+  width: 450px !important;
+  margin-top: -40%;
+  margin-left: -143px;
+  margin-bottom: -20%;
+}
+}
+.sub-txt {
+  font-size: 33px;
+  margin-left: 2%;
+  color: #003b49;
+  /* margin-bottom: 3%; */
+}
+
+
+@media (max-width: 991px) {
+/* .custom-img {
+    width: 148%;
+    max-width: 1000px;
+    margin-top: 41%;
+    margin-left: -30%;
+} */
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #003b49;
+    padding-top: 10%;
+}
+}
+@media (max-width: 574px) {
+  .custom-img {
+    width: 446px !important;
+    margin-top: -25%;
+    margin-left: 28px !important;
+    margin-bottom: -20%;
+}
+.sub-txt {
+  font-size: 26px ;
+  margin-left: 2%;
+  color: #003b49;
+}
+}
+@media (max-width: 506px) {
+  .custom-img {
+    width: 446px !important;
+    margin-top: -25%;
+    margin-left: -8px !important;
+    margin-bottom: -20%;
+}
+.sub-txt {
+  font-size: 23px;
+  margin-left: 2%;
+  color: #003b49;
+}
+.title {
+  text-align: center;
+  font-size: 31px;
+  margin-bottom: 0%;
+  padding-top: 11%;
+}
+}
+@media (max-width: 490px) {
+  .custom-img {
+    width: 446px !important;
+    margin-top: -25%;
+    margin-left: -29px !important;
+    margin-bottom: -20%;
+}
+.sub-txt {
+  font-size: 26px;
+  margin-left: 2%;
+  color: #003b49;
+}
+}
+@media (max-width: 432px) {
+  .custom-img {
+    width: 406px !important;
+    margin-top: -25%;
+    margin-left: -29px !important;
+    margin-bottom: -20%;
+}
+.sub-txt {
+  font-size: 26px !important ;
+  margin-left: 2%;
+  color: #003b49;
+}
+}
+
+@media (max-width: 390px) {
+  .custom-img {
+    width: 406px !important;
+    margin-top: -25%;
+    margin-left: -42px !important;
+    margin-bottom: -20%;
+}
+.title {
+  text-align: center;
+  font-size: 30px !important;
+  margin-bottom: 0%;
+  padding-top: 11%;
+}
+
+}
+@media (max-width: 366px) {
+  .custom-img {
+    width: 350px !important;
+    margin-top: -25%;
+    margin-left: -42px !important;
+    margin-bottom: -20%;
+}
+.title {
+  text-align: center;
+  font-size: 30px !important;
+  margin-bottom: 0%;
+  padding-top: 11%;
+}
+
+}
+
+
+@media (max-width: 767px) and (min-width: 520px) {
+  .custom-img {
+      width: 450px !important;
+      max-width: 1000px;
+      margin-top: -8%;
+      margin-left: 1%;
+      margin-bottom:3%;
+  }}
+
+@media (max-width: 767px) {
+
+.sub-txt {
+  font-size: 28px ;
+  margin-left: 2%;
+  color: #003b49;
+  margin-bottom: 14%;
+  text-align: center;
+}
+.title {
+
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 0%;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+.list-style ul li {
+    /* line-height: 3; */
+    margin-top: -49px !important;
+    font-size: 18px;
+}
+}
+
+
+
+.sub-txt {
+  font-size: 33px;
+  margin-left: 2%;
+  color: #003b49;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 430px) {
+.title {
+    text-align: center;
+    font-size: 29px !important;
+    margin-bottom: 0%;
+    padding-top: 11%;
+}
+}
+@media (max-width: 1075px) and (min-width: 1020px) {
+  .title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 51px;
+    font-weight: 700;
+    color: #003b49;
+    padding-top: 6%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+
+@media (max-width: 1020px) {
+.title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 49px;
+  font-weight: 700;
+  color: #003b49;
+  padding-top: 6%;
+  margin-left: 2%;
+}
+
+.sub-txt {
+  font-size: 33px;
+  margin-left: 2%;
+  color: #003b49;
+}
+.custom-img {
+  width: 531px;
+  margin-top: -25%;
+  margin-left: -46%
+-172.953px
+;
+  margin-bottom: -20%;
+}
+}
+
+
+.teeth-icon-style {
+  font-size: 27px;
+  color: #ECD8B6;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+  top: 14px; /* 👈 this nudges the icon slightly downward */
+}
+.teeth-icon-style2 {
+  font-size: 30px;
+  color: #00bfff;
+  margin-right: 10px;
+  flex-shrink: 0;
+  position: relative;
+ 
+}
+
+
+.sicu-icon-text {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.sicu-text-block {
+  max-width: 93%;
+}
+
+.sicu-container {
+  font-family: 'Montserrat', sans-serif;
+  color: #103144;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sicu-heading {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+
+  margin-left: -7%;
+}
+
+
+.sicu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sicu-list-item {
+  /* display: flex;
+  align-items: flex-start; */
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.sicu-list span {
+  font-size: 18px !important;
+  /* margin: 0.6rem 0; */
+  position: relative;
+  font-family: 'montserrat', sans-serif;
+  color: #183D4A;
+  line-height: 44px;
+}
+
+
+
+
+
+
+/* ___________________________________________________________ */
 .star-icon {
   width: 100%;
   margin-left: -10% !important;
@@ -71,18 +403,20 @@
 .vdh-highlight-section {
   padding: 2rem;
 }
-
+.list-contain{
+  margin-left: -5%;
+}
 
 
 .vdh-highlight-box {
   position: relative;
   border-radius: 2rem;
   /* INITIAL background is white */
-  color: #000;
+  color: #003b49;
   overflow: hidden;
   transition: background-color 1.2s ease-out;
   /* Added transition for background color */
-  color: rgb(3, 3, 3);
+
   padding: 2rem;
   max-width: 800px;
   width: 100%;
@@ -116,6 +450,7 @@
 
 /* Text stays on top */
 .vdh-highlight-box p {
+  color: #003b49;
   position: relative;
   z-index: 1;
   margin: 0;
@@ -123,10 +458,7 @@
 }
 
 /* When in view, animate background fill and change background color */
-.vdh-highlight-box.animate {
-  background-color: #00bcd4;
-  /* **Changed background color to blue when in view** */
-}
+
 
 .vdh-highlight-box.animate .background-fill {
   width: 100%;
@@ -142,7 +474,7 @@
 
 .feature .header h1 {
   padding: 20px 50px 20px 50px;
-  font-size: 48px;
+  font-size: 42px;
   color: #ECD8B6;
   line-height: 2;
   font-family: lora;
@@ -163,9 +495,11 @@
 }
 
 .scope h3 {
-  padding-top: 30px;
-  font-family: Lora, serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Georgia', serif;
   font-weight: bold;
+  font-style: italic;
   color: #003b49;
 }
 
@@ -173,9 +507,11 @@
   position: relative;
   padding-left: 30px;
   margin-top: 30px;
+  margin-bottom: 2%;
   font-size: 1.5rem;
-  color: #004b63;
-  font-family: lora;
+  line-height: 1.7;
+  color: #003b49;
+  font-family:'Libre Baskerville', serif;
   font-weight: bold;
 }
 .scope i{
@@ -199,19 +535,20 @@
 
 .scope li {
   margin-bottom: 10px;
-  font-size: 1.4rem;
+  font-size: 20px;
   line-height: 2;
   font-family: Montserrat;
 }
 
 .scope p {
+  font-family: Montserrat;
   padding-left: 80px;
   margin-top: 5px;
   font-size: 1.3rem;
 }
 
 .scope strong {
-  color: #004b63;
+  color: #003b49;
 }
 
 @media (max-width:1200px) {
@@ -223,14 +560,6 @@
 }
 
 @media (max-width:996px) {
-  .title {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 0%;
-    padding-top: 7%;
-    padding-bottom: 3%;
-  }
-
   .star-icon {
     width: 14%;
     margin-left: 0% !important;
@@ -282,16 +611,27 @@
   }
 }
 
+@media (max-width:516px) {
+  .feature .header h1 {
+    padding: 20px 0px 20px 0px;
+    font-size: 22px;
+    line-height: 2;
+}
+}
+
 
 @media (max-width:768px) {
-  .title {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 0%;
-    padding-top: 7%;
-    padding-bottom: 3%;
-  }
-
+  .teeth-icon-style {
+    font-size: 19px;
+    color: #ECD8B6;
+    margin-right: 10px;
+    flex-shrink: 0;
+    position: relative;
+    top: 12px;
+}
+.scope i{
+  font-size: 19px;
+}
   .star-icon {
     width: 14%;
     margin-left: 0% !important;
@@ -302,6 +642,7 @@
     /* line-height: 3; */
     margin-top: 0px;
     font-size: 13px;
+    margin-top: 5% !important;
   }
 
   .vdh-highlight-section {
@@ -371,6 +712,7 @@
     padding-left: 30px;
     margin-top: 24px;
     font-size: 1.3rem;
+    font-family:'Libre Baskerville', serif;
   }
 
   .scope h5::before {
@@ -419,7 +761,7 @@
 
   .feature .header h1 {
     padding: 20px 0px 20px 0px;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 2;
   }
 
@@ -439,6 +781,7 @@
 
   .scope h5 {
     padding-left: 30px;
+    font-family:'Libre Baskerville', serif;
     margin-top: 24px;
     font-size: 1rem;
   }
@@ -485,7 +828,7 @@
   }
 
   .list-style ul li {
-    line-height: 3;
+    line-height: 2.4;
     margin-top: 0px;
     font-size: 16px;
   }
@@ -504,6 +847,15 @@
     padding: 1.2rem;
     font-size: 14px;
   }
+  .teeth-icon-style {
+    font-size: 17px;
+    color: #ECD8B6;
+    /* margin-right: 10px; */
+    flex-shrink: 0;
+    position: relative;
+    top: 12px;
+    margin-left: -5%;
+}
 
 
   .small {
@@ -538,7 +890,7 @@
 
   .feature .header h1 {
     padding: 20px 0px 20px 0px;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 2;
   }
 
@@ -553,10 +905,12 @@
   }
 
   .scope h3 {
-    padding-top: 30px;
-  }
+    padding-top: 42px;
+    margin-bottom: -2%;
+}
 
   .scope h5 {
+    font-family:'Libre Baskerville', serif;
     padding-left: 30px;
     margin-top: 24px;
     font-size: 1rem;
@@ -580,6 +934,7 @@
     margin-bottom: 10px;
     font-size: 1rem;
     line-height: 2;
+    margin-left: 4%;
   }
 
   .scope p {
@@ -595,7 +950,7 @@
     text-align: center;
     font-size: 21px;
     margin-bottom: 0%;
-    padding-top: 9%;
+    padding-top: 15%;
   }
 
   .star-icon {
@@ -722,6 +1077,7 @@
   }
 
   .list-style ul li {
+    line-height: 2.1;
     margin-top: 0px;
     font-size: 14px;
   }
@@ -809,14 +1165,14 @@
 
   .scope li {
     margin-bottom: 10px;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 2;
   }
 
   .scope p {
     padding-left: 30px;
     margin-top: 5px;
-    font-size: 1rem;
+    font-size: 14px;
   }
 
 }
