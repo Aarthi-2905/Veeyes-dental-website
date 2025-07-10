@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Button</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+  
+
+    .upload-btn {
+      background-color: #ece8dd;
+      color: #003f4f;
+      border: none;
+      padding: 10px 20px;
+      font-family: 'Georgia', serif;
+      font-size: 16px;
+      border-radius: 6px;
+      gap: 8px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .upload-btn:hover {
+      background-color: #e2ddd2;
+    }
+
+    .upload-btn i {
+      font-size: 18px;
+    }
+
+    #fileInput {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Upload button -->
+  <label class="upload-btn" for="fileInput">
+    <i class="fas fa-upload"></i>
+    Upload Report
+  </label>
+  <input type="file" id="fileInput" accept="image/*, .pdf, .docx, .xlsx" onchange="handleFileUpload(event)">
+
+  <script>
+    function handleFileUpload(event) {
+      const file = event.target.files[0];
+      if (file) {
+        alert(`File "${file.name}" selected.`);
+        // Optionally: upload to server using fetch or form submission
+      }
+    }
+  </script>
+
+</body>
+</html>
