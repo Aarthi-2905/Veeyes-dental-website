@@ -1,9 +1,9 @@
-body{
+body {
     background-color: #0c4a5b !important;
 }
+
 .hero-section {
     display: flex;
-    height: 100vh;
     position: relative;
 }
 
@@ -43,20 +43,22 @@ body{
 }
 
 .hero-text h1 {
-
+    font-family: 'Libre Baskerville', serif;
     line-height: 70px;
     font-weight: bold;
 }
 
 .hero-text h2 {
-    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 40px;
 }
 
 .marquee-container {
     margin-top: 5.5%;
     overflow: hidden;
     white-space: nowrap;
-    background-color: white;
+    background-color: #F0EFE7;
     padding: 5px 0;
     font-size: 13px;
     color: #183D4A;
@@ -79,6 +81,7 @@ body{
     0% {
         transform: translateX(0%);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -95,8 +98,9 @@ body{
 
 .hero-section2 h2 {
     color: #0c4a5b;
-    font-size: 36px;
     font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    
 }
 
 .hero-section2 .tooth-icon {
@@ -178,7 +182,7 @@ body{
     right: 5%;
     transform: translateY(-50%);
     max-width: 500px;
-    color: #fff;
+    color: #F0EFE7;
     text-align: left;
     z-index: 2;
 }
@@ -195,7 +199,7 @@ body{
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 20px;
-    font-family: lora;
+    font-family: Montserrat;
 }
 
 .read-more-btn {
@@ -233,13 +237,14 @@ body{
     font-size: 64px;
     font-family: 'Libre Baskerville', sans-serif;
     color: #183D4A;
+    font-weight: bold;
 }
 
 .dentistry-text {
     font-size: 20px;
     color: #183D4A;
-    line-height: 50px;
-    /* font-weight: 400; */
+    line-height: 45px;
+    font-weight: 400;
     font-family: 'Montserrat', serif;
 }
 
@@ -247,15 +252,16 @@ body{
     padding-top: 3rem;
     color: #183D4A;
     /* opacity: 75%; */
-    font-family: 'Lora', sans-serif;
-    font-weight: medium;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 50px;
 }
 
 .read-more-btn2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #ffffff;
+    color: #F0EFE7;
     background-color: #183D4A;
     padding: 12px 30px;
     text-align: center;
@@ -269,7 +275,7 @@ body{
 
 .read-more-btn2:hover {
     background-color: #13C2CF;
-    color: white;
+    color: #F0EFE7;
     color: #183D4A;
 }
 
@@ -281,7 +287,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     color: #183D4A;
-    background-color: #ffffff;
+    background-color: #F0EFE7;
     padding: 12px 30px;
     text-align: center;
     display: inline-block;
@@ -294,7 +300,7 @@ body{
 
 .read-more-btn3:hover {
     background-color: #13C2CF;
-    color: white;
+    color: #F0EFE7;
     color: #183D4A;
 }
 
@@ -316,7 +322,7 @@ body{
 }
 
 .kids-cool div {
-    color: white;
+    color: #F0EFE7;
 }
 
 .kids-cool h1 {
@@ -331,14 +337,20 @@ body{
 
 .kids-contant {
     padding-left: 20px;
-    color: white;
+    color: #F0EFE7;
 }
 
 
 .kids-contant h2 {
-    font-family: Libre Baskerville, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-style: italic;
-    font-weight: 200;
+    font-size: 34px;
+}
+
+.kids-text {
+    font-family: lora;
+    font-style: italic;
+    font-size: 25px;
 }
 
 .kids-contant h4 {
@@ -346,7 +358,7 @@ body{
     line-height: 35px;
     padding-top: 10px;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: normal;
     font-style: italic;
     font-family: "Montserrat", sans-serif;
 }
@@ -358,7 +370,9 @@ body{
 }
 
 .kids-contant ul li h4 {
-    line-height: 50px;
+    font-family: Montserrat;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 
@@ -385,7 +399,7 @@ body{
 
 
 .quote-icon {
-    background-color: #004a52;
+    background-color: rgb(24, 61, 74, 0.50);
     color: black;
     font-size: 28px;
     width: 40px;
@@ -396,17 +410,20 @@ body{
     line-height: 30px;
     font-weight: bold;
     margin-bottom: 15px;
+
     font-style: italic;
 }
 
 .testimonial-card {
     position: relative;
-    padding: 70px;
+    padding: 40px;
     border: 1px solid #ccc;
     border-radius: 12px;
-    background-color: #13C2CF;
+    background-color: rgb(19, 194, 207, 0.25);
     margin: auto;
     border-radius: 0px 25px 0px 25px;
+    width: 80%;
+    height: fit-content;
 }
 
 .feedback-dots {
@@ -428,16 +445,15 @@ body{
 
 
 .testimonial-card2 {
-    background-color: #0E7580;
-    padding: 70px;
-    border-radius: 0px 25px 0px 25px;
-    font-family: 'Segoe UI', sans-serif;
-    color: black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
-    opacity: 60%;
-    display: flex;
-    flex-direction: column;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: rgb(14, 117, 128, 0.25);
+    margin: auto;
+    border-radius: 0px 25px 0px 25px;
+    width: 80%;
+    height: fit-content;
 }
 
 .divider {

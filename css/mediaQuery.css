@@ -1,5 +1,17 @@
 /* Legacy of Exceptional.. section  */
 
+@media (min-width: 1440px) {
+    .testimonial-card {
+        height: 88%;
+    }
+
+    .testimonial-card2 {
+        margin-top: 10% !important;
+        height: 88%;
+    }
+    
+}
+
 @media (max-width:1029px) and (min-width:999px) {
     .testimonial-card {
         height: 88%;
@@ -13,12 +25,14 @@
 
 @media (max-width:999px) {
     .testimonial-card {
-        height: 100%;
+        height: fit-content;
         padding: 20px !important;
+        width: 100%;
     }
 
     .testimonial-card2 {
-        height: 100%;
+        width: 100%;
+        height: fit-content;
         padding: 20px !important;
     }
 }
@@ -535,7 +549,7 @@
 @media (max-width:380px) {
 
     .marquee-container {
-        margin-top: 19%;
+        margin-top: 21%;
     }
 
     .fixed-content h2 {
@@ -723,4 +737,4 @@
         font-size: 15px !important;
     }
 
-}
+}   
