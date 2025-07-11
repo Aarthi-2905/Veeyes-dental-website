@@ -48,13 +48,13 @@
 
 #appointment {
     font-size: 18px;
-    color: white;
+    color: #ECD8B6;
     border-radius: 15px;
     background-color: #183D4A;
 }
 
 .navbar-nav .nav-link.show {
-    color: wheat;
+    color: #183D4A !important;
 }
 
 #appointment:hover {
@@ -96,8 +96,8 @@
 
 /* Optional: Highlight on hover */
 .dropdown-menu .dropdown-item:hover {
-    background-color: red !important;
-    color: white;
+    background-color: #13C2CF  !important;
+    color: #183D4A ;
     border-radius: 5px;
 }
 
@@ -189,7 +189,7 @@
     display: none;
 }
 .dropdown-item{
-    background: whitesmoke;
+    background: #ECD8B6;
     border: none;
     border-radius: 10px;
     color: #183D4A;
@@ -197,9 +197,7 @@
     padding-top: 10px;
 }
 @media (max-width: 1124px) {
-    .navbar {
-        height: auto;
-    }
+    
 
     .logo {
         width: 162px;
@@ -222,7 +220,7 @@
 
 }
 
-@media (max-width:996px) {
+@media (max-width:991px) {
     .navbar-nav .btn {
         margin-left: 0 !important;
         display: none;
@@ -264,10 +262,10 @@
 
      .dropdown-item {
         font-size: 12px;
-        background-color: #183D4A;
-        color: #ECD8B6;
-        border-radius: 5px;
-        padding: 10px 0px 10px 10px;
+        background-color: #183D4A !important;
+        color: #ECD8B6 !important;
+        border-radius: 5px !important;
+        padding: 10px 0px 10px 10px !important;
     }
 
     .dropdown-menu .dropdown-item:hover{
@@ -278,11 +276,12 @@
     .dropstart .dropdown-menu[data-bs-popper]{
         border: none;
     }
+
 }
 
 @media (max-width: 320px) {
     .navbar {
-        height: auto;
+        height: 70px !important;
     }
 
     .logo {
