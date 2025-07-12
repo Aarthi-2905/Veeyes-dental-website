@@ -116,7 +116,7 @@ margin-bottom: -20%;
 @media (max-width: 490px) {
   .custom-img {
     width: 446px !important;
-    margin-top: -25%;
+    margin-top: -8% !important;
     margin-left: -29px !important;
     margin-bottom: -20%;
 }
@@ -176,7 +176,7 @@ margin-bottom: -20%;
   .custom-img {
       width: 450px !important;
       max-width: 1000px;
-      margin-top: -8%;
+      margin-top: -8% !important;
       margin-left: 1%;
       margin-bottom:3%;
   }}

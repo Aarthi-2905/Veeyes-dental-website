@@ -210,10 +210,9 @@
   transition: opacity 0.3s ease, visibility 0.3s ease; 
 }
 
-/* 🟩 Ensures overlay stays inside the card */
 .specialty-card {
-  position: relative;          /* 🔥 Needed for absolute positioning inside */
-  overflow: hidden;            /* 🔥 Prevent gradient from overflowing */
+  position: relative;          
+  overflow: hidden;            
 }
 .specialty-overlay {
   position: absolute;
@@ -221,7 +220,7 @@
   left: 5%; 
   width: 89%;
   height: 92%;
-  background: linear-gradient(to top, rgba(0, 153, 204, 0.8), rgba(0, 153, 204, 0.2));
+  /* background: linear-gradient(to top, rgba(86, 92, 94, 0.8), rgba(0, 153, 204, 0.2)); */
   color: white;
   display: flex;
   flex-direction: column;
@@ -240,7 +239,7 @@
   left: 0;
   width: 100%;
   height: 0%;                               /* 🔥 starts hidden */
-  background: linear-gradient(to top, rgba(196, 231, 243, 0.8),rgba(0, 3, 3, 0.2)); /* 🔥 direction */
+  background: linear-gradient(to top, rgba(27, 133, 168, 0.8),rgba(0, 5, 5, 0.2)); /* 🔥 direction */
   z-index: -1;                              /* 🔥 behind text */
   transition: height 0.3s ease;              /* 🔥 slow upward animation */
 }
@@ -455,26 +454,39 @@
 
   @media (max-width: 435px) {
     .nabh-title {
-      font-size: 12px; /* Scales with screen size */
+      font-size: 12px;
       text-decoration: underline;
       font-weight: 600;
-      max-width: 100px;
+      max-width: 120px;
       color: #002b36;
-    }
-    .nabh-btn {
-      background-color: #00d4f7;
-      border: none;
-      padding: 5px 10px;
-      color: rgb(5, 5, 5);
-      font-weight: bold;
-      font-size: 13px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .nabh-logo {
-      width: 50px;
-      height: 50px;
+      line-height: 1.8;
+  }
+    .spcl
+     {
+            font-size: 12px;
+            text-decoration: underline;
+            font-weight: 600;
+            /* max-width: 61px; */
+            color: #002b36;
+            margin-right: 5%;
+        }
+
+        .nabh-btn {
+          background-color: #00d4f7;
+          border: none;
+          padding: 5px 10px;
+          color: rgb(5, 5, 5);
+          font-weight: bold;
+          font-size: 13px;
+          border-radius: 6px;
+          cursor: pointer;
+          transition: background 0.3s;
+          /* margin-top: -9%; */
+      }
+      .nabh-logo {
+        width: 69px;
+        height: 61px;
+        margin-top: -13%;
     }
   }
   @media (max-width: 354px) {

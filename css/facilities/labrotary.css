@@ -33,10 +33,10 @@ body {
 
 .custom-img {
     /* max-width: 100%; */
-    max-width: 470px;
+    max-width: 500px;
     height: auto;
     position: relative;
-    top: -130px;
+    top: -195px;
     right: 83px;
     margin-bottom: -63%;
 }
