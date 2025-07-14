@@ -7,7 +7,9 @@
 margin-left: 2%;
 }
 
-
+.number{
+  font-family: Lora;
+}
 .custom-img {
   width: 531px;
   margin-top: 10%;
@@ -192,6 +194,7 @@ margin-left: 2%;
   border-top-right-radius: 60px !important;
   border-bottom-right-radius: 60px !important;
   border-bottom-left-radius: 60px !important;
+  /* margin-top: 5% !important; */
 
 
 }
@@ -258,7 +261,8 @@ margin-left: 2%;
 }
 
 .box-style {
-  font-family: lora;
+  font-family: 'Georgia', serif;
+  font-style: italic;
   font-size: 30px;
   text-align: left;
   padding-left: 2rem;
@@ -271,9 +275,9 @@ margin-left: 2%;
   border-radius: 2px;
   width: fit-content;
   margin-left: auto;
+  margin-top: 5%;
   margin-right: auto;
   box-shadow: -5px -5px 0 #E8D8B7;
-  margin-top: 6%;
   margin-bottom: 6%;
 }
 

@@ -1,141 +1,186 @@
-#home .row {
-    height: 95vh;
+.title {
+    font-family: 'Libre Baskerville', serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #003b49;
+  padding-top: 8%;
+margin-left: 2%;
 }
 
-#home h1 {
-    font-size: 56px;
-    font-family: lora;
+.custom-img {
+    width: 531px;
+    margin-top: -40%;
+    margin-left: -24%;
+    margin-bottom: -20%;
+  }
+  
+  @media(max-width:996px){
+    .custom-img{
+        width: 100% ;
+  
+        margin-top: 25%;
+        margin-left: -19%;
+    }
+  
+    .title {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 65px;
+        font-weight: 700;
+        color: #003b49;
+        padding-top: 10%;
+    }
+
+  }
+
+  @media (max-width: 767px) {
+    .custom-img {
+        width: 90% !important;
+        max-width: 500px;
+        margin-top: -5% !important;
+        margin-left: 2% !important;
+        margin-bottom: -6%;
+    }
+    .title {
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 0%;
+        padding-top: 11%;
+        padding-bottom: 3%;
+    }
+
+  }
+  
+  @media (max-width: 991px) {
+    .custom-img {
+        width: 148%;
+        max-width: 1000px;
+        margin-top: -38%;
+        margin-left: -30%;
+    }
+    .title {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 55px ;
+        font-weight: 700;
+        color: #003b49;
+        padding-top: 10%;
+    }
+}
+  
+  
+  
+  @media (max-width: 430px) {
+    .title {
+        text-align: center;
+        font-size: 31px !important;
+        margin-bottom: 0%;
+        padding-top: 14% !important;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .title {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 55px ;
+        font-weight: 700;
+        color: #003b49;
+        padding-top: 10%;
+    }
+  }
+    
+/* ________________star________________________ */
+  .star-icon {
+    width: 100%;
+    margin-left: -10% !important;
+    margin-top: 80%;
+
+}
+@media (max-width: 996px) {
+  
+
+    .star-icon {
+        width: 14%;
+        margin-left: 0% !important;
+        margin-top: -24%;
+    }
+}
+@media (max-width:768px) {
+  
+
+    .star-icon {
+        width: 14%;
+        margin-left: 0% !important;
+        margin-top: -24%;
+    }
+}
+@media (max-width:430px) {
+    .star-icon {
+        width: 14%;
+        margin-left: 0% !important;
+        margin-top: -24%;
+    }
+}
+@media (max-width:380px) {
+    .star-icon {
+        width: 14%;
+        margin-left: 0% !important;
+        margin-top: -24%;
+    }
+}
+
+/* ______________________________list-style ul li_____________________________________ */
+.list-style ul li {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2.3;
+    margin-left: -22px;
     color: #183D4A;
-    font-weight: 600;
+}
+@media (max-width:430px) {
+
+    .list-style ul li {
+        line-height: 3;
+        margin-top: 0px;
+        font-size: 16px;
+    }
+}
+@media (max-width:380px) {
+
+    .list-style ul li {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+}
+@media (max-width:320px) {
+
+    .list-style ul li {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+}
+@media(max-width:996px){
+
+    .list-style ul li {
+        /* line-height: 3; */
+        margin-top: 0px;
+        font-size: 16px;
+        line-height: 2.0 !important;
+    }
+}
+@media (max-width: 767px) {
+    .list-style ul li {
+        /* line-height: 3; */
+        margin-top: -49px !important;
+        font-size: 18px;
+    }
 }
 
-#home {
-    line-height: 50px;
-}
-
-#home ul li {
-    color: #183D4A;
-    font-size: 24px;
-    font-weight: 200;
-}
-
-.highlight {
-    font-weight: 600;
-    color: #0c3b49;
-}
-
-.radiology-support {
-    background-color: #00c8d4;
-    color: #000;
-    padding: 2rem 1rem;
-}
-
-.radiology-support h5 {
-    font-weight: bold;
-    font-family: lora;
-    font-size: 22px;
-    margin-bottom: 1rem;
-}
-
-.list-icon {
-    color: #f9a825;
-    margin-right: 0.5rem;
-}
-
-.list-group-item {
-    background-color: transparent;
-    border: none;
-    font-size: 16px;
-    padding: 0.25rem 0;
-    font-family: Montserrat;
-}
-
-.arrow-icon {
-    width: 50px;
-    height: auto;
-    vertical-align: middle;
-}
-
-
-
-
-.download-section {
-    padding: 3rem 1rem;
-    background-color: #fff;
-}
-
-.download-title {
-    font-size: 32px;
-    font-family: Lora;
-    color: black;
-}
-
-.arrow-container {
-    position: relative;
-    display: inline-block;
-    margin-top: 1rem;
-}
-
-
-
-.curved-arrow {
-    position: absolute;
-    left: -70px;
-    top: -25px;
-    width: 50px;
-}
-
-.download-btn {
-    background-color: #13C2CF !important;
-    color: #000 !important;
-    padding: 0.6rem 1.2rem;
-    font-family: lora !important;
-    font-weight: 200;
-    border: none;
-    border-radius: 6px;
-    text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.download-btn:hover {
-    background-color: #ECD8B6 !important;
-}
-
-.list-unstyled {
-    line-height: 40px;
-}
-
-
-.section-heading {
-    font-size: 32px;
-    font-weight: 600;
-    color: #000;
-    font-family: Libre Baskerville;
-}
-
-.benefit-item {
-    font-family: Montserrat;
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #333;
-    line-height: 50px;
-}
-
-.benefit-icon {
-    color: #00bcd4;
-    margin-right: 10px;
-}
-
-.star1 {
-    position: absolute;
-    right: 10%;
-    font-size: 1.8rem;
-    color: #003b3f;
-}
-
+/* _____________________________highlight box_______________________________________________ */
 
 .my-circles {
     position: relative;
+
 }
 
 .circle {
@@ -147,848 +192,307 @@
 .small {
     width: 20px;
     height: 20px;
-    top: 7px;
-    left: 6%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    top: -68px;
+    left: -3.5%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
 }
+
 
 .medium {
     width: 30px;
     height: 30px;
-    top: 34px;
-    left: 8%;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    top: -45px;
+    left: -2%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
 }
 
 .large {
     width: 40px;
     height: 40px;
-    top: 65px;
-    left: 10%;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+    top: -15px;
+    left: 0%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
 }
 
-.content-text {
-    background-color: #00eaff;
-    border-radius: 0px 70px 70px 70px;
-    font-family: lora;
-    width: 90%;
-    line-height: 40px;
-    
+.vdh-highlight-section {
+    padding: 2rem;
 }
 
-@media (max-width:1144px) {
-    .small {
-        width: 20px;
-        height: 20px;
-        top: 9px;
-        left: 10%;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-    }
 
-    .medium {
-        width: 30px;
-        height: 30px;
-        top: 38px;
-        left: 12%;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
-    }
+.vdh-highlight-box {
+    position: relative;
+    border-radius: 2rem;
+    /* background-color: white !important; */
+    /* INITIAL background is white */
+    color: #000;
+    overflow: hidden;
+    transition: background-color 1.2s ease-out;
+    /* Added transition for background color */
+    color: rgb(3, 3, 3);
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 1.0;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 60px !important;
+    border-bottom-right-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
 
-    .large {
-        width: 40px;
-        height: 40px;
-        top: 78px;
-        left: 15%;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
-    }
 
-    .content-text {
-        background-color: #00eaff;
-        border-radius: 0px 70px 70px 70px;
-        font-family: lora;
-        width: 90%;
-        line-height: 40px;
-    }
-
-    .list-unstyled {
-        line-height: 40px;
-    }
-
-    .list-unstyled li {
-        font-size: 12px;
-    }
-
-    .content-box {
-        padding: 20px;
-        padding-left: 7%;
-    }
-
-    .section-heading {
-        font-size: 32px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
-    }
 }
 
-@media (max-width:1024px) {
-    #home h1 {
-        font-size: 40px;
+/* The animated fill layer */
+.background-fill {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 0%;
+    background-color: #00bcd4;
+    z-index: 0;
+    transition: width 1.2s ease-out;
+    /* border-radius: 2rem; */
+
+}
+
+/* Text stays on top */
+.vdh-highlight-box p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: #183D4A;
+    line-height: 2.3;
+
+}
+
+
+
+.vdh-highlight-box.animate .background-fill {
+    width: 100%;
+}
+@media (max-width: 996px) {
+    .vdh-highlight-section {
+        padding: 2.5rem;
     }
 
-    #home .row {
-        padding-top: 6%;
-        height: auto;
+    .vdh-highlight-box p {
+        line-height: 2;
+        padding: 4px;
+        font-size: 13px;
     }
-
-    #home ul li {
-        font-size: 18px;
-    }
-
-    #home {
-        line-height: 50px;
-    }
-
-
-
-    .star {
-        width: 100%;
-    }
-
-    .download-title {
-        font-size: 32px;
-    }
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 24px;
-        margin-bottom: 1rem;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
+    .vdh-highlight-box {
+        padding: 1.2rem;
         font-size: 14px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
     }
 
-    .small {
-        width: 20px;
-        height: 20px;
-        top: 9px;
-        left: 10%;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-    }
-
-    .medium {
-        width: 30px;
-        height: 30px;
-        top: 38px;
-        left: 12%;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
-    }
-
-    .large {
-        width: 40px;
-        height: 40px;
-        top: 78px;
-        left: 15%;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
-    }
-
-    .list-unstyled {
-        line-height: 40px;
-    }
-
-    .content-box {
-        padding: 20px;
-        padding-left: 7%;
-    }
-
-    .list-unstyled li {
-        font-size: 18px;
-    }
-
-    .section-title {
-        font-size: 24px;
-    }
-
-    .content-text {
-        background-color: #00eaff;
-        border-radius: 0px 70px 70px 70px;
-        font-family: lora;
-        width: 90%;
-        line-height: 40px;
-        
-    }
-
-    .section-heading {
-        font-size: 32px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
-    }
-}
-
-@media (max-width:996px) {
-    #home h1 {
-        font-size: 44px;
-    }
-
-    #home .row {
-        padding-top: 13%;
-    }
-
-    #home ul li {
-        font-size: 16px;
-    }
-
-    #home {
-        line-height: 39px;
-    }
-
-
-
-
-    .star {
-        width: 100%;
-    }
-
-    .download-title {
-        font-size: 32px;
-    }
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 22px;
-        margin-bottom: 1rem;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
-        font-size: 14px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
-    }
-
-    .small {
-        width: 20px;
-        height: 20px;
-        top: 9px;
-        left: 10%;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-    }
-
-    .medium {
-        width: 30px;
-        height: 30px;
-        top: 38px;
-        left: 12%;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
-    }
-
-    .large {
-        width: 40px;
-        height: 40px;
-        top: 78px;
-        left: 15%;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
-    }
-
-    .list-unstyled {
-        line-height: 40px;
-    }
-
-    .content-box {
-        padding: 20px;
-        padding-left: 7%;
-    }
-
-    .list-unstyled li {
-        font-size: 17px;
-    }
-
-    .section-title {
-        font-size: 24px;
-    }
-
-    .content-text {
-        background-color: #00eaff;
-        border-radius: 0px 60px 60px 60px;
-        font-family: lora;
-        width: 90%;
-        line-height: 40px;
-        
-    }
-
-    .section-heading {
-        font-size: 24px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
-    }
-
-}
-
-@media (max-width:746px) {
-    .star {
-        width: 52%;
-    }
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 28px;
-        margin-bottom: 1rem;
-    }
-
-    .list-unstyled {
-        line-height: 40px;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
-        font-size: 16px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
-    }
-
-    .section-heading {
-        font-size: 32px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
-    }
-}
-
-
-@media (max-width:600px) {
-    #home h1 {
-        font-size: 56px;
-    }
-
-    #home .row {
-        padding-top: 13%;
-    }
-
-    #home ul li {
-        font-size: 16px;
-    }
-
-    #home {
-        line-height: 39px;
-    }
-
-
-
-
-    .star {
-        width: 80%;
-    }
-
-    .download-title {
-        font-size: 32px;
-    }
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 28px;
-        margin-bottom: 1rem;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
-        font-size: 16px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
-    }
 
     .small {
         width: 10px;
         height: 10px;
-        top: 63px;
-        left: 1%;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+        top: -31px;
+        left: -3.5%;
     }
+
 
     .medium {
         width: 20px;
         height: 20px;
-        top: 88px;
-        left: 4%;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+        top: -17px;
+        left: -1%;
     }
 
     .large {
         width: 30px;
         height: 30px;
-        top: 116px;
-        left: 7%;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
-    }
-
-    .list-unstyled {
-        line-height: 40px;
-    }
-
-    .content-box {
-        padding: 0px;
-        padding-left: 9%;
-    }
-
-    .list-unstyled li {
-        font-size: 14px;
-    }
-
-    .section-title {
-        font-size: 12px;
-    }
-
-    .section-title {
-        font-size: 12px;
-    }
-
-    .content-text {
-        background-color: #00eaff;
-        border-radius: 0px 54px 54px 54px;
-        font-family: lora;
-        width: 90%;
-        line-height: 40px;
-        
-    }
-
-    .fs-5 li {
-        font-size: 15px;
-    }
-
-    .section-heading {
-        font-size: 32px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
+        top: 4px;
+        left: 3%;
     }
 }
 
-@media (max-width:480px) {
-    #home h1 {
-        font-size: 42px;
+@media (max-width:768px) {
+    .vdh-highlight-section {
+        padding: 2.5rem;
     }
 
-    #home .row {
-        padding-top: 22%;
-    }
-
-    #home ul li {
-        font-size: 16px;
-    }
-
-    #home {
-        line-height: 39px;
-    }
-
-
-
-
-
-    .star {
-        width: 50%;
-    }
-
-    .download-title {
-        font-size: 27px;
-    }
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 28px;
-        margin-bottom: 1rem;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
-        font-size: 16px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
-    }
-
-    .small {
-        width: 11px;
-        height: 11px;
-        top: 6px;
-        left: 1%;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
-    }
-
-    .medium {
-        width: 19px;
-        height: 16px;
-        top: 21px;
-        left: 4%;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
-    }
-
-    .large {
-        width: 25px;
-        height: 27px;
-        top: 44px;
-        left: 9%;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
-    }
-
-    .ps-5 {
-        padding-left: 1px !important;
-    }
-
-    .ps-3 {
-        padding-left: 24px !important;
-    }
-
-    .list-unstyled {
-        line-height: 34px;
-    }
-
-    .content-box {
-        padding: 0px;
-        padding-left: 7%;
-    }
-
-    .list-unstyled li {
-        line-height: 30px;
+    .vdh-highlight-box p {
+        line-height: 2;
+        padding: 4px;
         font-size: 13px;
     }
 
-    .section-title {
-        font-size: 12px;
-    }
-
-    .section-title {
-        font-size: 17px;
-    }
-
-    .circle-div .pt-5 {
-
-        padding-top: 27px !important;
-
-    }
-
-    .content-text {
-        background-color: #00eaff;
-        border-radius: 0px 45px 45px 45px;
-        font-family: lora;
-        width: 90%;
-        line-height: 40px;
-        
-    }
-
-    .fs-5 li {
-        font-size: 11px;
-    }
-
-    .section-heading {
-        font-size: 22px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
-    }
-
-    .star1 {
-        position: relative;
-        right: 10%;
-        font-size: 1.8rem;
-        color: #003b3f;
-    }
-}
-
-
-
-@media (max-width:380px) {
-    #home h1 {
-        font-size: 37px;
-    }
-
-    #home .row {
-        margin-top: 9%;
-    }
-
-    #home ul li {
-        font-size: 16px;
-    }
-
-
-    #home {
-        line-height: 42px;
-    }
-
-    .table-heading {
-        font-size: 20px;
-    }
-
-
-
-    .star {
-        width: 46%;
-    }
-
-    .download-title {
-        font-size: 25px;
-    }
-
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 21px;
-        margin-bottom: 1rem;
-    }
-
-    .list-unstyled {
-        text-align: justify;
-        line-height: 28px;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
-        font-size: 12px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
-    }
-
-    .section-heading {
-        font-size: 12px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
-    }
-
-
-    .star1 {
-        position: relative;
-        display: flex;
-        justify-content: center;
-    }
-    .ps-5{
-        padding-left: 10px !important;
-    }
-}
-
-
-@media (max-width:280px) {
-    #home h1 {
-        font-size: 18px;
-    }
-
-    #home .row {
-        margin-top: 15%;
-    }
-
-    #home ul li {
-        font-size: 11px;
-    }
-
-    #home {
-        line-height: 34px;
-    }
-
-    .table-heading {
-        font-size: 19px;
-    }
-
-
-
-    .star {
-        width: 37%;
-    }
-
-    .download-title {
-        font-size: 17px;
-    }
-
-    .ps-5 {
-        padding-left: 10px !important;
-    }
-
-    .radiology-support {
-        background-color: #00c8d4;
-        color: #000;
-        padding: 2rem 1rem;
-    }
-
-    .radiology-support h2 {
-        font-weight: bold;
-        font-family: lora;
-        font-size: 18px;
-        margin-bottom: 1rem;
-    }
-
-    .list-unstyled {
-        text-align: justify;
-        line-height: 30px;
-    }
-
-    .list-icon {
-        color: #f9a825;
-        margin-right: 0.5rem;
-    }
-
-    .list-group-item {
-        background-color: transparent;
-        border: none;
-        font-size: 12px;
-        padding: 0.25rem 0;
-        font-family: Montserrat;
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
     }
 
 
     .small {
         width: 10px;
         height: 10px;
-        top: 55px;
-        left: -1%;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+        top: -31px;
+        left: -2%;
     }
+
 
     .medium {
         width: 20px;
         height: 20px;
-        top: 71px;
-        left: 3%;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+        top: -19px;
+        left: -1%;
     }
 
     .large {
         width: 30px;
         height: 30px;
-        top: 98px;
-        left: 9%;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+        top: 3px;
+        left: 2%;
+    }
+}
+@media (max-width:430px) {
+    .vdh-highlight-section {
+        padding: 2.5rem;
     }
 
-    .ps-5 {
-        padding-left: 23px !important;
+    .vdh-highlight-box p {
+        line-height: 2;
+        padding: 4px;
+        font-size: 13px;
     }
 
-    .ps-3 {
-        padding-left: 1px !important;
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
     }
 
 
-    .content-box {
-        padding: 0px;
-        padding-left: 7%;
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -3.5%;
     }
 
-    .list-unstyled li {
-        font-size: 12px;
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: -18px;
+        left: 0%;
     }
 
-    .section-title {
-        font-size: 12px;
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -1.5%;
     }
 
-    .circle-div .pt-5 {
-
-        padding-top: 30px !important;
-
-        padding-left: 20px;
-
+    .vdh-highlight-section {
+        padding: 2.5rem 0rem 1.5rem 2.5rem;
+    }
+}
+@media (max-width:380px) {
+    .vdh-highlight-section {
+        padding: 1.5rem 0rem 1.5rem 2.5rem;
     }
 
-    .content-text {
-        background-color: #00eaff;
-        border-radius: 0px 30px 30px 30px;
-        font-family: lora;
-        width: 90%;
-        line-height: 40px;
-        
+    .vdh-highlight-box p {
+        padding: 4px;
+        font-size: 11px;
     }
 
-    .section-heading {
-        font-size: 32px;
-        font-weight: 600;
-        color: #000;
-        font-family: Libre Baskerville;
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -38px;
+        left: -1.5%;
     }
 
-    .star1 {
-        position: relative;
-        display: flex;
-        justify-content: center;
+
+    .medium {
+        width: 17px;
+        height: 17px;
+        top: -23px;
+        left: 1%;
     }
 
+    .large {
+        width: 23px;
+        height: 23px;
+        top: -2px;
+        left: 5%;
+    }
+}
+@media (max-width:320px) {
+    .title {
+        text-align: center;
+        font-size: 18px ;
+        margin-bottom: 0%;
+        padding-top: 9%;
+    }
+
+    .star-icon {
+        width: 14%;
+        margin-left: 0% !important;
+        margin-top: -24%;
+    }
+
+    .list-style ul li {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .vdh-highlight-box p {
+        font-size: 10px;
+    }
+
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -45px;
+        left: -3.5%;
+    }
+
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: -30px;
+        left: -1%;
+    }
+
+    .large {
+        width: 30px;
+        height: 30px;
+        top: -10px;
+        left: 3%;
+    }
+
+    .vdh-highlight-section {
+        padding: 1.5rem 0rem 1.5rem 2.5rem;
+    }
+
+}
+
+/* ___________________________staricon2______________________________________________ */
+.star-icon2 {
+    width: 70px;
+    height: 70px;
+    margin-left: 30%;
+    margin-top: 50% !important;
 }

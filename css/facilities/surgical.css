@@ -912,7 +912,7 @@
       font-style: italic;
       margin-bottom: 1.5rem;
       font-weight: bold;
-      margin-left: -1%;
+      margin-left: -1% !important;
   }
 
 }

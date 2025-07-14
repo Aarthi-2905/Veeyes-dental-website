@@ -342,9 +342,9 @@
 }
 
 
-@media (max-width:766px) {
+@media (max-width:767px) {
     .title {
-     text-align: center;
+     text-align: center !important;
      font-size: 57px;
      margin-bottom: 0%;
      /* padding-top: 11%; */
