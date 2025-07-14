@@ -9,7 +9,11 @@ body {
 
 .hero-text-container {
     flex: 1;
-    background-color: rgba(0, 78, 85, 0.8);
+    background:url('../images/IMG_9214.PNG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #f5e5c8;
     display: flex;
     justify-content: center;
