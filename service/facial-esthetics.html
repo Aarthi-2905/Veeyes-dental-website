@@ -20,9 +20,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/service/facial-esthetics.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/service/facial-esthetics.css">
 </head>
 
 <body>
@@ -57,11 +57,11 @@
             </div>
 
             <div class="col-1 order-md-2 d-md-block d-none">
-                <img src="./images/star.png" class="star-icon" alt="Star Icon">
+                <img src="../images/star.png" class="star-icon" alt="Star Icon">
             </div>
 
             <div class="col-md-5 order-md-3 order-1">
-                <img src="./images/surgical_triangle_image.png" class="custom-img"
+                <img src="../images/surgical_triangle_image.png" class="custom-img"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -70,7 +70,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-12 d-none d-md-block position-relative">
-                <img src="./images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
+                <img src="../images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
                     style="bottom: 0; left: 0;">
             </div>
             <div class="col-md-10 col-12">
@@ -104,7 +104,7 @@
 
         <div class="d-flex justify-content-between align-items-center pt-5" data-aos="slide-up">
             <h3 class="smile"> Smile Design</h3>
-            <img src="./images/star.png" alt="" class="star2">
+            <img src="../images/star.png" alt="" class="star2">
         </div>
 
 
@@ -121,7 +121,7 @@
 
         <div class="d-flex justify-content-between align-items-center pt-5" data-aos="slide-up">
             <h3 class="smile"> Cosmetic Dental Procedures</h3>
-            <img src="./images/star.png" alt="" class="star2">
+            <img src="../images/star.png" alt="" class="star2">
         </div>
 
         <ul class="features-list" data-aos="slide-up">
@@ -171,13 +171,13 @@
             if (box) observer.observe(box);
         });
 
-        fetch('./header.html')
+        fetch('../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('./footer.html')
+        fetch('../footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
