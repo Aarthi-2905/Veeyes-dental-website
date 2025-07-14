@@ -1,0 +1,457 @@
+.home {
+    margin-top: 4%;
+}
+
+.home h1 {
+    font-size: 72px;
+    font-family: lora;
+    color: #183D4A;
+    font-weight: 600;
+
+}
+
+.home .list-style li {
+    font-size: 18px;
+    line-height: 2.0;
+    font-family: Montserrat;
+    color: #183D4A;
+}
+
+
+.arrow-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.procedure-intro {
+    margin-top: -12%;
+}
+
+.intro-text,
+.intro-subtext {
+    font-size: 28px;
+    color: #183D4A;
+    font-family: lora;
+}
+
+
+.procedure-table-section {
+    margin-top: -50px;
+}
+
+.table-heading {
+    font-size: 42px;
+    font-weight: 100;
+    color: #003341 !important;
+    font-family: lora;
+}
+
+.custom-table {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.custom-table th {
+    background-color: #183D4A !important;
+    color: white !important;
+    font-size: 18px;
+    width: 40%;
+    vertical-align: middle;
+    font-family: lora;
+    font-weight: 300;
+}
+
+.custom-table td {
+    background-color: #ECD8B6 !important;
+    font-size: 18px;
+    color: #183D4A !important;
+    vertical-align: middle;
+    font-family: lora;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd !important;
+    padding: 0.75rem;
+}
+
+
+.download-section {
+    padding: 3rem 1rem;
+}
+
+.download-title {
+    font-size: 32px;
+    font-family: Lora !important;
+    color: #183D4A;
+}
+
+.arrow-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.star {
+    width: 100%;
+}
+
+.curved-arrow {
+    position: absolute;
+    left: -70px;
+    top: -25px;
+    width: 50px;
+}
+
+.download-btn {
+    background-color: #13C2CF !important;
+    color: #fff !important;
+    padding: 0.6rem 1.2rem;
+    font-family: lora;
+    font-weight: 200;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+    background-color: #ECD8B6 !important;
+    color: #183D4A !important;
+}
+
+
+@media (max-width:1024px) {
+
+    .home {
+        margin-top: 4%;
+    }
+
+    .home h1 {
+        font-size: 72px;
+    }
+
+    .home .list-style li {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .procedure-intro {
+    margin-top: -5%;
+}
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 26px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 42px;
+    }
+
+    .custom-table td {
+        font-size: 18px;
+    }
+
+    .custom-table th {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 100%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width:996px) {
+
+.home {
+        margin-top: 4%;
+    }
+
+    .home h1 {
+        font-size: 60px;
+    }
+
+    .home .list-style li {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .procedure-intro {
+    margin-top: -12%;
+}
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 20px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 37px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 18px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 100%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .home {
+        margin-top: 6%;
+    }
+
+    .home h1 {
+        font-size: 39px;
+    }
+
+    .home .list-style li {
+        font-size: 15px;
+        line-height: 2.0;
+    }
+
+    .procedure-intro {
+    margin-top: -12%;
+}
+
+    .star {
+        width: 52%;
+    }
+}
+
+
+@media (max-width:600px) {
+    .home {
+        margin-top: 10%;
+    }
+
+    .home h1 {
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .home .list-style li {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+    .procedure-intro {
+    margin-top: -12%;
+}
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 28px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 42px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 18px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 80%;
+    }
+
+    .download-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .home {
+        margin-top: 13%;
+    }
+
+    .home h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .home .list-style li {
+        font-size: 15px;
+        line-height: 2.0;
+    }
+
+    .procedure-intro {
+    margin-top: -16%;
+}
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 16px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 20px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 16px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 16px;
+    }
+
+    .star {
+        width: 50%;
+    }
+
+    .download-title {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:380px) {
+
+    .home {
+        margin-top: 14%;
+    }
+
+    .home h1 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .home .list-style li {
+        font-size: 15px;
+        line-height: 2.0;
+    }
+
+    .procedure-intro {
+    margin-top: -19%;
+}
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 14px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 20px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 13px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 14px;
+    }
+
+    .star {
+        width: 46%;
+    }
+
+    .download-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:280px) {
+
+    .home {
+        margin-top: 4%;
+    }
+
+    .home h1 {
+        font-size: 72px;
+    }
+
+    .home .list-style li {
+        font-size: 18px;
+        line-height: 2.0;
+    }
+
+
+    .procedure-intro {
+    margin-top: -12%;
+}
+
+
+    .intro-text,
+    .intro-subtext {
+        font-size: 13px;
+        color: #183D4A;
+        font-family: lora;
+    }
+
+    .table-heading {
+        font-size: 19px;
+    }
+
+    .custom-table td {
+        background-color: #ECD8B6;
+        font-size: 11px;
+        color: #183D4A;
+        vertical-align: middle;
+        font-family: lora;
+    }
+
+    .custom-table th {
+        font-size: 15px;
+    }
+
+    .star {
+        width: 37%;
+    }
+
+    .download-title {
+        font-size: 17px;
+    }
+
+}
