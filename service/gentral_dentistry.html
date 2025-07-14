@@ -31,6 +31,7 @@
 </head>
 
 <body>
+
     <div id="header"></div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
 
@@ -133,7 +134,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        fetch('../header-two.html')
+        fetch('../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
