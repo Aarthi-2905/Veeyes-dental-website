@@ -255,7 +255,7 @@
                     }
                 });
             }, {
-                threshold: 0.3 // adjust as needed
+                threshold: 0.3 
             });
 
             const box = document.querySelector(".vdh-highlight-box");
@@ -273,9 +273,9 @@
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
             });
-        // Animation 
+       
         AOS.init({
-            once: true   // ✅ this makes animation happen only once
+            once: true   
         });
     </script>
 
