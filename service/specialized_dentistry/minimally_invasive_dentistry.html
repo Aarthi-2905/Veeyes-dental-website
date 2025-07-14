@@ -26,17 +26,96 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <!-- <link rel="stylesheet" href="/css/service/gentral_dentistry.css"> -->
+    <link rel="stylesheet" href="/css/service/specialized_dentistry/minimally_invasive_dentistry.css">
 </head>
 <style>
     .table-title {
         font-size: 36px;
-        font-weight: 700;
         color: #003341;
-        /* margin-top: 5% !important; */
+     
         margin-left: 7% !important;
     }
+    @media(max-width: 767px) {
+        .table-title {
+            font-size: 30px;
+            color: #003341;
+            margin-top: -3% !important;
+            margin-left: 7% !important;
+        }
+        .soft-tissue {
+            font-family: 'Libre Baskerville', serif;
+            margin-left: 8%;
+            margin-top: 2%;
+            color: #003341;
+            margin-bottom: 2%;
+            font-size: 24px;
+        }
+    }
+    @media (max-width: 660px) {
+        .table-title {
+            font-size: 27px;
+            margin-bottom: 5% !important;
+            margin-top: -3% !important;
+            margin-left: 7% !important;
+        }
+    }
+    @media (max-width: 425px) {
+        .table-title {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-top: -3% !important;
+            margin-left: 7% !important;
+            margin-bottom: 7%;
+        }
+        .soft-tissue {
+            font-family: 'Libre Baskerville', serif;
+            margin-left: 8%;
+            margin-top: 2%;
+            color: #003341;
+            margin-bottom: 2%;
+            font-size: 21px !important;
+        }
+    }
+    @media (max-width: 320px) {
+        .table-title {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-top: -3% !important;
+            margin-left: 7% !important;
+            margin-bottom: 6%;
+        }
+        .soft-tissue {
+            font-family: 'Libre Baskerville', serif;
+            margin-left: 8%;
+            margin-top: 2%;
+            color: #003341;
+            margin-bottom: 2%;
+            font-size: 17px !important;
+        }
+        .soft-tissue2 {
+            font-family: 'Libre Baskerville', serif;
+            margin-left: 8%;
+            margin-top: 2%;
+            color: #003341;
+            margin-bottom: 2%;
+            font-size: 17px !important;
+        }
+    }
+    @media (max-width: 425px) {
+        .nabh-benefits-table th, .nabh-benefits-table td {
+            padding: 0.75rem !important;
+            font-size: 13px !important;
+        }
+    }
+    @media (max-width: 320px) {
+        .nabh-benefits-table th, .nabh-benefits-table td {
+            padding: 7px !important;
+            font-size: 12px !important;
+        }
+    }
+
+
 
     .responsive-table-wrapper {
         overflow-x: auto;
@@ -83,21 +162,25 @@
     }
 
     .star-icon2 {
-        width: 8%;
+        width: 6%;
         margin-left: 80% !important;
         margin-top: -2%;
     }
 
     .soft-tissue {
+        font-family: 'Libre Baskerville', serif;
         margin-left: 8%;
         margin-top: 2%;
+        color: #003341;
         margin-bottom: 2%;
     }
 
     .soft-tissue2 {
+        font-family: 'Libre Baskerville', serif;
         margin-left: 8%;
         margin-top: -2%;
         margin-bottom: 2%;
+        color: #003341;
     }
     /* _____________________________________________list section__________________________________________________________ */
 
@@ -112,7 +195,7 @@
     
     .section-title {
       font-size: 33px !important;
-      font-weight: bold;
+ 
       color: #1e3a34;
       font-style: italic !important;
       font-family: 'Georgia', serif; /* Replace with your actual site font */
@@ -129,7 +212,7 @@
     }
     
     .features-list li {
-      font-size: 25px !important;
+      font-size: 22px !important;
       margin: 0.6rem 0;
       padding-left: 1.5rem;
       position: relative;
@@ -164,22 +247,116 @@
     }
     
     .features-list i {
-      color: #0bdee6;                 /* NEW: yellow color for icon */
-      margin-right: 0.75rem;         /* NEW: spacing between icon and text */
-      font-size: 35px;             /* Optional: slightly larger icon */
+        color: #0bdee6;
+        margin-right: 0.75rem;
+        font-size: 25px;
     }
-
     .star-icon1 {
         width: 8%;
         margin-left: 74% !important;
         margin-top: -40%;
     }
+    @media(max-width: 880px) {
+        .star-icon1
+         {
+            width: 7%;
+            margin-left: 84% !important;
+            margin-top: -52%;
+        }
+    }
 
+    @media(max-width: 750px) {
+        .star-icon1
+         {
+            width: 7%;
+            margin-left: 104% !important;
+            margin-top: -52%;
+        }
+    }
+
+    @media(max-width: 600px) {
+        .features-list li {
+            font-size: 21px !important;
+            margin: 0.6rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .section-title {
+            font-size: 28px !important;
+            color: #1e3a34;
+            font-style: italic !important;
+            font-family: 'Georgia', serif;
+            color: #003c3c;
+            margin-bottom: 1rem;
+            /* text-align: center; */
+            margin-top: 10%;
+        }
+    }
+
+@media (max-width: 425px) {
+    .features-list i {
+        color: #0bdee6;
+        margin-right: 0.75rem;
+        font-size: 21px;
+        margin-top: -1%;
+    }
+}
+@media (max-width: 320px) {
+    .features-list i {
+        color: #0bdee6;
+        margin-right: 0.75rem;
+        font-size: 18px;
+        margin-top: -7%;
+    }
+}
+@media (max-width: 375px) {
+    .section-title {
+        font-size: 24px !important;
+        color: #1e3a34;
+        font-style: italic !important;
+        font-family: 'Georgia', serif;
+        color: #003c3c;
+        margin-bottom: 1rem;
+        /* text-align: center; */
+        margin-top: 10%;
+    }
+}
+@media (max-width: 768px) {
+    .nabh-summary {
+        max-width: 1100px;
+        margin: 1.5rem auto;
+        font-family: 'Georgia', serif;
+        font-style: italic;
+        padding: 0 1rem;
+        font-size: 21px !important ;
+        line-height: 1.8;
+        color: #0d2c2f;
+        text-align: center;
+        margin-top: -1%;
+    }
+}
+
+@media (max-width: 425px) {
+    .nabh-summary {
+        max-width: 1100px;
+        margin: 1.5rem auto;
+        font-family: 'Georgia', serif;
+        font-style: italic;
+        padding: 0 1rem;
+        font-size: 16px !important ;
+        line-height: 1.8;
+        color: #0d2c2f;
+        text-align: center;
+        margin-top: -1%;
+    }
+}
 
         /* ______________________________________________content_______________________________________________________ */
   .nabh-summary {
       max-width: 1100px;
       margin: 1.5rem auto;
+      font-family: 'Georgia', serif;
+      font-style: italic;
       padding: 0 1rem;
       font-size: 24px;
       line-height: 1.8;
@@ -226,13 +403,28 @@ font-weight: 600;
     </div>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
 
-
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
+
+            <div class="col-md-6 order-1 order-md-1">
                 <div class="align-items-center">
                     <h1 class="title">Minimally Invasive Dentistry</h1>
                 </div>
+            </div>
+
+
+            <!-- Star icon: Only visible on md+ screens -->
+            <div class="col-1 d-none d-md-block order-md-2">
+                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+            </div>
+
+            <!-- Image: Second on small screens, third on md+ -->
+            <div class="col-md-5 order-2 order-md-3">
+                <img src="/images/surgical_triangle_image.png" class="custom-img" alt="Surgical dentistry illustration">
+            </div>
+
+            <!-- Content: Third on small screens, second on md+ -->
+            <div class="col-md-6 order-3 order-md-2">
                 <div class="list-style">
                     <ul>
                         <li>
@@ -252,17 +444,11 @@ font-weight: 600;
                     </ul>
                 </div>
             </div>
-
-            <div class="col-1">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
-            </div>
-
-            <div class="col-md-5">
-                <img src="/images/surgical_triangle_image.png" class="custom-img"
-                    alt="Surgical dentistry illustration">
-            </div>
         </div>
     </div>
+
+
+
 
     <div class="container">
         <div class="row mb-5">
@@ -398,7 +584,7 @@ font-weight: 600;
     <section class="features-section">
         <div class="heading-with-arrow">
             <h2 class="section-title"><em>Benefits of Minimally Invasive Dentistry</em></h2>
-            <img src="/images/table_arrow.png" alt="Arrow" class="heading-arrow">
+            <!-- <img src="/images/table_arrow.png" alt="Arrow" class="heading-arrow"> -->
         </div>
         <ul class="features-list">
             <li><i class="fas fa-tooth"></i>Tooth preservation and longer tooth life.</li>
@@ -420,7 +606,9 @@ font-weight: 600;
         assessment, and conservative treatment. It aims to preserve natural teeth, reduce discomfort, and promote
         lifelong oral health through smart interventions rather than aggressive procedures.
     </p>
-
+ <div class="mt-5">
+    
+ </div>
 
     <div id="footer">
 

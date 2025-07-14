@@ -15,8 +15,8 @@
 
   <link rel="stylesheet" href="/css/header.css">
   <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
-  <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
+  <link rel="stylesheet" href="/css/service/specialized_dentistry/implant_dentistry.css">
+  <!-- <link rel="stylesheet" href="/css/service/gentral_dentistry.css"> -->
 
   <style>
     .implant-benefits-section {
@@ -27,10 +27,10 @@
     }
 
     .implant-benefits-section h3 {
-      font-family: 'Libre Baskerville', serif;
+      font-family: 'Georgia', serif;
       font-style: italic;
-      font-weight: bold;
-      font-size: 24px;
+  
+      font-size: 29px;
       color: #1c414a;
     }
 
@@ -54,7 +54,7 @@
     }
 
     .planning-title {
-      font-family: 'Libre Baskerville', serif;
+      font-family: 'Georgia', serif;
       font-style: italic;
       font-weight: bold;
       font-size: 30px;
@@ -65,12 +65,85 @@
     }
 
     .planning-text {
-      font-size: 18px;
+      font-size: 21px;
       color: #1c414a;
-      max-width: 800px;
+      letter-spacing: 1px;
+      line-height: 2.3;
+      font-family: 'Montserrat', sans-serif;
+      max-width: 1100px;
       margin: 0 auto;
       text-align: center;
     }
+
+    @media(max-width:991px){
+      .planning-text
+ {
+    font-size: 16px;
+    color: #1c414a;
+    letter-spacing: 1px;
+    line-height: 2.3;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+    }
+@media (max-width: 425px) {
+  .planning-text {
+      font-size: 15px;
+      color: #1c414a;
+      letter-spacing: 1px;
+      line-height: 2.3;
+      font-family: 'Montserrat', sans-serif;
+      max-width: 1100px;
+      margin: 0 auto;
+      text-align: center;
+  }
+}
+    
+
+    @media (max-width: 320px) {
+          .planning-text {
+              font-size: 12px;
+              color: #1c414a;
+              letter-spacing: 1px;
+              line-height: 2.3;
+              font-family: 'Montserrat', sans-serif;
+              max-width: 1100px;
+              margin: 0 auto;
+              text-align: center;
+          }
+      }
+      @media (max-width: 375px) {
+      .implant-benefits-section ul li {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .implant-benefits-section ul li i {
+      color: #00bcd4;
+      font-size: 15px;
+      margin-right: 12px;
+  } 
+  .implant-benefits-section h3 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 23px;
+    margin-top: -17%;
+}
+.planning-title {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  color: #1c414a;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  }
+  
   </style>
 </head>
 
@@ -81,36 +154,49 @@
 
   <div class="container py-5">
     <div class="row">
-      <div class="col-md-6">
-        <div class="align-items-center">
-          <h1 class="title">Implant dentistry</h1>
-        </div>
-        <div class="list-style">
-          <ul>
-            <li>
-              Implant dentistry offers a permanent, stable, and aesthetic solution for tooth replacement with
-              artificial tooth roots made of biocompatible materials (typically titanium or zirconia). It
-              improves oral function and quality of life, especially for patients who struggle with removable
-              dentures or multiple missing teeth.
-            </li>
-            <li>
-              Implant procedures are used for single tooth or multiple teeth, full mouth rehabilitation,
-              supporting removable dentures, and to improve the stability of toothless jaws.
-            </li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="col-1">
-        <img src="/images/star.png" class="star-icon" alt="Star Icon">
-      </div>
+        <div class="col-md-6 order-1 order-md-1">
+            <div class="align-items-center">
+                <h1 class="title">Implant dentistry</h1>
+            </div>
+        </div>
 
-      <div class="col-md-5">
-        <img src="/images/surgical_triangle_image.png" class="custom-img"
-          alt="Surgical dentistry illustration">
-      </div>
+
+        <!-- Star icon: Only visible on md+ screens -->
+        <div class="col-1 d-none d-md-block order-md-2">
+            <img src="/images/star.png" class="star-icon" alt="Star Icon">
+        </div>
+
+        <!-- Image: Second on small screens, third on md+ -->
+        <div class="col-md-5 order-2 order-md-3">
+            <img src="/images/surgical_triangle_image.png" class="custom-img" alt="Surgical dentistry illustration">
+        </div>
+
+        <!-- Content: Third on small screens, second on md+ -->
+        <div class="col-md-6 order-3 order-md-2">
+            <div class="list-style">
+                <ul>
+                  <li>
+                    Implant dentistry offers a permanent, stable, and aesthetic solution for tooth replacement with
+                    artificial tooth roots made of biocompatible materials (typically titanium or zirconia). It
+                    improves oral function and quality of life, especially for patients who struggle with removable
+                    dentures or multiple missing teeth.
+                  </li>
+                  <li>
+                    Implant procedures are used for single tooth or multiple teeth, full mouth rehabilitation,
+                    supporting removable dentures, and to improve the stability of toothless jaws.
+                  </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+
+
+
+
+
+
 
   <div class="container">
     <div class="row">
@@ -150,6 +236,16 @@
         <li><i class="fas fa-tooth"></i> Improved patient communication and education</li>
       </ul>
 
+
+      <h2 class="planning-title">Digital Implant Planning</h2>
+      <p class="planning-text">
+        At Veeyes we use Digital Implant Planning to virtually plan the placement of dental implants
+        with high precision and predictability. It combines 3D imaging (like CBCT scans) with digital
+        intraoral scans to create a complete, virtual model of the patient’s mouth.
+      </p>
+   
+
+
       <h3 class="mt-5">Benefits of <span>Dental Implants:</span></h3>
       <ul>
         <li><i class="fas fa-tooth"></i> Natural look and feel</li>
@@ -158,14 +254,8 @@
         <li><i class="fas fa-tooth"></i> Long-lasting (often 10–20+ years with proper care)</li>
         <li><i class="fas fa-tooth"></i> No impact on neighbouring teeth (unlike traditional bridges)</li>
       </ul>
-
-      <h2 class="planning-title">Digital Implant Planning</h2>
-      <p class="planning-text">
-        At Veeyes we use Digital Implant Planning to virtually plan the placement of dental implants
-        with high precision and predictability. It combines 3D imaging (like CBCT scans) with digital
-        intraoral scans to create a complete, virtual model of the patient’s mouth.
-      </p>
     </div>
+  
   </section>
 
   <!-- ___________________________________footer page Starting -->
