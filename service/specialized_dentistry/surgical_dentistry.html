@@ -24,10 +24,9 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/header2.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/gentral_dentistry.css">
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
+    <link rel="stylesheet" href="/css/service/specialized-care/surgical_dentistry.css">
 </head>
 <style>
     .intro-text,
@@ -107,11 +106,13 @@
     <!--______________________________________________ navgation page Ending ___________________________________________-->
 
 
-    <div class="container py-5">
+
+    <div class="container py-5 home">
         <div class="row">
-            <div class="col-md-6">
+            <h1 class="title d-md-none d-block">Surgical Dentistry</h1>
+            <div class="col-md-6 order-md-1 order-2">
                 <div class="align-items-center">
-                    <h1 class="title">Surgical Dentistry</h1>
+                    <h1 class="title d-md-block d-none">Surgical Dentistry</h1>
                 </div>
                 <div class="list-style">
                     <ul>
@@ -124,12 +125,12 @@
                 </div>
             </div>
 
-            <div class="col-1">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+            <div class="col-1 order-md-2 d-md-block d-none">
+                <img src="/images/star.png" class="star-icon w-100" alt="Star Icon">
             </div>
 
-            <div class="col-md-5">
-                <img src="/images/surgical_triangle_image.png" class="custom-img"
+            <div class="col-md-5 order-md-3 order-1">
+                <img src="/images/surgical_triangle_image.png" class="custom-img w-100"
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -319,7 +320,7 @@
     </section>
 
     <section class="download-section text-center">
-        <p class="download-title"><em><u>"10 things to do before your dental surgery"</u></em></p>
+        <p class="download-title"><u>"10 things to do before your dental surgery"</u></p>
         <div class="arrow-container">
             <img src="/images/download_arrow.png" class="curved-arrow" alt="Curved Arrow">
             <a href="10-things-before-dental-surgery.pdf" class="btn download-btn" download>Download</a>
@@ -349,7 +350,7 @@
             if (box) observer.observe(box);
         });
 
-        fetch('/header.html')
+        fetch('/header2.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
@@ -368,3 +369,4 @@
 </body>
 
 </html>
+

@@ -1,0 +1,566 @@
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #003b49;
+    padding-top: 10%;
+}
+
+.custom-img {
+    width: 531px;
+    margin-top: 15%;
+    margin-left: -44%;
+    margin-bottom: -19%;
+}
+
+.star-icon {
+    width: 100%;
+    margin-left: -10% !important;
+    margin-top: 80%;
+
+}
+
+.custom-list li {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2.3;
+    color: #183D4A;
+}
+
+
+.star-icon2 {
+    width: 70px;
+    height: 70px;
+    margin-left: 30%;
+}
+
+
+.my-circles {
+    position: relative;
+
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #00eaff, #003b49);
+}
+
+.small {
+    width: 20px;
+    height: 20px;
+    top: -68px;
+    left: -3.5%;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.6);
+}
+
+
+.medium {
+    width: 30px;
+    height: 30px;
+    top: -45px;
+    left: -2%;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.6);
+}
+
+.large {
+    width: 40px;
+    height: 40px;
+    top: -15px;
+    left: 0%;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+
+.vdh-highlight-section {
+    padding: 2rem;
+}
+
+
+.vdh-highlight-box {
+    position: relative;
+    border-radius: 2rem;
+    /* background-color: white !important; */
+    /* INITIAL background is white */
+    color: #000;
+    overflow: hidden;
+    transition: background-color 1.2s ease-out;
+    /* Added transition for background color */
+    color: rgb(3, 3, 3);
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.0;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 60px !important;
+    border-bottom-right-radius: 60px !important;
+    border-bottom-left-radius: 60px !important;
+
+
+}
+
+/* The animated fill layer */
+.background-fill {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 0%;
+    background-color: #00bcd4;
+    z-index: 0;
+    transition: width 1.2s ease-out;
+    /* border-radius: 2rem; */
+
+}
+
+/* Text stays on top */
+.vdh-highlight-box p {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: #183D4A;
+    line-height: 2.3;
+
+}
+
+
+
+.vdh-highlight-box.animate .background-fill {
+    width: 100%;
+}
+
+.endodonatics-text {
+    font-weight: 600;
+    color: #183D4A;
+    font-family: lora;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.learn-more-btn {
+    background-color: #00bcd4;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: lora;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.learn-more-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid white;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background: linear-gradient(to right, #0E7580 70%, #183D4A 100%);
+    padding-right: 45px;
+    color: #ECD8B6;
+}
+
+.learn-more-btn:hover::after {
+    opacity: 1;
+}
+
+.learn-more-btn:active {
+    transform: translateY(1px);
+}
+
+
+@media (max-width:1024px) {
+    .title {
+        font-size: 50px;
+        padding-top: 15%;
+    }
+
+    .custom-img {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+
+    .star-icon {
+        width: 100%;
+        margin-left: -20% !important;
+        padding-top: 40% !important;
+    }
+
+    .custom-list li {
+        font-size: 16px;
+    }
+
+    .endodonatics-text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width:996px) {
+    .title {
+        font-size: 50px;
+        padding-top: 15%;
+    }
+
+    .custom-img {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+
+    .star-icon {
+        width: 100%;
+        margin-left: -20% !important;
+        padding-top: 40% !important;
+    }
+
+    .custom-list li {
+        font-size: 16px;
+    }
+
+    .vdh-highlight-section {
+        padding: 2.5rem;
+    }
+
+    .vdh-highlight-box p {
+        line-height: 2;
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -3.5%;
+    }
+
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: -17px;
+        left: -1%;
+    }
+
+    .large {
+        width: 30px;
+        height: 30px;
+        top: 4px;
+        left: 3%;
+    }
+
+    .endodonatics-text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width:769px) {
+    .title {
+        font-size: 50px;
+        padding-top: 15%;
+    }
+
+    .custom-img {
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+
+    .star-icon {
+        width: 100%;
+        margin-left: -20% !important;
+        padding-top: 40% !important;
+    }
+
+    .custom-list li {
+        font-size: 16px;
+    }
+
+    .vdh-highlight-section {
+        padding: 2.5rem;
+    }
+
+    .vdh-highlight-box p {
+        line-height: 2;
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -2%;
+    }
+
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: -19px;
+        left: -1%;
+    }
+
+    .large {
+        width: 30px;
+        height: 30px;
+        top: 3px;
+        left: 2%;
+    }
+
+    .endodonatics-text {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .title {
+        font-size: 50px;
+        padding-top: 15%;
+    }
+
+    .custom-img {
+        width: 100%;
+        margin-top: -10%;
+        margin-bottom: 0;
+    }
+
+    .star-icon {
+        width: 100%;
+        margin-left: -20% !important;
+        padding-top: 40% !important;
+    }
+
+    .custom-list li {
+        font-size: 16px;
+    }
+
+     .vdh-highlight-section {
+        padding: 2.5rem;
+    }
+
+    .vdh-highlight-box p {
+        line-height: 2;
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -3.5%;
+    }
+
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: -18px;
+        left: 0%;
+    }
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -31px;
+        left: -1.5%;
+    }
+
+    .vdh-highlight-section {
+        padding: 2.5rem 0rem 1.5rem 2.5rem;
+    }
+
+    .endodonatics-text {
+        font-size: 17px;
+        line-height: 31px;
+    }
+
+}
+
+@media (max-width:375px) {
+    .title {
+        font-size: 38px;
+        padding-top: 15%;
+    }
+
+    .custom-img {
+        width: 100%;
+        margin-top: -10%;
+        margin-bottom: 0;
+    }
+
+    .star-icon {
+        width: 100%;
+        margin-left: -20% !important;
+        padding-top: 40% !important;
+    }
+
+    .custom-list li {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+    .vdh-highlight-section {
+        padding: 1.5rem 0rem 1.5rem 2.5rem;
+    }
+
+    .vdh-highlight-box p {
+        padding: 4px;
+        font-size: 11px;
+    }
+
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -38px;
+        left: -1.5%;
+    }
+
+
+    .medium {
+        width: 17px;
+        height: 17px;
+        top: -23px;
+        left: 1%;
+    }
+
+    .large {
+        width: 23px;
+        height: 23px;
+        top: -2px;
+        left: 5%;
+    }
+
+    .star-icon {
+        width: 14%;
+        margin-left: 0% !important;
+        margin-top: -24%;
+    }
+
+    .endodonatics-text {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width:320px) {
+    .title {
+        font-size: 35px;
+        padding-top: 15%;
+    }
+
+    .custom-img {
+        width: 100%;
+        margin-top: -10%;
+        margin-bottom: 0;
+    }
+
+    .star-icon {
+        width: 100%;
+        margin-left: -20% !important;
+        padding-top: 40% !important;
+    }
+
+    .custom-list li {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .vdh-highlight-box p {
+        font-size: 10px;
+    }
+
+    .vdh-highlight-box {
+        padding: 1.2rem;
+        font-size: 14px;
+    }
+
+
+    .small {
+        width: 10px;
+        height: 10px;
+        top: -45px;
+        left: -3.5%;
+    }
+
+
+    .medium {
+        width: 20px;
+        height: 20px;
+        top: -30px;
+        left: -1%;
+    }
+
+    .large {
+        width: 30px;
+        height: 30px;
+        top: -10px;
+        left: 3%;
+    }
+
+    .vdh-highlight-section {
+        padding: 1.5rem 0rem 1.5rem 2.5rem;
+    }
+
+    .endodonatics-text {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+}

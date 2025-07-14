@@ -271,7 +271,7 @@
           also honored with the prestigious International PFA Senior Student Award by the Pierre Fauchard Academy — a
           testament to her academic excellence and dedication to dentistry.</p>
 
-          <p>With over 22 years of experience, Dr. Ranjana is a highly sought-after cosmetic dentist, dental surgeon, and
+        <p>With over 22 years of experience, Dr. Ranjana is a highly sought-after cosmetic dentist, dental surgeon, and
           certified BPS (Bio functional Prosthetic System) specialist. She currently practices across Chennai,
           Coimbatore, and Tirupur, offering advanced dental care to patients from India and abroad. Alongside Dr.
           Ramesh, she co-manages two large, state-of-the-art dental specialty centers in Coimbatore and Tirupur,
@@ -284,27 +284,30 @@
     </div>
 
     <div class="dr-ranjana">
-    <h5 >Dr. Ranjana’s areas of specialization include:</h5>
-  <ul>
-    <li>Cosmetic Dentistry</li>
-    <li>BPS Prosthodontics</li>
-    <li>Full Mouth Rehabilitation</li>
-    <li>Laser Dentistry</li>
-    <li>Implant Prosthetic Dentistry</li>
-  </ul>
-</div>
- 
+      <h5>Dr. Ranjana’s areas of specialization include:</h5>
+      <ul>
+        <li>Cosmetic Dentistry</li>
+        <li>BPS Prosthodontics</li>
+        <li>Full Mouth Rehabilitation</li>
+        <li>Laser Dentistry</li>
+        <li>Implant Prosthetic Dentistry</li>
+      </ul>
+    </div>
 
-<div class="last-cont">
-  <p>
-    Renowned for her warm demeanor and precision in complex dental treatments, Dr. Ranjana excels in treating elderly patients and those with advanced dental needs. 
-    Her ability to quickly build trust and ensure patient comfort has earned her a loyal following.
-  </p>
-  <p>
-    In addition to her clinical work, Dr. Ranjana actively contributes to ongoing dental research and stays at the forefront of emerging trends in modern dentistry. 
-    Her approach goes beyond treatment — she advocates for holistic oral health and preventive care, helping her patients maintain long-term wellness.
-  </p>
-</div>
+
+    <div class="last-cont">
+      <p>
+        Renowned for her warm demeanor and precision in complex dental treatments, Dr. Ranjana excels in treating
+        elderly patients and those with advanced dental needs.
+        Her ability to quickly build trust and ensure patient comfort has earned her a loyal following.
+      </p>
+      <p>
+        In addition to her clinical work, Dr. Ranjana actively contributes to ongoing dental research and stays at the
+        forefront of emerging trends in modern dentistry.
+        Her approach goes beyond treatment — she advocates for holistic oral health and preventive care, helping her
+        patients maintain long-term wellness.
+      </p>
+    </div>
   </section>
 
 
@@ -352,17 +355,30 @@
       });
     });
 
-    fetch('header.html')
+
+
+    fetch('header2.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('header').innerHTML = data;
+        document.querySelector('.about').classList.add('active');
       });
 
     fetch('footer.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('footer').innerHTML = data;
+        const logo = document.getElementById("logoImage");
+
+        logo.addEventListener("click", function () {
+          window.location.href = "analytics.html"; // or your target page
+        });
+
+        // Set cursor style to pointer
+        logo.style.cursor = "pointer";
       });
+
+
   </script>
 
 

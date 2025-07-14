@@ -1,70 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Login UI</title>
-  <link rel="stylesheet" href="/css/login.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veeyes Administration Account</title>
+     <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Poppins:wght@400;700&family=Inter:wght@400;700&family=Nunito:wght@400;700&family=Raleway:wght@400;700&family=Playfair+Display:wght@400;700&family=Ubuntu:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+        }
+
+        .logo-section {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: white;
+            padding: 30px 35px;
+            border-radius: 0 0 80px 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .logo-text {
+            color: #20b2aa;
+            font-weight: bold;
+            font-size: 2.2rem;
+            margin: 0;
+        }
+
+        .logo-icon {
+            color: #20b2aa;
+            font-size: 1.5rem;
+            margin-right: 8px;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .login-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            width: 100%;
+            max-width: 450px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-title {
+            color: #183D4A;
+            font-size: 1.5rem;
+            font-family: lora;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-label {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-control {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 12px 15px;
+            font-size: 0.95rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: #e0e0e0;
+            box-shadow: none;
+        }
+
+        .password-field {
+            position: relative;
+        }
+
+        .password-toggle {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .login-btn {
+            background: #13C2CF;
+            border: none;
+            border-radius: 8px;
+            color: black;
+            font-weight: 600;
+            padding: 12px;
+            width: 100%;
+            font-size: 1rem;
+            font-family: lora;
+            transition: background-color 0.3s ease;
+            margin-top: 25px;
+        }
+
+        .login-btn:hover {
+            background: #13C2CF;
+        }
+
+        .login-btn:focus {
+            background: #13C2CF !important;
+        }
+
+        .mb-3 {
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design */
+
+        /* Large screens (1200px and up) */
+        @media (min-width: 1200px) {
+            .logo-section {
+                padding: 35px 40px;
+            }
+
+            .logo-text {
+                font-size: 2.5rem;
+            }
+
+            .login-card {
+                max-width: 500px;
+                padding: 50px;
+            }
+
+            .login-title {
+                font-size: 1.7rem;
+            }
+        }
+
+        /* Medium screens (768px to 1199px) */
+        @media (min-width: 768px) and (max-width: 1199px) {
+            .logo-section {
+                padding: 25px 30px;
+            }
+
+            .logo-text {
+                font-size: 2rem;
+            }
+
+            .login-card {
+                max-width: 400px;
+                padding: 28px;
+            }
+
+            .login-title {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* Small screens (576px to 767px) */
+        @media (min-width: 576px) and (max-width: 767px) {
+            .logo-section {
+                padding: 20px 25px;
+                border-radius: 0 0 60px 8px;
+            }
+
+            .logo-text {
+                font-size: 1.8rem;
+            }
+
+            .logo-icon {
+                font-size: 1.3rem;
+            }
+
+            .login-container {
+                padding: 15px;
+            }
+
+            .login-card {
+                max-width: 380px;
+                padding: 30px;
+            }
+
+            .login-title {
+                font-size: 1.3rem;
+                margin-bottom: 25px;
+            }
+
+            .form-control {
+                padding: 10px 12px;
+                font-size: 0.9rem;
+            }
+
+            .login-btn {
+                padding: 10px;
+                font-size: 0.95rem;
+            }
+        }
+
+        /* Extra small screens (up to 575px) */
+        @media (max-width: 575px) {
+            .logo-section {
+                padding: 15px 20px;
+                border-radius: 0 0 50px 5px;
+            }
+
+            .logo-text {
+                font-size: 1.5rem;
+            }
+
+            .logo-icon {
+                font-size: 1.2rem;
+                margin-right: 6px;
+            }
+
+            .login-container {
+                padding: 10px;
+                margin-top: 60px;
+            }
+
+            .login-card {
+                max-width: 100%;
+                padding: 25px 20px;
+                margin: 0 10px;
+            }
+
+            .login-title {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+            }
+
+            .form-label {
+                font-size: 0.85rem;
+            }
+
+            .form-control {
+                padding: 10px 12px;
+                font-size: 0.85rem;
+            }
+
+            .password-toggle {
+                right: 12px;
+                font-size: 0.85rem;
+            }
+
+            .login-btn {
+                padding: 10px;
+                font-size: 0.9rem;
+                margin-top: 20px;
+            }
+
+            .mb-3 {
+                margin-bottom: 15px;
+            }
+        }
+
+        /* Very small screens (up to 400px) */
+        @media (max-width: 400px) {
+            .logo-section {
+                padding: 12px 15px;
+                border-radius: 0 0 40px 3px;
+            }
+
+            .logo-text {
+                font-size: 1.3rem;
+            }
+
+            .logo-icon {
+                font-size: 1.1rem;
+            }
+
+            .login-container {
+                padding: 8px;
+                margin-top: 50px;
+            }
+
+            .login-card {
+                padding: 25px 24px;
+                margin: 0 5px;
+                border-radius: 12px;
+            }
+
+            .login-title {
+                font-size: 1.1rem;
+            }
+
+            .form-control {
+                padding: 8px 10px;
+                font-size: 0.8rem;
+            }
+
+            .password-toggle {
+                right: 10px;
+                font-size: 0.8rem;
+            }
+
+            .login-btn {
+                padding: 8px;
+                font-size: 0.85rem;
+            }
+        }
+
+        /* Landscape orientation for mobile */
+        @media (max-width: 767px) and (orientation: landscape) {
+            .login-container {
+                padding: 10px;
+                margin-top: 40px;
+            }
+
+            .login-card {
+                padding: 20px;
+                margin: 0 10px;
+            }
+
+            .login-title {
+                margin-bottom: 15px;
+            }
+
+            .mb-3 {
+                margin-bottom: 12px;
+            }
+
+            .login-btn {
+                margin-top: 15px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+    <div class="logo-section">
+        <div class="d-flex align-items-center">
+            <i class="fas fa-tooth logo-icon"></i>
+            <div>
+                <div class="logo-text">veeyes</div>
+                <div style="color: #20b2aa; font-size: 0.8rem; font-weight: 500;">dental</div>
+            </div>
+        </div>
+    </div>
 
-  <!-- Logo -->
-  <div class="logo-section">
-    <img src="images/footer_logo_labtopScreen.png" alt="Logo" />
-  </div>
+    <div class="login-container">
+        <div class="login-card">
+            <h2 class="login-title">Veeyes Administration Account</h2>
 
-  <!-- Login Box -->
-  <div class="login-box">
-    <h2>Welcome Back</h2>
-    <form>
-      <label for="email">Login ID</label>
-      <input type="email" id="email" placeholder="Enter your email" required />
+            <form>
+                <div class="mb-3">
+                    <label for="loginId" class="form-label">Login ID</label>
+                    <input type="text" class="form-control" id="loginId" placeholder="">
+                </div>
 
-      <label for="password">Password</label>
-      <div class="password-field">
-        <input type="password" id="password" placeholder="Enter your password" required />
-        <span id="togglePassword"><i class="fas fa-eye"></i></span>
-      </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <div class="password-field">
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        <i class="fas fa-eye password-toggle" id="passwordToggle"></i>
+                    </div>
+                </div>
 
-      <button type="submit">Login</button>
-    </form>
-  </div>
+                <button type="submit" class="btn login-btn">Login now</button>
+            </form>
+        </div>
+    </div>
 
-  <script>
-     // Toggle eye icon
-  const toggle = document.getElementById("togglePassword");
-  const password = document.getElementById("password");
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Password toggle functionality
+        const passwordToggle = document.getElementById('passwordToggle');
+        const passwordField = document.getElementById('password');
 
-  toggle.addEventListener("click", () => {
-    const type = password.getAttribute("type") === "password" ? "text" : "password";
-    password.setAttribute("type", type);
-    toggle.innerHTML = type === "password"
-      ? '<i class="fas fa-eye"></i>'
-      : '<i class="fas fa-eye-slash"></i>';
-  });
+        passwordToggle.addEventListener('click', function () {
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                passwordToggle.classList.remove('fa-eye');
+                passwordToggle.classList.add('fa-eye-slash');
+            } else {
+                passwordField.type = 'password';
+                passwordToggle.classList.remove('fa-eye-slash');
+                passwordToggle.classList.add('fa-eye');
+            }
+        });
 
-  // Simple login check
-  const form = document.querySelector("form");
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const email = document.getElementById("loginId").value;
+            const passwordValue = document.getElementById("password").value;
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // prevent form from refreshing
-
-    const email = document.getElementById("email").value;
-    const passwordValue = document.getElementById("password").value;
-
-    if (email === "admin@gmail.com" && passwordValue === "admin123") {
-      alert("Login successful!");
-      // You can redirect if you want:
-      window.location.href = "analytics.html";
-    } else {
-      alert("Invalid username or password.");
-    }
-  });
-  </script>
-  <!-- Username (email): admin@gmail.com
-  Password: admin123 -->
-
-
+            if (email === "admin@gmail.com" && passwordValue === "admin123") {
+                alert("Login successful!");
+                // You can redirect if you want:
+                window.location.href = "analytics.html";
+            } else {
+                alert("Invalid username or password.");
+            }
+        });
+    </script>
 
 </body>
+
 </html>

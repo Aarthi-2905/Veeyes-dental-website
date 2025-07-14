@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/mediaQuery.css">
     <link rel="stylesheet" href="css/header2.css">
     <!-- nav icon js  -->
-<script defer src="Js/nav2.js"></script>
+    <script defer src="Js/nav2.js"></script>
 </head>
 <style>
     @media (max-width: 1024px) {
@@ -375,7 +375,7 @@
                 pagination: false,     // ✅ Show dots
             }).mount();
         });
-       
+
 
 
     </script>
@@ -385,6 +385,7 @@
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
+                document.getElementById('index').classList.add('active');
             });
 
         fetch('footer.html')
@@ -411,7 +412,7 @@
         setInterval(switchText, 4000);
     </script>
 
-    
+
 
 
 </body>
