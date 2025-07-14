@@ -97,7 +97,7 @@
 /* Optional: Highlight on hover */
 .dropdown-menu .dropdown-item:hover {
     background-color: #13C2CF  !important;
-    color: #183D4A ;
+    color: #183D4A !important;
     border-radius: 5px;
 }
 
@@ -189,7 +189,7 @@
     display: none;
 }
 .dropdown-item{
-    background: #ECD8B6;
+    background: #ECD8B6 !important;
     border: none;
     border-radius: 10px;
     color: #183D4A;
