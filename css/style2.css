@@ -102,7 +102,7 @@ body {
 
 .hero-section2 h2 {
     color: #0c4a5b;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Georgia', serif;
     font-style: italic;
     
 }
@@ -346,13 +346,13 @@ body {
 
 
 .kids-contant h2 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Georgia', serif;
     font-style: italic;
     font-size: 34px;
 }
 
 .kids-text {
-    font-family: lora;
+    font-family: 'Georgia', serif;
     font-style: italic;
     font-size: 25px;
 }
@@ -443,8 +443,9 @@ body {
     font-style: italic;
     font-size: 14.5px;
     line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
     /* margin: 0 0 15px 0; */
-    color: black;
+    color: #183D4A;
 }
 
 

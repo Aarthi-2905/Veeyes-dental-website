@@ -18,9 +18,9 @@
 
     <!-- Bootstrap JS Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/service/pediatric-kids-dentistry.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/service/pediatric-kids-dentistry.css">
      <!-- <link rel="stylesheet" href="/css/service/gentral_dentistry.css"> -->
     <!-- Animation CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -82,11 +82,11 @@
             </div>
 
             <div class="col-1 order-md-2 order-2">
-                <img src="/images/star.png" class="star-icon" alt="Star Icon">
+                <img src="../images/star.png" class="star-icon" alt="Star Icon">
             </div>
 
             <div class="col-md-5 order-md-3 order-1">
-                <img src="/images/surgical_triangle_image.png" class="custom-img "
+                <img src="../images/surgical_triangle_image.png" class="custom-img "
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -121,7 +121,7 @@
             <p class="intro-text">
                 Our child-friendly dental venue "Teddy Teeth" offers a friendly, secure and playful environment for –
             </p>
-            <img src="/images/table_arrow.png" data-aos="slide-down" alt="Arrow" width="50px"
+            <img src="../images/table_arrow.png" data-aos="slide-down" alt="Arrow" width="50px"
             class="arrow-icon" />
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center">
@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="/images/IMG_8272.PNG" data-aos="slide-left" style="width: 100%;" class="babygirl-img"
+                    <img src="../images/IMG_8272.PNG" data-aos="slide-left" style="width: 100%;" class="babygirl-img"
                         alt="" srcset="">
                 </div>
             </div>
@@ -171,7 +171,7 @@
 
                 <div class="col-md-12 col-sm-12 order-md-2 order-1">
                     <div class="text-start mb-3">
-                        <img src="/images/star.png" class="star" alt="" style="width: 60px;">
+                        <img src="../images/star.png" class="star" alt="" style="width: 60px;">
                     </div>
 
                     <div class="table-responsive" style="padding-left: 4%;padding-right: 4%;">
@@ -222,7 +222,7 @@
 
                     <!-- Bottom Star Image Centered -->
                     <div class="text-end mt-3">
-                        <img src="/images/star.png" class="star" alt="" style="width: 60px;">
+                        <img src="../images/star.png" class="star" alt="" style="width: 60px;">
                     </div>
                 </div>
 
@@ -295,7 +295,7 @@
                     </ol>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="/images/IMG_8271.PNG" data-aos="slide-left" alt="Healthy Teeth Tips"
+                    <img src="../images/IMG_8271.PNG" data-aos="slide-left" alt="Healthy Teeth Tips"
                         class="img-fluid">
                 </div>
             </div>
@@ -305,7 +305,7 @@
     <section class="download-section text-center">
         <p class="download-title" style="text-decoration: underline;">"Do’s & Don’ts Before Your Child’s Dental Visit" – PDF</p>
         <div class="arrow-container">
-            <img src="/images/download_arrow.png" class="curved-arrow" alt="Curved Arrow">
+            <img src="../images/download_arrow.png" class="curved-arrow" alt="Curved Arrow">
             <a href="10-things-before-dental-surgery.pdf" class="btn download-btn" download>Download</a>
         </div>
     </section>
@@ -321,13 +321,13 @@
     <!-- AOS JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        fetch('/header.html')
+        fetch('../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('/footer.html')
+        fetch('../footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;

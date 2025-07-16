@@ -130,7 +130,7 @@
     font-size: 18px;
     color: #183D4A !important;
     vertical-align: middle;
-    font-family: lora;
+    font-family: 'Montserrat', sans-serif;
    
 }
 
@@ -684,7 +684,7 @@
         font-weight: 700;
         text-decoration: underline;
         font-size: 26px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
         padding-top: 20px;
         padding-bottom: 5px;
         margin-bottom: 20px;
@@ -782,11 +782,12 @@
     .pediatric-section h5 {
         font-style: italic;
         color: #2A646E;
+        font-family: 'Georgia', serif;
         margin-bottom: 30px;
         text-align: center;
         text-decoration: underline;
         font-size: 18px;
-        font-family: lora;
+      
     }
 
     .pediatric-section ul {
@@ -880,7 +881,7 @@
         font-weight: 700;
         text-decoration: underline;
         font-size: 26px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -1001,7 +1002,7 @@
         font-weight: 700;
         text-decoration: underline;
         font-size: 26px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -1095,7 +1096,7 @@
         font-size: 18px;
         color: #183D4A;
         vertical-align: middle;
-        font-family: lora;
+        font-family: 'Montserrat', sans-serif;
         padding: 10px !important;
     }
 
@@ -1131,7 +1132,7 @@
         text-align: center;
         text-decoration: underline;
         font-size: 17px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
     }
 
     .pediatric-section ul {
@@ -1220,10 +1221,10 @@
     }
 
     .info-title {
-        font-weight: 700;
+        /* font-weight: 700; */
         text-decoration: underline;
         font-size: 21px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -1287,7 +1288,7 @@
         font-size: 12px;
         color: #183D4A;
         vertical-align: middle;
-        font-family: lora;
+        font-family: 'Montserrat', sans-serif;
         padding: 5px !important;
     }
 
@@ -1325,7 +1326,7 @@
         text-align: center;
         text-decoration: underline;
         font-size: 14px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
     }
 
     .pediatric-section ul {
@@ -1423,10 +1424,10 @@
     }
 
     .info-title {
-        font-weight: 700;
+        /* font-weight: 700; */
         text-decoration: underline;
         font-size: 16px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -1490,7 +1491,7 @@
         font-size: 9px;
         color: #183D4A;
         vertical-align: middle;
-        font-family: lora;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .custom-table th {
@@ -1526,7 +1527,7 @@
         text-align: center;
         text-decoration: underline;
         font-size: 14px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
     }
 
     .pediatric-section ul {
@@ -1541,7 +1542,7 @@
 
 
     .pediatric-section li span {
-        font-family: lora;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         line-height: 1.6;
     }
@@ -1623,7 +1624,7 @@
         font-weight: 700;
         text-decoration: underline;
         font-size: 18px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
         padding-bottom: 5px;
         margin-bottom: 20px;
     }
@@ -1725,7 +1726,7 @@
         text-align: center;
         text-decoration: underline;
         font-size: 30px;
-        font-family: lora;
+        font-family: 'Georgia', serif;
     }
 
     .pediatric-section ul {

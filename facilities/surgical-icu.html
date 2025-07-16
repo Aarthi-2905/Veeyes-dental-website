@@ -24,11 +24,11 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <!-- <link rel="stylesheet" href="/css/service/gentral_dentistry.css"> -->
-    <link rel="stylesheet" href="/css/service/specialized_dentistry/microscopic.css">
-    <link rel="stylesheet" href="/css/facilities/surgical.css">
+    <!-- <link rel="stylesheet" href="../css/service/specialized_dentistry/microscopic.css"> -->
+    <link rel="stylesheet" href="../css/facilities/surgical.css">
 </head>
 <style>
     .teeth-icon-style {
@@ -157,12 +157,12 @@
       
           <!-- Star icon: Show only on md and up -->
           <div class="col-1 d-none d-md-block order-md-2">
-            <img src="/images/star.png" class="star-icon" alt="Star Icon">
+            <img src="../images/star.png" class="star-icon" alt="Star Icon">
           </div>
       
           <!-- Image: Second on small, third on md+ -->
           <div class="col-md-5 order-2 order-md-3">
-            <img src="/images/surgical_triangle_image.png" class="custom-img"
+            <img src="../images/surgical_triangle_image.png" class="custom-img"
               alt="Surgical dentistry illustration">
           </div>
       
@@ -192,7 +192,7 @@
     <section class="features-section ">
         <div class="heading-with-arrow">
             <h2 class="section-title"><em>Key Features of a Surgical ICU in a Dental Hospital:</em></h2>
-            <img src="/images/table_arrow.png" alt="Arrow" class="heading-arrow">
+            <img src="../images/table_arrow.png" alt="Arrow" class="heading-arrow">
         </div>
         <ul class="features-list mt-4">
             <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Post-Surgery Monitoring</li>
@@ -204,7 +204,7 @@
             <li><i class="fa-solid fa-tooth teeth-icon-style2 me-2"></i> Recovery and Transition to General Wards</li>
         </ul>
         <div>
-            <img src="/images/star.png" class="star-icon1" alt="Star Icon">
+            <img src="../images/star.png" class="star-icon1" alt="Star Icon">
         </div>
     </section>
 
@@ -247,7 +247,7 @@
     </div>
 
     <div>
-        <img src="/images/star.png" class="star-icon2" alt="Star Icon">
+        <img src="../images/star.png" class="star-icon2" alt="Star Icon">
     </div>
 
     <!-- _______________________________________table two_________________________________________________________________ -->
@@ -320,13 +320,13 @@
             if (box) observer.observe(box);
         });
 
-        fetch('/header.html')
+        fetch('../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('/footer.html')
+        fetch('../footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;

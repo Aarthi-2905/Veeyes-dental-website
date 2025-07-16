@@ -1688,10 +1688,10 @@ body {
 
 .care-content p,
 .care-content li {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-size: 20px;
-  color: rgb(24, 61, 74);
+  color: #183D4A;
   line-height: 1.6;
 }
 
@@ -1721,10 +1721,10 @@ body {
 
   .care-content p,
   .care-content li {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-size: 15px;
-    color: #333;
+    color: #183D4A;
     line-height: 1.6;
   }
 }
@@ -1781,7 +1781,7 @@ body {
 }
 
 .vmq-card p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 17px ;
   color: #2b2b2b;
   line-height: 1.65;
