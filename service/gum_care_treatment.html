@@ -25,9 +25,9 @@
 
     <!-- Optional: Animate.css (not required for AOS zoom-in) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/service/gum_care_treatment.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/service/gum_care_treatment.css">
 </head>
 <style>
     
@@ -60,11 +60,11 @@
             </div>
 
             <div class="col-1 d-none d-md-block order-md-2">
-                <img src="images/star.png" class="star-icon" alt="Star Icon">
+                <img src="../images/star.png" class="star-icon" alt="Star Icon">
             </div>
 
             <div class="col-md-5 order-2 order-md-3">
-                <img src="images/surgical_triangle_image.png" class="custom-img "
+                <img src="../images/surgical_triangle_image.png" class="custom-img "
                     alt="Surgical dentistry illustration">
             </div>
         </div>
@@ -74,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-12 d-none d-md-block position-relative">
-                <img src="images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
+                <img src="../images/star.png" class="star-icon2 position-absolute" alt="Star Icon"
                     style="bottom: 0; left: 0;">
             </div>
             <div class="col-md-10 col-12">
@@ -131,13 +131,13 @@
             if (box) observer.observe(box);
         });
 
-        fetch('header.html')
+        fetch('../header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
             });
 
-        fetch('footer.html')
+        fetch('../footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
