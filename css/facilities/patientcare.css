@@ -30,7 +30,7 @@
 
 .hero-section {
   position: relative;
-  background: url('/images/appointment_page.png') center/cover no-repeat;
+  background: url('../images/appointment_page.png') center/cover no-repeat;
   height: 70vh;
   color: white;
   display: flex;

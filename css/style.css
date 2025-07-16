@@ -1,7 +1,7 @@
 #home {
     color: white;
     font-family: 'Libre Baskerville', serif;
-    background-image: url('/images/landing_page.png');
+    background-image: url('../images/landing_page.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 }
 
 .veeyes-heading {
-    background-image: url('/images/baby_smile.png');
+    background-image: url('../images/baby_smile.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
