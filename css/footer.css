@@ -122,6 +122,32 @@ input {
     font-weight: 400;
 }
 
+.upload-btn {
+    background-color: #ece8dd;
+    color: #003f4f;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    border-radius: 6px;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #e2ddd2;
+}
+
+.upload-btn i {
+    font-size: 18px;
+}
+
+#fileInput {
+    display: none;
+}
+
 @media (min-width:1480px) {
     .logo-corner {
         position: relative;

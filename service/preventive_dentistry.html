@@ -29,10 +29,214 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/service/preventive_dentistry.css">
 </head>
+<style>
+    .modal-bg-style .modal-content {
+        background-image: url('../images/appointment_page_bg.png');
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+    }
+</style>
 
 <body>
 
-    <div id="header"></div>
+    <section>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <img src="../images/Veeyes_dental_original_logo.png" class="logo" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link home" id="index" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link " href="../aboutus.html">About us</a></li>
+
+                        <li class="nav-item dropdown service" id="dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="gentral_dentistry.html">General dentistry</a>
+                                </li>
+                                <li><a class="dropdown-item" href="preventive_dentistry.html">Preventive
+                                        dentistry</a></li>
+                                <li><a class="dropdown-item" href="pediatric-kids-dentistry.html">Pediatric
+                                        dentistry</a></li>
+                                <li><a class="dropdown-item" href="public_health_dentistry.html">Public health
+                                        dentistry</a></li>
+                                <li><a class="dropdown-item" href="facial-esthetics.html">Esthetic dentistry</a>
+                                </li>
+                                <li><a class="dropdown-item" href="gum_care_treatment.html">Gum care &
+                                        Treatment</a></li>
+                                <li><a class="dropdown-item" href="accident_emergency.html">Accidental &
+                                        emergency</a></li>
+                                <li><a class="dropdown-item" href="specialized_dentistry.html">Specialized
+                                        dentistry</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropstart" id="dropdownStart">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="gentral_dentistry.html">General dentistry</a>
+                                </li>
+                                <li><a class="dropdown-item" href="preventive_dentistry.html">Preventive
+                                        dentistry</a></li>
+                                <li><a class="dropdown-item" href="pediatric-kids-dentistry.html">Pediatric
+                                        dentistry</a></li>
+                                <li><a class="dropdown-item" href="public_health_dentistry.html">Public health
+                                        dentistry</a></li>
+                                <li><a class="dropdown-item" href="facial-esthetics.html">Esthetic dentistry</a>
+                                </li>
+                                <li><a class="dropdown-item" href="gum_care_treatment.html">Gum care &
+                                        Treatment</a></li>
+                                <li><a class="dropdown-item" href="accident_emergency.html">Accidental &
+                                        emergency</a></li>
+                                <li><a class="dropdown-item" href="specialized_dentistry.html">Specialized
+                                        dentistry</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropstart" id="dropdownStart">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Facilities
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../facilities/surgical-icu.html">Surgical ICU</a></li>
+                                <li><a class="dropdown-item" href="../facilities/general-anesthesia-ot.html">General
+                                        anesthesia OT</a></li>
+                                <li><a class="dropdown-item" href="../facilities/radiology.html">Radiology</a></li>
+                                <li><a class="dropdown-item" href="../facilities/labrotary.html">Laboratory</a></li>
+                                <li><a class="dropdown-item" href="../facilities/ip-admission.html">IP admission</a></li>
+                                <li><a class="dropdown-item" href="../facilities/patientcare.html">Patient care</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown Facilities" id="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button">Facilities</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../facilities/surgical-icu.html">Surgical ICU</a></li>
+                                <li><a class="dropdown-item" href="../facilities/general-anesthesia-ot.html">General
+                                        anesthesia OT</a></li>
+                                <li><a class="dropdown-item" href="../facilities/radiology.html">Radiology</a></li>
+                                <li><a class="dropdown-item" href="../facilities/labrotary.html">Laboratory</a></li>
+                                <li><a class="dropdown-item" href="../facilities/ip-admission.html">IP admission</a></li>
+                                <li><a class="dropdown-item" href="../facilities/patientcare.html">Patient care</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item treatment"><a class="nav-link" href="#">Treatment</a></li>
+                        <li class="nav-item careers"><a class="nav-link" href="#">Careers</a></li>
+                        <li class="nav-item offers"><a class="nav-link" href="../offers.html">Offers</a></li>
+                        <li class="nav-item">
+                            <a href="#appointment-section"><button class="btn ms-3" id="appointment"
+                                    type="button">Appointment</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Fixed Contact Icons (Enquiry Icon Updated) -->
+        <div class="fixed-contact-icons">
+
+            <a href="tel:+1234567890" class="icon-link call">
+                <i class="fas fa-phone icon-inner"></i>
+                <span class="icon-label">Call</span>
+            </a>
+            <a href="mailto:example@example.com" class="icon-link email">
+                <i class="fas fa-envelope icon-inner"></i>
+                <span class="icon-label">Email</span>
+            </a>
+            <a href="https://wa.me/1234567890" target="_blank" class="icon-link whatsapp">
+                <i class="fab fa-whatsapp icon-inner"></i>
+                <span class="icon-label">WhatsApp</span>
+            </a>
+            <!-- Enquiry icon triggers popup -->
+            <a href="#" class="icon-link email" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                <i class="fas fa-pen-to-square icon-inner"></i>
+                <span class="icon-label">Enquiry</span>
+            </a>
+        </div>
+
+        <!-- Enquiry Modal Popup -->
+        <div class="modal fade" id="enquiryModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-bg-style modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body p-4">
+                        <!-- Left: Form -->
+                        <div class="col-md-6 col-12">
+                            <h2 class="text-center">Have a question?</h2>
+                            <p class="text-center">We are just a message away!</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Name" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" class="form-control" placeholder="Email" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Phone" />
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Subject" />
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="submit-btn mt-3">Submit Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <!-- Right: Contact Info -->
+                        <div class="col-md-5 col-12 enquiry-right">
+                            <div class="contact-row">
+                                <div class="triangle-container">
+                                    <div class="triangle-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-box-text">
+                                        Ramakrishnapuram, Ganapathy,<br>Coimbatore - 641006
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-row">
+                                <div class="triangle-container">
+                                    <div class="triangle-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-box-text">0422-438300</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-row">
+                                <div class="triangle-container">
+                                    <div class="triangle-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-box-text">info@veeyesdental.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--______________________________________________ navgation page Ending ___________________________________________-->
 
     <div class="container py-5">

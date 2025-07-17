@@ -198,6 +198,213 @@
     font-family: 'Montserrat';
     padding-top: 10px;
 }
+
+.modal-bg-style .modal-content {
+    background-image: url('images/appointment_page_bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .modal-bg-style .modal-body {
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .modal-bg-style .form-control,
+  .modal-bg-style textarea {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #000;
+  }
+
+  .modal-bg-style .submit-btn {
+    background-color: #00eaff;
+    color: #030000;
+    border: none;
+    align-items: start;
+    padding: 10px 25px;
+    border-radius: 5px;
+  }
+
+  /* Popup modal styles */
+  .modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+
+  }
+
+  .enquiry-left {
+    background-color: #073d5f;
+    color: white;
+    padding: 30px;
+  }
+
+  .enquiry-left h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .enquiry-left p {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .enquiry-left input,
+  .enquiry-left textarea {
+    border-radius: 8px;
+    border: none;
+  }
+
+  .enquiry-left input::placeholder,
+  .enquiry-left textarea::placeholder {
+    color: #666;
+  }
+
+  .enquiry-right {
+    /* Use your image here */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 30px;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    /* gap: 20px; */
+  }
+
+  .contact-box {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+
+  .contact-box i {
+    color: #00bcd4;
+  }
+
+
+
+  .triangle-container {
+    display: flex;
+    align-items: center;
+    margin-left: -18%;
+  }
+
+  .triangle-icon {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #00bcd4;
+    position: relative;
+    margin-right: -10px;
+    /* Pull rectangle closer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+
+  .triangle-icon i {
+    position: absolute;
+    left: -32px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #050000;
+    font-size: 16px;
+  }
+
+  .contact-box-text {
+    background-color: #e6e6e6;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    min-width: 260px;
+    width: 100%;
+  }
+
+
+  @media (max-width: 991px) {
+    .contact-box-text {
+      background-color: #e6e6e6;
+      padding: 10px 10px;
+      border-radius: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 10px !important;
+      color: #333;
+      min-width: 0px;
+      width: 100%;
+    }
+
+  }
+
+
+
+  @media (max-width: 768px) {
+    .triangle-container {
+      display: flex;
+      align-items: center;
+      margin-left: 0% !important;
+    }
+
+    .modal-body {
+      flex-direction: column;
+    }
+
+    .enquiry-right {
+      min-height: 200px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .modal-content {
+      border-radius: 15px;
+      overflow: hidden;
+      width: 100% !important;
+      margin: 20px;
+    }
+
+    .triangle-container {
+      display: flex;
+      align-items: center;
+      margin-left: -0% !important;
+      margin-top: -5% !important;
+    }
+  }
+
+  @media (max-width:450px) {
+    .contact-box-text {
+      min-width: 100% !important;
+    }
+
+    .enquiry-right {
+      padding: 23px 27px 10px 0px !important;
+    }
+  }
+
+  @media (max-width:320px) {
+    .contact-box-text {
+      min-width: 100% !important;
+    }
+
+    .enquiry-right {
+      padding: 23px 28px 10px 0px !important;
+    }
+  }
+
 @media (max-width: 1124px) {
     
 

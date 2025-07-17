@@ -129,7 +129,8 @@ body {
 }
 
 .banner {
-  background: url('/images/Banner.png') no-repeat center center/cover;
+  background: url('../images/aboutPage.png') no-repeat center center / cover !important;
+
   height: 70vh;
   display: flex;
   align-items: center;
