@@ -136,9 +136,10 @@
 }
 
 .endodonatics-text {
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #183D4A;
-    font-family: lora;
+    font-family: 'Georgia', serif;
+    font-style: italic;
     text-align: center;
     font-size: 25px;
     line-height: 50px;

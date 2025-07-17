@@ -132,13 +132,14 @@ body {
 }
 
 .banner {
-    background: url('../images/Banner.png') no-repeat center center/cover;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    font-family: "Georgia", serif;
+  background: url('../images/aboutPage.png') no-repeat center center / cover !important;
+
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Georgia", serif;
 }
 
 
@@ -1692,11 +1693,11 @@ body {
 
 .care-content p,
 .care-content li {
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    color: rgb(24, 61, 74);
-    line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #183D4A;
+  line-height: 1.6;
 }
 
 .care-content ul {
@@ -1723,14 +1724,14 @@ body {
 
 @media (max-width: 1024px) {
 
-    .care-content p,
-    .care-content li {
-        font-family: 'Poppins', sans-serif;
-        font-style: italic;
-        font-size: 15px;
-        color: #333;
-        line-height: 1.6;
-    }
+  .care-content p,
+  .care-content li {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #183D4A;
+    line-height: 1.6;
+  }
 }
 
 /* __________________________card______________________________________________________________ */
@@ -1785,6 +1786,172 @@ body {
 }
 
 .vmq-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px ;
+  color: #2b2b2b;
+  line-height: 1.65;
+  font-style: italic;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heaf-card {
+  /* margin-top: -15%; */
+  text-align: center;
+  font-family: serif;
+  color: #003641
+}
+
+.card-cont {
+  font-size: 17px ;
+  text-align: justify;
+  text-align: left !important;
+  color: #064453 !important;
+  font-weight: 600;
+  margin-top: -10%;
+
+}
+
+@media (max-width: 1024px) {
+
+
+  .vmq-card {
+    background-color: #bac3e0;
+    border-radius: 1rem;
+    /* padding: 2.5rem 1.5rem 2rem; */
+    text-align: left;
+    width: 70%;
+    max-width: 270px;
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* justify-content: space-between; */
+    height: 320px;
+    /* Fixed height */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+
+
+
+}
+
+@media (max-width: 768px) {
+  #vmq-card3 {
+    margin-top: 10% !important;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .vmq-card {
+    /* background-color: #bac3e0; */
+    border-radius: 1rem;
+    /* padding: 2.5rem 1.5rem 2rem; */
+    text-align: left;
+    width: 70%;
+    max-width: 270px;
+    flex: 1 1 280px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* justify-content: space-between; */
+    height: 320px;
+    /* Fixed height */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin-left: -15%;
+    margin-top: 15%;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .vmq-card {
+    margin-top: 20%;
+  }
+
+}
+
+@media (max-width: 768px) and (min-width:640px) {
+  .care-image img {
+    width: 129%;
+    height: 445px !important;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: 49%;
+}
+
+}
+
+@media (max-width: 640px) and (min-width:556px) {
+  .care-image img {
+    width: 129%;
+    height: 445px !important;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: 33%;
+}
+
+}
+
+@media (max-width: 556px) and (min-width:506px) {
+  .care-image img {
+    width: 129%;
+    height: 445px !important;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: 17%;
+}
+
+}
+
+
+@media (max-width: 506px) and (min-width:480px) {
+  .care-image img {
+    width: 129%;
+    height: 445px !important;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: 14%;
+}
+
+}
+@media (max-width: 480px) and (min-width:450px) {
+  .care-image img {
+    width: 129%;
+    height: 445px !important;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: 11%;
+}
+
+}
+
+@media (max-width: 320px) {
+
+  .vmq-card {
+    /* background-color: #bac3e0; */
+    border-radius: 1rem;
+    /* padding: 2.5rem 1.5rem 2rem; */
+    text-align: left;
+    width: 86% !important;
+    max-width: 320px;
+    flex: 1 1 280px;
+    display: flex
+;
+    flex-direction: column;
+    position: relative;
+    /* justify-content: space-between; */
+    height: 327px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin-left: -20%;
+    margin-top: 32%;
+}
+
+  .vmq-card p {
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
     color: #2b2b2b;
